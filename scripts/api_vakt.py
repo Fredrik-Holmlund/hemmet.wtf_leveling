@@ -7,7 +7,7 @@ Spanar efter Blizzards API för WoW Forever (bara standardbiblioteket).
 
 Två saker räknas som fynd:
   1. en gissad Forever-namnrymd (classicforever, forever …) svarar i stället för 403
-  2. en ny realm har dykt upp i en befintlig namnrymd (classicann, classic1x, classic),
+  2. en ny realm har dykt upp i en befintlig namnrymd (classicann, classic1x, classic, retail),
      jämfört med data/api-vakt.json — Forever kan hamna i en av dem
 
 Körs dagligen av .github/workflows/vakt.yml, som skapar ett issue vid fynd.
@@ -29,12 +29,17 @@ BAS = ROOT / "data" / "api-vakt.json"
 REGIONER = ["eu", "us"]
 KANDIDATER = ["classicforever", "forever", "classic-forever", "classicfv", "classicfr", "wowforever",
               "classic2x", "classicplus", "classic60", "classicf", "fvr", "classic4", "classicprog"]
-KANDA = ["classicann", "classic1x", "classic"]
+# "" = retail: Forever bygger på retail-klienten och kan hamna i dess namnrymd (dynamic-eu)
+KANDA = ["classicann", "classic1x", "classic", ""]
+
+
+def namnrymd(ns, region):
+    return f"dynamic-{ns}-{region}" if ns else f"dynamic-{region}"
 
 
 def realmer(tok, ns, region):
     """Realmnamnen i en namnrymd, eller HTTP-koden om den inte svarar."""
-    url = f"https://{region}.api.blizzard.com/data/wow/realm/index?namespace=dynamic-{ns}-{region}&locale=en_GB"
+    url = f"https://{region}.api.blizzard.com/data/wow/realm/index?namespace={namnrymd(ns, region)}&locale=en_GB"
     try:
         req = urllib.request.Request(url, headers={"Authorization": f"Bearer {tok}"})
         return sorted(r["name"] for r in json.load(urllib.request.urlopen(req, timeout=30))["realms"])
@@ -65,13 +70,14 @@ def main():
         for ns in KANDA:
             svar = realmer(tok, ns, region)
             if isinstance(svar, int):
-                logg.append(f"dynamic-{ns}-{region}: {svar} (svarade inte)")
+                logg.append(f"{namnrymd(ns, region)}: {svar} (svarade inte)")
                 continue
-            nu[f"{ns}-{region}"] = svar
-            nya = sorted(set(svar) - set(bas.get(f"{ns}-{region}", svar)))
-            logg.append(f"dynamic-{ns}-{region}: {len(svar)} realmer" + (f", nya: {', '.join(nya)}" if nya else ""))
+            nyckel = f"{ns or 'retail'}-{region}"
+            nu[nyckel] = svar
+            nya = sorted(set(svar) - set(bas.get(nyckel, svar)))
+            logg.append(f"{namnrymd(ns, region)}: {len(svar)} realmer" + (f", nya: {', '.join(nya)}" if nya else ""))
             if nya:
-                fynd.append(f"**Nya realmer i `dynamic-{ns}-{region}`**: {', '.join(nya)}")
+                fynd.append(f"**Nya realmer i `{namnrymd(ns, region)}`**: {', '.join(nya)}")
 
     if args.spara_bas:
         BAS.parent.mkdir(parents=True, exist_ok=True)
