@@ -148,7 +148,8 @@ function countdown() {
   const d = Math.floor(ms / 864e5), h = Math.floor(ms / 36e5) % 24, mi = Math.floor(ms / 6e4) % 60, s = Math.floor(ms / 1e3) % 60;
   el.innerHTML = [[d, "dagar"], [h, "tim"], [mi, "min"], [s, "sek"]].map(([v, l]) => `<div><b>${String(v).padStart(2, "0")}</b><span>${l}</span></div>`).join("");
 }
-countdown(); setInterval(countdown, 1000);
+if (DEMO_MODE) { countdown(); setInterval(countdown, 1000); }   // bara rekrytering och demo: resan.hemmet.wtf har ingen nedräkning
+else { $("count").remove(); $("countLbl").remove(); }
 // Glöd i luften. "drift": heron, glöd som svävar upp över hela bilden.
 // "fire": Flytta in, gnistor från en lägereld precis under kanten: heta och vitgula nertill, orange och röda när de slocknar.
 function embers(c, mode) {

@@ -4,7 +4,7 @@ Guildens sida inför WoW Forever: hela guilden på en tavla, dag för dag, med k
 achievements, statistik, topplistor, gruppsök och armory. All data kommer från Blizzards API.
 Tills HEMMET finns i spelet testas allt mot hardcore-guilden Frienship på Stitches.
 
-Release i EU: **5 november 2026 kl 00:00 svensk tid** (4 nov 15:00 PST). Nedräkningen i heron räknar mot det.
+Release i EU: **5 november 2026 kl 00:00 svensk tid** (4 nov 15:00 PST). Rekryteringssidan och demon räknar ner mot det i heron; levelingsidan har ingen nedräkning.
 
 ## Kör den lokalt
 
