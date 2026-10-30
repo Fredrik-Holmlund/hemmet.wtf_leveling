@@ -238,8 +238,14 @@ def configure(args):
     if args.ns:
         PROFILE_NS, STATIC_NS = f"profile-{args.ns}-{REGION}", f"static-{args.ns}-{REGION}"
         return
-    for kind in ("classicann", "classic1x", "classic"):
-        roster = get(f"/data/wow/guild/{REALM}/{GUILD}/roster", f"profile-{kind}-{REGION}")
+    for kind in ("forever", "classicann", "classic1x", "classic"):
+        try:
+            roster = get(f"/data/wow/guild/{REALM}/{GUILD}/roster", f"profile-{kind}-{REGION}")
+        except urllib.error.HTTPError as e:
+            if e.code != 403:   # 403 = namnrymden finns inte (än), se api_vakt.py
+                raise
+            print(f"  {kind:<11} namnrymden finns inte")
+            continue
         if not roster:
             print(f"  {kind:<11} ingen guild")
             continue

@@ -180,13 +180,13 @@ Hamnar Forever i en ny namnrymd läggs den till i listan i `configure()`.
 
 **GitHub Actions** (`.github/workflows/hamta.yml`) kör hämtning och bygge var 30:e minut (och via "Run workflow"),
 committar datan (`members`, `items`, `state`, `events`, `snapshots`) tillbaka till repot och publicerar `dist/`
-på **GitHub Pages**: https://fredrik-holmlund.github.io/Hemmet_test/ . Porträtt, ikoner och helkroppsbilder
+på **GitHub Pages**: https://resan.hemmet.wtf . Porträtt, ikoner och helkroppsbilder
 ligger i Actions-cachen, inte i repot. Boten committar var 30:e minut: kör `git pull` innan du ändrar lokalt.
 
 Secrets (Settings → Secrets and variables → Actions): `BNET_ID`, `BNET_SECRET`.
 Pages: Settings → Pages → Source: GitHub Actions. Egen domän: skriv in den under Settings → Pages → Custom domain
 och lägg hos domänleverantören en CNAME för `www` → `fredrik-holmlund.github.io` samt GitHubs A-poster för domänen utan www.
-Realm och guild står överst i workflowen (`REALM`, `GUILD`): byt dem när HEMMET finns.
+Realm och guild sätts som Variables i repot (`REALM`, `GUILD`, `OUT`, ev. `NS`): utan dem körs Frienship. När HEMMET finns: `OUT=data/hemmet`.
 **API-vakten** (`.github/workflows/vakt.yml`, `scripts/api_vakt.py`) provar varje morgon gissade Forever-namnrymder
 och larmar på varje ändrat svar (403 = okänd, 404 = finns men tom, 200 = lever) och nya realmer, jämfört med `data/api-vakt.json`. Vid fynd skapas ett issue (etikett `api-vakt`) som ger ett mejl.
 Stäng issuet när fyndet är omhändertaget; spara ny jämförelse med `python scripts/api_vakt.py --spara-bas`.

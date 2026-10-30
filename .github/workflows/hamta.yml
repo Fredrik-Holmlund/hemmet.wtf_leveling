@@ -20,9 +20,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30   # vanligtvis 3–5 min; första körningen utan bildcache ~17
     env:
-      REALM: stitches
-      GUILD: Frienship
-      OUT: data/hc
+      # Sätts under Settings → Secrets and variables → Variables; utan dem körs testguilden Frienship.
+      # När HEMMET finns: REALM, GUILD och OUT=data/hemmet. NS tvingar en namnrymd, annars väljs den automatiskt.
+      REALM: ${{ vars.REALM || 'stitches' }}
+      GUILD: ${{ vars.GUILD || 'Frienship' }}
+      OUT: ${{ vars.OUT || 'data/hc' }}
+      NS: ${{ vars.NS }}
       PYTHONUNBUFFERED: "1"   # loggen syns medan den körs, inte först i slutet
     steps:
       - uses: actions/checkout@v4
@@ -47,7 +50,7 @@ jobs:
         env:
           BNET_ID: ${{ secrets.BNET_ID }}
           BNET_SECRET: ${{ secrets.BNET_SECRET }}
-        run: python scripts/fetch_hemmet.py --realm "$REALM" --guild "$GUILD" --out "$OUT"
+        run: python scripts/fetch_hemmet.py --realm "$REALM" --guild "$GUILD" --out "$OUT" ${NS:+--ns "$NS"}
 
       # Sparas direkt, så att bilderna inte laddas ner igen om ett senare steg fallerar
       - name: Spara bilderna
@@ -62,7 +65,7 @@ jobs:
 
       - name: Bygg
         run: |
-          python scripts/build_hemmet.py
+          python scripts/build_hemmet.py --src "$OUT"
           python scripts/build_dist.py
 
       - name: Spara datan i repot
@@ -81,7 +84,7 @@ jobs:
           path: dist/
           retention-days: 3
 
-  # Publicerar på fredrik-holmlund.github.io/Hemmet_test (eller guildens domän när den är kopplad)
+  # Publicerar på resan.hemmet.wtf (egen domän: Settings → Pages → Custom domain)
   publicera:
     needs: hamta
     runs-on: ubuntu-latest
