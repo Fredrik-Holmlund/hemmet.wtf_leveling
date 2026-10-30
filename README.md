@@ -188,6 +188,6 @@ Pages: Settings → Pages → Source: GitHub Actions. Egen domän: skriv in den 
 och lägg hos domänleverantören en CNAME för `www` → `fredrik-holmlund.github.io` samt GitHubs A-poster för domänen utan www.
 Realm och guild står överst i workflowen (`REALM`, `GUILD`): byt dem när HEMMET finns.
 **API-vakten** (`.github/workflows/vakt.yml`, `scripts/api_vakt.py`) provar varje morgon gissade Forever-namnrymder
-och jämför realmlistorna med `data/api-vakt.json`. Vid fynd skapas ett issue (etikett `api-vakt`) som ger ett mejl.
+och larmar på varje ändrat svar (403 = okänd, 404 = finns men tom, 200 = lever) och nya realmer, jämfört med `data/api-vakt.json`. Vid fynd skapas ett issue (etikett `api-vakt`) som ger ett mejl.
 Stäng issuet när fyndet är omhändertaget; spara ny jämförelse med `python scripts/api_vakt.py --spara-bas`.
 Lokalt fungerar allt som förut med `.env`; Windows-schemat är avstängt.

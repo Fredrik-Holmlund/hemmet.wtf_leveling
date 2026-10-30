@@ -6,7 +6,8 @@ Spanar efter Blizzards API för WoW Forever (bara standardbiblioteket).
   python scripts/api_vakt.py --prov       låtsas att något hittats (för att testa issue och mejl)
 
 Två saker räknas som fynd:
-  1. en gissad Forever-namnrymd (classicforever, forever …) svarar i stället för 403
+  1. en gissad Forever-namnrymd (classicforever, forever …) svarar något annat än sist
+     (403 = okänd, 404 = finns men är tom, 200 = lever), jämfört med data/api-vakt.json
   2. en ny realm har dykt upp i en befintlig namnrymd (classicann, classic1x, classic, retail),
      jämfört med data/api-vakt.json — Forever kan hamna i en av dem
 
@@ -31,15 +32,16 @@ KANDIDATER = ["classicforever", "forever", "classic-forever", "classicfv", "clas
               "classic2x", "classicplus", "classic60", "classicf", "fvr", "classic4", "classicprog"]
 # "" = retail: Forever bygger på retail-klienten och kan hamna i dess namnrymd (dynamic-eu)
 KANDA = ["classicann", "classic1x", "classic", ""]
+TYPER = ["dynamic", "static", "profile"]
 
 
-def namnrymd(ns, region):
-    return f"dynamic-{ns}-{region}" if ns else f"dynamic-{region}"
+def namnrymd(ns, region, typ="dynamic"):
+    return f"{typ}-{ns}-{region}" if ns else f"{typ}-{region}"
 
 
-def realmer(tok, ns, region):
+def realmer(tok, ns, region, typ="dynamic"):
     """Realmnamnen i en namnrymd, eller HTTP-koden om den inte svarar."""
-    url = f"https://{region}.api.blizzard.com/data/wow/realm/index?namespace={namnrymd(ns, region)}&locale=en_GB"
+    url = f"https://{region}.api.blizzard.com/data/wow/realm/index?namespace={namnrymd(ns, region, typ)}&locale=en_GB"
     try:
         req = urllib.request.Request(url, headers={"Authorization": f"Bearer {tok}"})
         return sorted(r["name"] for r in json.load(urllib.request.urlopen(req, timeout=30))["realms"])
@@ -57,15 +59,23 @@ def main():
     tok = token()
     fynd, logg = [], []
 
-    for region in REGIONER:
-        for ns in KANDIDATER:
-            svar = realmer(tok, ns, region)
-            logg.append(f"dynamic-{ns}-{region}: {svar if isinstance(svar, int) else f'{len(svar)} realmer'}")
-            if isinstance(svar, list):
-                fynd.append(f"**`dynamic-{ns}-{region}` svarar** med {len(svar)} realmer: {', '.join(svar)}")
-
     bas = json.loads(BAS.read_text(encoding="utf-8")) if BAS.exists() else {}
     nu = {}
+    # Okända namnrymder ger 403. 404 betyder att namnrymden finns men är tom, 200 att den lever.
+    status, kand = {}, bas.get("status", {})
+    for region in REGIONER:
+        for ns in KANDIDATER:
+            for typ in TYPER:
+                namn = f"{typ}-{ns}-{region}"
+                svar = realmer(tok, ns, region, typ)
+                kod = 200 if isinstance(svar, list) else svar
+                status[namn] = kod
+                logg.append(f"{namn}: {svar if isinstance(svar, int) else f'{len(svar)} realmer'}")
+                if kod != kand.get(namn, 403):
+                    extra = f" med {len(svar)} realmer: {', '.join(svar)}" if isinstance(svar, list) else ""
+                    fynd.append(f"**`{namn}` svarar nu {kod}** (var {kand.get(namn, 403)}){extra}")
+    nu["status"] = status
+
     for region in REGIONER:
         for ns in KANDA:
             svar = realmer(tok, ns, region)
