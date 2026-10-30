@@ -33,4 +33,4 @@ först och läs avsnittet Formspråket före alla designändringar. Den här fil
 - **Forever har inga vanliga realmer**, bara typer (PvP, PvE, RP-PvP, RP-PvE). Realmens slug i API:t är okänd tills API:t öppnar.
 - **GitHubs schema är opålitligt:** det kom igång efter flera timmar och körde sedan ungefär var femte timme i stället för var 30:e minut. Täta körningar kräver en extern trigger, t.ex. cron-job.org.
 - **Re-run i Actions kör den gamla committen.** Använd "Run workflow" för att testa nyare kod.
-- **Porträtt, ikoner och helkroppsbilder** ligger i Actions-cachen, inte i repot. Utan cache tar en körning 15–20 minuter, annars några minuter.
+- **Porträtt, ikoner och helkroppsbilder** ligger i Actions-cachen, inte i repot. Utan cache kan en körning ta över 30 minuter. Bilderna sparas i cachen även om körningen stoppas, så nästa fortsätter där den slutade.

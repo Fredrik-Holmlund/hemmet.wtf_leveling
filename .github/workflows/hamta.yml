@@ -18,7 +18,7 @@ permissions:
 jobs:
   hamta:
     runs-on: ubuntu-latest
-    timeout-minutes: 30   # vanligtvis 3–5 min; första körningen utan bildcache ~17
+    timeout-minutes: 60   # utan bildcache och när Blizzard är långsamt kan 30 min vara för lite
     env:
       # Sätts under Settings → Secrets and variables → Variables; utan dem körs testguilden Frienship.
       # När HEMMET finns: REALM, GUILD och OUT=data/hemmet. NS tvingar en namnrymd, annars väljs den automatiskt.
