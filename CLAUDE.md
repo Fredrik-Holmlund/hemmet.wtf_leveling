@@ -31,6 +31,6 @@ först och läs avsnittet Formspråket före alla designändringar. Den här fil
 - **Forever-API:t** var inte öppet 2026-10-30. `dynamic-forever-us` och `profile-forever-us` gick då från 403 till 404, så namnrymden heter troligen `forever`, men Blizzard har inte bekräftat det. API-vakten skapar ett issue när något ändras.
 - **Blizzards svar:** 403 = namnrymden finns inte, 404 = namnrymden finns men resursen saknas. `get()` i `fetch_hemmet.py` kastar fel på 403.
 - **Forever har inga vanliga realmer**, bara typer (PvP, PvE, RP-PvP, RP-PvE). Realmens slug i API:t är okänd tills API:t öppnar.
-- **GitHubs schema är opålitligt:** det kom igång efter flera timmar och körde sedan ungefär var femte timme i stället för var 30:e minut. Täta körningar kräver en extern trigger, t.ex. cron-job.org.
+- **cron-job.org startar hämtningen** var 30:e minut via GitHubs API, med en token som bara får starta Actions i det här repot och som har ett utgångsdatum. Stannar körningarna: kolla först om token gått ut. GitHubs eget schema är för opålitligt och används bara av API-vakten.
 - **Re-run i Actions kör den gamla committen.** Använd "Run workflow" för att testa nyare kod.
 - **Porträtt, ikoner och helkroppsbilder** ligger i Actions-cachen, inte i repot. Utan cache kan en körning ta över 30 minuter. Bilderna sparas i cachen även om körningen stoppas, så nästa fortsätter där den slutade.

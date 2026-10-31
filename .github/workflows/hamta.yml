@@ -4,9 +4,8 @@
 name: Hämta och bygg
 
 on:
-  schedule:
-    - cron: "5,35 * * * *"   # var 30:e minut (GitHub kan komma några minuter sent)
-  workflow_dispatch:          # "Run workflow"-knappen
+  # cron-job.org startar den var 30:e minut via GitHubs API: GitHubs eget schema är för opålitligt
+  workflow_dispatch:          # också "Run workflow"-knappen
 
 concurrency:
   group: hamta

@@ -178,7 +178,7 @@ Hamnar Forever i en ny namnrymd läggs den till i listan i `configure()`.
 
 ## Publicering
 
-**GitHub Actions** (`.github/workflows/hamta.yml`) kör hämtning och bygge var 30:e minut (och via "Run workflow"),
+**GitHub Actions** (`.github/workflows/hamta.yml`) kör hämtning och bygge var 30:e minut (startas av cron-job.org via GitHubs API, och via "Run workflow"),
 committar datan (`members`, `items`, `state`, `events`, `snapshots`) tillbaka till repot och publicerar `dist/`
 på **GitHub Pages**: https://resan.hemmet.wtf . Porträtt, ikoner och helkroppsbilder
 ligger i Actions-cachen, inte i repot. Boten committar var 30:e minut: kör `git pull` innan du ändrar lokalt.
