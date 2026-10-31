@@ -28,7 +28,8 @@ först och läs avsnittet Formspråket före alla designändringar. Den här fil
 - **Hemligheter:** `.env` lokalt och Secrets i GitHub. Får aldrig committas eller klistras in i en chatt.
 - **Testdata:** hardcore-guilden Frienship på Stitches körs tills HEMMET finns. Repots Variables (`REALM`, `GUILD`, `OUT`, `NS`) styr detta. Utan dem körs Frienship.
 - **Sätt inte `GUILD=HEMMET` förrän API:t är öppet**, annars fallerar varje körning.
-- **Forever-API:t** var inte öppet 2026-10-30. `dynamic-forever-us` och `profile-forever-us` gick då från 403 till 404, så namnrymden heter troligen `forever`, men Blizzard har inte bekräftat det. API-vakten skapar ett issue när något ändras.
+- **Forever-API:t** var inte öppet 2026-10-31. `dynamic-forever-eu` och `-us` svarar 200 men visar bara Blizzards testrealmer (CAMWOW …), guilder och karaktärer ger 404 och `static-forever` ger 403. Namnrymden heter alltså `forever`, men Blizzard har inte sagt det officiellt. API-vakten skapar ett issue när svar eller realmlistor ändras, men inga nya medan ett är öppet. Spara läget med `--spara-bas` innan ett issue stängs, annars larmar den igen.
+- **Öppnar profilerna före `static-forever`** kraschar hämtningen på 403 när den hämtar föremål. Vi lägger bara in en reservlösning om det faktiskt händer.
 - **Blizzards svar:** 403 = namnrymden finns inte, 404 = namnrymden finns men resursen saknas. `get()` i `fetch_hemmet.py` kastar fel på 403.
 - **Forever har inga vanliga realmer**, bara typer (PvP, PvE, RP-PvP, RP-PvE). Realmens slug i API:t är okänd tills API:t öppnar.
 - **cron-job.org startar hämtningen** var 30:e minut via GitHubs API, med en token som bara får starta Actions i det här repot och som har ett utgångsdatum. Stannar körningarna: kolla först om token gått ut. GitHubs eget schema är för opålitligt och används bara av API-vakten.

@@ -8,8 +8,8 @@ Spanar efter Blizzards API för WoW Forever (bara standardbiblioteket).
 Två saker räknas som fynd:
   1. en gissad Forever-namnrymd (classicforever, forever …) svarar något annat än sist
      (403 = okänd, 404 = finns men är tom, 200 = lever), jämfört med data/api-vakt.json
-  2. en ny realm har dykt upp i en befintlig namnrymd (classicann, classic1x, classic, retail),
-     jämfört med data/api-vakt.json — Forever kan hamna i en av dem
+  2. en ny realm har dykt upp i forever eller en befintlig namnrymd (classicann, classic1x, classic, retail),
+     jämfört med data/api-vakt.json — de riktiga Forever-realmerna ersätter testrealmerna (CAMWOW …)
 
 Körs dagligen av .github/workflows/vakt.yml, som skapar ett issue vid fynd.
 Kräver BNET_ID och BNET_SECRET (.env lokalt, Secrets i Actions).
@@ -31,7 +31,7 @@ REGIONER = ["eu", "us"]
 KANDIDATER = ["classicforever", "forever", "classic-forever", "classicfv", "classicfr", "wowforever",
               "classic2x", "classicplus", "classic60", "classicf", "fvr", "classic4", "classicprog"]
 # "" = retail: Forever bygger på retail-klienten och kan hamna i dess namnrymd (dynamic-eu)
-KANDA = ["classicann", "classic1x", "classic", ""]
+KANDA = ["forever", "classicann", "classic1x", "classic", ""]
 TYPER = ["dynamic", "static", "profile"]
 
 
