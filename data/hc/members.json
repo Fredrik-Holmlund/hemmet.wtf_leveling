@@ -1,7 +1,7 @@
 {
  "guild": "Frienship",
  "realm": "stitches",
- "generated": "2026-10-31 19:13",
+ "generated": "2026-10-31 19:40",
  "members": [
   {
    "name": "Abinadi",
@@ -4543,17 +4543,17 @@
    "race": 4,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1793469598000,
+   "lastLogin": 1793474611000,
    "ilvl": 51,
    "xp": 0,
    "title": null,
-   "hp": 3477,
+   "hp": 3557,
    "power": 2520,
    "powerType": "Mana",
    "stats": {
     "strength": 65,
     "agility": 244,
-    "stamina": 209,
+    "stamina": 217,
     "intellect": 72,
     "spirit": 70,
     "attack_power": 573,
@@ -10923,6 +10923,190 @@
    "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/193/89161153-main-raw.png"
   },
   {
+   "name": "Chuckiissf",
+   "id": 45048082,
+   "level": 60,
+   "rank": 9,
+   "cls": "warlock",
+   "race": 1,
+   "profile": true,
+   "gender": 0,
+   "lastLogin": 1793474150000,
+   "ilvl": 48,
+   "xp": 0,
+   "title": null,
+   "hp": 2824,
+   "power": 3763,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 45,
+    "agility": 50,
+    "stamina": 159,
+    "intellect": 178,
+    "spirit": 152,
+    "attack_power": 35,
+    "spell_power": 86,
+    "armor": 565,
+    "melee_crit": 0.0,
+    "ranged_crit": 3.98,
+    "spell_crit": 4.64
+   },
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 0,
+     "id": 10041,
+     "name": "Dreamweave Circlet",
+     "quality": 3,
+     "itemLevel": 50,
+     "icon": "inv_crown_01"
+    },
+    {
+     "slot": 1,
+     "id": 9641,
+     "name": "Lifeblood Amulet",
+     "quality": 3,
+     "itemLevel": 48,
+     "icon": "inv_jewelry_necklace_02"
+    },
+    {
+     "slot": 2,
+     "id": 10028,
+     "name": "Shadoweave Shoulders",
+     "quality": 2,
+     "itemLevel": 47,
+     "icon": "inv_shoulder_25"
+    },
+    {
+     "slot": 3,
+     "id": 3342,
+     "name": "Captain Sander's Shirt",
+     "quality": 1,
+     "itemLevel": 15,
+     "icon": "inv_shirt_14"
+    },
+    {
+     "slot": 4,
+     "id": 10021,
+     "name": "Dreamweave Vest",
+     "quality": 3,
+     "itemLevel": 45,
+     "icon": "inv_chest_cloth_42"
+    },
+    {
+     "slot": 5,
+     "id": 17755,
+     "name": "Satyrmane Sash",
+     "quality": 3,
+     "itemLevel": 50,
+     "icon": "inv_belt_24"
+    },
+    {
+     "slot": 6,
+     "id": 10002,
+     "name": "Shadoweave Pants",
+     "quality": 2,
+     "itemLevel": 42,
+     "icon": "inv_pants_11"
+    },
+    {
+     "slot": 7,
+     "id": 20641,
+     "name": "Southsea Mojo Boots",
+     "quality": 2,
+     "itemLevel": 45,
+     "icon": "inv_boots_05"
+    },
+    {
+     "slot": 8,
+     "id": 10213,
+     "name": "Elegant Bracers of Shadow Wrath",
+     "quality": 2,
+     "itemLevel": 58,
+     "icon": "inv_bracer_13"
+    },
+    {
+     "slot": 9,
+     "id": 10019,
+     "name": "Dreamweave Gloves",
+     "quality": 3,
+     "itemLevel": 45,
+     "icon": "inv_gauntlets_18"
+    },
+    {
+     "slot": 10,
+     "id": 17768,
+     "name": "Woodseed Hoop",
+     "quality": 2,
+     "itemLevel": 47,
+     "icon": "inv_jewelry_ring_18"
+    },
+    {
+     "slot": 11,
+     "id": 13475,
+     "name": "Dalson Family Wedding Ring",
+     "quality": 2,
+     "itemLevel": 55,
+     "icon": "inv_jewelry_ring_03"
+    },
+    {
+     "slot": 12,
+     "id": 19141,
+     "name": "Luffa",
+     "quality": 2,
+     "itemLevel": 50,
+     "icon": "inv_fabric_wool_01"
+    },
+    {
+     "slot": 13,
+     "id": 17774,
+     "name": "Mark of the Chosen",
+     "quality": 2,
+     "itemLevel": 48,
+     "icon": "inv_jewelry_talisman_08"
+    },
+    {
+     "slot": 14,
+     "id": 12254,
+     "name": "Well Oiled Cloak",
+     "quality": 2,
+     "itemLevel": 44,
+     "icon": "inv_misc_cape_04"
+    },
+    {
+     "slot": 15,
+     "id": 18082,
+     "name": "Zum'rah's Vexing Cane",
+     "quality": 3,
+     "itemLevel": 47,
+     "icon": "inv_staff_10"
+    },
+    {
+     "slot": 17,
+     "id": 9654,
+     "name": "Cairnstone Sliver",
+     "quality": 2,
+     "itemLevel": 50,
+     "icon": "inv_wand_07"
+    },
+    {
+     "slot": 18,
+     "id": 5976,
+     "name": "Guild Tabard",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "inv_shirt_guildtabard_01"
+    }
+   ],
+   "heal": 86,
+   "spec": "Affliction",
+   "role": "dps",
+   "exalted": [],
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/18/45048082-main-raw.png"
+  },
+  {
    "name": "Cicciolina",
    "id": 43222471,
    "level": 60,
@@ -13459,7 +13643,7 @@
    "race": 7,
    "profile": true,
    "gender": 1,
-   "lastLogin": 1793470260000,
+   "lastLogin": 1793474868000,
    "ilvl": 51,
    "xp": 0,
    "title": null,
@@ -13643,7 +13827,7 @@
    "race": 3,
    "profile": true,
    "gender": 1,
-   "lastLogin": 1793470301000,
+   "lastLogin": 1793475153000,
    "ilvl": 51,
    "xp": 0,
    "title": null,
@@ -25986,7 +26170,7 @@
    "race": 3,
    "profile": true,
    "gender": 1,
-   "lastLogin": 1793439399000,
+   "lastLogin": 1793474515000,
    "ilvl": 71,
    "xp": 0,
    "title": null,
@@ -53407,7 +53591,7 @@
    "race": 1,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1793473280000,
+   "lastLogin": 1793474093000,
    "ilvl": 59,
    "xp": 0,
    "title": null,
@@ -53594,7 +53778,7 @@
    "race": 1,
    "profile": true,
    "gender": 1,
-   "lastLogin": 1793390549000,
+   "lastLogin": 1793474218000,
    "ilvl": 57,
    "xp": 0,
    "title": null,
@@ -53606,7 +53790,7 @@
     "agility": 151,
     "stamina": 249,
     "intellect": 30,
-    "spirit": 51,
+    "spirit": 47,
     "attack_power": 756,
     "spell_power": 0,
     "armor": 3960,
@@ -57595,7 +57779,7 @@
    "race": 3,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1793399095000,
+   "lastLogin": 1793474721000,
    "ilvl": 68,
    "xp": 0,
    "title": null,
@@ -66655,7 +66839,7 @@
    "race": 4,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1793459210000,
+   "lastLogin": 1793475151000,
    "ilvl": 76,
    "xp": 0,
    "title": null,
@@ -75142,190 +75326,6 @@
    "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/165/28610469-main-raw.png"
   },
   {
-   "name": "Chuckiissf",
-   "id": 45048082,
-   "level": 59,
-   "rank": 9,
-   "cls": "warlock",
-   "race": 1,
-   "profile": true,
-   "gender": 0,
-   "lastLogin": 1793385147000,
-   "ilvl": 48,
-   "xp": 92037,
-   "title": null,
-   "hp": 2766,
-   "power": 3712,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 44,
-    "agility": 49,
-    "stamina": 158,
-    "intellect": 176,
-    "spirit": 150,
-    "attack_power": 34,
-    "spell_power": 86,
-    "armor": 1043,
-    "melee_crit": 0.0,
-    "ranged_crit": 4.13,
-    "spell_crit": 4.66
-   },
-   "hk": 0,
-   "pvpRank": 0,
-   "gear": [
-    {
-     "slot": 0,
-     "id": 10041,
-     "name": "Dreamweave Circlet",
-     "quality": 3,
-     "itemLevel": 50,
-     "icon": "inv_crown_01"
-    },
-    {
-     "slot": 1,
-     "id": 9641,
-     "name": "Lifeblood Amulet",
-     "quality": 3,
-     "itemLevel": 48,
-     "icon": "inv_jewelry_necklace_02"
-    },
-    {
-     "slot": 2,
-     "id": 10028,
-     "name": "Shadoweave Shoulders",
-     "quality": 2,
-     "itemLevel": 47,
-     "icon": "inv_shoulder_25"
-    },
-    {
-     "slot": 3,
-     "id": 3342,
-     "name": "Captain Sander's Shirt",
-     "quality": 1,
-     "itemLevel": 15,
-     "icon": "inv_shirt_14"
-    },
-    {
-     "slot": 4,
-     "id": 10021,
-     "name": "Dreamweave Vest",
-     "quality": 3,
-     "itemLevel": 45,
-     "icon": "inv_chest_cloth_42"
-    },
-    {
-     "slot": 5,
-     "id": 17755,
-     "name": "Satyrmane Sash",
-     "quality": 3,
-     "itemLevel": 50,
-     "icon": "inv_belt_24"
-    },
-    {
-     "slot": 6,
-     "id": 10002,
-     "name": "Shadoweave Pants",
-     "quality": 2,
-     "itemLevel": 42,
-     "icon": "inv_pants_11"
-    },
-    {
-     "slot": 7,
-     "id": 20641,
-     "name": "Southsea Mojo Boots",
-     "quality": 2,
-     "itemLevel": 45,
-     "icon": "inv_boots_05"
-    },
-    {
-     "slot": 8,
-     "id": 10213,
-     "name": "Elegant Bracers of Shadow Wrath",
-     "quality": 2,
-     "itemLevel": 58,
-     "icon": "inv_bracer_13"
-    },
-    {
-     "slot": 9,
-     "id": 10019,
-     "name": "Dreamweave Gloves",
-     "quality": 3,
-     "itemLevel": 45,
-     "icon": "inv_gauntlets_18"
-    },
-    {
-     "slot": 10,
-     "id": 17768,
-     "name": "Woodseed Hoop",
-     "quality": 2,
-     "itemLevel": 47,
-     "icon": "inv_jewelry_ring_18"
-    },
-    {
-     "slot": 11,
-     "id": 13475,
-     "name": "Dalson Family Wedding Ring",
-     "quality": 2,
-     "itemLevel": 55,
-     "icon": "inv_jewelry_ring_03"
-    },
-    {
-     "slot": 12,
-     "id": 19141,
-     "name": "Luffa",
-     "quality": 2,
-     "itemLevel": 50,
-     "icon": "inv_fabric_wool_01"
-    },
-    {
-     "slot": 13,
-     "id": 17774,
-     "name": "Mark of the Chosen",
-     "quality": 2,
-     "itemLevel": 48,
-     "icon": "inv_jewelry_talisman_08"
-    },
-    {
-     "slot": 14,
-     "id": 12254,
-     "name": "Well Oiled Cloak",
-     "quality": 2,
-     "itemLevel": 44,
-     "icon": "inv_misc_cape_04"
-    },
-    {
-     "slot": 15,
-     "id": 18082,
-     "name": "Zum'rah's Vexing Cane",
-     "quality": 3,
-     "itemLevel": 47,
-     "icon": "inv_staff_10"
-    },
-    {
-     "slot": 17,
-     "id": 9654,
-     "name": "Cairnstone Sliver",
-     "quality": 2,
-     "itemLevel": 50,
-     "icon": "inv_wand_07"
-    },
-    {
-     "slot": 18,
-     "id": 5976,
-     "name": "Guild Tabard",
-     "quality": 1,
-     "itemLevel": 1,
-     "icon": "inv_shirt_guildtabard_01"
-    }
-   ],
-   "heal": 86,
-   "spec": "Affliction",
-   "role": "dps",
-   "exalted": [],
-   "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/18/45048082-main-raw.png"
-  },
-  {
    "name": "Clawmander",
    "id": 75837774,
    "level": 59,
@@ -78358,9 +78358,9 @@
    "race": 4,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1793465295000,
+   "lastLogin": 1793475429000,
    "ilvl": 52,
-   "xp": 57932,
+   "xp": 141774,
    "title": null,
    "hp": 3078,
    "power": 2460,
@@ -78374,8 +78374,8 @@
     "attack_power": 486,
     "spell_power": 0,
     "armor": 1989,
-    "melee_crit": 5.23,
-    "ranged_crit": 11.99,
+    "melee_crit": 5.35,
+    "ranged_crit": 12.11,
     "spell_crit": 4.89
    },
    "hk": 0,
@@ -79822,24 +79822,24 @@
    "race": 1,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1793469363000,
-   "ilvl": 56,
+   "lastLogin": 1793475486000,
+   "ilvl": 57,
    "xp": 7668,
    "title": null,
-   "hp": 3701,
+   "hp": 3591,
    "power": 100,
    "powerType": "Rage",
    "stats": {
-    "strength": 249,
-    "agility": 109,
-    "stamina": 216,
+    "strength": 246,
+    "agility": 110,
+    "stamina": 205,
     "intellect": 29,
     "spirit": 59,
-    "attack_power": 986,
+    "attack_power": 744,
     "spell_power": 0,
-    "armor": 3633,
-    "melee_crit": 17.12,
-    "ranged_crit": 6.96,
+    "armor": 3610,
+    "melee_crit": 17.17,
+    "ranged_crit": 7.01,
     "spell_crit": 0.0
    },
    "hk": 0,
@@ -79903,10 +79903,10 @@
     },
     {
      "slot": 7,
-     "id": 13070,
-     "name": "Sapphiron's Scale Boots",
-     "quality": 3,
-     "itemLevel": 58,
+     "id": 20662,
+     "name": "Abyssal Plate Greaves of Striking",
+     "quality": 2,
+     "itemLevel": 60,
      "icon": "inv_boots_plate_05"
     },
     {
@@ -86062,6 +86062,182 @@
    "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/228/88686052-main-raw.png"
   },
   {
+   "name": "Biccy",
+   "id": 40422052,
+   "level": 52,
+   "rank": 9,
+   "cls": "mage",
+   "race": 1,
+   "profile": true,
+   "gender": 1,
+   "lastLogin": 1793475259000,
+   "ilvl": 38,
+   "xp": 1381,
+   "title": null,
+   "hp": 1692,
+   "power": 4515,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 40,
+    "agility": 63,
+    "stamina": 84,
+    "intellect": 247,
+    "spirit": 183,
+    "attack_power": 30,
+    "spell_power": 8,
+    "armor": 1422,
+    "melee_crit": 2.95,
+    "ranged_crit": 6.27,
+    "spell_crit": 5.21
+   },
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 0,
+     "id": 10024,
+     "name": "Black Mageweave Headband",
+     "quality": 2,
+     "itemLevel": 46,
+     "icon": "inv_misc_bandana_01"
+    },
+    {
+     "slot": 1,
+     "id": 12040,
+     "name": "Forest Pendant of the Falcon",
+     "quality": 2,
+     "itemLevel": 38,
+     "icon": "inv_jewelry_necklace_01"
+    },
+    {
+     "slot": 2,
+     "id": 7057,
+     "name": "Green Silken Shoulders",
+     "quality": 2,
+     "itemLevel": 36,
+     "icon": "inv_shoulder_18"
+    },
+    {
+     "slot": 3,
+     "id": 2575,
+     "name": "Red Linen Shirt",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "inv_shirt_red_01"
+    },
+    {
+     "slot": 4,
+     "id": 21311,
+     "name": "Earth Warder's Vest",
+     "quality": 2,
+     "itemLevel": 48,
+     "icon": "inv_chest_cloth_05"
+    },
+    {
+     "slot": 5,
+     "id": 14255,
+     "name": "Lunar Belt of the Owl",
+     "quality": 2,
+     "itemLevel": 42,
+     "icon": "inv_belt_08"
+    },
+    {
+     "slot": 6,
+     "id": 8112,
+     "name": "Hibernal Pants",
+     "quality": 2,
+     "itemLevel": 49,
+     "icon": "inv_pants_14"
+    },
+    {
+     "slot": 7,
+     "id": 20641,
+     "name": "Southsea Mojo Boots",
+     "quality": 2,
+     "itemLevel": 45,
+     "icon": "inv_boots_05"
+    },
+    {
+     "slot": 8,
+     "id": 9433,
+     "name": "Forgotten Wraps",
+     "quality": 3,
+     "itemLevel": 46,
+     "icon": "inv_bracer_12"
+    },
+    {
+     "slot": 9,
+     "id": 19123,
+     "name": "Everwarm Handwraps",
+     "quality": 2,
+     "itemLevel": 48,
+     "icon": "inv_gauntlets_19"
+    },
+    {
+     "slot": 10,
+     "id": 1449,
+     "name": "Minor Channeling Ring",
+     "quality": 2,
+     "itemLevel": 24,
+     "icon": "inv_jewelry_ring_13"
+    },
+    {
+     "slot": 11,
+     "id": 2043,
+     "name": "Ring of Forlorn Spirits",
+     "quality": 2,
+     "itemLevel": 35,
+     "icon": "inv_jewelry_ring_01"
+    },
+    {
+     "slot": 12,
+     "id": 1490,
+     "name": "Guardian Talisman",
+     "quality": 2,
+     "itemLevel": 50,
+     "icon": "inv_jewelry_talisman_05"
+    },
+    {
+     "slot": 13,
+     "id": 12846,
+     "name": "Argent Dawn Commission",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "inv_jewelry_talisman_07"
+    },
+    {
+     "slot": 14,
+     "id": 5542,
+     "name": "Pearl-clasped Cloak",
+     "quality": 2,
+     "itemLevel": 19,
+     "icon": "inv_misc_cape_11"
+    },
+    {
+     "slot": 15,
+     "id": 10826,
+     "name": "Staff of Lore",
+     "quality": 2,
+     "itemLevel": 48,
+     "icon": "inv_staff_27"
+    },
+    {
+     "slot": 17,
+     "id": 7513,
+     "name": "Ragefire Wand",
+     "quality": 3,
+     "itemLevel": 40,
+     "icon": "inv_wand_09"
+    }
+   ],
+   "heal": 8,
+   "spec": "Fire",
+   "role": "dps",
+   "exalted": [],
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/164/40422052-main-raw.png"
+  },
+  {
    "name": "Claith",
    "id": 73509944,
    "level": 52,
@@ -87300,182 +87476,6 @@
    "exalted": [],
    "avatar": true,
    "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/210/28707026-main-raw.png"
-  },
-  {
-   "name": "Biccy",
-   "id": 40422052,
-   "level": 51,
-   "rank": 9,
-   "cls": "mage",
-   "race": 1,
-   "profile": true,
-   "gender": 1,
-   "lastLogin": 1793468446000,
-   "ilvl": 41,
-   "xp": 120752,
-   "title": null,
-   "hp": 1358,
-   "power": 4239,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 28,
-    "agility": 40,
-    "stamina": 55,
-    "intellect": 230,
-    "spirit": 173,
-    "attack_power": 18,
-    "spell_power": 8,
-    "armor": 1106,
-    "melee_crit": 1.85,
-    "ranged_crit": 5.13,
-    "spell_crit": 4.96
-   },
-   "hk": 0,
-   "pvpRank": 0,
-   "gear": [
-    {
-     "slot": 0,
-     "id": 10024,
-     "name": "Black Mageweave Headband",
-     "quality": 2,
-     "itemLevel": 46,
-     "icon": "inv_misc_bandana_01"
-    },
-    {
-     "slot": 1,
-     "id": 12040,
-     "name": "Forest Pendant of the Falcon",
-     "quality": 2,
-     "itemLevel": 38,
-     "icon": "inv_jewelry_necklace_01"
-    },
-    {
-     "slot": 2,
-     "id": 7057,
-     "name": "Green Silken Shoulders",
-     "quality": 2,
-     "itemLevel": 36,
-     "icon": "inv_shoulder_18"
-    },
-    {
-     "slot": 3,
-     "id": 2575,
-     "name": "Red Linen Shirt",
-     "quality": 1,
-     "itemLevel": 10,
-     "icon": "inv_shirt_red_01"
-    },
-    {
-     "slot": 4,
-     "id": 21311,
-     "name": "Earth Warder's Vest",
-     "quality": 2,
-     "itemLevel": 48,
-     "icon": "inv_chest_cloth_05"
-    },
-    {
-     "slot": 5,
-     "id": 14255,
-     "name": "Lunar Belt of the Owl",
-     "quality": 2,
-     "itemLevel": 42,
-     "icon": "inv_belt_08"
-    },
-    {
-     "slot": 6,
-     "id": 2954,
-     "name": "Night Watch Pantaloons",
-     "quality": 2,
-     "itemLevel": 33,
-     "icon": "inv_pants_08"
-    },
-    {
-     "slot": 7,
-     "id": 20641,
-     "name": "Southsea Mojo Boots",
-     "quality": 2,
-     "itemLevel": 45,
-     "icon": "inv_boots_05"
-    },
-    {
-     "slot": 8,
-     "id": 9433,
-     "name": "Forgotten Wraps",
-     "quality": 3,
-     "itemLevel": 46,
-     "icon": "inv_bracer_12"
-    },
-    {
-     "slot": 9,
-     "id": 19123,
-     "name": "Everwarm Handwraps",
-     "quality": 2,
-     "itemLevel": 48,
-     "icon": "inv_gauntlets_19"
-    },
-    {
-     "slot": 10,
-     "id": 1449,
-     "name": "Minor Channeling Ring",
-     "quality": 2,
-     "itemLevel": 24,
-     "icon": "inv_jewelry_ring_13"
-    },
-    {
-     "slot": 11,
-     "id": 2043,
-     "name": "Ring of Forlorn Spirits",
-     "quality": 2,
-     "itemLevel": 35,
-     "icon": "inv_jewelry_ring_01"
-    },
-    {
-     "slot": 12,
-     "id": 1490,
-     "name": "Guardian Talisman",
-     "quality": 2,
-     "itemLevel": 50,
-     "icon": "inv_jewelry_talisman_05"
-    },
-    {
-     "slot": 13,
-     "id": 2820,
-     "name": "Nifty Stopwatch",
-     "quality": 2,
-     "itemLevel": 50,
-     "icon": "inv_misc_pocketwatch_01"
-    },
-    {
-     "slot": 14,
-     "id": 5542,
-     "name": "Pearl-clasped Cloak",
-     "quality": 2,
-     "itemLevel": 19,
-     "icon": "inv_misc_cape_11"
-    },
-    {
-     "slot": 15,
-     "id": 10826,
-     "name": "Staff of Lore",
-     "quality": 2,
-     "itemLevel": 48,
-     "icon": "inv_staff_27"
-    },
-    {
-     "slot": 17,
-     "id": 7513,
-     "name": "Ragefire Wand",
-     "quality": 3,
-     "itemLevel": 40,
-     "icon": "inv_wand_09"
-    }
-   ],
-   "heal": 8,
-   "spec": "Fire",
-   "role": "dps",
-   "exalted": [],
-   "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/164/40422052-main-raw.png"
   },
   {
    "name": "Herma",
@@ -94662,25 +94662,25 @@
    "race": 1,
    "profile": true,
    "gender": 1,
-   "lastLogin": 1793398007000,
+   "lastLogin": 1793475326000,
    "ilvl": 34,
-   "xp": 31674,
+   "xp": 42663,
    "title": null,
-   "hp": 2246,
-   "power": 1829,
+   "hp": 2126,
+   "power": 2204,
    "powerType": "Mana",
    "stats": {
-    "strength": 179,
-    "agility": 113,
+    "strength": 171,
+    "agility": 88,
     "stamina": 149,
-    "intellect": 63,
+    "intellect": 88,
     "spirit": 64,
-    "attack_power": 476,
+    "attack_power": 460,
     "spell_power": 0,
-    "armor": 2997,
-    "melee_crit": 9.38,
-    "ranged_crit": 4.22,
-    "spell_crit": 4.89
+    "armor": 3202,
+    "melee_crit": 7.73,
+    "ranged_crit": 2.57,
+    "spell_crit": 5.44
    },
    "hk": 0,
    "pvpRank": 0,
@@ -121551,7 +121551,7 @@
    "race": 7,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1793458916000,
+   "lastLogin": 1793474292000,
    "ilvl": 15,
    "xp": 22433,
    "title": null,
@@ -130264,25 +130264,25 @@
    "race": 3,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1793472860000,
+   "lastLogin": 1793475482000,
    "ilvl": 13,
-   "xp": 171,
+   "xp": 8767,
    "title": null,
-   "hp": 844,
-   "power": 569,
+   "hp": 704,
+   "power": 674,
    "powerType": "Mana",
    "stats": {
     "strength": 75,
     "agility": 37,
-    "stamina": 86,
-    "intellect": 33,
-    "spirit": 44,
-    "attack_power": 226,
+    "stamina": 72,
+    "intellect": 40,
+    "spirit": 40,
+    "attack_power": 184,
     "spell_power": 0,
     "armor": 815,
-    "melee_crit": 5.32,
+    "melee_crit": 5.36,
     "ranged_crit": 2.44,
-    "spell_crit": 4.96
+    "spell_crit": 5.26
    },
    "hk": 0,
    "pvpRank": 0,
