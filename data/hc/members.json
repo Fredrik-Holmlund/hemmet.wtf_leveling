@@ -1,7 +1,7 @@
 {
  "guild": "Frienship",
  "realm": "stitches",
- "generated": "2026-11-01 01:10",
+ "generated": "2026-11-01 01:43",
  "members": [
   {
    "name": "Abinadi",
@@ -43308,25 +43308,25 @@
    "race": 1,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1793492329000,
-   "ilvl": 61,
+   "lastLogin": 1793496609000,
+   "ilvl": 67,
    "xp": 0,
    "title": null,
-   "hp": 2820,
-   "power": 5028,
+   "hp": 3030,
+   "power": 5418,
    "powerType": "Mana",
    "stats": {
     "strength": 30,
     "agility": 35,
-    "stamina": 163,
-    "intellect": 273,
-    "spirit": 208,
+    "stamina": 184,
+    "intellect": 299,
+    "spirit": 217,
     "attack_power": 20,
-    "spell_power": 327,
+    "spell_power": 383,
     "armor": 697,
-    "melee_crit": 4.16,
+    "melee_crit": 0.0,
     "ranged_crit": 5.0,
-    "spell_crit": 5.79
+    "spell_crit": 6.22
    },
    "hk": 0,
    "pvpRank": 0,
@@ -43445,11 +43445,11 @@
     },
     {
      "slot": 15,
-     "id": 6365,
-     "name": "Strong Fishing Pole",
-     "quality": 1,
-     "itemLevel": 10,
-     "icon": "inv_fishingpole_02"
+     "id": 21128,
+     "name": "Staff of the Qiraji Prophets",
+     "quality": 4,
+     "itemLevel": 75,
+     "icon": "inv_staff_01"
     },
     {
      "slot": 17,
@@ -43460,7 +43460,7 @@
      "icon": "inv_wand_09"
     }
    ],
-   "heal": 315,
+   "heal": 371,
    "spec": "Frost",
    "role": "dps",
    "exalted": [],
@@ -46703,7 +46703,7 @@
    "race": 1,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1793476725000,
+   "lastLogin": 1793496113000,
    "ilvl": 68,
    "xp": 0,
    "title": null,
@@ -96718,15 +96718,6 @@
    "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/130/27818370-main-raw.png"
   },
   {
-   "name": "Pepère",
-   "id": 93175087,
-   "level": 46,
-   "rank": 9,
-   "cls": "druid",
-   "race": 4,
-   "profile": false
-  },
-  {
    "name": "Raggnek",
    "id": 40554135,
    "level": 46,
@@ -103215,6 +103206,166 @@
    "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/39/82104359-main-raw.png"
   },
   {
+   "name": "Nárya",
+   "id": 92281234,
+   "level": 43,
+   "rank": 4,
+   "cls": "druid",
+   "race": 4,
+   "profile": true,
+   "gender": 0,
+   "lastLogin": 1793495691000,
+   "ilvl": 31,
+   "xp": 2527,
+   "title": null,
+   "hp": 2009,
+   "power": 2014,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 93,
+    "agility": 160,
+    "stamina": 119,
+    "intellect": 92,
+    "spirit": 103,
+    "attack_power": 200,
+    "spell_power": 0,
+    "armor": 1157,
+    "melee_crit": 7.46,
+    "ranged_crit": 3.66,
+    "spell_crit": 4.04
+   },
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 0,
+     "id": 8345,
+     "name": "Wolfshead Helm",
+     "quality": 3,
+     "itemLevel": 45,
+     "icon": "inv_helmet_04"
+    },
+    {
+     "slot": 1,
+     "id": 13087,
+     "name": "River Pride Choker",
+     "quality": 3,
+     "itemLevel": 33,
+     "icon": "inv_jewelry_necklace_09"
+    },
+    {
+     "slot": 2,
+     "id": 5964,
+     "name": "Barbaric Shoulders",
+     "quality": 2,
+     "itemLevel": 35,
+     "icon": "inv_shoulder_08"
+    },
+    {
+     "slot": 3,
+     "id": 3342,
+     "name": "Captain Sander's Shirt",
+     "quality": 1,
+     "itemLevel": 15,
+     "icon": "inv_shirt_14"
+    },
+    {
+     "slot": 4,
+     "id": 2041,
+     "name": "Tunic of Westfall",
+     "quality": 3,
+     "itemLevel": 24,
+     "icon": "inv_chest_leather_07"
+    },
+    {
+     "slot": 5,
+     "id": 14588,
+     "name": "Hawkeye's Cord",
+     "quality": 2,
+     "itemLevel": 36,
+     "icon": "inv_belt_09"
+    },
+    {
+     "slot": 6,
+     "id": 4108,
+     "name": "Panther Hunter Leggings",
+     "quality": 2,
+     "itemLevel": 40,
+     "icon": "inv_pants_02"
+    },
+    {
+     "slot": 7,
+     "id": 4109,
+     "name": "Excelsior Boots",
+     "quality": 2,
+     "itemLevel": 41,
+     "icon": "inv_boots_07"
+    },
+    {
+     "slot": 8,
+     "id": 14590,
+     "name": "Hawkeye's Bracers",
+     "quality": 2,
+     "itemLevel": 35,
+     "icon": "inv_bracer_04"
+    },
+    {
+     "slot": 9,
+     "id": 9861,
+     "name": "Archer's Gloves of the Monkey",
+     "quality": 2,
+     "itemLevel": 35,
+     "icon": "inv_gauntlets_22"
+    },
+    {
+     "slot": 10,
+     "id": 2933,
+     "name": "Seal of Wrynn",
+     "quality": 3,
+     "itemLevel": 31,
+     "icon": "inv_jewelry_ring_05"
+    },
+    {
+     "slot": 11,
+     "id": 6757,
+     "name": "Jaina's Signet Ring",
+     "quality": 2,
+     "itemLevel": 38,
+     "icon": "inv_jewelry_ring_05"
+    },
+    {
+     "slot": 14,
+     "id": 5257,
+     "name": "Dark Hooded Cape",
+     "quality": 3,
+     "itemLevel": 37,
+     "icon": "inv_misc_cape_04"
+    },
+    {
+     "slot": 15,
+     "id": 13045,
+     "name": "Viscous Hammer",
+     "quality": 3,
+     "itemLevel": 35,
+     "icon": "inv_mace_13"
+    },
+    {
+     "slot": 18,
+     "id": 5976,
+     "name": "Guild Tabard",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "inv_shirt_guildtabard_01"
+    }
+   ],
+   "heal": 0,
+   "spec": "Feral Combat",
+   "role": "tank",
+   "exalted": [],
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/146/92281234-main-raw.png"
+  },
+  {
    "name": "Ozoni",
    "id": 29339780,
    "level": 43,
@@ -104549,166 +104700,6 @@
    "exalted": [],
    "avatar": true,
    "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/1/72461569-main-raw.png"
-  },
-  {
-   "name": "Nárya",
-   "id": 92281234,
-   "level": 42,
-   "rank": 4,
-   "cls": "druid",
-   "race": 4,
-   "profile": true,
-   "gender": 0,
-   "lastLogin": 1793475794000,
-   "ilvl": 31,
-   "xp": 22481,
-   "title": null,
-   "hp": 1966,
-   "power": 1984,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 92,
-    "agility": 159,
-    "stamina": 118,
-    "intellect": 91,
-    "spirit": 102,
-    "attack_power": 198,
-    "spell_power": 0,
-    "armor": 1405,
-    "melee_crit": 7.5,
-    "ranged_crit": 3.98,
-    "spell_crit": 4.06
-   },
-   "hk": 0,
-   "pvpRank": 0,
-   "gear": [
-    {
-     "slot": 0,
-     "id": 8345,
-     "name": "Wolfshead Helm",
-     "quality": 3,
-     "itemLevel": 45,
-     "icon": "inv_helmet_04"
-    },
-    {
-     "slot": 1,
-     "id": 13087,
-     "name": "River Pride Choker",
-     "quality": 3,
-     "itemLevel": 33,
-     "icon": "inv_jewelry_necklace_09"
-    },
-    {
-     "slot": 2,
-     "id": 5964,
-     "name": "Barbaric Shoulders",
-     "quality": 2,
-     "itemLevel": 35,
-     "icon": "inv_shoulder_08"
-    },
-    {
-     "slot": 3,
-     "id": 3342,
-     "name": "Captain Sander's Shirt",
-     "quality": 1,
-     "itemLevel": 15,
-     "icon": "inv_shirt_14"
-    },
-    {
-     "slot": 4,
-     "id": 2041,
-     "name": "Tunic of Westfall",
-     "quality": 3,
-     "itemLevel": 24,
-     "icon": "inv_chest_leather_07"
-    },
-    {
-     "slot": 5,
-     "id": 14588,
-     "name": "Hawkeye's Cord",
-     "quality": 2,
-     "itemLevel": 36,
-     "icon": "inv_belt_09"
-    },
-    {
-     "slot": 6,
-     "id": 4108,
-     "name": "Panther Hunter Leggings",
-     "quality": 2,
-     "itemLevel": 40,
-     "icon": "inv_pants_02"
-    },
-    {
-     "slot": 7,
-     "id": 4109,
-     "name": "Excelsior Boots",
-     "quality": 2,
-     "itemLevel": 41,
-     "icon": "inv_boots_07"
-    },
-    {
-     "slot": 8,
-     "id": 14590,
-     "name": "Hawkeye's Bracers",
-     "quality": 2,
-     "itemLevel": 35,
-     "icon": "inv_bracer_04"
-    },
-    {
-     "slot": 9,
-     "id": 9861,
-     "name": "Archer's Gloves of the Monkey",
-     "quality": 2,
-     "itemLevel": 35,
-     "icon": "inv_gauntlets_22"
-    },
-    {
-     "slot": 10,
-     "id": 2933,
-     "name": "Seal of Wrynn",
-     "quality": 3,
-     "itemLevel": 31,
-     "icon": "inv_jewelry_ring_05"
-    },
-    {
-     "slot": 11,
-     "id": 6757,
-     "name": "Jaina's Signet Ring",
-     "quality": 2,
-     "itemLevel": 38,
-     "icon": "inv_jewelry_ring_05"
-    },
-    {
-     "slot": 14,
-     "id": 5257,
-     "name": "Dark Hooded Cape",
-     "quality": 3,
-     "itemLevel": 37,
-     "icon": "inv_misc_cape_04"
-    },
-    {
-     "slot": 15,
-     "id": 13045,
-     "name": "Viscous Hammer",
-     "quality": 3,
-     "itemLevel": 35,
-     "icon": "inv_mace_13"
-    },
-    {
-     "slot": 18,
-     "id": 5976,
-     "name": "Guild Tabard",
-     "quality": 1,
-     "itemLevel": 1,
-     "icon": "inv_shirt_guildtabard_01"
-    }
-   ],
-   "heal": 0,
-   "spec": "Feral Combat",
-   "role": "tank",
-   "exalted": [],
-   "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/146/92281234-main-raw.png"
   },
   {
    "name": "Rando",
@@ -112775,7 +112766,7 @@
    "race": 3,
    "profile": true,
    "gender": 1,
-   "lastLogin": 1793400583000,
+   "lastLogin": 1793495862000,
    "ilvl": 17,
    "xp": 3100,
    "title": null,
@@ -134086,6 +134077,126 @@
    "exalted": [],
    "avatar": true,
    "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/194/111271362-main-raw.png"
+  },
+  {
+   "name": "Sappuro",
+   "id": 111368050,
+   "level": 12,
+   "rank": 9,
+   "cls": "hunter",
+   "race": 3,
+   "profile": true,
+   "gender": 1,
+   "lastLogin": 1793494795000,
+   "ilvl": 6,
+   "xp": 4397,
+   "title": null,
+   "hp": 293,
+   "power": 450,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 30,
+    "agility": 39,
+    "stamina": 35,
+    "intellect": 32,
+    "spirit": 27,
+    "attack_power": 73,
+    "spell_power": 0,
+    "armor": 291,
+    "melee_crit": 2.68,
+    "ranged_crit": 4.84,
+    "spell_crit": 5.32
+   },
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 3,
+     "id": 148,
+     "name": "Rugged Trapper's Shirt",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "inv_shirt_01"
+    },
+    {
+     "slot": 4,
+     "id": 6085,
+     "name": "Footman Tunic",
+     "quality": 2,
+     "itemLevel": 13,
+     "icon": "inv_chest_leather_09"
+    },
+    {
+     "slot": 5,
+     "id": 1369,
+     "name": "Ragged Leather Belt",
+     "quality": 0,
+     "itemLevel": 5,
+     "icon": "inv_belt_24"
+    },
+    {
+     "slot": 6,
+     "id": 61,
+     "name": "Dwarven Leather Pants",
+     "quality": 1,
+     "itemLevel": 5,
+     "icon": "inv_pants_wolf"
+    },
+    {
+     "slot": 7,
+     "id": 1173,
+     "name": "Weather-worn Boots",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "inv_boots_03"
+    },
+    {
+     "slot": 8,
+     "id": 1504,
+     "name": "Warped Leather Bracers",
+     "quality": 0,
+     "itemLevel": 11,
+     "icon": "inv_bracer_07"
+    },
+    {
+     "slot": 9,
+     "id": 1359,
+     "name": "Lion-stamped Gloves",
+     "quality": 1,
+     "itemLevel": 8,
+     "icon": "inv_gauntlets_05"
+    },
+    {
+     "slot": 14,
+     "id": 3511,
+     "name": "Cloak of the People's Militia",
+     "quality": 2,
+     "itemLevel": 15,
+     "icon": "inv_misc_cape_14"
+    },
+    {
+     "slot": 15,
+     "id": 4567,
+     "name": "Merc Sword of the Tiger",
+     "quality": 2,
+     "itemLevel": 16,
+     "icon": "inv_sword_04"
+    },
+    {
+     "slot": 17,
+     "id": 4577,
+     "name": "Compact Shotgun",
+     "quality": 2,
+     "itemLevel": 13,
+     "icon": "inv_weapon_rifle_03"
+    }
+   ],
+   "heal": 0,
+   "spec": "Beast Mastery",
+   "role": "dps",
+   "exalted": [],
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/114/111368050-main-raw.png"
   },
   {
    "name": "Anotherfera",
