@@ -1,7 +1,7 @@
 {
  "guild": "Frienship",
  "realm": "stitches",
- "generated": "2026-11-02 12:41",
+ "generated": "2026-11-02 13:10",
  "members": [
   {
    "name": "Abinadi",
@@ -28405,25 +28405,25 @@
    "race": 1,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1793564050000,
+   "lastLogin": 1793623483000,
    "ilvl": 53,
    "xp": 0,
    "title": null,
-   "hp": 3651,
-   "power": 5617,
+   "hp": 3431,
+   "power": 5227,
    "powerType": "Mana",
    "stats": {
-    "strength": 115,
-    "agility": 90,
-    "stamina": 245,
-    "intellect": 292,
-    "spirit": 168,
-    "attack_power": 390,
+    "strength": 105,
+    "agility": 82,
+    "stamina": 223,
+    "intellect": 266,
+    "spirit": 153,
+    "attack_power": 370,
     "spell_power": 46,
-    "armor": 2119,
-    "melee_crit": 4.77,
-    "ranged_crit": 2.69,
-    "spell_crit": 13.38
+    "armor": 2103,
+    "melee_crit": 4.37,
+    "ranged_crit": 2.29,
+    "spell_crit": 12.94
    },
    "hk": 0,
    "pvpRank": 0,
@@ -39264,20 +39264,20 @@
    "race": 1,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1793572337000,
-   "ilvl": 59,
+   "lastLogin": 1793624374000,
+   "ilvl": 58,
    "xp": 0,
    "title": null,
    "hp": 3789,
    "power": 100,
    "powerType": "Rage",
    "stats": {
-    "strength": 306,
+    "strength": 231,
     "agility": 136,
     "stamina": 228,
     "intellect": 30,
     "spirit": 52,
-    "attack_power": 1013,
+    "attack_power": 622,
     "spell_power": 0,
     "armor": 3348,
     "melee_crit": 20.0,
@@ -39377,11 +39377,11 @@
     },
     {
      "slot": 12,
-     "id": 20130,
-     "name": "Diamond Flask",
-     "quality": 3,
-     "itemLevel": 52,
-     "icon": "inv_drink_01"
+     "id": 17774,
+     "name": "Mark of the Chosen",
+     "quality": 2,
+     "itemLevel": 48,
+     "icon": "inv_jewelry_talisman_08"
     },
     {
      "slot": 13,
@@ -52683,7 +52683,7 @@
    "race": 1,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1793608814000,
+   "lastLogin": 1793624244000,
    "ilvl": 59,
    "xp": 0,
    "title": null,
@@ -56871,7 +56871,7 @@
    "race": 3,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1793534873000,
+   "lastLogin": 1793624267000,
    "ilvl": 68,
    "xp": 0,
    "title": null,
@@ -73881,7 +73881,7 @@
    "race": 4,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1793620671000,
+   "lastLogin": 1793623600000,
    "ilvl": 77,
    "xp": 0,
    "title": null,
@@ -76005,6 +76005,190 @@
    "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/247/78909687-main-raw.png"
   },
   {
+   "name": "Keeppumping",
+   "id": 86439765,
+   "level": 58,
+   "rank": 6,
+   "cls": "warrior",
+   "race": 1,
+   "profile": true,
+   "gender": 1,
+   "lastLogin": 1793623475000,
+   "ilvl": 55,
+   "xp": 15083,
+   "title": null,
+   "hp": 3981,
+   "power": 100,
+   "powerType": "Rage",
+   "stats": {
+    "strength": 218,
+    "agility": 152,
+    "stamina": 261,
+    "intellect": 46,
+    "spirit": 87,
+    "attack_power": 610,
+    "spell_power": 0,
+    "armor": 3307,
+    "melee_crit": 20.92,
+    "ranged_crit": 8.0,
+    "spell_crit": 5.0
+   },
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 0,
+     "id": 20640,
+     "name": "Southsea Head Bucket",
+     "quality": 2,
+     "itemLevel": 45,
+     "icon": "inv_helmet_20"
+    },
+    {
+     "slot": 1,
+     "id": 7673,
+     "name": "Talvash's Enhancing Necklace",
+     "quality": 3,
+     "itemLevel": 47,
+     "icon": "inv_jewelry_necklace_02"
+    },
+    {
+     "slot": 2,
+     "id": 13166,
+     "name": "Slamshot Shoulders",
+     "quality": 3,
+     "itemLevel": 60,
+     "icon": "inv_shoulder_23"
+    },
+    {
+     "slot": 3,
+     "id": 2575,
+     "name": "Red Linen Shirt",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "inv_shirt_red_01"
+    },
+    {
+     "slot": 4,
+     "id": 10275,
+     "name": "Emerald Breastplate of the Bear",
+     "quality": 2,
+     "itemLevel": 60,
+     "icon": "inv_chest_cloth_06"
+    },
+    {
+     "slot": 5,
+     "id": 10788,
+     "name": "Atal'ai Girdle of the Bear",
+     "quality": 2,
+     "itemLevel": 52,
+     "icon": "inv_belt_15"
+    },
+    {
+     "slot": 6,
+     "id": 17711,
+     "name": "Elemental Rockridge Leggings",
+     "quality": 3,
+     "itemLevel": 54,
+     "icon": "inv_pants_04"
+    },
+    {
+     "slot": 7,
+     "id": 13967,
+     "name": "Windreaver Greaves",
+     "quality": 3,
+     "itemLevel": 61,
+     "icon": "inv_boots_plate_04"
+    },
+    {
+     "slot": 8,
+     "id": 13211,
+     "name": "Slashclaw Bracers",
+     "quality": 3,
+     "itemLevel": 60,
+     "icon": "inv_bracer_07"
+    },
+    {
+     "slot": 9,
+     "id": 16737,
+     "name": "Gauntlets of Valor",
+     "quality": 3,
+     "itemLevel": 59,
+     "icon": "inv_gauntlets_26"
+    },
+    {
+     "slot": 10,
+     "id": 10795,
+     "name": "Drakeclaw Band of Stamina",
+     "quality": 3,
+     "itemLevel": 54,
+     "icon": "inv_jewelry_ring_04"
+    },
+    {
+     "slot": 11,
+     "id": 18500,
+     "name": "Tarnished Elven Ring",
+     "quality": 3,
+     "itemLevel": 61,
+     "icon": "inv_jewelry_ring_13"
+    },
+    {
+     "slot": 12,
+     "id": 20130,
+     "name": "Diamond Flask",
+     "quality": 3,
+     "itemLevel": 52,
+     "icon": "inv_drink_01"
+    },
+    {
+     "slot": 13,
+     "id": 17774,
+     "name": "Mark of the Chosen",
+     "quality": 2,
+     "itemLevel": 48,
+     "icon": "inv_jewelry_talisman_08"
+    },
+    {
+     "slot": 14,
+     "id": 18734,
+     "name": "Pale Moon Cloak",
+     "quality": 3,
+     "itemLevel": 62,
+     "icon": "inv_misc_cape_11"
+    },
+    {
+     "slot": 15,
+     "id": 17705,
+     "name": "Thrash Blade",
+     "quality": 3,
+     "itemLevel": 53,
+     "icon": "inv_sword_36"
+    },
+    {
+     "slot": 16,
+     "id": 15806,
+     "name": "Mirah's Song",
+     "quality": 3,
+     "itemLevel": 61,
+     "icon": "inv_sword_34"
+    },
+    {
+     "slot": 17,
+     "id": 18482,
+     "name": "Ogre Toothpick Shooter",
+     "quality": 2,
+     "itemLevel": 60,
+     "icon": "inv_weapon_bow_05"
+    }
+   ],
+   "heal": 0,
+   "spec": "Fury",
+   "role": "dps",
+   "exalted": [],
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/85/86439765-main-raw.png"
+  },
+  {
    "name": "Mitar",
    "id": 32246363,
    "level": 58,
@@ -76907,190 +77091,6 @@
    "exalted": [],
    "avatar": true,
    "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/208/68728272-main-raw.png"
-  },
-  {
-   "name": "Keeppumping",
-   "id": 86439765,
-   "level": 57,
-   "rank": 6,
-   "cls": "warrior",
-   "race": 1,
-   "profile": true,
-   "gender": 1,
-   "lastLogin": 1793618067000,
-   "ilvl": 55,
-   "xp": 184641,
-   "title": null,
-   "hp": 3995,
-   "power": 100,
-   "powerType": "Rage",
-   "stats": {
-    "strength": 226,
-    "agility": 161,
-    "stamina": 269,
-    "intellect": 55,
-    "spirit": 96,
-    "attack_power": 860,
-    "spell_power": 0,
-    "armor": 3325,
-    "melee_crit": 13.77,
-    "ranged_crit": 0.0,
-    "spell_crit": 0.0
-   },
-   "hk": 0,
-   "pvpRank": 0,
-   "gear": [
-    {
-     "slot": 0,
-     "id": 20640,
-     "name": "Southsea Head Bucket",
-     "quality": 2,
-     "itemLevel": 45,
-     "icon": "inv_helmet_20"
-    },
-    {
-     "slot": 1,
-     "id": 7673,
-     "name": "Talvash's Enhancing Necklace",
-     "quality": 3,
-     "itemLevel": 47,
-     "icon": "inv_jewelry_necklace_02"
-    },
-    {
-     "slot": 2,
-     "id": 13166,
-     "name": "Slamshot Shoulders",
-     "quality": 3,
-     "itemLevel": 60,
-     "icon": "inv_shoulder_23"
-    },
-    {
-     "slot": 3,
-     "id": 2575,
-     "name": "Red Linen Shirt",
-     "quality": 1,
-     "itemLevel": 10,
-     "icon": "inv_shirt_red_01"
-    },
-    {
-     "slot": 4,
-     "id": 10275,
-     "name": "Emerald Breastplate of the Bear",
-     "quality": 2,
-     "itemLevel": 60,
-     "icon": "inv_chest_cloth_06"
-    },
-    {
-     "slot": 5,
-     "id": 10788,
-     "name": "Atal'ai Girdle of the Bear",
-     "quality": 2,
-     "itemLevel": 52,
-     "icon": "inv_belt_15"
-    },
-    {
-     "slot": 6,
-     "id": 17711,
-     "name": "Elemental Rockridge Leggings",
-     "quality": 3,
-     "itemLevel": 54,
-     "icon": "inv_pants_04"
-    },
-    {
-     "slot": 7,
-     "id": 13967,
-     "name": "Windreaver Greaves",
-     "quality": 3,
-     "itemLevel": 61,
-     "icon": "inv_boots_plate_04"
-    },
-    {
-     "slot": 8,
-     "id": 13211,
-     "name": "Slashclaw Bracers",
-     "quality": 3,
-     "itemLevel": 60,
-     "icon": "inv_bracer_07"
-    },
-    {
-     "slot": 9,
-     "id": 16737,
-     "name": "Gauntlets of Valor",
-     "quality": 3,
-     "itemLevel": 59,
-     "icon": "inv_gauntlets_26"
-    },
-    {
-     "slot": 10,
-     "id": 10795,
-     "name": "Drakeclaw Band of Stamina",
-     "quality": 3,
-     "itemLevel": 54,
-     "icon": "inv_jewelry_ring_04"
-    },
-    {
-     "slot": 11,
-     "id": 18500,
-     "name": "Tarnished Elven Ring",
-     "quality": 3,
-     "itemLevel": 61,
-     "icon": "inv_jewelry_ring_13"
-    },
-    {
-     "slot": 12,
-     "id": 20130,
-     "name": "Diamond Flask",
-     "quality": 3,
-     "itemLevel": 52,
-     "icon": "inv_drink_01"
-    },
-    {
-     "slot": 13,
-     "id": 17774,
-     "name": "Mark of the Chosen",
-     "quality": 2,
-     "itemLevel": 48,
-     "icon": "inv_jewelry_talisman_08"
-    },
-    {
-     "slot": 14,
-     "id": 18734,
-     "name": "Pale Moon Cloak",
-     "quality": 3,
-     "itemLevel": 62,
-     "icon": "inv_misc_cape_11"
-    },
-    {
-     "slot": 15,
-     "id": 17705,
-     "name": "Thrash Blade",
-     "quality": 3,
-     "itemLevel": 53,
-     "icon": "inv_sword_36"
-    },
-    {
-     "slot": 16,
-     "id": 15806,
-     "name": "Mirah's Song",
-     "quality": 3,
-     "itemLevel": 61,
-     "icon": "inv_sword_34"
-    },
-    {
-     "slot": 17,
-     "id": 18482,
-     "name": "Ogre Toothpick Shooter",
-     "quality": 2,
-     "itemLevel": 60,
-     "icon": "inv_weapon_bow_05"
-    }
-   ],
-   "heal": 0,
-   "spec": "Fury",
-   "role": "dps",
-   "exalted": [],
-   "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/85/86439765-main-raw.png"
   },
   {
    "name": "Longlugs",
