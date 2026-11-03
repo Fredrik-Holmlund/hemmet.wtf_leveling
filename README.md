@@ -33,6 +33,7 @@ build_dist.py    →  dist/             (det som laddas upp)
 | `hemmet/renders/` | Helkroppsbilder för dem som står på en pall (byggs ur `data/hc/renders/`) |
 | `scripts/fetch_hemmet.py` | Hämtar roster, profiler, gear, rykten, porträtt och pallbilder, och loggar händelser |
 | `scripts/build_hemmet.py` | Bygger sidan, spritarna och renderar 3D-modellerna |
+| `scripts/veckan.py` | Skriver underlaget till veckobrevet, `resan.hemmet.wtf/veckan.txt`: de senaste 7 dagarna, bara fakta |
 | `scripts/render_model.py` | Ritar en glTF-modell till en bild (ren numpy, inget GL) |
 | `scripts/build_dist.py` | Samlar sidan i `dist/` för webbhotellet |
 | `scripts/build_demo.py` | Bygger förhandsvisningen med påhittad historik i `DEMO/` |
