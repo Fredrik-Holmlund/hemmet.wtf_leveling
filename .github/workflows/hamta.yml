@@ -27,7 +27,11 @@ jobs:
       NS: ${{ vars.NS }}
       PYTHONUNBUFFERED: "1"   # loggen syns medan den körs, inte först i slutet
     steps:
+      # Senaste main, inte committen från när körningen startades: väntar den i kön har förra körningen
+      # hunnit committa, och då krockar datan när den ska sparas
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
@@ -66,6 +70,11 @@ jobs:
         run: |
           python scripts/build_hemmet.py --src "$OUT"
           python scripts/build_dist.py
+
+      # Underlaget till veckobrevet. Får inte stoppa sidan om den fallerar
+      - name: Veckan
+        continue-on-error: true
+        run: python scripts/veckan.py --src "$OUT"
 
       - name: Spara datan i repot
         run: |
