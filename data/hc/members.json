@@ -1,7 +1,7 @@
 {
  "guild": "Frienship",
  "realm": "stitches",
- "generated": "2026-11-03 18:10",
+ "generated": "2026-11-03 18:43",
  "members": [
   {
    "name": "Abinadi",
@@ -42224,7 +42224,7 @@
    "race": 1,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1793645983000,
+   "lastLogin": 1793731228000,
    "ilvl": 63,
    "xp": 0,
    "title": null,
@@ -47251,7 +47251,7 @@
    "race": 4,
    "profile": true,
    "gender": 1,
-   "lastLogin": 1793729173000,
+   "lastLogin": 1793729994000,
    "ilvl": 69,
    "xp": 0,
    "title": null,
@@ -47264,7 +47264,7 @@
     "stamina": 413,
     "intellect": 208,
     "spirit": 194,
-    "attack_power": 824,
+    "attack_power": 724,
     "spell_power": 0,
     "armor": 3928,
     "melee_crit": 17.82,
@@ -51996,17 +51996,17 @@
    "race": 4,
    "profile": true,
    "gender": 1,
-   "lastLogin": 1793657700000,
+   "lastLogin": 1793730840000,
    "ilvl": 48,
    "xp": 0,
    "title": null,
-   "hp": 3677,
+   "hp": 3267,
    "power": 2505,
    "powerType": "Mana",
    "stats": {
     "strength": 52,
     "agility": 283,
-    "stamina": 229,
+    "stamina": 188,
     "intellect": 71,
     "spirit": 76,
     "attack_power": 509,
@@ -76038,7 +76038,7 @@
    "race": 4,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1793500416000,
+   "lastLogin": 1793730817000,
    "ilvl": 50,
    "xp": 15124,
    "title": null,
@@ -77110,7 +77110,7 @@
    "race": 3,
    "profile": true,
    "gender": 1,
-   "lastLogin": 1793728315000,
+   "lastLogin": 1793731061000,
    "ilvl": 40,
    "xp": 83877,
    "title": null,
@@ -103414,6 +103414,174 @@
    "renderUrl": null
   },
   {
+   "name": "Funkyfrodo",
+   "id": 88429470,
+   "level": 41,
+   "rank": 9,
+   "cls": "hunter",
+   "race": 3,
+   "profile": true,
+   "gender": 1,
+   "lastLogin": 1793730141000,
+   "ilvl": 32,
+   "xp": 8692,
+   "title": null,
+   "hp": 1742,
+   "power": 1605,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 63,
+    "agility": 185,
+    "stamina": 122,
+    "intellect": 50,
+    "spirit": 53,
+    "attack_power": 352,
+    "spell_power": 0,
+    "armor": 1135,
+    "melee_crit": 4.72,
+    "ranged_crit": 7.64,
+    "spell_crit": 4.79
+   },
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 0,
+     "id": 7719,
+     "name": "Raging Berserker's Helm",
+     "quality": 3,
+     "itemLevel": 42,
+     "icon": "inv_helmet_25"
+    },
+    {
+     "slot": 1,
+     "id": 13084,
+     "name": "Kaleidoscope Chain",
+     "quality": 3,
+     "itemLevel": 35,
+     "icon": "inv_jewelry_amulet_07"
+    },
+    {
+     "slot": 2,
+     "id": 9923,
+     "name": "Tracker's Shoulderpads of Agility",
+     "quality": 2,
+     "itemLevel": 45,
+     "icon": "inv_shoulder_18"
+    },
+    {
+     "slot": 3,
+     "id": 148,
+     "name": "Rugged Trapper's Shirt",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "inv_shirt_01"
+    },
+    {
+     "slot": 4,
+     "id": 8175,
+     "name": "Nightscape Tunic",
+     "quality": 2,
+     "itemLevel": 41,
+     "icon": "inv_chest_leather_03"
+    },
+    {
+     "slot": 5,
+     "id": 7387,
+     "name": "Dusky Belt",
+     "quality": 2,
+     "itemLevel": 39,
+     "icon": "inv_belt_06"
+    },
+    {
+     "slot": 6,
+     "id": 4108,
+     "name": "Panther Hunter Leggings",
+     "quality": 2,
+     "itemLevel": 40,
+     "icon": "inv_pants_02"
+    },
+    {
+     "slot": 7,
+     "id": 1121,
+     "name": "Feet of the Lynx",
+     "quality": 3,
+     "itemLevel": 24,
+     "icon": "inv_boots_wolf"
+    },
+    {
+     "slot": 8,
+     "id": 4061,
+     "name": "Imperial Leather Bracers",
+     "quality": 2,
+     "itemLevel": 42,
+     "icon": "inv_bracer_03"
+    },
+    {
+     "slot": 9,
+     "id": 7348,
+     "name": "Fletcher's Gloves",
+     "quality": 2,
+     "itemLevel": 25,
+     "icon": "inv_gauntlets_05"
+    },
+    {
+     "slot": 10,
+     "id": 12010,
+     "name": "Fen Ring of the Monkey",
+     "quality": 2,
+     "itemLevel": 37,
+     "icon": "inv_jewelry_ring_04"
+    },
+    {
+     "slot": 11,
+     "id": 12010,
+     "name": "Fen Ring of Agility",
+     "quality": 2,
+     "itemLevel": 37,
+     "icon": "inv_jewelry_ring_04"
+    },
+    {
+     "slot": 14,
+     "id": 13108,
+     "name": "Tigerstrike Mantle",
+     "quality": 3,
+     "itemLevel": 34,
+     "icon": "inv_misc_pelt_04"
+    },
+    {
+     "slot": 15,
+     "id": 10823,
+     "name": "Vanquisher's Sword",
+     "quality": 3,
+     "itemLevel": 44,
+     "icon": "inv_sword_35"
+    },
+    {
+     "slot": 16,
+     "id": 864,
+     "name": "Knightly Longsword of the Monkey",
+     "quality": 2,
+     "itemLevel": 38,
+     "icon": "inv_sword_27"
+    },
+    {
+     "slot": 17,
+     "id": 13138,
+     "name": "The Silencer",
+     "quality": 3,
+     "itemLevel": 42,
+     "icon": "inv_weapon_rifle_08"
+    }
+   ],
+   "heal": 0,
+   "spec": "Beast Mastery",
+   "role": "dps",
+   "exalted": [],
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/158/88429470-main-raw.png"
+  },
+  {
    "name": "Kaelyy",
    "id": 76683872,
    "level": 41,
@@ -105606,174 +105774,6 @@
    "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/145/73694097-main-raw.png"
   },
   {
-   "name": "Funkyfrodo",
-   "id": 88429470,
-   "level": 40,
-   "rank": 9,
-   "cls": "hunter",
-   "race": 3,
-   "profile": true,
-   "gender": 1,
-   "lastLogin": 1793716481000,
-   "ilvl": 32,
-   "xp": 81543,
-   "title": null,
-   "hp": 1877,
-   "power": 1665,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 71,
-    "agility": 210,
-    "stamina": 139,
-    "intellect": 56,
-    "spirit": 59,
-    "attack_power": 383,
-    "spell_power": 0,
-    "armor": 1185,
-    "melee_crit": 5.64,
-    "ranged_crit": 8.56,
-    "spell_crit": 4.95
-   },
-   "hk": 0,
-   "pvpRank": 0,
-   "gear": [
-    {
-     "slot": 0,
-     "id": 7719,
-     "name": "Raging Berserker's Helm",
-     "quality": 3,
-     "itemLevel": 42,
-     "icon": "inv_helmet_25"
-    },
-    {
-     "slot": 1,
-     "id": 13084,
-     "name": "Kaleidoscope Chain",
-     "quality": 3,
-     "itemLevel": 35,
-     "icon": "inv_jewelry_amulet_07"
-    },
-    {
-     "slot": 2,
-     "id": 9923,
-     "name": "Tracker's Shoulderpads of Agility",
-     "quality": 2,
-     "itemLevel": 45,
-     "icon": "inv_shoulder_18"
-    },
-    {
-     "slot": 3,
-     "id": 148,
-     "name": "Rugged Trapper's Shirt",
-     "quality": 1,
-     "itemLevel": 1,
-     "icon": "inv_shirt_01"
-    },
-    {
-     "slot": 4,
-     "id": 8175,
-     "name": "Nightscape Tunic",
-     "quality": 2,
-     "itemLevel": 41,
-     "icon": "inv_chest_leather_03"
-    },
-    {
-     "slot": 5,
-     "id": 7387,
-     "name": "Dusky Belt",
-     "quality": 2,
-     "itemLevel": 39,
-     "icon": "inv_belt_06"
-    },
-    {
-     "slot": 6,
-     "id": 4108,
-     "name": "Panther Hunter Leggings",
-     "quality": 2,
-     "itemLevel": 40,
-     "icon": "inv_pants_02"
-    },
-    {
-     "slot": 7,
-     "id": 1121,
-     "name": "Feet of the Lynx",
-     "quality": 3,
-     "itemLevel": 24,
-     "icon": "inv_boots_wolf"
-    },
-    {
-     "slot": 8,
-     "id": 4061,
-     "name": "Imperial Leather Bracers",
-     "quality": 2,
-     "itemLevel": 42,
-     "icon": "inv_bracer_03"
-    },
-    {
-     "slot": 9,
-     "id": 7348,
-     "name": "Fletcher's Gloves",
-     "quality": 2,
-     "itemLevel": 25,
-     "icon": "inv_gauntlets_05"
-    },
-    {
-     "slot": 10,
-     "id": 12010,
-     "name": "Fen Ring of the Monkey",
-     "quality": 2,
-     "itemLevel": 37,
-     "icon": "inv_jewelry_ring_04"
-    },
-    {
-     "slot": 11,
-     "id": 12010,
-     "name": "Fen Ring of Agility",
-     "quality": 2,
-     "itemLevel": 37,
-     "icon": "inv_jewelry_ring_04"
-    },
-    {
-     "slot": 14,
-     "id": 13108,
-     "name": "Tigerstrike Mantle",
-     "quality": 3,
-     "itemLevel": 34,
-     "icon": "inv_misc_pelt_04"
-    },
-    {
-     "slot": 15,
-     "id": 10823,
-     "name": "Vanquisher's Sword",
-     "quality": 3,
-     "itemLevel": 44,
-     "icon": "inv_sword_35"
-    },
-    {
-     "slot": 16,
-     "id": 864,
-     "name": "Knightly Longsword of the Monkey",
-     "quality": 2,
-     "itemLevel": 38,
-     "icon": "inv_sword_27"
-    },
-    {
-     "slot": 17,
-     "id": 13138,
-     "name": "The Silencer",
-     "quality": 3,
-     "itemLevel": 42,
-     "icon": "inv_weapon_rifle_08"
-    }
-   ],
-   "heal": 0,
-   "spec": "Beast Mastery",
-   "role": "dps",
-   "exalted": [],
-   "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/158/88429470-main-raw.png"
-  },
-  {
    "name": "Neandra",
    "id": 63519165,
    "level": 40,
@@ -107070,23 +107070,23 @@
    "race": 7,
    "profile": true,
    "gender": 1,
-   "lastLogin": 1793728629000,
+   "lastLogin": 1793731354000,
    "ilvl": 29,
-   "xp": 32027,
+   "xp": 33377,
    "title": null,
-   "hp": 1767,
+   "hp": 1217,
    "power": 3501,
    "powerType": "Mana",
    "stats": {
     "strength": 23,
     "agility": 34,
-    "stamina": 137,
+    "stamina": 82,
     "intellect": 198,
-    "spirit": 132,
+    "spirit": 109,
     "attack_power": 13,
     "spell_power": 5,
     "armor": 728,
-    "melee_crit": 0.35,
+    "melee_crit": 0.39,
     "ranged_crit": 5.31,
     "spell_crit": 5.96
    },
@@ -112558,9 +112558,9 @@
    "race": 7,
    "profile": true,
    "gender": 1,
-   "lastLogin": 1793728311000,
+   "lastLogin": 1793731055000,
    "ilvl": 21,
-   "xp": 17737,
+   "xp": 60649,
    "title": null,
    "hp": 1323,
    "power": 2667,
@@ -115150,7 +115150,7 @@
    "race": 4,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1793722331000,
+   "lastLogin": 1793729400000,
    "ilvl": 5,
    "xp": 7914,
    "title": null,
@@ -128135,24 +128135,24 @@
    "race": 1,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1793727532000,
-   "ilvl": 13,
-   "xp": 1747,
+   "lastLogin": 1793730374000,
+   "ilvl": 14,
+   "xp": 13761,
    "title": null,
-   "hp": 833,
+   "hp": 853,
    "power": 100,
    "powerType": "Rage",
    "stats": {
-    "strength": 79,
-    "agility": 36,
-    "stamina": 83,
+    "strength": 75,
+    "agility": 41,
+    "stamina": 85,
     "intellect": 22,
     "spirit": 33,
-    "attack_power": 195,
+    "attack_power": 187,
     "spell_power": 0,
-    "armor": 1004,
-    "melee_crit": 4.74,
-    "ranged_crit": 3.34,
+    "armor": 1374,
+    "melee_crit": 5.5,
+    "ranged_crit": 4.58,
     "spell_crit": 0.0
    },
    "hk": 0,
@@ -128184,11 +128184,11 @@
     },
     {
      "slot": 4,
-     "id": 6580,
-     "name": "Defender Tunic of the Bear",
-     "quality": 2,
-     "itemLevel": 23,
-     "icon": "inv_chest_chain_04"
+     "id": 10399,
+     "name": "Blackened Defias Armor",
+     "quality": 3,
+     "itemLevel": 24,
+     "icon": "inv_chest_leather_08"
     },
     {
      "slot": 5,
@@ -128240,19 +128240,27 @@
     },
     {
      "slot": 15,
-     "id": 12975,
-     "name": "Prospector Axe",
-     "quality": 3,
-     "itemLevel": 20,
-     "icon": "inv_axe_03"
+     "id": 5540,
+     "name": "Pearl-handled Dagger",
+     "quality": 2,
+     "itemLevel": 23,
+     "icon": "inv_weapon_shortblade_05"
+    },
+    {
+     "slot": 16,
+     "id": 6572,
+     "name": "Defender Shield of the Bear",
+     "quality": 2,
+     "itemLevel": 23,
+     "icon": "inv_shield_06"
     },
     {
      "slot": 17,
-     "id": 2511,
-     "name": "Hunter's Boomstick",
-     "quality": 1,
-     "itemLevel": 14,
-     "icon": "inv_weapon_rifle_04"
+     "id": 3040,
+     "name": "Hunter's Muzzle Loader",
+     "quality": 2,
+     "itemLevel": 19,
+     "icon": "inv_weapon_rifle_01"
     }
    ],
    "heal": 0,
@@ -128917,6 +128925,134 @@
    "exalted": [],
    "avatar": true,
    "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/80/48649040-main-raw.png"
+  },
+  {
+   "name": "Bigjog",
+   "id": 96009053,
+   "level": 17,
+   "rank": 9,
+   "cls": "warrior",
+   "race": 7,
+   "profile": true,
+   "gender": 0,
+   "lastLogin": 1793730323000,
+   "ilvl": 10,
+   "xp": 1351,
+   "title": null,
+   "hp": 734,
+   "power": 100,
+   "powerType": "Rage",
+   "stats": {
+    "strength": 40,
+    "agility": 39,
+    "stamina": 76,
+    "intellect": 28,
+    "spirit": 33,
+    "attack_power": 125,
+    "spell_power": 0,
+    "armor": 861,
+    "melee_crit": 5.5,
+    "ranged_crit": 2.9,
+    "spell_crit": 0.0
+   },
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 2,
+     "id": 1752,
+     "name": "Linked Chain Shoulderpads",
+     "quality": 0,
+     "itemLevel": 21,
+     "icon": "inv_shoulder_07"
+    },
+    {
+     "slot": 4,
+     "id": 6545,
+     "name": "Soldier's Armor of Stamina",
+     "quality": 2,
+     "itemLevel": 18,
+     "icon": "inv_chest_chain_16"
+    },
+    {
+     "slot": 5,
+     "id": 1154,
+     "name": "Belt of the People's Militia",
+     "quality": 1,
+     "itemLevel": 14,
+     "icon": "inv_belt_04"
+    },
+    {
+     "slot": 6,
+     "id": 2865,
+     "name": "Rough Bronze Leggings",
+     "quality": 2,
+     "itemLevel": 21,
+     "icon": "inv_pants_03"
+    },
+    {
+     "slot": 7,
+     "id": 2395,
+     "name": "Light Mail Boots",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "inv_boots_01"
+    },
+    {
+     "slot": 8,
+     "id": 2396,
+     "name": "Light Mail Bracers",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "inv_bracer_03"
+    },
+    {
+     "slot": 9,
+     "id": 3474,
+     "name": "Gemmed Copper Gauntlets of the Boar",
+     "quality": 2,
+     "itemLevel": 15,
+     "icon": "inv_gauntlets_05"
+    },
+    {
+     "slot": 14,
+     "id": 3511,
+     "name": "Cloak of the People's Militia",
+     "quality": 2,
+     "itemLevel": 15,
+     "icon": "inv_misc_cape_14"
+    },
+    {
+     "slot": 15,
+     "id": 15248,
+     "name": "Gleaming Claymore of Power",
+     "quality": 2,
+     "itemLevel": 20,
+     "icon": "inv_sword_23"
+    },
+    {
+     "slot": 17,
+     "id": 15807,
+     "name": "Light Crossbow",
+     "quality": 1,
+     "itemLevel": 8,
+     "icon": "inv_weapon_crossbow_02"
+    },
+    {
+     "slot": 18,
+     "id": 5976,
+     "name": "Guild Tabard",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "inv_shirt_guildtabard_01"
+    }
+   ],
+   "heal": 0,
+   "spec": "Arms",
+   "role": "dps",
+   "exalted": [],
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/93/96009053-main-raw.png"
   },
   {
    "name": "Duncarin",
@@ -130991,6 +131127,134 @@
    "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/59/110522171-main-raw.png"
   },
   {
+   "name": "Tilverstab",
+   "id": 91993059,
+   "level": 13,
+   "rank": 4,
+   "cls": "rogue",
+   "race": 1,
+   "profile": true,
+   "gender": 0,
+   "lastLogin": 1793730742000,
+   "ilvl": 5,
+   "xp": 4873,
+   "title": null,
+   "hp": 319,
+   "power": 100,
+   "powerType": "Energy",
+   "stats": {
+    "strength": 30,
+    "agility": 43,
+    "stamina": 35,
+    "intellect": 22,
+    "spirit": 29,
+    "attack_power": 79,
+    "spell_power": 0,
+    "armor": 291,
+    "melee_crit": 8.92,
+    "ranged_crit": 8.44,
+    "spell_crit": 0.0
+   },
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 3,
+     "id": 2575,
+     "name": "Red Linen Shirt",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "inv_shirt_red_01"
+    },
+    {
+     "slot": 4,
+     "id": 6085,
+     "name": "Footman Tunic",
+     "quality": 2,
+     "itemLevel": 13,
+     "icon": "inv_chest_leather_09"
+    },
+    {
+     "slot": 5,
+     "id": 1418,
+     "name": "Worn Leather Belt",
+     "quality": 0,
+     "itemLevel": 7,
+     "icon": "inv_belt_24"
+    },
+    {
+     "slot": 6,
+     "id": 1366,
+     "name": "Ragged Leather Pants",
+     "quality": 0,
+     "itemLevel": 2,
+     "icon": "inv_pants_06"
+    },
+    {
+     "slot": 7,
+     "id": 1173,
+     "name": "Weather-worn Boots",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "inv_boots_03"
+    },
+    {
+     "slot": 8,
+     "id": 3158,
+     "name": "Burnt Hide Bracers",
+     "quality": 1,
+     "itemLevel": 12,
+     "icon": "inv_bracer_08"
+    },
+    {
+     "slot": 9,
+     "id": 3152,
+     "name": "Driving Gloves",
+     "quality": 1,
+     "itemLevel": 9,
+     "icon": "inv_gauntlets_18"
+    },
+    {
+     "slot": 14,
+     "id": 1421,
+     "name": "Worn Hide Cloak",
+     "quality": 0,
+     "itemLevel": 10,
+     "icon": "inv_misc_cape_14"
+    },
+    {
+     "slot": 15,
+     "id": 7298,
+     "name": "Blade of Cunning",
+     "quality": 2,
+     "itemLevel": 13,
+     "icon": "inv_weapon_shortblade_26"
+    },
+    {
+     "slot": 16,
+     "id": 2218,
+     "name": "Craftsman's Dagger",
+     "quality": 2,
+     "itemLevel": 13,
+     "icon": "inv_weapon_shortblade_05"
+    },
+    {
+     "slot": 17,
+     "id": 2946,
+     "name": "Balanced Throwing Dagger",
+     "quality": 1,
+     "itemLevel": 8,
+     "icon": "inv_weapon_shortblade_05"
+    }
+   ],
+   "heal": 0,
+   "spec": "Combat",
+   "role": "dps",
+   "exalted": [],
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/227/91993059-main-raw.png"
+  },
+  {
    "name": "Zugzugyyi",
    "id": 86696403,
    "level": 13,
@@ -131357,134 +131621,6 @@
    "exalted": [],
    "avatar": true,
    "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/109/105961069-main-raw.png"
-  },
-  {
-   "name": "Tilverstab",
-   "id": 91993059,
-   "level": 12,
-   "rank": 4,
-   "cls": "rogue",
-   "race": 1,
-   "profile": true,
-   "gender": 0,
-   "lastLogin": 1793725852000,
-   "ilvl": 5,
-   "xp": 7697,
-   "title": null,
-   "hp": 262,
-   "power": 100,
-   "powerType": "Energy",
-   "stats": {
-    "strength": 29,
-    "agility": 41,
-    "stamina": 30,
-    "intellect": 22,
-    "spirit": 25,
-    "attack_power": 110,
-    "spell_power": 0,
-    "armor": 274,
-    "melee_crit": 9.5,
-    "ranged_crit": 9.1,
-    "spell_crit": 0.0
-   },
-   "hk": 0,
-   "pvpRank": 0,
-   "gear": [
-    {
-     "slot": 3,
-     "id": 2575,
-     "name": "Red Linen Shirt",
-     "quality": 1,
-     "itemLevel": 10,
-     "icon": "inv_shirt_red_01"
-    },
-    {
-     "slot": 4,
-     "id": 6085,
-     "name": "Footman Tunic",
-     "quality": 2,
-     "itemLevel": 13,
-     "icon": "inv_chest_leather_09"
-    },
-    {
-     "slot": 5,
-     "id": 1418,
-     "name": "Worn Leather Belt",
-     "quality": 0,
-     "itemLevel": 7,
-     "icon": "inv_belt_24"
-    },
-    {
-     "slot": 6,
-     "id": 1366,
-     "name": "Ragged Leather Pants",
-     "quality": 0,
-     "itemLevel": 2,
-     "icon": "inv_pants_06"
-    },
-    {
-     "slot": 7,
-     "id": 1173,
-     "name": "Weather-worn Boots",
-     "quality": 1,
-     "itemLevel": 10,
-     "icon": "inv_boots_03"
-    },
-    {
-     "slot": 8,
-     "id": 6070,
-     "name": "Wolfskin Bracers",
-     "quality": 1,
-     "itemLevel": 5,
-     "icon": "inv_bracer_05"
-    },
-    {
-     "slot": 9,
-     "id": 3152,
-     "name": "Driving Gloves",
-     "quality": 1,
-     "itemLevel": 9,
-     "icon": "inv_gauntlets_18"
-    },
-    {
-     "slot": 14,
-     "id": 4665,
-     "name": "Burnt Cloak",
-     "quality": 1,
-     "itemLevel": 8,
-     "icon": "inv_misc_cape_11"
-    },
-    {
-     "slot": 15,
-     "id": 7298,
-     "name": "Blade of Cunning",
-     "quality": 2,
-     "itemLevel": 13,
-     "icon": "inv_weapon_shortblade_26"
-    },
-    {
-     "slot": 16,
-     "id": 2218,
-     "name": "Craftsman's Dagger",
-     "quality": 2,
-     "itemLevel": 13,
-     "icon": "inv_weapon_shortblade_05"
-    },
-    {
-     "slot": 17,
-     "id": 2946,
-     "name": "Balanced Throwing Dagger",
-     "quality": 1,
-     "itemLevel": 8,
-     "icon": "inv_weapon_shortblade_05"
-    }
-   ],
-   "heal": 0,
-   "spec": "Combat",
-   "role": "dps",
-   "exalted": [],
-   "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/classic1x-eu/character/stitches/227/91993059-main-raw.png"
   },
   {
    "name": "Anotherfera",
