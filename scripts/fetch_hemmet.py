@@ -8,7 +8,9 @@ Namespace väljs automatiskt: Anniversary (classicann), Era/Hardcore (classic1x)
 progression (classic). Det som både har guilden och levande profiler vinner.
 
 Per medlem: profil (level, ilvl, senaste inloggning), statistik (HP m.m.),
-PvP (honorable kills, rank), utrustning, rykten (Exalted) och porträtt. Skriver till utmappen (standard data/hc):
+PvP (honorable kills, rank), utrustning, rykten (Exalted) och porträtt. Allt utom profilen hämtas bara för
+dem som loggat in sedan förra körningen (resten återanvänds ur members.json, se unchanged()).
+Skriver till utmappen (standard data/hc):
 
   members.json           allt sidan visar
   snapshots/<datum>.json levels och HKs just i dag (historiken byggs av dessa)
@@ -124,8 +126,28 @@ def download(url, dest, max_age_h=None):
         return False
 
 
-def fetch_member(entry):
-    """Allt om en karaktär. Profilen saknas för karaktärer som inte loggat in på länge."""
+# Fälten som bara kan ändras när karaktären är inloggad: återanvänds från förra körningen om inget hänt
+REUSE = ("hp", "power", "powerType", "stats", "hk", "pvpRank", "gear", "heal", "spec", "role", "exalted", "avatar", "renderUrl")
+REFRESH_H = 24   # oförändrade hämtas ändå helt efter 24–48 h (förskjutet per karaktär så att det sprids ut)
+# Ett öppet pass hämtas helt varje körning, så att en utloggning som bara ändrar HKs märks. Pass där
+# utloggningen aldrig syntes (ingen XP, inga HKs) står öppna för alltid, därför bara så här länge.
+OPEN_H = 12
+
+
+def unchanged(m, prev, open_session):
+    """Inte inloggad sedan förra körningen och profilen ser likadan ut: resten av datan är densamma."""
+    if not prev or not prev.get("profile") or not prev.get("fetched") or open_session:
+        return False
+    if any(m.get(k) != prev.get(k) for k in ("lastLogin", "level", "xp", "ilvl")):
+        return False
+    if prev.get("avatar") and not (AVATARS / f"{m['id']}.jpg").exists():   # Actions-cachen kan ha tappats
+        return False
+    return time.time() - prev["fetched"] < (REFRESH_H + m["id"] % REFRESH_H) * 3600
+
+
+def fetch_member(entry, prev=None, open_session=False):
+    """Allt om en karaktär. Profilen saknas för karaktärer som inte loggat in på länge.
+    Inloggade sedan sist, eller mitt i ett pass, hämtas helt. Övriga bara profilen (ett anrop)."""
     c = entry["character"]
     base = f"/profile/wow/character/{REALM}/{slug(c['name'])}"
     m = {
@@ -145,6 +167,10 @@ def fetch_member(entry):
         "xp": profile.get("experience"),   # ändras när profilen sparas, dvs. vid utloggning
         "title": (profile.get("active_title") or {}).get("display_string"),
     })
+    if unchanged(m, prev, open_session):
+        m.update({k: prev.get(k) for k in REUSE}, fetched=prev["fetched"])
+        return m
+    m["fetched"] = int(time.time())
     stats = get(base + "/statistics") or {}
     m["hp"] = stats.get("health")
     m["power"], m["powerType"] = stats.get("power"), (stats.get("power_type") or {}).get("name")
@@ -278,14 +304,24 @@ def main():
     roster = get(f"/data/wow/guild/{REALM}/{GUILD}/roster")
     entries = roster["members"]
     print(f"{roster['guild']['name']}: {len(entries)} i rostern, hämtar profiler …")
+    # Förra körningen: vad vi redan vet, och vilka som har ett pass öppet (inloggade men inte utloggade än)
+    prev_file, state_file = OUT / "members.json", OUT / "state.json"
+    prev = {m["id"]: m for m in json.loads(prev_file.read_text(encoding="utf-8"))["members"]} if prev_file.exists() else {}
+    state = json.loads(state_file.read_text(encoding="utf-8")) if state_file.exists() else {}
+    def one(e):
+        c = e["character"]
+        opened = (state.get(c["name"]) or {}).get("open")
+        return fetch_member(e, prev.get(c["id"]), bool(opened) and time.time() * 1000 - opened < OPEN_H * 36e5)
     members = []
     with ThreadPoolExecutor(WORKERS) as ex:
-        for n, m in enumerate(ex.map(fetch_member, entries), 1):
+        for n, m in enumerate(ex.map(one, entries), 1):
             members.append(m)
-            if n % 25 == 0:
+            if n % 100 == 0:
                 print(f"  {n}/{len(entries)}")
     with_profile = [m for m in members if m.get("profile")]
+    fresh = sum(1 for m in with_profile if m["fetched"] != (prev.get(m["id"]) or {}).get("fetched"))
     print(f"{len(with_profile)} med profil, {len(members) - len(with_profile)} utan (inte inloggade på länge)")
+    print(f"{fresh} hämtade helt, {len(with_profile) - fresh} oförändrade sedan förra körningen")
 
     cache_file = OUT / "items.json"
     cache = json.loads(cache_file.read_text(encoding="utf-8")) if cache_file.exists() else {}
