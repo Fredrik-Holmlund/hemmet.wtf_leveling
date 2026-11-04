@@ -47,7 +47,7 @@ REGION, REALM, GUILD = "eu", "stitches", "frienship"
 # kopia (inloggningar som stannat) utan porträtt.
 PROFILE_NS = f"profile-classicann-{REGION}"
 STATIC_NS = f"static-classicann-{REGION}"
-WORKERS = 8
+WORKERS = 20   # Blizzard tillåter 100 anrop/s; i Actions är svarstiden lång, så fler trådar ger mest
 AVATARS, ICONS = OUT / "avatars", OUT / "icons"
 
 CLASSES = {1: "warrior", 2: "paladin", 3: "hunter", 4: "rogue", 5: "priest", 7: "shaman", 8: "mage", 9: "warlock", 11: "druid"}
