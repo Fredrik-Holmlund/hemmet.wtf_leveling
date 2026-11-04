@@ -53,6 +53,7 @@ AVATARS, ICONS = OUT / "avatars", OUT / "icons"
 CLASSES = {1: "warrior", 2: "paladin", 3: "hunter", 4: "rogue", 5: "priest", 7: "shaman", 8: "mage", 9: "warlock", 11: "druid"}
 HEAL_RE = re.compile(r"(?:healing done|damage and healing done)[^.]*?by up to (\d+)")
 ROLES = {"Protection": "tank", "Feral Combat": "tank", "Holy": "healer", "Discipline": "healer", "Restoration": "healer"}
+SET_MIN = 5
 QUALITY = {"POOR": 0, "COMMON": 1, "UNCOMMON": 2, "RARE": 3, "EPIC": 4, "LEGENDARY": 5}
 # Blizzards slot-typ → samma slot-index som Warcraft Logs (det build_outfits.py förväntar sig)
 SLOTS = {"HEAD": 0, "NECK": 1, "SHOULDER": 2, "SHIRT": 3, "CHEST": 4, "WAIST": 5, "LEGS": 6, "FEET": 7,
@@ -127,7 +128,7 @@ def download(url, dest, max_age_h=None):
 
 
 # Fälten som bara kan ändras när karaktären är inloggad: återanvänds från förra körningen om inget hänt
-REUSE = ("hp", "power", "powerType", "stats", "hk", "pvpRank", "gear", "heal", "spec", "role", "exalted", "avatar", "renderUrl")
+REUSE = ("hp", "power", "powerType", "stats", "hk", "pvpRank", "gear", "sets", "heal", "spec", "role", "exalted", "avatar", "renderUrl")
 REFRESH_H = 24   # oförändrade hämtas ändå helt efter 24–48 h (förskjutet per karaktär så att det sprids ut)
 # Ett öppet pass hämtas helt varje körning, så att en utloggning som bara ändrar HKs märks. Pass där
 # utloggningen aldrig syntes (ingen XP, inga HKs) står öppna för alltid, därför bara så här länge.
@@ -186,6 +187,9 @@ def fetch_member(entry, prev=None, open_session=False):
         "slot": SLOTS.get(i["slot"]["type"]), "id": i["item"]["id"], "name": i.get("name"),
         "quality": QUALITY.get((i.get("quality") or {}).get("type"), 1),
     } for i in equip.get("equipped_items", []) if i["slot"]["type"] in SLOTS]
+    # Kompletta set: alla delar på sig. Minst fem delar, så att par som två matchande vapen inte räknas
+    m["sets"] = sorted(s["item_set"]["name"] for s in equip.get("equipped_item_sets", [])
+                       if len(s.get("items", [])) >= SET_MIN and all(i.get("is_equipped") for i in s["items"]))
     # Healing power: API:t har inget eget fält, så vi summerar utrustningens "Equip: Increases healing done ... by up to N"
     # (även "damage and healing"). Enchants och setbonusar räknas inte.
     m["heal"] = sum(int(x) for i in equip.get("equipped_items", []) for s in (i.get("spells") or [])
@@ -355,6 +359,8 @@ def log_events(members, now):
       level   ny level                              (t = denna körning)
       hk      nya honorable kills                   (v = antal)
       rep     ny faktion på Exalted                 (v = faktionens namn)
+      epic    första gången med en epic på sig      (v = föremålets namn)
+      set     första gången med ett komplett set    (v = setets namn)
     """
     state_file, log_file = OUT / "state.json", OUT / "events.jsonl"
     state = json.loads(state_file.read_text(encoding="utf-8")) if state_file.exists() else {}
@@ -368,6 +374,11 @@ def log_events(members, now):
                "open": (prev or {}).get("open"),
                # ryktena kunde inte hämtas: behåll förra läget så att inget tolkas som nytt nästa gång
                "exalted": m["exalted"] if m.get("exalted") is not None else (prev or {}).get("exalted")}
+        # Epics och set som karaktären haft på sig någon gång: ett byte fram och tillbaka blir ingen ny händelse.
+        # None = okänt än (set hämtas först när karaktären hämtas helt), och då är nästa kända läge utgångsläget
+        for k, now_ in (("epics", m.get("gear") and {g["name"] for g in m["gear"] if g["quality"] >= 4}), ("sets", m.get("sets"))):
+            old = (prev or {}).get(k)
+            cur[k] = old if now_ is None else sorted(set(now_) | set(old or []))
         if prev:
             if cur["login"] and cur["login"] != prev.get("login"):
                 events.append({"t": cur["login"], "n": m["name"], "k": "login"})
@@ -387,6 +398,11 @@ def log_events(members, now):
             if cur["exalted"] is not None and prev.get("exalted") is not None:
                 for f in sorted(set(cur["exalted"]) - set(prev["exalted"])):
                     events.append({"t": t, "n": m["name"], "k": "rep", "v": f})
+            # som rykten: första gången är utgångsläget
+            for k, kind in (("epics", "epic"), ("sets", "set")):
+                if prev.get(k) is not None and cur[k] is not None:
+                    for v in sorted(set(cur[k]) - set(prev[k])):
+                        events.append({"t": t, "n": m["name"], "k": kind, "v": v})
         state[m["name"]] = cur
     with open(log_file, "a", encoding="utf-8") as f:
         for e in events:

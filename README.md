@@ -58,7 +58,7 @@ Med `FROM_START` börjar tidslinjen vid releasen 00:00 med alla på level 1 i El
 och ger varken kronor eller plats i Förstafemman.
 
 **Händelser** (`events.jsonl`) får klockslag från körningen som upptäckte dem: `level`, `login`, `logout`,
-`hk` och `rep` (ny faktion på Exalted). Ju tätare körningar, desto exaktare. Första körningen för en ny
+`hk`, `rep` (ny faktion på Exalted), `epic` (första gången med en viss epic på sig) och `set` (första gången med ett komplett set, minst fem delar). Ju tätare körningar, desto exaktare. Första körningen för en ny
 uppgift (t.ex. rykten) är bara utgångsläge och ger inga händelser.
 
 **Det API:t inte har, och hur vi löser det:**
