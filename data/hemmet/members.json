@@ -1,7 +1,7 @@
 {
  "guild": "HEMMET",
  "realm": "Forever",
- "generated": "2026-11-05 09:06",
+ "generated": "2026-11-05 09:35",
  "members": [
   {
    "name": "Vyssan Lull",
@@ -564,6 +564,137 @@
    "cls": "warrior",
    "race": 1,
    "profile": false
+  },
+  {
+   "name": "Deadborn Forever",
+   "id": 2278960,
+   "level": 14,
+   "rank": 4,
+   "cls": "warrior",
+   "race": 1,
+   "profile": true,
+   "gender": 1,
+   "lastLogin": 1793870349000,
+   "ilvl": 4,
+   "xp": 301,
+   "title": null,
+   "fetched": 1793871326,
+   "hp": 328,
+   "power": 100,
+   "powerType": "Rage",
+   "stats": {
+    "strength": 41,
+    "agility": 30,
+    "stamina": 38,
+    "intellect": 22,
+    "spirit": 26,
+    "attack_power": 104,
+    "spell_power": 2,
+    "armor": 812,
+    "melee_crit": 5.6,
+    "ranged_crit": 3.08,
+    "spell_crit": 1.0
+   },
+   "active": 1793870237000,
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 3,
+     "id": 38,
+     "name": "Recruit's Shirt",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "135009"
+    },
+    {
+     "slot": 4,
+     "id": 2965,
+     "name": "Warrior's Tunic",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "132624"
+    },
+    {
+     "slot": 5,
+     "id": 2690,
+     "name": "Latched Belt",
+     "quality": 1,
+     "itemLevel": 5,
+     "icon": "132495"
+    },
+    {
+     "slot": 6,
+     "id": 2852,
+     "name": "Copper Chain Pants",
+     "quality": 2,
+     "itemLevel": 10,
+     "icon": "134583"
+    },
+    {
+     "slot": 7,
+     "id": 6506,
+     "name": "Infantry Boots",
+     "quality": 1,
+     "itemLevel": 11,
+     "icon": "132582"
+    },
+    {
+     "slot": 8,
+     "id": 1182,
+     "name": "Brass-studded Bracers",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "132606"
+    },
+    {
+     "slot": 9,
+     "id": 2645,
+     "name": "Loose Chain Gloves",
+     "quality": 0,
+     "itemLevel": 7,
+     "icon": "132938"
+    },
+    {
+     "slot": 14,
+     "id": 6514,
+     "name": "Disciple's Cloak",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "133762"
+    },
+    {
+     "slot": 15,
+     "id": 6985,
+     "name": "Haggard's Sword",
+     "quality": 2,
+     "itemLevel": 15,
+     "icon": "135274"
+    },
+    {
+     "slot": 16,
+     "id": 3160,
+     "name": "Ironplate Buckler",
+     "quality": 2,
+     "itemLevel": 15,
+     "icon": "134956"
+    },
+    {
+     "slot": 17,
+     "id": 2947,
+     "name": "Small Throwing Knife",
+     "quality": 1,
+     "itemLevel": 3,
+     "icon": "135426"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": "Protection",
+   "role": "tank",
+   "exalted": [],
+   "avatar": false,
+   "renderUrl": null
   },
   {
    "name": "Fae Lock",
@@ -1661,15 +1792,6 @@
    "fetched": 1793858725
   },
   {
-   "name": "Deadborn Forever",
-   "id": 2278960,
-   "level": 12,
-   "rank": 4,
-   "cls": "warrior",
-   "race": 1,
-   "profile": false
-  },
-  {
    "name": "Hedningen Maximus",
    "id": 1905866,
    "level": 12,
@@ -2151,7 +2273,7 @@
    "ilvl": 5,
    "xp": 2579,
    "title": null,
-   "fetched": 1793869528,
+   "active": 1793869031000,
    "hp": 309,
    "power": 105,
    "powerType": "Rage",
@@ -2168,7 +2290,6 @@
     "ranged_crit": 3.18,
     "spell_crit": 0.0
    },
-   "active": 1793869031000,
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -2267,6 +2388,138 @@
    "role": "tank",
    "exalted": [],
    "avatar": false,
+   "renderUrl": null,
+   "fetched": 1793869528
+  },
+  {
+   "name": "Elektriker Ab",
+   "id": 8848225,
+   "level": 11,
+   "rank": 4,
+   "cls": "shaman",
+   "race": 3,
+   "profile": true,
+   "gender": 1,
+   "lastLogin": 1793869916000,
+   "ilvl": 2,
+   "xp": 461,
+   "title": null,
+   "fetched": 1793871329,
+   "hp": 257,
+   "power": 330,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 31,
+    "agility": 20,
+    "stamina": 33,
+    "intellect": 28,
+    "spirit": 30,
+    "attack_power": 132,
+    "spell_power": 0,
+    "armor": 378,
+    "melee_crit": 6.21,
+    "ranged_crit": 3.29,
+    "spell_crit": 6.82
+   },
+   "active": 1793869787000,
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 3,
+     "id": 154,
+     "name": "Primitive Mantle",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "133766"
+    },
+    {
+     "slot": 4,
+     "id": 1364,
+     "name": "Ragged Leather Vest",
+     "quality": 0,
+     "itemLevel": 5,
+     "icon": "135009"
+    },
+    {
+     "slot": 5,
+     "id": 1369,
+     "name": "Ragged Leather Belt",
+     "quality": 0,
+     "itemLevel": 5,
+     "icon": "132513"
+    },
+    {
+     "slot": 6,
+     "id": 1423,
+     "name": "Worn Leather Pants",
+     "quality": 0,
+     "itemLevel": 7,
+     "icon": "134586"
+    },
+    {
+     "slot": 7,
+     "id": 281322,
+     "name": "Frosthowl's Footwarmers",
+     "quality": 1,
+     "itemLevel": 9,
+     "icon": "132537"
+    },
+    {
+     "slot": 8,
+     "id": 1420,
+     "name": "Worn Leather Bracers",
+     "quality": 0,
+     "itemLevel": 9,
+     "icon": "132604"
+    },
+    {
+     "slot": 9,
+     "id": 3152,
+     "name": "Driving Gloves",
+     "quality": 1,
+     "itemLevel": 9,
+     "icon": "132952"
+    },
+    {
+     "slot": 10,
+     "id": 286737,
+     "name": "Avala's Binding",
+     "quality": 1,
+     "itemLevel": 8,
+     "icon": "133349"
+    },
+    {
+     "slot": 14,
+     "id": 9761,
+     "name": "Cadet Cloak",
+     "quality": 1,
+     "itemLevel": 11,
+     "icon": "133753"
+    },
+    {
+     "slot": 15,
+     "id": 1415,
+     "name": "Carpenter's Mallet",
+     "quality": 0,
+     "itemLevel": 9,
+     "icon": "133052"
+    },
+    {
+     "slot": 16,
+     "id": 2900,
+     "name": "Stone Buckler",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "134955"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": "Enhancement",
+   "role": "dps",
+   "exalted": [],
+   "avatar": false,
    "renderUrl": null
   },
   {
@@ -2291,7 +2544,7 @@
    "ilvl": 2,
    "xp": 2954,
    "title": null,
-   "fetched": 1793869526,
+   "fetched": 1793871326,
    "hp": 257,
    "power": 330,
    "powerType": "Mana",
@@ -2874,7 +3127,7 @@
    "ilvl": 2,
    "xp": 1661,
    "title": null,
-   "fetched": 1793869528,
+   "fetched": 1793871328,
    "hp": 203,
    "power": 445,
    "powerType": "Mana",
@@ -4321,15 +4574,6 @@
    "level": 8,
    "rank": 4,
    "cls": "warrior",
-   "race": 3,
-   "profile": false
-  },
-  {
-   "name": "Elektriker Ab",
-   "id": 8848225,
-   "level": 8,
-   "rank": 4,
-   "cls": "shaman",
    "race": 3,
    "profile": false
   },
