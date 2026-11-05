@@ -420,6 +420,7 @@ def main():
 
                 events.append([e["t"], idx[e["n"]], kinds[e["k"]], e.get("v", e.get("s")), e.get("xp")])
 
+    events.sort(key=lambda e: e[0])   # inloggningar och dings har egna tidsstämplar, så loggen är inte i ordning
     payload = {
 
         "guild": data["guild"], "realm": data["realm"], "generated": data["generated"], "dates": dates, "events": events,

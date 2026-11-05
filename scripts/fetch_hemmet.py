@@ -147,7 +147,7 @@ def download(url, dest, max_age_h=None):
 
 
 # Fälten som bara kan ändras när karaktären är inloggad: återanvänds från förra körningen om inget hänt
-REUSE = ("hp", "power", "powerType", "stats", "hk", "pvpRank", "gear", "sets", "heal", "spec", "role", "exalted", "avatar", "renderUrl")
+REUSE = ("active", "hp", "power", "powerType", "stats", "hk", "pvpRank", "gear", "sets", "heal", "spec", "role", "exalted", "avatar", "renderUrl")
 REFRESH_H = 24   # oförändrade hämtas ändå helt efter 24–48 h (förskjutet per karaktär så att det sprids ut)
 # Ett öppet pass hämtas helt varje körning, så att en utloggning som bara ändrar HKs märks. Pass där
 # utloggningen aldrig syntes (ingen XP, inga HKs) står öppna för alltid, därför bara så här länge.
@@ -199,6 +199,10 @@ def fetch_member(entry, prev=None, open_session=False):
     for k in ("melee_crit", "ranged_crit", "spell_crit"):
         v = stats.get(k)
         m["stats"][k] = round(v.get("value", 0), 2) if isinstance(v, dict) else v
+    # Senast något hände i spelet (kills, quests, skills ...). Levlarna har ingen tidsstämpel, men statistiken har,
+    # och den ligger nära utloggningen. Används i stället för körningens tid för dings och utloggningar
+    ach = json.dumps(get(base + "/achievements/statistics") or {})
+    m["active"] = max(map(int, re.findall(r'"last_updated_timestamp": ?(\d+)', ach)), default=None)
     pvp = get(base + "/pvp-summary") or {}
     m["hk"], m["pvpRank"] = pvp.get("honorable_kills", 0), pvp.get("pvp_rank", 0)
     equip = get(base + "/equipment") or {}
@@ -378,8 +382,9 @@ def log_events(members, now):
     inloggning betyder att passet är slut. Med en körning var 30:e minut blir
     utloggningen känd på ungefär en halvtimme när:
       login   ny last_login_timestamp              (t = inloggningen)
-      logout  profilen ändrad efter en inloggning  (t = denna körning, s = inloggningen)
-      level   ny level                              (t = denna körning)
+      logout  profilen ändrad efter en inloggning  (t = senast aktiv, s = inloggningen)
+      level   ny level                              (t = senast aktiv)
+    Senast aktiv är statistikens senaste tidsstämpel under passet, annars denna körning.
       hk      nya honorable kills                   (v = antal)
       rep     ny faktion på Exalted                 (v = faktionens namn)
       epic    första gången med en epic på sig      (v = föremålets namn)
@@ -407,16 +412,18 @@ def log_events(members, now):
                 events.append({"t": cur["login"], "n": m["name"], "k": "login"})
                 cur["open"] = cur["login"]                       # ett pass pågår tills profilen ändras
             changed = cur["xp"] != prev.get("xp") or cur["level"] != prev.get("level") or cur["hk"] != prev.get("hk")
+            a = m.get("active")
+            tm = a if a and cur.get("open") and cur["open"] < a <= t else t
             if changed and cur.get("open"):
-                events.append({"t": t, "n": m["name"], "k": "logout", "s": cur["open"]})
+                events.append({"t": tm, "n": m["name"], "k": "logout", "s": cur["open"]})
                 cur["open"] = None
             for lvl in range(prev.get("level", cur["level"]) + 1, cur["level"] + 1):
                 # XP in i nivån avgör ordningen mellan dem som dingat i samma hämtning.
                 # Nivåer som passerats helt (flera dings sedan förra körningen) kom tidigare.
                 xp = cur["xp"] if lvl == cur["level"] else 10 ** 9
-                events.append({"t": t, "n": m["name"], "k": "level", "v": lvl, "xp": xp})
+                events.append({"t": tm, "n": m["name"], "k": "level", "v": lvl, "xp": xp})
             if cur["hk"] > prev.get("hk", 0):
-                events.append({"t": t, "n": m["name"], "k": "hk", "v": cur["hk"] - prev.get("hk", 0)})
+                events.append({"t": tm, "n": m["name"], "k": "hk", "v": cur["hk"] - prev.get("hk", 0)})
             # Exalted: bara jämfört med ett känt förra läge (första gången är utgångsläget, inte nya rykten)
             if cur["exalted"] is not None and prev.get("exalted") is not None:
                 for f in sorted(set(cur["exalted"]) - set(prev["exalted"])):
