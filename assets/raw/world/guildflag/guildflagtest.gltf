@@ -1,0 +1,692 @@
+{
+	"asset": {
+		"version": "2.0",
+		"generator": "wow.export v0.2.20 win-x64 [01a19bdd-da5c-7000-ad45-2fab388d8473]"
+	},
+	"nodes": [
+		{
+			"name": "guildflagtest",
+			"children": [
+				1,
+				12,
+				13
+			]
+		},
+		{
+			"name": "guildflagtest_skeleton",
+			"children": [
+				2,
+				4
+			]
+		},
+		{
+			"name": "bone_Plane02_p",
+			"translation": [
+				0.28311029076576233,
+				3.9331109523773193,
+				0.03222649171948433
+			],
+			"children": [
+				3
+			]
+		},
+		{
+			"name": "bone_Plane02"
+		},
+		{
+			"name": "bone_1_p",
+			"translation": [
+				0.28311043977737427,
+				5.126461982727051,
+				0.03222649171948433
+			],
+			"children": [
+				5
+			]
+		},
+		{
+			"name": "bone_1",
+			"children": [
+				6
+			]
+		},
+		{
+			"name": "bone_2_p",
+			"translation": [
+				-8.940696716308594e-8,
+				-0.6562156677246094,
+				-4.0978193283081055e-8
+			],
+			"children": [
+				7
+			]
+		},
+		{
+			"name": "bone_2",
+			"children": [
+				8
+			]
+		},
+		{
+			"name": "bone_3_p",
+			"translation": [
+				-5.960464477539063e-8,
+				-0.650723934173584,
+				-4.470348358154297e-8
+			],
+			"children": [
+				9
+			]
+		},
+		{
+			"name": "bone_3",
+			"children": [
+				10
+			]
+		},
+		{
+			"name": "bone_4_p",
+			"translation": [
+				0,
+				-0.6795620918273926,
+				-4.0978193283081055e-8
+			],
+			"children": [
+				11
+			]
+		},
+		{
+			"name": "bone_4"
+		},
+		{
+			"name": "guildflagtest_Geoset0",
+			"mesh": 0,
+			"skin": 0
+		},
+		{
+			"name": "guildflagtest_Geoset1",
+			"mesh": 1,
+			"skin": 0
+		}
+	],
+	"scenes": [
+		{
+			"name": "guildflagtest_Scene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 5912,
+			"uri": "guildflagtest.bin"
+		},
+		{
+			"uri": "guildflagtest_anim0-0.bin",
+			"byteLength": 400
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 1320,
+			"byteOffset": 0,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1320,
+			"byteOffset": 1320,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 440,
+			"byteOffset": 2640,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 440,
+			"byteOffset": 3080,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 320,
+			"byteOffset": 3520
+		},
+		{
+			"buffer": 1,
+			"byteLength": 20,
+			"byteOffset": 0,
+			"name": "ROT_TIMESTAMPS_1_0"
+		},
+		{
+			"buffer": 1,
+			"byteLength": 80,
+			"byteOffset": 20,
+			"name": "ROT_VALUES_1_0"
+		},
+		{
+			"buffer": 1,
+			"byteLength": 20,
+			"byteOffset": 100,
+			"name": "ROT_TIMESTAMPS_2_0"
+		},
+		{
+			"buffer": 1,
+			"byteLength": 80,
+			"byteOffset": 120,
+			"name": "ROT_VALUES_2_0"
+		},
+		{
+			"buffer": 1,
+			"byteLength": 20,
+			"byteOffset": 200,
+			"name": "ROT_TIMESTAMPS_3_0"
+		},
+		{
+			"buffer": 1,
+			"byteLength": 80,
+			"byteOffset": 220,
+			"name": "ROT_VALUES_3_0"
+		},
+		{
+			"buffer": 1,
+			"byteLength": 20,
+			"byteOffset": 300,
+			"name": "ROT_TIMESTAMPS_4_0"
+		},
+		{
+			"buffer": 1,
+			"byteLength": 80,
+			"byteOffset": 320,
+			"name": "ROT_VALUES_4_0"
+		},
+		{
+			"buffer": 0,
+			"byteLength": 880,
+			"byteOffset": 3840,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 880,
+			"byteOffset": 4720,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 192,
+			"byteOffset": 5600,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 120,
+			"byteOffset": 5792,
+			"target": 34963
+		}
+	],
+	"accessors": [
+		{
+			"name": "POSITION",
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 110,
+			"type": "VEC3",
+			"min": [
+				-0.16073410212993622,
+				6.973091615236626e-8,
+				-1.240371823310852
+			],
+			"max": [
+				0.38553375005722046,
+				5.792047500610352,
+				1.2375547885894775
+			]
+		},
+		{
+			"name": "NORMAL",
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 110,
+			"type": "VEC3",
+			"min": [
+				-1,
+				-1,
+				-1
+			],
+			"max": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"name": "JOINTS_0",
+			"byteOffset": 0,
+			"componentType": 5121,
+			"count": 110,
+			"type": "VEC4",
+			"bufferView": 2,
+			"min": [
+				0,
+				0,
+				0,
+				0
+			],
+			"max": [
+				4,
+				4,
+				0,
+				0
+			]
+		},
+		{
+			"name": "WEIGHTS_0",
+			"byteOffset": 0,
+			"componentType": 5121,
+			"count": 110,
+			"normalized": true,
+			"type": "VEC4",
+			"bufferView": 3,
+			"min": [
+				128,
+				0,
+				0,
+				0
+			],
+			"max": [
+				255,
+				127,
+				0,
+				0
+			]
+		},
+		{
+			"name": "INV_BIND_MATRICES",
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 5,
+			"type": "MAT4",
+			"bufferView": 4,
+			"min": [
+				1,
+				0,
+				0,
+				0,
+				0,
+				1,
+				0,
+				0,
+				0,
+				0,
+				1,
+				0,
+				-0.28311043977737427,
+				-5.126461982727051,
+				-0.03222649171948433,
+				1
+			],
+			"max": [
+				1,
+				0,
+				0,
+				0,
+				0,
+				1,
+				0,
+				0,
+				0,
+				0,
+				1,
+				0,
+				-0.28311029076576233,
+				-3.139960289001465,
+				-0.03222636505961418,
+				1
+			]
+		},
+		{
+			"name": "ROT_TIMESTAMPS_1_0",
+			"bufferView": 5,
+			"byteOffset": 0,
+			"type": "SCALAR",
+			"componentType": 5126,
+			"min": [
+				0
+			],
+			"max": [
+				3.333
+			],
+			"count": 5
+		},
+		{
+			"name": "ROT_VALUES_1_0",
+			"bufferView": 6,
+			"byteOffset": 0,
+			"type": "VEC4",
+			"componentType": 5126,
+			"min": [
+				0,
+				0,
+				0,
+				0.992431640625
+			],
+			"max": [
+				0,
+				0,
+				0.12274169921875,
+				1
+			],
+			"count": 5
+		},
+		{
+			"name": "ROT_TIMESTAMPS_2_0",
+			"bufferView": 7,
+			"byteOffset": 0,
+			"type": "SCALAR",
+			"componentType": 5126,
+			"min": [
+				0
+			],
+			"max": [
+				3.333
+			],
+			"count": 5
+		},
+		{
+			"name": "ROT_VALUES_2_0",
+			"bufferView": 8,
+			"byteOffset": 0,
+			"type": "VEC4",
+			"componentType": 5126,
+			"min": [
+				0,
+				0,
+				-0.03924560546875,
+				0.99920654296875
+			],
+			"max": [
+				0,
+				0,
+				0.03076171875,
+				1
+			],
+			"count": 5
+		},
+		{
+			"name": "ROT_TIMESTAMPS_3_0",
+			"bufferView": 9,
+			"byteOffset": 0,
+			"type": "SCALAR",
+			"componentType": 5126,
+			"min": [
+				0
+			],
+			"max": [
+				3.333
+			],
+			"count": 5
+		},
+		{
+			"name": "ROT_VALUES_3_0",
+			"bufferView": 10,
+			"byteOffset": 0,
+			"type": "VEC4",
+			"componentType": 5126,
+			"min": [
+				0,
+				0,
+				-0.050445556640625,
+				0.99871826171875
+			],
+			"max": [
+				0,
+				0,
+				0.034912109375,
+				1
+			],
+			"count": 5
+		},
+		{
+			"name": "ROT_TIMESTAMPS_4_0",
+			"bufferView": 11,
+			"byteOffset": 0,
+			"type": "SCALAR",
+			"componentType": 5126,
+			"min": [
+				0
+			],
+			"max": [
+				3.333
+			],
+			"count": 5
+		},
+		{
+			"name": "ROT_VALUES_4_0",
+			"bufferView": 12,
+			"byteOffset": 0,
+			"type": "VEC4",
+			"componentType": 5126,
+			"min": [
+				0,
+				0,
+				-0.06878662109375,
+				0.99688720703125
+			],
+			"max": [
+				0,
+				0,
+				0.078460693359375,
+				1
+			],
+			"count": 5
+		},
+		{
+			"name": "TEXCOORD_0",
+			"bufferView": 13,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 110,
+			"type": "VEC2",
+			"min": [
+				0.0003695982741191983,
+				0.0004993677139282227
+			],
+			"max": [
+				0.9927536249160767,
+				0.9995008707046509
+			]
+		},
+		{
+			"name": "TEXCOORD_1",
+			"bufferView": 14,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 110,
+			"type": "VEC2",
+			"min": [
+				0,
+				0
+			],
+			"max": [
+				0.8745253682136536,
+				0.9657509326934814
+			]
+		},
+		{
+			"bufferView": 15,
+			"byteOffset": 0,
+			"componentType": 5121,
+			"count": 192,
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 16,
+			"byteOffset": 0,
+			"componentType": 5121,
+			"count": 120,
+			"type": "SCALAR"
+		}
+	],
+	"meshes": [
+		{
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"JOINTS_0": 2,
+						"WEIGHTS_0": 3,
+						"TEXCOORD_0": 13,
+						"TEXCOORD_1": 14
+					},
+					"indices": 15,
+					"mode": 4,
+					"material": 0
+				}
+			]
+		},
+		{
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"JOINTS_0": 2,
+						"WEIGHTS_0": 3,
+						"TEXCOORD_0": 13,
+						"TEXCOORD_1": 14
+					},
+					"indices": 16,
+					"mode": 4,
+					"material": 0
+				}
+			]
+		}
+	],
+	"scene": 0,
+	"skins": [
+		{
+			"name": "guildflagtest_Armature",
+			"joints": [
+				3,
+				5,
+				7,
+				9,
+				11
+			],
+			"inverseBindMatrices": 4,
+			"skeleton": 0
+		}
+	],
+	"animations": [
+		{
+			"samplers": [
+				{
+					"input": 5,
+					"interpolation": "LINEAR",
+					"output": 6
+				},
+				{
+					"input": 7,
+					"interpolation": "LINEAR",
+					"output": 8
+				},
+				{
+					"input": 9,
+					"interpolation": "LINEAR",
+					"output": 10
+				},
+				{
+					"input": 11,
+					"interpolation": "LINEAR",
+					"output": 12
+				}
+			],
+			"channels": [
+				{
+					"sampler": 0,
+					"target": {
+						"node": 5,
+						"path": "rotation"
+					}
+				},
+				{
+					"sampler": 1,
+					"target": {
+						"node": 7,
+						"path": "rotation"
+					}
+				},
+				{
+					"sampler": 2,
+					"target": {
+						"node": 9,
+						"path": "rotation"
+					}
+				},
+				{
+					"sampler": 3,
+					"target": {
+						"node": 11,
+						"path": "rotation"
+					}
+				}
+			],
+			"name": "Stand (ID 0 variation 0)"
+		}
+	],
+	"images": [
+		{
+			"uri": "guildflagtest.png"
+		},
+		{
+			"uri": "guildflagtest_border.png"
+		}
+	],
+	"textures": [
+		{
+			"source": 0
+		},
+		{
+			"source": 1
+		}
+	],
+	"materials": [
+		{
+			"name": "guildflagtest",
+			"emissiveFactor": [
+				0,
+				0,
+				0
+			],
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 0
+				},
+				"metallicFactor": 0
+			}
+		},
+		{
+			"name": "guildflagtest_border",
+			"emissiveFactor": [
+				0,
+				0,
+				0
+			],
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 1
+				},
+				"metallicFactor": 0
+			}
+		}
+	]
+}

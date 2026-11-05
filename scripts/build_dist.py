@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SITE, DIST = ROOT / "hemmet", ROOT / "dist"
 
 FILES = ["index.html", "avatars.webp", "icons.webp", "hero.webp"]
-DIRS = ["ach", "zones", "renders"]
+DIRS = ["ach", "zones", "renders", "bedrifter"]
 
 HTACCESS = """# HEMMET — inställningar för Apache-webbhotell
 

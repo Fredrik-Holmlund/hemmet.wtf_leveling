@@ -27,6 +27,8 @@ import datetime
 import json
 
 import math
+import numpy as np
+import re
 
 import shutil
 
@@ -34,7 +36,7 @@ from pathlib import Path
 
 
 
-from PIL import Image, ImageEnhance
+from PIL import Image, ImageChops, ImageEnhance, ImageFilter
 
 
 
@@ -264,6 +266,132 @@ def build_wow_art():
 
 
 
+# Bedrifter: Forevers achievements och yrken (scripts/ach_static.py) och statistikraderna som titlarna bygger på
+FOREVER = ROOT / "data" / "forever"
+TITLE_STATS = ["Total kills that grant experience or honor", "Need rolls made on loot", "Greed rolls made on loot",
+               "Times camped", "Fish caught", "Mounts owned", "Health potions consumed", "Mana potions consumed",
+               "Elixirs consumed", "Flasks consumed", "Total deaths", "Number of times hearthed", "Number of hugs",
+               "Critters killed", "Quests completed", "Flight paths taken"]
+
+
+# Blizzards beskrivningar på svenska (Alliance-sidan där det står båda). Okända står kvar på engelska
+SV = [
+    (r"Reach level (\d+) for the first time on a (\w+)\.", r"Nå level \1 med en \2."),
+    (r"Reach (\d+) skill in (\w+) for the first time\.", r"Nå \2 \1."),
+    (r"Reach the rank of (.+?)(?: or .+)? in the Player vs\. Player Honor System\.", r"Nå rangen \1 i PvP."),
+    (r"Reach exalted reputation with the (?:\w+ \w+|Defilers|Frostwolf Clan|Darkspear Raiders) or (.+)\.", r"Exalted med \1."),
+    (r"Complete Week (\d+) of the Field of Honor Journey\.", r"Klara vecka \1 av Field of Honor."),
+    (r"Complete the following dungeons\.", "Klara dungeonsen i paketet."),
+    (r"Defeat the following encounters in (?:the )?(.+)\.", r"Fäll bossarna i \1."),
+    (r"Defeat Onyxia\.", "Fäll Onyxia."),
+    (r"Complete the questline beginning with (.+), and ending with (.+)\.", r"Klara questkedjan från \1 till \2."),
+    (r"Have a character with the Explore Azeroth achievement\.", "Utforska hela Azeroth."),
+    (r"Complete the zone map for all existing zones in Eastern Kingdoms and Kalimdor on a single character\.", "Utforska varje zon i Eastern Kingdoms och Kalimdor."),
+    (r"Complete the maps of (.+) on a single character:", r"Utforska hela \1."),
+    (r"Explore (.+), revealing the covered areas of the world map\.", r"Utforska hela \1."),
+]
+
+
+def sv(desc):
+    for pat, to in SV:
+        if re.fullmatch(pat, desc or ""):
+            return re.sub(pat, to, desc)
+    return desc
+
+
+def build_forever():
+    """Achievement-definitionerna och yrkesikonerna till sidan, ikonerna i en sprite (ach/forever.webp)."""
+    if not (FOREVER / "achievements.json").exists():
+        return None
+    achs = json.loads((FOREVER / "achievements.json").read_text(encoding="utf-8"))
+    profs = json.loads((FOREVER / "professions.json").read_text(encoding="utf-8"))
+    icons = sorted({a["icon"] for a in achs.values() if a["icon"]} | set(profs.values()))
+    files = [FOREVER / "ach-icons" / f"{i}.jpg" for i in icons]
+    files = [p for p in files if p.exists()]
+    pos = {int(p.stem): k for k, p in enumerate(files)}
+    sprite(files, 56, 16, SITE / "ach" / "forever.webp")
+    return {
+        "a": [[n, a["cat"], a["sub"], sv(a["desc"]), pos.get(a["icon"], -1), a["order"]] for n, a in achs.items()],
+        "p": {n: pos.get(i, -1) for n, i in profs.items()}, "cols": 16, "stats": TITLE_STATS, "map": build_tour_map(),
+    }
+
+
+# Turisternas karta: spelets kontinentkartor (wow.export, interface/worldmap) med varje zons markering som mask.
+# Zonens ruta på kontinenten räknas ut ur UiMapAssignment (världskoordinater: x norrut, y västerut).
+WORLDMAP = ROOT / "assets" / "raw" / "worldmap"
+TOUR_CROP = {"kalimdor": (290, 710), "azeroth": (300, 720)}   # bara landet, inte hela havet (x-led i 1002 px)
+TOUR_HL = {"Alterac Mountains": "alterac", "Arathi Highlands": "arathi", "Azshara": "aszhara", "The Barrens": "barrens",
+           "Dustwallow Marsh": "dustwallow", "Elwynn Forest": "elwynn", "Hillsbrad Foothills": "hilsbrad", "Mount Hyjal": "hyjal",
+           "Riverglades": "riverlands", "Shen'dralas": "shendralas", "Stranglethorn Vale": "stranglethorn",
+           "Tirisfal Glades": "tirisfal", "The Hinterlands": "hinterlands", "Redridge Mountains": "redridge",
+           "Silverpine Forest": "silverpine", "Un'Goro Crater": "ungorocrater"}
+
+
+def build_tour_map():
+    """Kartorna (ach/tour-<kontinent>.webp), en mask per zon (ach/tour/<zon>.webp) och guildflaggan (ach/flag.webp).
+    Till sidan: zon → [kontinent, vänster, topp, bredd, höjd, flaggans x, y] i procent av den beskurna kartan."""
+    if not (WORLDMAP / "UiMapAssignment.csv").exists():
+        return None
+    import csv
+    maps = {r["ID"]: r for r in csv.DictReader(open(WORLDMAP / "UiMap.csv", encoding="utf-8"), delimiter=";")}
+    reg = {}
+    for r in csv.DictReader(open(WORLDMAP / "UiMapAssignment.csv", encoding="utf-8"), delimiter=";"):
+        if r["UiMin"] == "0,0" and r["UiMax"] == "1,1":
+            reg.setdefault(r["UiMapID"], [float(v) for v in r["Region"].split(",")])
+    (SITE / "ach" / "tour").mkdir(parents=True, exist_ok=True)
+    out = {}
+    for cid, fn in (("1414", "kalimdor"), ("1415", "azeroth")):
+        full = Image.new("RGB", (1024, 768))
+        for i in range(12):
+            full.paste(Image.open(WORLDMAP / fn / f"{fn}{i + 1}.png").convert("RGB"), ((i % 4) * 256, (i // 4) * 256))
+        x0c, x1c = TOUR_CROP[fn]
+        W, H = x1c - x0c, 668
+        full.crop((x0c, 0, x1c, H)).resize((W * 2, H * 2), Image.LANCZOS).save(SITE / "ach" / f"tour-{fn}.webp", "WEBP", quality=86, method=6)
+        cx0, cy0, _, cx1, cy1, _ = reg[cid]
+        for zid, z in maps.items():
+            name = z["Name_lang"]
+            # Riverglades är ny i Forever och finns inte ritad på kontinentkartan: den står bara bland rutorna
+            if z["ParentUiMapID"] != cid or z["Type"] != "3" or zid not in reg or name == "Riverglades":
+                continue
+            hl = WORLDMAP / "highlight" / f"{TOUR_HL.get(name, name.lower().replace(' ', '').replace("'", ''))}highlight.png"
+            if not hl.exists():
+                continue
+            x0, y0, _, x1, y1, _ = reg[zid]
+            L, R = (cy1 - y1) / (cy1 - cy0) * 1002 - x0c, (cy1 - y0) / (cy1 - cy0) * 1002 - x0c
+            T, B = (cx1 - x1) / (cx1 - cx0) * H, (cx1 - x0) / (cx1 - cx0) * H
+            # markeringen ligger i grönkanalen (spelet lägger den additivt): förstärkt till en alfamask
+            # Bilden täcker zonkartans ruta i bredd men bara 668/1002 av höjden (zonkartorna är 3:2, texturen kvadratisk)
+            g = Image.open(hl).convert("RGB").getchannel("G")
+            # (några, t.ex. Silithus, går längre ner: då räcker bilden så långt formen gör)
+            g = g.crop((0, 0, g.width, max(round(g.height * 668 / 1002), g.point(lambda v: 255 if v > 2 else 0).getbbox()[3])))
+            hi = max(1, g.getextrema()[1])
+            # förstärkt så att zonen är helt tänd inuti, och mjuk mot kanten (dimman lättar, ingen hård kant)
+            mask = g.point(lambda v: min(255, round(v / hi * 255 * 2.2))).filter(ImageFilter.GaussianBlur(1.6))
+            arr = np.asarray(mask, float)
+            ys, xs = np.nonzero(arr > 128)
+            fx, fy = (xs.mean() / g.width, ys.mean() / g.height) if len(xs) else (.5, .5)
+            m = Image.new("RGBA", mask.size, (255, 255, 255, 0)); m.putalpha(mask)
+            key = re.sub(r"[^a-z]", "", name.lower())
+            m.save(SITE / "ach" / "tour" / f"{key}.webp", "WEBP", lossless=True)
+            out[name] = [fn, *(round(v, 2) for v in (L / W * 100, T / H * 100, (R - L) / W * 100, (B - T) / H * 100,
+                                                     (L + fx * (R - L)) / W * 100, (T + fy * (B - T)) / H * 100)), key]
+    flag = SITE / "ach" / "flag.webp"
+    if not flag.exists():
+        d = ROOT / "assets" / "raw" / "world" / "guildflag"
+        cloth = Image.open(d / "guildflagtest.png").convert("RGBA")
+        border = Image.open(d / "guildflagtest_border.png").getchannel("A")
+        tex = Image.composite(ImageChops.multiply(cloth, Image.new("RGBA", cloth.size, (240, 200, 100, 255))),
+                              ImageChops.multiply(cloth, Image.new("RGBA", cloth.size, (46, 92, 170, 255))), border)
+        tex.paste(cloth.crop((192, 0, 256, 256)), (192, 0))   # stången behåller sin egen färg
+        logo = Image.open(ROOT / "assets" / "raw" / "logo" / "hemmet-h.png").convert("RGBA")
+        logo.thumbnail((100, 100))
+        tex.alpha_composite(logo, (96 - logo.width // 2, 100 - logo.height // 2))
+        tex.putalpha(cloth.getchannel("A"))
+        tex.save(d / "_hemmet.png")
+        render_model(d / "guildflagtest.gltf", {"guildflagtest": d / "_hemmet.png"}, out_h=180, yaw=270, pitch=4).save(flag, "WEBP", quality=90)
+    return out
+
+
 def main():
 
     global SRC
@@ -372,6 +500,8 @@ def main():
 
     # Kompakt data till sidan
 
+    forever = build_forever()
+    ach_idx = {a[0]: k for k, a in enumerate(forever["a"])} if forever else {}
     out = []
 
     for m in members:
@@ -397,6 +527,10 @@ def main():
                      for g in sorted(m.get("gear", []), key=lambda g: g["slot"])],
 
             "h": [(h.get(m["name"]) or {}).get("level") for h in history],
+            # Bedrifter: klara achievements (index → ms), yrken (namn → [skill, tak]), titlarnas statistik och antal Exalted
+            "fa": {ach_idx[n]: t for n, t in (m.get("ach") or {}).items() if n in ach_idx} if m.get("ach") is not None else None,
+            "pf": m.get("prof"), "st": [(m.get("stat") or {}).get(k, 0) for k in TITLE_STATS] if m.get("stat") is not None else None,
+            "ex": len(m["exalted"]) if m.get("exalted") is not None else None,
 
         })
 
@@ -429,7 +563,7 @@ def main():
 
         "av": {"size": AV, "cols": AV_COLS}, "ic": {"size": IC, "cols": IC_COLS}, "achIcons": build_wow_art(),
 
-        "members": out,
+        "members": out, "forever": forever,
 
     }
 
@@ -520,6 +654,12 @@ def main():
         html = html.replace('<link rel="icon"', '<link rel="canonical" href="https://hemmet.wtf/">\n<link rel="icon"', 1)
 
     (SITE / page).write_text(html, encoding="utf-8")
+    # Bedrifter: samma sida i bedrifter/, som visar bara den delen. <base> så att bilder och länkar pekar på roten
+    if forever and not args.name:
+        (SITE / "bedrifter").mkdir(exist_ok=True)
+        sub = html.replace('<meta charset="utf-8">', '<html lang="sv" data-page="bedrifter">\n<meta charset="utf-8">\n<base href="../">', 1)
+        sub = sub.replace("<title>HEMMET</title>", "<title>HEMMET · Bedrifter</title>", 1)
+        (SITE / "bedrifter" / "index.html").write_text(sub, encoding="utf-8")
 
     print(f"{len(members)} medlemmar · {len(avatars)} porträtt · {len(icons)} ikoner · {len(dates)} snapshots · "
 

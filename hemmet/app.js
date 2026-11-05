@@ -94,6 +94,7 @@ const members = DATA.members.map((d, i) => ({
   i, name: d.n, cls: d.c, race: d.r, gender: d.g, level: Math.min(RMAX, d.l), rank: d.rk, last: d.ll, ilvl: d.il, hp: d.hp, hk: d.hk, pvpRank: d.pr,
 
   title: d.t, ap: d.ap, sp: d.sp, crit: d.cr, av: d.a, gear: d.gear, hist: d.h.map((x) => (x == null ? x : Math.min(RMAX, x))), spec: d.spec, role: d.role, heal: d.hl, render: d.rd,
+  fa: d.fa, prof: d.pf, st: d.st, ex: d.ex,   // Bedrifter: achievements (index → ms), yrken, titlarnas statistik, antal Exalted
 
 }));
 
@@ -2010,3 +2011,105 @@ if (RECRUIT) {
 
 }
 
+
+// ============================================================================
+// BEDRIFTER (bedrifter/): titlar ur spelstatistiken, guildens förstaplatser på Forevers achievements,
+// Turisterna (zonerna) och Hantverkarnas hus (yrkena). Samma sida, data-page="bedrifter" visar bara den delen.
+// ============================================================================
+const FV = DATA.forever;
+if (FV && document.documentElement.dataset.page === "bedrifter") {
+  document.querySelector('.topbar nav a[href="bedrifter/"]')?.setAttribute("aria-current", "page");
+  const fi = (k) => `<i class="fi"${k >= 0 ? ` style="--ax:${k % FV.cols};--ay:${Math.floor(k / FV.cols)}"` : ""}></i>`;
+  const day = (t) => `${fmtDate(new Date(t))} ${hhmm(t)}`;
+  const who = (m, sub) => `<span class="ach__p" data-n="${esc(m.name)}">${pf(m)}<b style="color:${CLS[m.cls]}">${esc(m.name)}</b>${sub ? `<small>${sub}</small>` : ""}</span>`;
+  const known = members.filter((m) => m.st);
+  const st = (name) => { const k = FV.stats.indexOf(name); return (m) => (m.st ? m.st[k] || 0 : null); };
+  const sum = (...names) => (m) => (m.st ? names.reduce((s, n) => s + st(n)(m), 0) : null);
+
+  // ---------- Guildens titlar ----------
+  const kills = st("Total kills that grant experience or honor");
+  const TITLES = [
+    ["Massmördaren", "kills som ger XP", (m) => (m.level >= 10 ? kills(m) : null)],
+    ["Pacifisten", "kills som ger XP, bland alla på level 10+", (m) => (m.level >= 10 ? kills(m) : null), true],
+    ["Needy", "need-rolls", st("Need rolls made on loot")],
+    ["Greedy", "greed-rolls", st("Greed rolls made on loot")],
+    ["Lägerelden", "camps", st("Times camped")],
+    ["Fiskekungen", "fångade fiskar", st("Fish caught")],
+    ["Stallet", "mounts", st("Mounts owned")],
+    ["Exalted-samlaren", "faktioner på Exalted", (m) => m.ex],
+    ["Apoteket", "pots och elixirs", sum("Health potions consumed", "Mana potions consumed", "Elixirs consumed", "Flasks consumed")],
+    ["Hoggers bästa vän", "dödsfall", st("Total deaths")],
+    ["Hemlängtan", "hearths", st("Number of times hearthed")],
+    ["Kramgo", "kramar", st("Number of hugs")],
+  ];
+  $("titles").innerHTML = TITLES.map(([lbl, unit, v, low]) => {
+    const list = known.map((m) => [m, v(m)]).filter(([, x]) => x != null && (low || x > 0)).sort((a, b) => (low ? a[1] - b[1] : b[1] - a[1]));
+    const [top, ...rest] = list;
+    return `<div class="qk${top ? " done" : ""}"${top ? ` data-n="${esc(top[0].name)}"` : ""}>
+      <span class="qk__lbl">${lbl}</span>
+      ${top ? `<div class="qk__who">${pf(top[0])}<b style="color:${CLS[top[0].cls]}">${esc(top[0].name)}</b></div>` : ""}
+      <strong class="qk__val">${top ? nf(top[1]) : "-"}</strong><span class="qk__sub">${top ? unit : "ingen än"}</span>
+      ${rest.length ? `<ol class="qk__rest" start="2">${rest.slice(0, 2).map(([m, x]) => `<li data-n="${esc(m.name)}"><b style="color:${CLS[m.cls]}">${esc(m.name)}</b> ${nf(x)}</li>`).join("")}</ol>` : ""}
+    </div>`;
+  }).join("");
+
+  // ---------- Först i guilden: Forevers achievements med Blizzards egna datum ----------
+  const holders = (k) => members.filter((m) => m.fa && m.fa[k]).map((m) => [m, m.fa[k]]).sort((a, b) => a[1] - b[1]);
+  const A = FV.a.map(([n, cat, sub, d, icon, order], k) => ({ k, n, cat, sub, d, icon, order, h: holders(k) }));
+  const zone = (a) => a.cat === "Adventure" && (a.sub === "Eastern Kingdoms" || a.sub === "Kalimdor");
+  const CATS = [["Classes", "Klasserna"], ["Tradeskills", "Yrkena"], ["Adventure", "Äventyr"], ["Dungeons", "Dungeons"], ["Raids", "Raider"], ["Player vs. Player", "PvP"]];
+  const card = (a) => `<div class="ach fa${a.h.length ? " done" : ""}">
+      <div class="ach__ico">${fi(a.icon)}</div>
+      <div class="ach__body"><h4>${esc(a.n)}</h4><p>${esc(a.d)}</p><div class="ach__who">${a.h.length ? who(a.h[0][0], `först, ${day(a.h[0][1])}`) : ""}</div></div>
+      <div class="ach__pts"><b>${a.h.length || ""}</b><small>${a.h.length ? "har den" : ""}</small></div></div>`;
+  const firsts = A.filter((a) => !zone(a));
+  $("faSum").innerHTML = `<b>${firsts.filter((a) => a.h.length).length}</b> av ${firsts.length} klara i guilden`;
+  $("fa").innerHTML = CATS.map(([c, lbl]) => {
+    const list = firsts.filter((a) => a.cat === c).sort((a, b) => (b.h.length > 0) - (a.h.length > 0) || (a.sub || "").localeCompare(b.sub || "") || a.order - b.order);
+    if (!list.length) return "";
+    const done = list.filter((a) => a.h.length).length;
+    return `<details class="fa-cat"${done ? " open" : ""}><summary><span>${lbl}</span><small>${done} av ${list.length}</small></summary><div class="achs">${list.map(card).join("")}</div></details>`;
+  }).join("");
+
+  // ---------- Turisterna: en ruta per zon, tänds när någon i guilden har utforskat den ----------
+  const NEW = ["Riverglades", "Mount Hyjal", "Shen'dralas"];
+  const zones = A.filter(zone);
+  $("tourSum").innerHTML = `<b>${zones.filter((a) => a.h.length).length}</b> av ${zones.length} zoner utforskade`;
+  $("tour").innerHTML = ["Eastern Kingdoms", "Kalimdor"].map((c) => {
+    const list = zones.filter((a) => a.sub === c).sort((a, b) => (b.h.length > 0) - (a.h.length > 0) || a.h.length && b.h.length && a.h[0][1] - b.h[0][1] || a.n.localeCompare(b.n));
+    return `<div class="tour__land"><h3>${c} <small>${list.filter((a) => a.h.length).length} av ${list.length}</small></h3><div class="tour__grid">${list.map((a) => {
+      const z = a.n.replace(/^Explore /, "");
+      return `<div class="zt${a.h.length ? " done" : ""}"${a.h.length ? ` data-n="${esc(a.h[0][0].name)}"` : ""}>${fi(a.icon)}<span class="zt__n">${esc(z)}${NEW.includes(z) ? "<em>Nytt land</em>" : ""}</span>
+        <small>${a.h.length ? `<b style="color:${CLS[a.h[0][0].cls]}">${esc(a.h[0][0].name)}</b> först${a.h.length > 1 ? ` · ${a.h.length} har varit där` : ""}` : "ingen än"}</small></div>`;
+    }).join("")}</div></div>`;
+  }).join("");
+
+  // Kartan: spelets kontinenter i dimma, och varje utforskad zon tänds med HEMMET:s flagga där
+  if (FV.map) {
+    const zname = (a) => a.n.replace(/^Explore /, "");
+    const lit = zones.filter((a) => a.h.length && FV.map[zname(a)]);
+    $("tourMap").innerHTML = [["kalimdor", "Kalimdor"], ["azeroth", "Eastern Kingdoms"]].map(([fn, lbl]) => `<div class="tmap" style="--map:url('ach/tour-${fn}.webp')"><span class="tmap__lbl">${lbl}</span>${lit.filter((a) => FV.map[zname(a)][0] === fn).map((a) => {
+      const [, l, t, w, h, fx, fy, key] = FV.map[zname(a)];
+      return `<i class="tz" style="left:${l}%;top:${t}%;width:${w}%;height:${h}%;background-size:${10000 / w}% ${10000 / h}%;background-position:${(l / (100 - w)) * 100}% ${(t / (100 - h)) * 100}%;-webkit-mask-image:url('ach/tour/${key}.webp');mask-image:url('ach/tour/${key}.webp')"></i>`
+        + `<img class="tflag" src="ach/flag.webp" alt="" data-n="${esc(a.h[0][0].name)}" data-z="${esc(zname(a))}" data-w="${esc(a.h[0][0].name)}|${day(a.h[0][1])}|${a.h.length}" style="left:${fx}%;top:${fy}%">`;
+    }).join("")}</div>`).join("");
+    const tipZ = $("tip");
+    $("tourMap").addEventListener("pointerover", (e) => {
+      const f = e.target.closest(".tflag"); if (!f) return;
+      const [n, d, c] = f.dataset.w.split("|"), m = byName[n.toLowerCase()];
+      tipZ.innerHTML = `<b>${esc(f.dataset.z)}</b>Först: <span style="color:${CLS[m.cls]}">${esc(n)}</span>, ${esc(d)}<br><span>${c === "1" ? "ingen mer än" : `${c} av oss har varit där`}</span>`; tipZ.hidden = false;
+    });
+    $("tourMap").addEventListener("pointerout", (e) => { if (e.target.closest(".tflag")) tipZ.hidden = true; });
+  }
+
+  // ---------- Hantverkarnas hus: guildens bästa i varje yrke ----------
+  const ARTISAN = 300;
+  const PRIM = ["Alchemy", "Blacksmithing", "Enchanting", "Engineering", "Leatherworking", "Tailoring", "Herbalism", "Mining", "Skinning", "Cooking", "Fishing", "First Aid"];
+  $("crafts").innerHTML = PRIM.filter((p) => p in FV.p).map((p) => {
+    const list = members.filter((m) => m.prof && m.prof[p]).map((m) => [m, m.prof[p][0]]).sort((a, b) => b[1] - a[1]);
+    const art = list.filter(([, s]) => s >= ARTISAN).length;
+    return `<div class="craft${art ? " done" : ""}"><div class="craft__head">${fi(FV.p[p])}<h4>${p}</h4><small>${list.length ? `${list.length} i guilden` : "ingen än"}</small></div>
+      <ol class="craft__top">${list.slice(0, 3).map(([m, s]) => `<li data-n="${esc(m.name)}">${pf(m)}<b style="color:${CLS[m.cls]}">${esc(m.name)}</b><span class="craft__bar"><i style="width:${Math.min(1, s / ARTISAN) * 100}%"></i></span><span class="craft__v">${s}</span></li>`).join("")}</ol>
+      ${art ? `<p class="craft__art">${art} Artisan</p>` : ""}</div>`;
+  }).join("");
+}
