@@ -1,7 +1,7 @@
 {
  "guild": "HEMMET",
  "realm": "Forever",
- "generated": "2026-11-05 12:35",
+ "generated": "2026-11-05 12:37",
  "members": [
   {
    "name": "Vyssan Lull",
@@ -61,7 +61,7 @@
    "ilvl": 8,
    "xp": 12112,
    "title": null,
-   "active": 1793873469000,
+   "fetched": 1793882235,
    "hp": 339,
    "power": 727,
    "powerType": "Mana",
@@ -77,6 +77,78 @@
     "melee_crit": 4.33,
     "ranged_crit": 5.89,
     "spell_crit": 5.4
+   },
+   "active": 1793873469000,
+   "stat": {
+    "Times camped": 1,
+    "Bandages used": 9,
+    "Bandage used most": 9,
+    "Health potions consumed": 5,
+    "Elixirs consumed": 1,
+    "Beverages consumed": 11,
+    "Food eaten": 28,
+    "Healthstones used": 11,
+    "Most factions at Honored or higher": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 7,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 5,
+    "Need rolls made on loot": 2,
+    "Total 5-player dungeons entered": 1,
+    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
+    "Bazzalan kills (Ragefire Chasm)": 1,
+    "Total kills": 840,
+    "Total kills that grant experience or honor": 794,
+    "Creatures killed": 835,
+    "Different creature types killed": 7,
+    "Creature type killed the most": 464,
+    "Critters killed": 5,
+    "Total Killing Blows": 715,
+    "World Killing Blows": 691,
+    "Continent with the most Killing Blows": 556,
+    "Total deaths": 7,
+    "Total raid and dungeon deaths": 1,
+    "Total deaths in 5-player dungeons": 1,
+    "Deaths from falling": 1,
+    "Quests completed": 133,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 3,
+    "Weapon skills at maximum skill": 5,
+    "Cooking skill": 61,
+    "Cooking Recipes known": 22,
+    "First Aid skill": 56,
+    "First Aid Manuals learned": 4,
+    "Fishing skill": 1,
+    "Highest Mining skill": 20,
+    "Smelting Recipes learned": 7,
+    "Highest Skinning skill": 119,
+    "Flight paths taken": 4,
+    "Number of times hearthed": 4
+   },
+   "ach": {},
+   "prof": {
+    "Skinning": [
+     125,
+     150
+    ],
+    "Mining": [
+     21,
+     75
+    ],
+    "Cooking": [
+     61,
+     75
+    ],
+    "Fishing": [
+     1,
+     75
+    ],
+    "First Aid": [
+     56,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -175,9 +247,8 @@
    "spec": "Affliction",
    "role": "dps",
    "exalted": [],
-   "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793874929
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/221/2085853-main-raw.png"
   },
   {
    "name": "Inkvoterad Antagonist",
@@ -192,7 +263,7 @@
    "ilvl": 8,
    "xp": 3987,
    "title": null,
-   "active": 1793874799000,
+   "fetched": 1793882228,
    "hp": 197,
    "power": 403,
    "powerType": "Mana",
@@ -208,6 +279,68 @@
     "melee_crit": 1.91,
     "ranged_crit": 2.15,
     "spell_crit": 5.11
+   },
+   "active": 1793874799000,
+   "stat": {
+    "Bandages used": 3,
+    "Bandage used most": 3,
+    "Health potions consumed": 3,
+    "Elixirs consumed": 1,
+    "Food eaten": 36,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 1,
+    "Total kills": 766,
+    "Total kills that grant experience or honor": 752,
+    "Creatures killed": 765,
+    "Different creature types killed": 6,
+    "Creature type killed the most": 454,
+    "Total Killing Blows": 719,
+    "World Killing Blows": 719,
+    "Continent with the most Killing Blows": 431,
+    "Total deaths": 15,
+    "Quests completed": 132,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 6,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 3,
+    "Weapon skills at maximum skill": 5,
+    "Cooking skill": 35,
+    "Cooking Recipes known": 14,
+    "First Aid skill": 22,
+    "First Aid Manuals learned": 6,
+    "Fishing skill": 18,
+    "Fish caught": 17,
+    "Fish and other things caught": 17,
+    "Highest Mining skill": 38,
+    "Smelting Recipes learned": 7,
+    "Highest Skinning skill": 75,
+    "Flight paths taken": 2,
+    "Number of times hearthed": 7
+   },
+   "ach": {},
+   "prof": {
+    "Skinning": [
+     75,
+     75
+    ],
+    "Mining": [
+     38,
+     75
+    ],
+    "Cooking": [
+     35,
+     75
+    ],
+    "Fishing": [
+     18,
+     75
+    ],
+    "First Aid": [
+     22,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -307,8 +440,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793876728
+   "renderUrl": null
   },
   {
    "name": "Dendro Fil",
@@ -332,7 +464,7 @@
    "ilvl": 7,
    "xp": 4308,
    "title": null,
-   "active": 1793871394000,
+   "fetched": 1793882236,
    "hp": 480,
    "power": 516,
    "powerType": "Mana",
@@ -348,6 +480,69 @@
     "melee_crit": 9.72,
     "ranged_crit": 1.52,
     "spell_crit": 9.33
+   },
+   "active": 1793871394000,
+   "stat": {
+    "Times camped": 1,
+    "Health potions consumed": 9,
+    "Beverages consumed": 40,
+    "Food eaten": 25,
+    "Most factions at Honored or higher": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 2,
+    "Need rolls made on loot": 1,
+    "Total kills": 599,
+    "Total kills that grant experience or honor": 577,
+    "Creatures killed": 597,
+    "Different creature types killed": 5,
+    "Creature type killed the most": 335,
+    "Critters killed": 2,
+    "Total Killing Blows": 542,
+    "World Killing Blows": 542,
+    "Continent with the most Killing Blows": 464,
+    "Total deaths": 15,
+    "Deaths from falling": 2,
+    "Quests completed": 114,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 3,
+    "Weapon skills at maximum skill": 5,
+    "Cooking skill": 1,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 53,
+    "First Aid Manuals learned": 4,
+    "Fishing skill": 1,
+    "Highest Leatherworking skill": 52,
+    "Leatherworking Patterns learned": 38,
+    "Highest Skinning skill": 111,
+    "Flight paths taken": 5,
+    "Number of times hearthed": 3
+   },
+   "ach": {},
+   "prof": {
+    "Leatherworking": [
+     52,
+     75
+    ],
+    "Skinning": [
+     116,
+     150
+    ],
+    "Cooking": [
+     1,
+     75
+    ],
+    "Fishing": [
+     1,
+     75
+    ],
+    "First Aid": [
+     53,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -439,8 +634,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/91/3855963-main-raw.png",
-   "fetched": 1793873127
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/91/3855963-main-raw.png"
   },
   {
    "name": "Markst Stormbrother",
@@ -455,7 +649,7 @@
    "ilvl": 10,
    "xp": 242,
    "title": null,
-   "active": 1793874866000,
+   "fetched": 1793882228,
    "hp": 430,
    "power": 576,
    "powerType": "Mana",
@@ -471,6 +665,71 @@
     "melee_crit": 9.41,
     "ranged_crit": 1.53,
     "spell_crit": 9.57
+   },
+   "active": 1793874866000,
+   "stat": {
+    "Times camped": 5,
+    "Health potions consumed": 6,
+    "Mana potions consumed": 1,
+    "Beverages consumed": 45,
+    "Food eaten": 43,
+    "Most factions at Honored or higher": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Mounts owned": 1,
+    "Greed rolls made on loot": 10,
+    "Need rolls made on loot": 5,
+    "Total 5-player dungeons entered": 1,
+    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
+    "Bazzalan kills (Ragefire Chasm)": 1,
+    "Total kills": 707,
+    "Total kills that grant experience or honor": 687,
+    "Creatures killed": 698,
+    "Different creature types killed": 6,
+    "Creature type killed the most": 389,
+    "Critters killed": 9,
+    "Total Killing Blows": 551,
+    "World Killing Blows": 546,
+    "Continent with the most Killing Blows": 546,
+    "Total deaths": 7,
+    "Total raid and dungeon deaths": 3,
+    "Total deaths in 5-player dungeons": 3,
+    "Quests completed": 97,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 1,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 7,
+    "Cooking skill": 36,
+    "Cooking Recipes known": 12,
+    "Fishing skill": 32,
+    "Fish caught": 29,
+    "Fish and other things caught": 29,
+    "Highest Mining skill": 76,
+    "Smelting Recipes learned": 9,
+    "Highest Skinning skill": 81,
+    "Flight paths taken": 5,
+    "Number of times hearthed": 5
+   },
+   "ach": {},
+   "prof": {
+    "Skinning": [
+     81,
+     150
+    ],
+    "Mining": [
+     76,
+     150
+    ],
+    "Cooking": [
+     36,
+     75
+    ],
+    "Fishing": [
+     32,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -578,8 +837,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/148/2739348-main-raw.png",
-   "fetched": 1793876728
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/148/2739348-main-raw.png"
   },
   {
    "name": "Sergius Justus",
@@ -603,7 +861,7 @@
    "ilvl": 6,
    "xp": 10045,
    "title": null,
-   "active": 1793872810000,
+   "fetched": 1793882235,
    "hp": 323,
    "power": 778,
    "powerType": "Mana",
@@ -619,6 +877,72 @@
     "melee_crit": 3.41,
     "ranged_crit": 5.89,
     "spell_crit": 5.88
+   },
+   "active": 1793872810000,
+   "stat": {
+    "Times camped": 3,
+    "Bandages used": 24,
+    "Bandage used most": 16,
+    "Health potions consumed": 6,
+    "Beverages consumed": 22,
+    "Food eaten": 26,
+    "Healthstones used": 4,
+    "Most factions at Honored or higher": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 7,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 8,
+    "Need rolls made on loot": 4,
+    "Total 5-player dungeons entered": 1,
+    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
+    "Bazzalan kills (Ragefire Chasm)": 1,
+    "Total kills": 970,
+    "Total kills that grant experience or honor": 934,
+    "Creatures killed": 955,
+    "Different creature types killed": 7,
+    "Creature type killed the most": 597,
+    "Critters killed": 13,
+    "Total Killing Blows": 869,
+    "World Killing Blows": 844,
+    "Continent with the most Killing Blows": 844,
+    "Total deaths": 10,
+    "Total raid and dungeon deaths": 3,
+    "Total deaths in 5-player dungeons": 3,
+    "Quests completed": 109,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 3,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 5,
+    "Cooking skill": 63,
+    "Cooking Recipes known": 14,
+    "First Aid skill": 70,
+    "First Aid Manuals learned": 14,
+    "Highest Mining skill": 49,
+    "Smelting Recipes learned": 9,
+    "Highest Skinning skill": 75,
+    "Flight paths taken": 5,
+    "Number of times hearthed": 2
+   },
+   "ach": {},
+   "prof": {
+    "Skinning": [
+     75,
+     75
+    ],
+    "Mining": [
+     50,
+     75
+    ],
+    "Cooking": [
+     63,
+     75
+    ],
+    "First Aid": [
+     70,
+     150
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -709,9 +1033,8 @@
    "spec": "Affliction",
    "role": "dps",
    "exalted": [],
-   "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793873127
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/67/1193539-main-raw.png"
   },
   {
    "name": "Fae Lock",
@@ -726,7 +1049,7 @@
    "ilvl": 9,
    "xp": 13825,
    "title": null,
-   "active": 1793869887000,
+   "fetched": 1793882236,
    "hp": 378,
    "power": 840,
    "powerType": "Mana",
@@ -742,6 +1065,70 @@
     "melee_crit": 3.62,
     "ranged_crit": 5.22,
     "spell_crit": 5.28
+   },
+   "active": 1793869887000,
+   "stat": {
+    "Times camped": 3,
+    "Health potions consumed": 12,
+    "Beverages consumed": 59,
+    "Food eaten": 15,
+    "Healthstones used": 12,
+    "Most factions at Honored or higher": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 8,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 7,
+    "Need rolls made on loot": 2,
+    "Total 5-player dungeons entered": 1,
+    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
+    "Bazzalan kills (Ragefire Chasm)": 1,
+    "Total kills": 599,
+    "Total kills that grant experience or honor": 590,
+    "Creatures killed": 593,
+    "Different creature types killed": 6,
+    "Creature type killed the most": 388,
+    "Critters killed": 6,
+    "Total Killing Blows": 492,
+    "World Killing Blows": 472,
+    "Continent with the most Killing Blows": 472,
+    "Total deaths": 12,
+    "Total raid and dungeon deaths": 3,
+    "Total deaths in 5-player dungeons": 3,
+    "Quests completed": 92,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 3,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 1,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 13,
+    "Cooking Recipes known": 10,
+    "Highest Enchanting skill": 28,
+    "Enchanting formulae learned": 21,
+    "Materials produced from disenchanting": 38,
+    "Items disenchanted": 24,
+    "Highest Tailoring skill": 63,
+    "Tailoring Patterns learned": 46,
+    "Flight paths taken": 5,
+    "Number of times hearthed": 5,
+    "Number of hugs": 1
+   },
+   "ach": {
+    "Explore Dun Morogh": 1793852656000
+   },
+   "prof": {
+    "Tailoring": [
+     63,
+     75
+    ],
+    "Enchanting": [
+     30,
+     75
+    ],
+    "Cooking": [
+     13,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -849,8 +1236,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/93/3391837-main-raw.png",
-   "fetched": 1793873127
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/93/3391837-main-raw.png"
   },
   {
    "name": "Fritte Flint",
@@ -874,7 +1260,7 @@
    "ilvl": 8,
    "xp": 7325,
    "title": null,
-   "active": 1793870606000,
+   "fetched": 1793882228,
    "hp": 449,
    "power": 535,
    "powerType": "Mana",
@@ -890,6 +1276,83 @@
     "melee_crit": 3.48,
     "ranged_crit": 3.48,
     "spell_crit": 4.27
+   },
+   "active": 1793870606000,
+   "stat": {
+    "Times camped": 3,
+    "Bandages used": 3,
+    "Bandage used most": 3,
+    "Health potions consumed": 6,
+    "Beverages consumed": 12,
+    "Food eaten": 18,
+    "Most factions at Honored or higher": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 8,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 8,
+    "Need rolls made on loot": 2,
+    "Total 5-player dungeons entered": 1,
+    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
+    "Bazzalan kills (Ragefire Chasm)": 1,
+    "Total kills": 583,
+    "Total kills that grant experience or honor": 574,
+    "Creatures killed": 576,
+    "Different creature types killed": 6,
+    "Creature type killed the most": 306,
+    "Critters killed": 7,
+    "Total Killing Blows": 368,
+    "World Killing Blows": 350,
+    "Continent with the most Killing Blows": 324,
+    "Total deaths": 5,
+    "Total raid and dungeon deaths": 4,
+    "Total deaths in 5-player dungeons": 4,
+    "Spirit returned to body by shamans": 1,
+    "Quests completed": 106,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 13,
+    "Professions learned": 3,
+    "Professions at maximum skill": 3,
+    "Secondary skills at maximum skill": 3,
+    "Weapon skills at maximum skill": 6,
+    "Cooking skill": 20,
+    "Cooking Recipes known": 16,
+    "First Aid skill": 50,
+    "First Aid Manuals learned": 4,
+    "Fishing skill": 62,
+    "Fish caught": 62,
+    "Fish and other things caught": 62,
+    "Highest Herbalism skill": 11,
+    "Highest Leatherworking skill": 59,
+    "Leatherworking Patterns learned": 46,
+    "Highest Skinning skill": 74,
+    "Flight paths taken": 7,
+    "Number of times hearthed": 2
+   },
+   "ach": {
+    "Explore Moonglade": 1793843942000,
+    "Explore Teldrassil": 1793847492000
+   },
+   "prof": {
+    "Leatherworking": [
+     59,
+     150
+    ],
+    "Skinning": [
+     76,
+     150
+    ],
+    "Cooking": [
+     20,
+     75
+    ],
+    "Fishing": [
+     62,
+     150
+    ],
+    "First Aid": [
+     50,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -964,9 +1427,8 @@
    "spec": "Feral Combat",
    "role": "tank",
    "exalted": [],
-   "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793873126
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/234/5112554-main-raw.png"
   },
   {
    "name": "Pandemic Dots",
@@ -981,7 +1443,7 @@
    "ilvl": 5,
    "xp": 3814,
    "title": null,
-   "active": 1793875819000,
+   "fetched": 1793882236,
    "hp": 298,
    "power": 635,
    "powerType": "Mana",
@@ -997,6 +1459,64 @@
     "melee_crit": 4.52,
     "ranged_crit": 5.8,
     "spell_crit": 5.52
+   },
+   "active": 1793875819000,
+   "stat": {
+    "Times camped": 1,
+    "Bandages used": 33,
+    "Bandage used most": 18,
+    "Health potions consumed": 7,
+    "Beverages consumed": 25,
+    "Food eaten": 18,
+    "Healthstones used": 5,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 7,
+    "Mounts owned": 2,
+    "Total kills": 623,
+    "Total kills that grant experience or honor": 612,
+    "Creatures killed": 621,
+    "Different creature types killed": 5,
+    "Creature type killed the most": 390,
+    "Critters killed": 2,
+    "Total Killing Blows": 599,
+    "World Killing Blows": 599,
+    "Continent with the most Killing Blows": 599,
+    "Total deaths": 3,
+    "Quests completed": 106,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 4,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 5,
+    "Cooking skill": 65,
+    "Cooking Recipes known": 18,
+    "First Aid skill": 97,
+    "First Aid Manuals learned": 10,
+    "Highest Alchemy skill": 34,
+    "Alchemy Recipes learned": 16,
+    "Highest Herbalism skill": 76,
+    "Flight paths taken": 5,
+    "Number of times hearthed": 3
+   },
+   "ach": {},
+   "prof": {
+    "Alchemy": [
+     34,
+     75
+    ],
+    "Herbalism": [
+     76,
+     150
+    ],
+    "Cooking": [
+     65,
+     75
+    ],
+    "First Aid": [
+     63,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -1087,9 +1607,8 @@
    "spec": "Affliction",
    "role": "dps",
    "exalted": [],
-   "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793876730
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/132/997508-main-raw.png"
   },
   {
    "name": "Bonk Donkus",
@@ -1104,7 +1623,7 @@
    "ilvl": 6,
    "xp": 6801,
    "title": null,
-   "active": 1793876275000,
+   "fetched": 1793882228,
    "hp": 381,
    "power": 437,
    "powerType": "Mana",
@@ -1120,6 +1639,67 @@
     "melee_crit": 5.8,
     "ranged_crit": 3.04,
     "spell_crit": 5.9
+   },
+   "active": 1793876275000,
+   "stat": {
+    "Times camped": 1,
+    "Health potions consumed": 5,
+    "Beverages consumed": 2,
+    "Food eaten": 9,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 7,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 6,
+    "Need rolls made on loot": 4,
+    "Total 5-player dungeons entered": 1,
+    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
+    "Bazzalan kills (Ragefire Chasm)": 1,
+    "Total kills": 500,
+    "Total kills that grant experience or honor": 490,
+    "Creatures killed": 492,
+    "Different creature types killed": 6,
+    "Creature type killed the most": 296,
+    "Critters killed": 8,
+    "Total Killing Blows": 407,
+    "World Killing Blows": 386,
+    "Continent with the most Killing Blows": 386,
+    "Total deaths": 7,
+    "Quests completed": 92,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 2,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 4,
+    "Cooking skill": 22,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 37,
+    "First Aid Manuals learned": 4,
+    "Highest Blacksmithing skill": 23,
+    "Blacksmithing Plans learned": 16,
+    "Highest Mining skill": 39,
+    "Smelting Recipes learned": 9,
+    "Flight paths taken": 4,
+    "Number of times hearthed": 2
+   },
+   "ach": {},
+   "prof": {
+    "Mining": [
+     39,
+     75
+    ],
+    "Blacksmithing": [
+     23,
+     75
+    ],
+    "Cooking": [
+     22,
+     75
+    ],
+    "First Aid": [
+     37,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -1195,8 +1775,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793876728
+   "renderUrl": null
   },
   {
    "name": "Deadborn Forever",
@@ -1211,7 +1790,7 @@
    "ilvl": 8,
    "xp": 3634,
    "title": null,
-   "fetched": 1793882127,
+   "fetched": 1793882228,
    "hp": 369,
    "power": 100,
    "powerType": "Rage",
@@ -1229,6 +1808,73 @@
     "spell_crit": 1.0
    },
    "active": 1793875447000,
+   "stat": {
+    "Bandages used": 37,
+    "Bandage used most": 37,
+    "Health potions consumed": 20,
+    "Food eaten": 36,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 6,
+    "Need rolls made on loot": 1,
+    "Total 5-player dungeons entered": 1,
+    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
+    "Bazzalan kills (Ragefire Chasm)": 1,
+    "Total kills": 473,
+    "Total kills that grant experience or honor": 450,
+    "Creatures killed": 463,
+    "Different creature types killed": 5,
+    "Creature type killed the most": 296,
+    "Critters killed": 10,
+    "Total Killing Blows": 377,
+    "World Killing Blows": 364,
+    "Continent with the most Killing Blows": 364,
+    "Total deaths": 11,
+    "Total raid and dungeon deaths": 5,
+    "Total deaths in 5-player dungeons": 5,
+    "Revived by druids": 1,
+    "Quests completed": 99,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 7,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 3,
+    "Weapon skills at maximum skill": 5,
+    "Cooking skill": 26,
+    "Cooking Recipes known": 12,
+    "First Aid skill": 59,
+    "First Aid Manuals learned": 12,
+    "Fishing skill": 1,
+    "Highest Mining skill": 56,
+    "Smelting Recipes learned": 9,
+    "Highest Skinning skill": 75,
+    "Flight paths taken": 3,
+    "Number of times hearthed": 2
+   },
+   "ach": {},
+   "prof": {
+    "Skinning": [
+     75,
+     150
+    ],
+    "Mining": [
+     56,
+     150
+    ],
+    "Cooking": [
+     26,
+     75
+    ],
+    "Fishing": [
+     1,
+     75
+    ],
+    "First Aid": [
+     59,
+     150
+    ]
+   },
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -1342,7 +1988,7 @@
    "ilvl": 6,
    "xp": 4574,
    "title": null,
-   "fetched": 1793882128,
+   "fetched": 1793882233,
    "hp": 361,
    "power": 422,
    "powerType": "Mana",
@@ -1360,6 +2006,70 @@
     "spell_crit": 4.86
    },
    "active": 1793880510000,
+   "stat": {
+    "Times camped": 3,
+    "Bandages used": 20,
+    "Bandage used most": 19,
+    "Health potions consumed": 5,
+    "Beverages consumed": 10,
+    "Food eaten": 19,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Greed rolls made on loot": 8,
+    "Need rolls made on loot": 3,
+    "Total 5-player dungeons entered": 1,
+    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
+    "Bazzalan kills (Ragefire Chasm)": 1,
+    "Total kills": 549,
+    "Total kills that grant experience or honor": 539,
+    "Creatures killed": 543,
+    "Different creature types killed": 5,
+    "Creature type killed the most": 288,
+    "Critters killed": 6,
+    "Total Killing Blows": 453,
+    "World Killing Blows": 433,
+    "Continent with the most Killing Blows": 433,
+    "Total deaths": 12,
+    "Total raid and dungeon deaths": 4,
+    "Total deaths in 5-player dungeons": 4,
+    "Revived by druids": 1,
+    "Quests completed": 78,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 5,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 4,
+    "Cooking skill": 72,
+    "Cooking Recipes known": 18,
+    "First Aid skill": 62,
+    "First Aid Manuals learned": 10,
+    "Highest Engineering skill": 74,
+    "Engineering Schematics learned": 27,
+    "Highest Mining skill": 67,
+    "Smelting Recipes learned": 15,
+    "Flight paths taken": 4,
+    "Number of times hearthed": 2
+   },
+   "ach": {},
+   "prof": {
+    "Mining": [
+     70,
+     150
+    ],
+    "Engineering": [
+     75,
+     150
+    ],
+    "Cooking": [
+     72,
+     75
+    ],
+    "First Aid": [
+     62,
+     75
+    ]
+   },
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -1457,7 +2167,7 @@
    "ilvl": 4,
    "xp": 6585,
    "title": null,
-   "fetched": 1793882130,
+   "fetched": 1793882236,
    "hp": 262,
    "power": 681,
    "powerType": "Mana",
@@ -1475,6 +2185,59 @@
     "spell_crit": 4.82
    },
    "active": 1793881069000,
+   "stat": {
+    "Times camped": 1,
+    "Health potions consumed": 10,
+    "Beverages consumed": 99,
+    "Food eaten": 37,
+    "Most factions at Honored or higher": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 1,
+    "Total kills": 558,
+    "Total kills that grant experience or honor": 548,
+    "Creatures killed": 553,
+    "Different creature types killed": 4,
+    "Creature type killed the most": 392,
+    "Critters killed": 5,
+    "Total Killing Blows": 527,
+    "World Killing Blows": 527,
+    "Continent with the most Killing Blows": 527,
+    "Total deaths": 9,
+    "Quests completed": 92,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 2,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 1,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 2,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 15,
+    "Highest Alchemy skill": 15,
+    "Alchemy Recipes learned": 8,
+    "Highest Herbalism skill": 37,
+    "Flight paths taken": 3,
+    "Number of times hearthed": 5
+   },
+   "ach": {
+    "Explore Elwynn Forest": 1793855953000
+   },
+   "prof": {
+    "Alchemy": [
+     15,
+     75
+    ],
+    "Herbalism": [
+     38,
+     75
+    ],
+    "Cooking": [
+     2,
+     75
+    ]
+   },
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -1572,7 +2335,7 @@
    "ilvl": 6,
    "xp": 7697,
    "title": null,
-   "active": 1793866110000,
+   "fetched": 1793882235,
    "hp": 403,
    "power": 100,
    "powerType": "Energy",
@@ -1588,6 +2351,78 @@
     "melee_crit": 10.32,
     "ranged_crit": 10.08,
     "spell_crit": 0.0
+   },
+   "active": 1793866110000,
+   "stat": {
+    "Bandages used": 7,
+    "Bandage used most": 4,
+    "Health potions consumed": 16,
+    "Beverages consumed": 7,
+    "Food eaten": 29,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 8,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 8,
+    "Need rolls made on loot": 3,
+    "Total 5-player dungeons entered": 1,
+    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
+    "Bazzalan kills (Ragefire Chasm)": 1,
+    "Total kills": 579,
+    "Total kills that grant experience or honor": 555,
+    "Creatures killed": 573,
+    "Different creature types killed": 6,
+    "Creature type killed the most": 351,
+    "Critters killed": 6,
+    "Total Killing Blows": 497,
+    "World Killing Blows": 463,
+    "Continent with the most Killing Blows": 337,
+    "Total deaths": 9,
+    "Total raid and dungeon deaths": 3,
+    "Total deaths in 5-player dungeons": 3,
+    "Quests completed": 95,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 15,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 3,
+    "Weapon skills at maximum skill": 4,
+    "Cooking skill": 29,
+    "Cooking Recipes known": 16,
+    "First Aid skill": 63,
+    "First Aid Manuals learned": 10,
+    "Fishing skill": 50,
+    "Fish caught": 49,
+    "Fish and other things caught": 49,
+    "Highest Leatherworking skill": 35,
+    "Leatherworking Patterns learned": 24,
+    "Highest Skinning skill": 89,
+    "Flight paths taken": 2,
+    "Number of times hearthed": 3
+   },
+   "ach": {
+    "Explore Elwynn Forest": 1793861965000
+   },
+   "prof": {
+    "Leatherworking": [
+     35,
+     75
+    ],
+    "Skinning": [
+     89,
+     150
+    ],
+    "Cooking": [
+     29,
+     75
+    ],
+    "Fishing": [
+     50,
+     150
+    ],
+    "First Aid": [
+     78,
+     150
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -1687,8 +2522,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793867726
+   "renderUrl": null
   },
   {
    "name": "Perforera Tarmen",
@@ -1703,7 +2537,7 @@
    "ilvl": 6,
    "xp": 10503,
    "title": null,
-   "active": 1793872732000,
+   "fetched": 1793882251,
    "hp": 313,
    "power": 100,
    "powerType": "Energy",
@@ -1719,6 +2553,68 @@
     "melee_crit": 9.1,
     "ranged_crit": 7.66,
     "spell_crit": 0.0
+   },
+   "active": 1793872732000,
+   "stat": {
+    "Bandages used": 24,
+    "Bandage used most": 24,
+    "Health potions consumed": 10,
+    "Elixirs consumed": 20,
+    "Beverages consumed": 1,
+    "Food eaten": 22,
+    "Most factions at Honored or higher": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 1,
+    "Need rolls made on loot": 2,
+    "Total kills": 565,
+    "Total kills that grant experience or honor": 555,
+    "Creatures killed": 564,
+    "Different creature types killed": 5,
+    "Creature type killed the most": 253,
+    "Critters killed": 1,
+    "Total Killing Blows": 529,
+    "World Killing Blows": 529,
+    "Continent with the most Killing Blows": 529,
+    "Total deaths": 4,
+    "Quests completed": 93,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 1,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 14,
+    "Cooking Recipes known": 12,
+    "First Aid skill": 78,
+    "First Aid Manuals learned": 8,
+    "Highest Alchemy skill": 47,
+    "Alchemy Recipes learned": 14,
+    "Highest Herbalism skill": 89,
+    "Flight paths taken": 3,
+    "Number of times hearthed": 2
+   },
+   "ach": {
+    "Explore Teldrassil": 1793855421000
+   },
+   "prof": {
+    "Alchemy": [
+     47,
+     75
+    ],
+    "Herbalism": [
+     94,
+     150
+    ],
+    "Cooking": [
+     14,
+     75
+    ],
+    "First Aid": [
+     31,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -1818,8 +2714,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/188/6439100-main-raw.png",
-   "fetched": 1793878537
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/188/6439100-main-raw.png"
   },
   {
    "name": "Summer Born",
@@ -1834,7 +2729,7 @@
    "ilvl": 8,
    "xp": 4243,
    "title": null,
-   "active": 1793873514000,
+   "fetched": 1793882243,
    "hp": 409,
    "power": 100,
    "powerType": "Rage",
@@ -1850,6 +2745,77 @@
     "melee_crit": 5.48,
     "ranged_crit": 3.04,
     "spell_crit": 1.0
+   },
+   "active": 1793873514000,
+   "stat": {
+    "Times camped": 1,
+    "Bandages used": 52,
+    "Bandage used most": 36,
+    "Health potions consumed": 11,
+    "Beverages consumed": 1,
+    "Food eaten": 22,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 7,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 5,
+    "Need rolls made on loot": 3,
+    "Total 5-player dungeons entered": 1,
+    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
+    "Bazzalan kills (Ragefire Chasm)": 1,
+    "Total kills": 594,
+    "Total kills that grant experience or honor": 573,
+    "Creatures killed": 582,
+    "Different creature types killed": 5,
+    "Creature type killed the most": 410,
+    "Critters killed": 12,
+    "Total Killing Blows": 485,
+    "World Killing Blows": 479,
+    "Continent with the most Killing Blows": 479,
+    "Total deaths": 13,
+    "Total raid and dungeon deaths": 2,
+    "Total deaths in 5-player dungeons": 2,
+    "Deaths from Hogger": 1,
+    "Quests completed": 95,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 6,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 3,
+    "Weapon skills at maximum skill": 7,
+    "Cooking skill": 16,
+    "Cooking Recipes known": 14,
+    "First Aid skill": 56,
+    "First Aid Manuals learned": 14,
+    "Fishing skill": 1,
+    "Highest Blacksmithing skill": 46,
+    "Blacksmithing Plans learned": 32,
+    "Highest Mining skill": 59,
+    "Smelting Recipes learned": 9,
+    "Flight paths taken": 3,
+    "Total waves": 1
+   },
+   "ach": {},
+   "prof": {
+    "Mining": [
+     59,
+     150
+    ],
+    "Blacksmithing": [
+     49,
+     75
+    ],
+    "Cooking": [
+     16,
+     75
+    ],
+    "Fishing": [
+     1,
+     75
+    ],
+    "First Aid": [
+     64,
+     150
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -1933,8 +2899,7 @@
    "role": "tank",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/23/3867927-main-raw.png",
-   "fetched": 1793874931
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/23/3867927-main-raw.png"
   },
   {
    "name": "Dvärge Dwarfsson",
@@ -1949,7 +2914,7 @@
    "ilvl": 3,
    "xp": 1187,
    "title": null,
-   "fetched": 1793882132,
+   "fetched": 1793882243,
    "hp": 328,
    "power": 516,
    "powerType": "Mana",
@@ -1967,6 +2932,49 @@
     "spell_crit": 5.0
    },
    "active": 1793881671000,
+   "stat": {
+    "Health potions consumed": 1,
+    "Beverages consumed": 68,
+    "Food eaten": 38,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 1,
+    "Need rolls made on loot": 1,
+    "Total kills": 449,
+    "Total kills that grant experience or honor": 448,
+    "Creatures killed": 449,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 258,
+    "Total Killing Blows": 407,
+    "World Killing Blows": 407,
+    "Continent with the most Killing Blows": 407,
+    "Total deaths": 11,
+    "Quests completed": 68,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 1,
+    "Professions learned": 1,
+    "Professions at maximum skill": 1,
+    "Secondary skills at maximum skill": 1,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 19,
+    "Cooking Recipes known": 10,
+    "Highest Mining skill": 75,
+    "Smelting Recipes learned": 13,
+    "Flight paths taken": 5,
+    "Number of times hearthed": 1
+   },
+   "ach": {},
+   "prof": {
+    "Mining": [
+     75,
+     75
+    ],
+    "Cooking": [
+     19,
+     75
+    ]
+   },
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -2081,7 +3089,7 @@
    "ilvl": 8,
    "xp": 6689,
    "title": null,
-   "active": 1793877122000,
+   "fetched": 1793882250,
    "hp": 327,
    "power": 738,
    "powerType": "Mana",
@@ -2097,6 +3105,61 @@
     "melee_crit": 3.89,
     "ranged_crit": 5.25,
     "spell_crit": 4.31
+   },
+   "active": 1793877122000,
+   "stat": {
+    "Health potions consumed": 1,
+    "Beverages consumed": 46,
+    "Food eaten": 21,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 3,
+    "Need rolls made on loot": 2,
+    "Total kills": 347,
+    "Total kills that grant experience or honor": 345,
+    "Creatures killed": 345,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 207,
+    "Critters killed": 2,
+    "Total Killing Blows": 294,
+    "World Killing Blows": 294,
+    "Continent with the most Killing Blows": 294,
+    "Total deaths": 4,
+    "Quests completed": 89,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 7,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 1,
+    "Weapon skills at maximum skill": 4,
+    "Cooking skill": 16,
+    "Cooking Recipes known": 10,
+    "Highest Enchanting skill": 32,
+    "Enchanting formulae learned": 21,
+    "Materials produced from disenchanting": 22,
+    "Items disenchanted": 15,
+    "Highest Tailoring skill": 44,
+    "Tailoring Patterns learned": 26,
+    "Flight paths taken": 4,
+    "Number of times hearthed": 5
+   },
+   "ach": {
+    "Explore Dun Morogh": 1793868571000
+   },
+   "prof": {
+    "Tailoring": [
+     45,
+     75
+    ],
+    "Enchanting": [
+     36,
+     75
+    ],
+    "Cooking": [
+     16,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -2196,8 +3259,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793878536
+   "renderUrl": null
   },
   {
    "name": "Kurt Kebabtotem",
@@ -2212,7 +3274,7 @@
    "ilvl": 5,
    "xp": 223,
    "title": null,
-   "fetched": 1793882127,
+   "fetched": 1793882228,
    "hp": 348,
    "power": 426,
    "powerType": "Mana",
@@ -2230,6 +3292,61 @@
     "spell_crit": 9.56
    },
    "active": 1793881216000,
+   "stat": {
+    "Times camped": 4,
+    "Bandages used": 9,
+    "Bandage used most": 8,
+    "Health potions consumed": 5,
+    "Beverages consumed": 35,
+    "Food eaten": 12,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Total kills": 429,
+    "Total kills that grant experience or honor": 426,
+    "Creatures killed": 427,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 275,
+    "Critters killed": 2,
+    "Total Killing Blows": 353,
+    "World Killing Blows": 353,
+    "Continent with the most Killing Blows": 353,
+    "Quests completed": 74,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 12,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 73,
+    "First Aid Manuals learned": 8,
+    "Highest Leatherworking skill": 39,
+    "Leatherworking Patterns learned": 24,
+    "Highest Skinning skill": 88,
+    "Flight paths taken": 2,
+    "Number of times hearthed": 1,
+    "Total times LOL'd": 2
+   },
+   "ach": {},
+   "prof": {
+    "Leatherworking": [
+     39,
+     75
+    ],
+    "Skinning": [
+     88,
+     150
+    ],
+    "Cooking": [
+     12,
+     75
+    ],
+    "First Aid": [
+     73,
+     150
+    ]
+   },
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -2351,7 +3468,7 @@
    "ilvl": 4,
    "xp": 4022,
    "title": null,
-   "active": 1793876875000,
+   "fetched": 1793882242,
    "hp": 285,
    "power": 449,
    "powerType": "Mana",
@@ -2367,6 +3484,78 @@
     "melee_crit": 5.25,
     "ranged_crit": 2.97,
     "spell_crit": 4.39
+   },
+   "active": 1793876875000,
+   "stat": {
+    "Times camped": 4,
+    "Health potions consumed": 1,
+    "Mana potions consumed": 3,
+    "Elixirs consumed": 6,
+    "Beverages consumed": 2,
+    "Food eaten": 12,
+    "Most factions at Honored or higher": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 2,
+    "Need rolls made on loot": 3,
+    "Total kills": 548,
+    "Total kills that grant experience or honor": 537,
+    "Creatures killed": 542,
+    "Different creature types killed": 5,
+    "Creature type killed the most": 209,
+    "Critters killed": 6,
+    "Total Killing Blows": 265,
+    "World Killing Blows": 265,
+    "Continent with the most Killing Blows": 265,
+    "Total deaths": 5,
+    "Deaths from falling": 2,
+    "Quests completed": 87,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 1,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 3,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 29,
+    "Cooking Recipes known": 16,
+    "First Aid skill": 102,
+    "First Aid Manuals learned": 8,
+    "Fishing skill": 4,
+    "Fish caught": 3,
+    "Fish and other things caught": 3,
+    "Highest Alchemy skill": 53,
+    "Alchemy Recipes learned": 24,
+    "Highest Herbalism skill": 82,
+    "Flight paths taken": 3,
+    "Number of times hearthed": 4,
+    "Total waves": 1
+   },
+   "ach": {
+    "Explore Moonglade": 1793864069000,
+    "Explore Teldrassil": 1793866456000
+   },
+   "prof": {
+    "Alchemy": [
+     53,
+     75
+    ],
+    "Herbalism": [
+     82,
+     150
+    ],
+    "Cooking": [
+     29,
+     75
+    ],
+    "Fishing": [
+     4,
+     75
+    ],
+    "First Aid": [
+     49,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -2442,8 +3631,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793878532
+   "renderUrl": null
   },
   {
    "name": "Mystic Dots",
@@ -2458,7 +3646,7 @@
    "ilvl": 5,
    "xp": 12542,
    "title": null,
-   "active": 1793879867000,
+   "fetched": 1793882236,
    "hp": 238,
    "power": 653,
    "powerType": "Mana",
@@ -2474,6 +3662,61 @@
     "melee_crit": 4.64,
     "ranged_crit": 5.48,
     "spell_crit": 5.0
+   },
+   "active": 1793879867000,
+   "stat": {
+    "Times camped": 2,
+    "Bandages used": 5,
+    "Bandage used most": 5,
+    "Health potions consumed": 6,
+    "Beverages consumed": 35,
+    "Food eaten": 25,
+    "Healthstones used": 2,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Total kills": 395,
+    "Total kills that grant experience or honor": 393,
+    "Creatures killed": 393,
+    "Different creature types killed": 4,
+    "Creature type killed the most": 223,
+    "Total Killing Blows": 379,
+    "World Killing Blows": 379,
+    "Continent with the most Killing Blows": 379,
+    "Total deaths": 13,
+    "Quests completed": 81,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 2,
+    "Professions learned": 1,
+    "Professions at maximum skill": 1,
+    "Secondary skills at maximum skill": 3,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 11,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 60,
+    "First Aid Manuals learned": 12,
+    "Fishing skill": 1,
+    "Highest Skinning skill": 75,
+    "Flight paths taken": 4,
+    "Number of times hearthed": 2
+   },
+   "ach": {},
+   "prof": {
+    "Skinning": [
+     75,
+     75
+    ],
+    "Cooking": [
+     11,
+     75
+    ],
+    "Fishing": [
+     1,
+     75
+    ],
+    "First Aid": [
+     60,
+     150
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -2557,8 +3800,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/189/8134845-main-raw.png",
-   "fetched": 1793880331
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/189/8134845-main-raw.png"
   },
   {
    "name": "Nackskägg Instagib",
@@ -2573,7 +3815,7 @@
    "ilvl": 4,
    "xp": 485,
    "title": null,
-   "fetched": 1793882133,
+   "fetched": 1793882243,
    "hp": 315,
    "power": 449,
    "powerType": "Mana",
@@ -2591,6 +3833,74 @@
     "spell_crit": 4.39
    },
    "active": 1793880751000,
+   "stat": {
+    "Times camped": 4,
+    "Bandages used": 8,
+    "Bandage used most": 8,
+    "Health potions consumed": 1,
+    "Beverages consumed": 9,
+    "Food eaten": 18,
+    "Most factions at Honored or higher": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Mounts owned": 2,
+    "Total kills": 384,
+    "Total kills that grant experience or honor": 379,
+    "Creatures killed": 383,
+    "Different creature types killed": 4,
+    "Creature type killed the most": 198,
+    "Critters killed": 1,
+    "Total Killing Blows": 373,
+    "World Killing Blows": 373,
+    "Continent with the most Killing Blows": 373,
+    "Total deaths": 2,
+    "Quests completed": 84,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 2,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 3,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 33,
+    "Cooking Recipes known": 12,
+    "First Aid skill": 20,
+    "First Aid Manuals learned": 6,
+    "Fishing skill": 3,
+    "Fish caught": 9,
+    "Fish and other things caught": 9,
+    "Highest Leatherworking skill": 42,
+    "Leatherworking Patterns learned": 26,
+    "Highest Skinning skill": 95,
+    "Flight paths taken": 4,
+    "Number of times hearthed": 3,
+    "Total cheers": 1
+   },
+   "ach": {
+    "Explore Moonglade": 1793872218000,
+    "Explore Teldrassil": 1793872554000
+   },
+   "prof": {
+    "Leatherworking": [
+     42,
+     75
+    ],
+    "Skinning": [
+     95,
+     150
+    ],
+    "Cooking": [
+     33,
+     75
+    ],
+    "Fishing": [
+     10,
+     75
+    ],
+    "First Aid": [
+     20,
+     75
+    ]
+   },
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -2689,7 +3999,7 @@
    "ilvl": 2,
    "xp": 2565,
    "title": null,
-   "active": null,
+   "fetched": 1793882235,
    "hp": 268,
    "power": 445,
    "powerType": "Mana",
@@ -2705,6 +4015,64 @@
     "melee_crit": 5.16,
     "ranged_crit": 2.88,
     "spell_crit": 4.67
+   },
+   "active": 1793851436000,
+   "stat": {
+    "Health potions consumed": 7,
+    "Elixirs consumed": 9,
+    "Beverages consumed": 38,
+    "Food eaten": 13,
+    "Most factions at Honored or higher": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Total kills": 298,
+    "Total kills that grant experience or honor": 295,
+    "Creatures killed": 296,
+    "Different creature types killed": 4,
+    "Creature type killed the most": 155,
+    "Critters killed": 2,
+    "Total Killing Blows": 283,
+    "World Killing Blows": 283,
+    "Continent with the most Killing Blows": 283,
+    "Total deaths": 8,
+    "Quests completed": 73,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 7,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 30,
+    "First Aid Manuals learned": 4,
+    "Highest Alchemy skill": 29,
+    "Alchemy Recipes learned": 16,
+    "Highest Herbalism skill": 37,
+    "Flight paths taken": 2,
+    "Number of times hearthed": 3,
+    "Total cheers": 1
+   },
+   "ach": {
+    "Explore Moonglade": 1793843785000,
+    "Explore Teldrassil": 1793845646000
+   },
+   "prof": {
+    "Alchemy": [
+     29,
+     75
+    ],
+    "Herbalism": [
+     37,
+     75
+    ],
+    "Cooking": [
+     7,
+     75
+    ],
+    "First Aid": [
+     1,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -2779,9 +4147,8 @@
    "spec": "Feral Combat",
    "role": "tank",
    "exalted": [],
-   "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793851525
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/87/6901847-main-raw.png"
   },
   {
    "name": "Bush Meister",
@@ -2814,7 +4181,7 @@
    "ilvl": 3,
    "xp": 5402,
    "title": null,
-   "active": 1793864349000,
+   "fetched": 1793882242,
    "hp": 268,
    "power": 475,
    "powerType": "Mana",
@@ -2830,6 +4197,69 @@
     "melee_crit": 5.04,
     "ranged_crit": 2.88,
     "spell_crit": 4.84
+   },
+   "active": 1793864349000,
+   "stat": {
+    "Times camped": 3,
+    "Bandages used": 8,
+    "Bandage used most": 8,
+    "Health potions consumed": 12,
+    "Elixirs consumed": 5,
+    "Beverages consumed": 12,
+    "Food eaten": 10,
+    "Most factions at Honored or higher": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Greed rolls made on loot": 1,
+    "Need rolls made on loot": 1,
+    "Total kills": 345,
+    "Total kills that grant experience or honor": 340,
+    "Creatures killed": 341,
+    "Different creature types killed": 5,
+    "Creature type killed the most": 139,
+    "Critters killed": 4,
+    "Total Killing Blows": 266,
+    "World Killing Blows": 266,
+    "Continent with the most Killing Blows": 266,
+    "Total deaths": 4,
+    "Quests completed": 78,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 4,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 6,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 70,
+    "First Aid Manuals learned": 8,
+    "Highest Alchemy skill": 33,
+    "Alchemy Recipes learned": 16,
+    "Highest Herbalism skill": 72,
+    "Flight paths taken": 3,
+    "Number of times hearthed": 2
+   },
+   "ach": {
+    "Explore Moonglade": 1793853478000,
+    "Explore Teldrassil": 1793856007000
+   },
+   "prof": {
+    "Alchemy": [
+     33,
+     75
+    ],
+    "Herbalism": [
+     74,
+     150
+    ],
+    "Cooking": [
+     6,
+     75
+    ],
+    "First Aid": [
+     37,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -2905,8 +4335,7 @@
    "role": "tank",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/192/7835328-main-raw.png",
-   "fetched": 1793865930
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/192/7835328-main-raw.png"
   },
   {
    "name": "Ister Band",
@@ -2921,7 +4350,7 @@
    "ilvl": 4,
    "xp": 4627,
    "title": null,
-   "fetched": 1793882134,
+   "fetched": 1793882250,
    "hp": 232,
    "power": 589,
    "powerType": "Mana",
@@ -2939,6 +4368,49 @@
     "spell_crit": 5.81
    },
    "active": 1793880247000,
+   "stat": {
+    "Times camped": 1,
+    "Health potions consumed": 1,
+    "Beverages consumed": 8,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 1,
+    "Greed rolls made on loot": 3,
+    "Need rolls made on loot": 1,
+    "Total kills": 411,
+    "Total kills that grant experience or honor": 395,
+    "Creatures killed": 410,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 288,
+    "Critters killed": 1,
+    "Total Killing Blows": 378,
+    "World Killing Blows": 378,
+    "Continent with the most Killing Blows": 378,
+    "Total deaths": 3,
+    "Quests completed": 75,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 2,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "First Aid skill": 36,
+    "Highest Alchemy skill": 36,
+    "Alchemy Recipes learned": 16,
+    "Highest Herbalism skill": 44,
+    "Flight paths taken": 2,
+    "Number of times hearthed": 2
+   },
+   "ach": {},
+   "prof": {
+    "Alchemy": [
+     36,
+     75
+    ],
+    "Herbalism": [
+     44,
+     75
+    ]
+   },
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -3044,7 +4516,7 @@
    "ilvl": 3,
    "xp": 1473,
    "title": null,
-   "active": 1793878629000,
+   "fetched": 1793882251,
    "hp": 260,
    "power": 376,
    "powerType": "Mana",
@@ -3060,6 +4532,72 @@
     "melee_crit": 4.42,
     "ranged_crit": 4.54,
     "spell_crit": 4.9
+   },
+   "active": 1793878629000,
+   "stat": {
+    "Times camped": 3,
+    "Bandages used": 9,
+    "Bandage used most": 9,
+    "Health potions consumed": 3,
+    "Beverages consumed": 4,
+    "Food eaten": 5,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Greed rolls made on loot": 3,
+    "Total kills": 404,
+    "Total kills that grant experience or honor": 391,
+    "Creatures killed": 402,
+    "Different creature types killed": 4,
+    "Creature type killed the most": 171,
+    "Critters killed": 2,
+    "Total Killing Blows": 365,
+    "World Killing Blows": 365,
+    "Continent with the most Killing Blows": 365,
+    "Total deaths": 2,
+    "Quests completed": 72,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 1,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 1,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 48,
+    "First Aid Manuals learned": 6,
+    "Fish caught": 2,
+    "Fish and other things caught": 2,
+    "Highest Alchemy skill": 20,
+    "Alchemy Recipes learned": 10,
+    "Highest Herbalism skill": 72,
+    "Flight paths taken": 1,
+    "Number of times hearthed": 4,
+    "Total waves": 2
+   },
+   "ach": {
+    "Explore Teldrassil": 1793878028000
+   },
+   "prof": {
+    "Alchemy": [
+     20,
+     75
+    ],
+    "Herbalism": [
+     72,
+     150
+    ],
+    "Cooking": [
+     1,
+     75
+    ],
+    "Fishing": [
+     3,
+     75
+    ],
+    "First Aid": [
+     36,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -3151,8 +4689,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/226/8751330-main-raw.png",
-   "fetched": 1793880334
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/226/8751330-main-raw.png"
   },
   {
    "name": "Kratheon Titanbane",
@@ -3176,7 +4713,7 @@
    "ilvl": 3,
    "xp": 29,
    "title": null,
-   "active": null,
+   "fetched": 1793882228,
    "hp": 260,
    "power": 406,
    "powerType": "Mana",
@@ -3192,6 +4729,58 @@
     "melee_crit": 4.23,
     "ranged_crit": 4.47,
     "spell_crit": 5.0
+   },
+   "active": 1793850558000,
+   "stat": {
+    "Times camped": 1,
+    "Bandages used": 4,
+    "Bandage used most": 4,
+    "Beverages consumed": 3,
+    "Food eaten": 3,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Total kills": 349,
+    "Total kills that grant experience or honor": 348,
+    "Creatures killed": 348,
+    "Different creature types killed": 4,
+    "Creature type killed the most": 194,
+    "Critters killed": 1,
+    "Total Killing Blows": 338,
+    "World Killing Blows": 338,
+    "Continent with the most Killing Blows": 338,
+    "Total deaths": 6,
+    "Quests completed": 68,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 1,
+    "Professions learned": 1,
+    "Professions at maximum skill": 1,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 4,
+    "Cooking skill": 1,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 18,
+    "First Aid Manuals learned": 6,
+    "Highest Herbalism skill": 20,
+    "Flight paths taken": 1,
+    "Number of times hearthed": 2
+   },
+   "ach": {
+    "Explore Teldrassil": 1793847432000
+   },
+   "prof": {
+    "Herbalism": [
+     20,
+     75
+    ],
+    "Cooking": [
+     1,
+     75
+    ],
+    "First Aid": [
+     18,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -3282,9 +4871,8 @@
    "spec": "Beast Mastery",
    "role": "dps",
    "exalted": [],
-   "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793851524
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/69/5630533-main-raw.png"
   },
   {
    "name": "Larien Nightwind",
@@ -3308,7 +4896,7 @@
    "ilvl": 4,
    "xp": 1960,
    "title": null,
-   "active": null,
+   "fetched": 1793882235,
    "hp": 278,
    "power": 415,
    "powerType": "Mana",
@@ -3324,6 +4912,64 @@
     "melee_crit": 4.36,
     "ranged_crit": 2.88,
     "spell_crit": 4.51
+   },
+   "active": 1793854633000,
+   "stat": {
+    "Times camped": 1,
+    "Health potions consumed": 1,
+    "Elixirs consumed": 4,
+    "Beverages consumed": 30,
+    "Food eaten": 6,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Mounts owned": 2,
+    "Total kills": 295,
+    "Total kills that grant experience or honor": 279,
+    "Creatures killed": 293,
+    "Different creature types killed": 4,
+    "Creature type killed the most": 162,
+    "Critters killed": 2,
+    "Total Killing Blows": 283,
+    "World Killing Blows": 283,
+    "Continent with the most Killing Blows": 173,
+    "Total deaths": 3,
+    "Quests completed": 87,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 9,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 5,
+    "Cooking Recipes known": 12,
+    "First Aid skill": 55,
+    "First Aid Manuals learned": 4,
+    "Highest Alchemy skill": 54,
+    "Alchemy Recipes learned": 16,
+    "Highest Herbalism skill": 52,
+    "Flight paths taken": 3,
+    "Number of times hearthed": 4
+   },
+   "ach": {
+    "Explore Moonglade": 1793845972000
+   },
+   "prof": {
+    "Alchemy": [
+     54,
+     75
+    ],
+    "Herbalism": [
+     52,
+     75
+    ],
+    "Cooking": [
+     5,
+     75
+    ],
+    "First Aid": [
+     1,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -3407,8 +5053,7 @@
    "role": "tank",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/127/6801535-main-raw.png",
-   "fetched": 1793855130
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/127/6801535-main-raw.png"
   },
   {
    "name": "Shibby Undying",
@@ -3423,7 +5068,7 @@
    "ilvl": 3,
    "xp": 3873,
    "title": null,
-   "fetched": 1793882132,
+   "fetched": 1793882243,
    "hp": 248,
    "power": 445,
    "powerType": "Mana",
@@ -3441,6 +5086,57 @@
     "spell_crit": 4.67
    },
    "active": 1793881558000,
+   "stat": {
+    "Times camped": 9,
+    "Health potions consumed": 1,
+    "Elixirs consumed": 4,
+    "Food eaten": 4,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 5,
+    "Total kills": 635,
+    "Total kills that grant experience or honor": 613,
+    "Creatures killed": 633,
+    "Different creature types killed": 4,
+    "Creature type killed the most": 323,
+    "Critters killed": 2,
+    "Total Killing Blows": 276,
+    "World Killing Blows": 276,
+    "Continent with the most Killing Blows": 182,
+    "Total deaths": 1,
+    "Quests completed": 87,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 4,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 1,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 13,
+    "Cooking Recipes known": 12,
+    "First Aid skill": 31,
+    "Highest Alchemy skill": 31,
+    "Alchemy Recipes learned": 16,
+    "Highest Herbalism skill": 58,
+    "Number of times hearthed": 2
+   },
+   "ach": {
+    "Explore Moonglade": 1793870545000
+   },
+   "prof": {
+    "Alchemy": [
+     31,
+     75
+    ],
+    "Herbalism": [
+     58,
+     75
+    ],
+    "Cooking": [
+     13,
+     75
+    ]
+   },
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -3538,7 +5234,7 @@
    "ilvl": 2,
    "xp": 1949,
    "title": null,
-   "active": 1793880173000,
+   "fetched": 1793882243,
    "hp": 242,
    "power": 514,
    "powerType": "Mana",
@@ -3554,6 +5250,63 @@
     "melee_crit": 5.4,
     "ranged_crit": 6.0,
     "spell_crit": 5.32
+   },
+   "active": 1793880173000,
+   "stat": {
+    "Times camped": 1,
+    "Health potions consumed": 1,
+    "Food eaten": 8,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 1,
+    "Total kills": 388,
+    "Total kills that grant experience or honor": 388,
+    "Creatures killed": 388,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 211,
+    "Total Killing Blows": 332,
+    "World Killing Blows": 332,
+    "Continent with the most Killing Blows": 332,
+    "Total deaths": 4,
+    "Quests completed": 76,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 5,
+    "Cooking skill": 54,
+    "Cooking Recipes known": 12,
+    "Fishing skill": 1,
+    "Fish caught": 1,
+    "Fish and other things caught": 1,
+    "Highest Enchanting skill": 22,
+    "Enchanting formulae learned": 15,
+    "Materials produced from disenchanting": 4,
+    "Items disenchanted": 3,
+    "Highest Tailoring skill": 42,
+    "Tailoring Patterns learned": 14,
+    "Flight paths taken": 1,
+    "Number of times hearthed": 1
+   },
+   "ach": {},
+   "prof": {
+    "Tailoring": [
+     42,
+     75
+    ],
+    "Enchanting": [
+     22,
+     75
+    ],
+    "Cooking": [
+     54,
+     75
+    ],
+    "Fishing": [
+     2,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -3637,8 +5390,7 @@
    "role": "healer",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/219/2333147-main-raw.png",
-   "fetched": 1793880332
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/219/2333147-main-raw.png"
   },
   {
    "name": "Tjacktackan På",
@@ -3653,7 +5405,7 @@
    "ilvl": 3,
    "xp": 5588,
    "title": null,
-   "active": 1793879980000,
+   "fetched": 1793882240,
    "hp": 288,
    "power": 100,
    "powerType": "Rage",
@@ -3669,6 +5421,67 @@
     "melee_crit": 6.42,
     "ranged_crit": 4.1,
     "spell_crit": 1.0
+   },
+   "active": 1793879980000,
+   "stat": {
+    "Times camped": 2,
+    "Bandages used": 16,
+    "Bandage used most": 9,
+    "Health potions consumed": 12,
+    "Elixirs consumed": 2,
+    "Food eaten": 28,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Need rolls made on loot": 2,
+    "Total kills": 601,
+    "Total kills that grant experience or honor": 580,
+    "Creatures killed": 590,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 390,
+    "Critters killed": 11,
+    "Total Killing Blows": 575,
+    "World Killing Blows": 575,
+    "Continent with the most Killing Blows": 575,
+    "Total deaths": 9,
+    "Deaths from falling": 1,
+    "Quests completed": 76,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 6,
+    "Professions learned": 3,
+    "Professions at maximum skill": 3,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 6,
+    "Cooking skill": 33,
+    "Cooking Recipes known": 12,
+    "First Aid skill": 61,
+    "First Aid Manuals learned": 10,
+    "Highest Engineering skill": 33,
+    "Engineering Schematics learned": 20,
+    "Highest Herbalism skill": 26,
+    "Highest Mining skill": 82,
+    "Smelting Recipes learned": 11,
+    "Flight paths taken": 1,
+    "Number of times hearthed": 2
+   },
+   "ach": {},
+   "prof": {
+    "Mining": [
+     82,
+     150
+    ],
+    "Engineering": [
+     36,
+     75
+    ],
+    "Cooking": [
+     33,
+     75
+    ],
+    "First Aid": [
+     70,
+     150
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -3752,8 +5565,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793880331
+   "renderUrl": null
   },
   {
    "name": "Tobbe Tonfisk",
@@ -3768,7 +5580,7 @@
    "ilvl": 5,
    "xp": 41,
    "title": null,
-   "fetched": 1793882129,
+   "fetched": 1793882236,
    "hp": 223,
    "power": 585,
    "powerType": "Mana",
@@ -3786,6 +5598,54 @@
     "spell_crit": 5.0
    },
    "active": 1793879783000,
+   "stat": {
+    "Times camped": 1,
+    "Food eaten": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Mounts owned": 2,
+    "Total kills": 259,
+    "Total kills that grant experience or honor": 249,
+    "Creatures killed": 251,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 151,
+    "Critters killed": 7,
+    "Total Killing Blows": 242,
+    "World Killing Blows": 242,
+    "Continent with the most Killing Blows": 242,
+    "Total deaths": 20,
+    "Quests completed": 72,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 1,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 1,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 50,
+    "Cooking Recipes known": 10,
+    "Highest Skinning skill": 75,
+    "Highest Tailoring skill": 26,
+    "Tailoring Patterns learned": 12,
+    "Flight paths taken": 3,
+    "Number of times hearthed": 2
+   },
+   "ach": {
+    "Explore Dun Morogh": 1793877945000
+   },
+   "prof": {
+    "Tailoring": [
+     26,
+     75
+    ],
+    "Skinning": [
+     75,
+     150
+    ],
+    "Cooking": [
+     50,
+     75
+    ]
+   },
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -3883,7 +5743,7 @@
    "ilvl": 5,
    "xp": 2369,
    "title": null,
-   "active": 1793875144000,
+   "fetched": 1793882236,
    "hp": 328,
    "power": 415,
    "powerType": "Mana",
@@ -3899,6 +5759,65 @@
     "melee_crit": 5.12,
     "ranged_crit": 3.32,
     "spell_crit": 4.51
+   },
+   "active": 1793875144000,
+   "stat": {
+    "Times camped": 2,
+    "Health potions consumed": 5,
+    "Beverages consumed": 16,
+    "Food eaten": 20,
+    "Most factions at Honored or higher": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 8,
+    "Greed rolls made on loot": 5,
+    "Total kills": 511,
+    "Total kills that grant experience or honor": 495,
+    "Creatures killed": 511,
+    "Different creature types killed": 4,
+    "Creature type killed the most": 264,
+    "Total Killing Blows": 402,
+    "World Killing Blows": 402,
+    "Continent with the most Killing Blows": 402,
+    "Total deaths": 4,
+    "Deaths from falling": 1,
+    "Quests completed": 74,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 2,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 12,
+    "Cooking Recipes known": 12,
+    "First Aid skill": 1,
+    "First Aid Manuals learned": 4,
+    "Highest Leatherworking skill": 52,
+    "Leatherworking Patterns learned": 34,
+    "Highest Skinning skill": 63,
+    "Flight paths taken": 2,
+    "Number of times hearthed": 4
+   },
+   "ach": {
+    "Explore Moonglade": 1793862553000,
+    "Explore Teldrassil": 1793869029000
+   },
+   "prof": {
+    "Leatherworking": [
+     52,
+     75
+    ],
+    "Skinning": [
+     63,
+     150
+    ],
+    "Cooking": [
+     27,
+     75
+    ],
+    "First Aid": [
+     1,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -3974,8 +5893,7 @@
    "role": "tank",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/103/7200615-main-raw.png",
-   "fetched": 1793876730
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/103/7200615-main-raw.png"
   },
   {
    "name": "Xanoy Shieldwobble",
@@ -3990,7 +5908,7 @@
    "ilvl": 5,
    "xp": 7327,
    "title": null,
-   "fetched": 1793882131,
+   "fetched": 1793882242,
    "hp": 398,
    "power": 105,
    "powerType": "Rage",
@@ -4008,6 +5926,69 @@
     "spell_crit": 0.0
    },
    "active": 1793880612000,
+   "stat": {
+    "Times camped": 3,
+    "Bandages used": 4,
+    "Bandage used most": 4,
+    "Health potions consumed": 3,
+    "Elixirs consumed": 2,
+    "Beverages consumed": 1,
+    "Food eaten": 10,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 13,
+    "Need rolls made on loot": 2,
+    "Total kills": 655,
+    "Total kills that grant experience or honor": 631,
+    "Creatures killed": 632,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 394,
+    "Critters killed": 23,
+    "Total Killing Blows": 441,
+    "World Killing Blows": 441,
+    "Continent with the most Killing Blows": 441,
+    "Total deaths": 1,
+    "Quests completed": 70,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 2,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 8,
+    "Cooking skill": 21,
+    "Cooking Recipes known": 12,
+    "First Aid skill": 53,
+    "First Aid Manuals learned": 8,
+    "Highest Blacksmithing skill": 35,
+    "Blacksmithing Plans learned": 26,
+    "Highest Mining skill": 52,
+    "Smelting Recipes learned": 11,
+    "Flight paths taken": 1,
+    "Number of times hearthed": 2,
+    "Total cheers": 1
+   },
+   "ach": {
+    "Explore Dun Morogh": 1793868725000
+   },
+   "prof": {
+    "Mining": [
+     52,
+     150
+    ],
+    "Blacksmithing": [
+     37,
+     75
+    ],
+    "Cooking": [
+     21,
+     75
+    ],
+    "First Aid": [
+     60,
+     150
+    ]
+   },
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -4129,7 +6110,7 @@
    "ilvl": 3,
    "xp": 1500,
    "title": null,
-   "fetched": 1793882127,
+   "fetched": 1793882229,
    "hp": 283,
    "power": 360,
    "powerType": "Mana",
@@ -4147,6 +6128,60 @@
     "spell_crit": 6.0
    },
    "active": 1793881182000,
+   "stat": {
+    "Times camped": 2,
+    "Health potions consumed": 3,
+    "Beverages consumed": 9,
+    "Food eaten": 20,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Mounts owned": 2,
+    "Duels won": 1,
+    "Duels lost": 1,
+    "Total kills": 480,
+    "Total kills that grant experience or honor": 439,
+    "Creatures killed": 474,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 300,
+    "Critters killed": 6,
+    "Total Killing Blows": 310,
+    "World Killing Blows": 310,
+    "Continent with the most Killing Blows": 310,
+    "Total deaths": 1,
+    "Quests completed": 69,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 1,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 29,
+    "First Aid Manuals learned": 8,
+    "Highest Leatherworking skill": 42,
+    "Leatherworking Patterns learned": 26,
+    "Highest Skinning skill": 87,
+    "Number of times hearthed": 1
+   },
+   "ach": {},
+   "prof": {
+    "Leatherworking": [
+     42,
+     75
+    ],
+    "Skinning": [
+     87,
+     150
+    ],
+    "Cooking": [
+     1,
+     75
+    ],
+    "First Aid": [
+     46,
+     75
+    ]
+   },
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -4252,7 +6287,7 @@
    "ilvl": 3,
    "xp": 5197,
    "title": null,
-   "active": null,
+   "fetched": 1793882236,
    "hp": 256,
    "power": 344,
    "powerType": "Mana",
@@ -4268,6 +6303,61 @@
     "melee_crit": 5.84,
     "ranged_crit": 3.64,
     "spell_crit": 6.0
+   },
+   "active": 1793858335000,
+   "stat": {
+    "Times camped": 1,
+    "Health potions consumed": 3,
+    "Beverages consumed": 2,
+    "Food eaten": 2,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Need rolls made on loot": 1,
+    "Total kills": 302,
+    "Total kills that grant experience or honor": 302,
+    "Creatures killed": 302,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 176,
+    "Total Killing Blows": 280,
+    "World Killing Blows": 280,
+    "Continent with the most Killing Blows": 280,
+    "Total deaths": 1,
+    "Quests completed": 71,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 3,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 4,
+    "Cooking skill": 1,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 1,
+    "First Aid Manuals learned": 6,
+    "Highest Blacksmithing skill": 19,
+    "Blacksmithing Plans learned": 12,
+    "Highest Mining skill": 40,
+    "Smelting Recipes learned": 9,
+    "Flight paths taken": 1,
+    "Number of times hearthed": 1
+   },
+   "ach": {},
+   "prof": {
+    "Mining": [
+     42,
+     75
+    ],
+    "Blacksmithing": [
+     19,
+     75
+    ],
+    "Cooking": [
+     1,
+     75
+    ],
+    "First Aid": [
+     1,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -4350,9 +6440,8 @@
    "spec": "Retribution",
    "role": "dps",
    "exalted": [],
-   "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793858725
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/154/8315290-main-raw.png"
   },
   {
    "name": "Biffen Biffsson",
@@ -4376,7 +6465,7 @@
    "ilvl": 7,
    "xp": 2479,
    "title": null,
-   "active": 1793874605000,
+   "fetched": 1793882243,
    "hp": 301,
    "power": 442,
    "powerType": "Mana",
@@ -4392,6 +6481,58 @@
     "melee_crit": 6.16,
     "ranged_crit": 4.16,
     "spell_crit": 4.91
+   },
+   "active": 1793874605000,
+   "stat": {
+    "Mana potions consumed": 1,
+    "Elixirs consumed": 2,
+    "Beverages consumed": 1,
+    "Food eaten": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 9,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 1,
+    "Total kills": 335,
+    "Total kills that grant experience or honor": 333,
+    "Creatures killed": 335,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 174,
+    "Total Killing Blows": 314,
+    "Total deaths": 1,
+    "Total raid and dungeon deaths": 1,
+    "Quests completed": 68,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 5,
+    "Cooking skill": 10,
+    "Cooking Recipes known": 12,
+    "First Aid skill": 1,
+    "First Aid Manuals learned": 4,
+    "Highest Leatherworking skill": 57,
+    "Leatherworking Patterns learned": 32,
+    "Highest Skinning skill": 75,
+    "Number of times hearthed": 2
+   },
+   "ach": {},
+   "prof": {
+    "Leatherworking": [
+     57,
+     75
+    ],
+    "Skinning": [
+     75,
+     75
+    ],
+    "Cooking": [
+     10,
+     75
+    ],
+    "First Aid": [
+     1,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -4474,9 +6615,8 @@
    "spec": "Feral Combat",
    "role": "tank",
    "exalted": [],
-   "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793874930
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/6/4578566-main-raw.png"
   },
   {
    "name": "Bobbo Såklart",
@@ -4500,7 +6640,7 @@
    "ilvl": 4,
    "xp": 4672,
    "title": null,
-   "active": 1793874658000,
+   "fetched": 1793882235,
    "hp": 283,
    "power": 360,
    "powerType": "Mana",
@@ -4516,6 +6656,55 @@
     "melee_crit": 5.04,
     "ranged_crit": 5.48,
     "spell_crit": 6.0
+   },
+   "active": 1793874658000,
+   "stat": {
+    "Health potions consumed": 4,
+    "Beverages consumed": 3,
+    "Food eaten": 12,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Mounts owned": 2,
+    "Need rolls made on loot": 1,
+    "Total kills": 325,
+    "Total kills that grant experience or honor": 323,
+    "Creatures killed": 324,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 239,
+    "Critters killed": 1,
+    "Total Killing Blows": 320,
+    "World Killing Blows": 320,
+    "Continent with the most Killing Blows": 320,
+    "Total deaths": 7,
+    "Quests completed": 68,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 1,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 1,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 2,
+    "Cooking Recipes known": 10,
+    "Highest Leatherworking skill": 20,
+    "Leatherworking Patterns learned": 18,
+    "Highest Skinning skill": 73,
+    "Flight paths taken": 1,
+    "Number of times hearthed": 2
+   },
+   "ach": {},
+   "prof": {
+    "Leatherworking": [
+     20,
+     75
+    ],
+    "Skinning": [
+     73,
+     75
+    ],
+    "Cooking": [
+     2,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -4607,8 +6796,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/242/2271986-main-raw.png",
-   "fetched": 1793874928
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/242/2271986-main-raw.png"
   },
   {
    "name": "Doomo Kun",
@@ -4623,7 +6811,7 @@
    "ilvl": 2,
    "xp": 7349,
    "title": null,
-   "active": 1793877261000,
+   "fetched": 1793882237,
    "hp": 252,
    "power": 100,
    "powerType": "Energy",
@@ -4639,6 +6827,69 @@
     "melee_crit": 9.15,
     "ranged_crit": 8.31,
     "spell_crit": 0.0
+   },
+   "active": 1793877261000,
+   "stat": {
+    "Times camped": 1,
+    "Health potions consumed": 6,
+    "Elixirs consumed": 2,
+    "Beverages consumed": 2,
+    "Food eaten": 7,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 1,
+    "Total kills": 447,
+    "Total kills that grant experience or honor": 445,
+    "Creatures killed": 446,
+    "Different creature types killed": 4,
+    "Creature type killed the most": 218,
+    "Critters killed": 1,
+    "Total Killing Blows": 386,
+    "World Killing Blows": 386,
+    "Continent with the most Killing Blows": 386,
+    "Total deaths": 3,
+    "Quests completed": 62,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 3,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 21,
+    "Cooking Recipes known": 14,
+    "First Aid skill": 99,
+    "First Aid Manuals learned": 8,
+    "Fish caught": 6,
+    "Fish and other things caught": 6,
+    "Highest Alchemy skill": 63,
+    "Alchemy Recipes learned": 28,
+    "Highest Herbalism skill": 78,
+    "Number of times hearthed": 4,
+    "Total cheers": 1
+   },
+   "ach": {},
+   "prof": {
+    "Alchemy": [
+     73,
+     150
+    ],
+    "Herbalism": [
+     81,
+     150
+    ],
+    "Cooking": [
+     21,
+     75
+    ],
+    "Fishing": [
+     8,
+     75
+    ],
+    "First Aid": [
+     56,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -4714,8 +6965,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/196/5576644-main-raw.png",
-   "fetched": 1793878532
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/196/5576644-main-raw.png"
   },
   {
    "name": "Dys Lexia",
@@ -4739,7 +6989,7 @@
    "ilvl": 2,
    "xp": 2991,
    "title": null,
-   "active": 1793871748000,
+   "fetched": 1793882249,
    "hp": 292,
    "power": 105,
    "powerType": "Energy",
@@ -4755,6 +7005,59 @@
     "melee_crit": 9.38,
     "ranged_crit": 9.18,
     "spell_crit": 0.0
+   },
+   "active": 1793871748000,
+   "stat": {
+    "Times camped": 1,
+    "Food eaten": 14,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 8,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 2,
+    "Total kills": 226,
+    "Total kills that grant experience or honor": 224,
+    "Creatures killed": 225,
+    "Different creature types killed": 2,
+    "Creature type killed the most": 123,
+    "Total Killing Blows": 195,
+    "World Killing Blows": 195,
+    "Continent with the most Killing Blows": 195,
+    "Total deaths": 17,
+    "Quests completed": 68,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 3,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 4,
+    "Cooking skill": 1,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 1,
+    "First Aid Manuals learned": 6,
+    "Highest Leatherworking skill": 1,
+    "Leatherworking Patterns learned": 14,
+    "Highest Skinning skill": 35,
+    "Flight paths taken": 2,
+    "Number of times hearthed": 1
+   },
+   "ach": {},
+   "prof": {
+    "Leatherworking": [
+     12,
+     75
+    ],
+    "Skinning": [
+     35,
+     75
+    ],
+    "Cooking": [
+     1,
+     75
+    ],
+    "First Aid": [
+     1,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -4853,9 +7156,8 @@
    "spec": "Combat",
    "role": "dps",
    "exalted": [],
-   "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793878536
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/231/3467751-main-raw.png"
   },
   {
    "name": "Gunnar Dunder",
@@ -4870,7 +7172,7 @@
    "ilvl": 1,
    "xp": 6100,
    "title": null,
-   "fetched": 1793882127,
+   "fetched": 1793882228,
    "hp": 274,
    "power": 361,
    "powerType": "Mana",
@@ -4888,6 +7190,47 @@
     "spell_crit": 7.75
    },
    "active": 1793880556000,
+   "stat": {
+    "Health potions consumed": 6,
+    "Beverages consumed": 12,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 1,
+    "Total kills": 269,
+    "Total kills that grant experience or honor": 261,
+    "Creatures killed": 263,
+    "Different creature types killed": 2,
+    "Creature type killed the most": 151,
+    "Critters killed": 2,
+    "Total Killing Blows": 227,
+    "World Killing Blows": 227,
+    "Continent with the most Killing Blows": 227,
+    "Total deaths": 3,
+    "Quests completed": 69,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 2,
+    "Professions learned": 1,
+    "Professions at maximum skill": 1,
+    "Secondary skills at maximum skill": 1,
+    "Weapon skills at maximum skill": 5,
+    "Cooking skill": 1,
+    "Cooking Recipes known": 10,
+    "Highest Skinning skill": 3,
+    "Flight paths taken": 4,
+    "Number of times hearthed": 2
+   },
+   "ach": {},
+   "prof": {
+    "Skinning": [
+     3,
+     75
+    ],
+    "Cooking": [
+     1,
+     75
+    ]
+   },
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -4994,7 +7337,7 @@
    "ilvl": 3,
    "xp": 1216,
    "title": null,
-   "fetched": 1793882127,
+   "fetched": 1793882228,
    "hp": 349,
    "power": 100,
    "powerType": "Rage",
@@ -5012,6 +7355,68 @@
     "spell_crit": 1.0
    },
    "active": 1793881199000,
+   "stat": {
+    "Times camped": 3,
+    "Bandages used": 8,
+    "Bandage used most": 8,
+    "Health potions consumed": 4,
+    "Food eaten": 11,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Duels won": 1,
+    "Duels lost": 1,
+    "Total kills": 465,
+    "Total kills that grant experience or honor": 417,
+    "Creatures killed": 450,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 296,
+    "Critters killed": 15,
+    "Total Killing Blows": 256,
+    "World Killing Blows": 256,
+    "Continent with the most Killing Blows": 256,
+    "Total deaths": 2,
+    "Quests completed": 75,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 3,
+    "Weapon skills at maximum skill": 5,
+    "Cooking skill": 43,
+    "Cooking Recipes known": 12,
+    "First Aid skill": 29,
+    "First Aid Manuals learned": 8,
+    "Fishing skill": 75,
+    "Fish caught": 88,
+    "Fish and other things caught": 88,
+    "Highest Blacksmithing skill": 34,
+    "Blacksmithing Plans learned": 22,
+    "Highest Mining skill": 56,
+    "Smelting Recipes learned": 9,
+    "Number of times hearthed": 2
+   },
+   "ach": {},
+   "prof": {
+    "Mining": [
+     60,
+     75
+    ],
+    "Blacksmithing": [
+     48,
+     75
+    ],
+    "Cooking": [
+     43,
+     75
+    ],
+    "Fishing": [
+     75,
+     150
+    ],
+    "First Aid": [
+     29,
+     75
+    ]
+   },
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -5109,7 +7514,7 @@
    "ilvl": 3,
    "xp": 5842,
    "title": null,
-   "active": null,
+   "fetched": 1793882235,
    "hp": 256,
    "power": 344,
    "powerType": "Mana",
@@ -5125,6 +7530,54 @@
     "melee_crit": 5.96,
     "ranged_crit": 3.64,
     "spell_crit": 6.0
+   },
+   "active": 1793853486000,
+   "stat": {
+    "Times camped": 2,
+    "Health potions consumed": 4,
+    "Beverages consumed": 1,
+    "Food eaten": 2,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 1,
+    "Total kills": 381,
+    "Total kills that grant experience or honor": 373,
+    "Creatures killed": 381,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 300,
+    "Total Killing Blows": 365,
+    "World Killing Blows": 365,
+    "Continent with the most Killing Blows": 365,
+    "Total deaths": 1,
+    "Quests completed": 73,
+    "Average quests completed per day": 0,
+    "Professions learned": 1,
+    "Professions at maximum skill": 1,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 12,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 58,
+    "First Aid Manuals learned": 12,
+    "Highest Mining skill": 71,
+    "Smelting Recipes learned": 11,
+    "Number of times hearthed": 1
+   },
+   "ach": {},
+   "prof": {
+    "Mining": [
+     72,
+     150
+    ],
+    "Cooking": [
+     12,
+     75
+    ],
+    "First Aid": [
+     58,
+     150
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -5207,9 +7660,8 @@
    "spec": "Retribution",
    "role": "dps",
    "exalted": [],
-   "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793855130
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/202/1905866-main-raw.png"
   },
   {
    "name": "Lasse Vegas",
@@ -5224,7 +7676,7 @@
    "ilvl": 3,
    "xp": 1286,
    "title": null,
-   "active": null,
+   "fetched": 1793882228,
    "hp": 269,
    "power": 100,
    "powerType": "Rage",
@@ -5240,6 +7692,71 @@
     "melee_crit": 5.01,
     "ranged_crit": 3.53,
     "spell_crit": 0.0
+   },
+   "active": 1793852997000,
+   "stat": {
+    "Bandages used": 3,
+    "Bandage used most": 3,
+    "Health potions consumed": 6,
+    "Food eaten": 2,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Total kills": 321,
+    "Total kills that grant experience or honor": 320,
+    "Creatures killed": 321,
+    "Different creature types killed": 4,
+    "Creature type killed the most": 157,
+    "Total Killing Blows": 278,
+    "World Killing Blows": 278,
+    "Continent with the most Killing Blows": 278,
+    "Total deaths": 7,
+    "Deaths from falling": 1,
+    "Quests completed": 67,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 1,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 3,
+    "Weapon skills at maximum skill": 6,
+    "Cooking skill": 1,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 21,
+    "First Aid Manuals learned": 6,
+    "Fishing skill": 20,
+    "Fish caught": 19,
+    "Fish and other things caught": 19,
+    "Highest Blacksmithing skill": 1,
+    "Blacksmithing Plans learned": 12,
+    "Highest Mining skill": 20,
+    "Smelting Recipes learned": 9,
+    "Flight paths taken": 3,
+    "Number of times hearthed": 1
+   },
+   "ach": {
+    "Explore Teldrassil": 1793850750000
+   },
+   "prof": {
+    "Mining": [
+     20,
+     75
+    ],
+    "Blacksmithing": [
+     1,
+     75
+    ],
+    "Cooking": [
+     1,
+     75
+    ],
+    "Fishing": [
+     20,
+     75
+    ],
+    "First Aid": [
+     21,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -5330,9 +7847,8 @@
    "spec": "Protection",
    "role": "tank",
    "exalted": [],
-   "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793853326
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/181/584885-main-raw.png"
   },
   {
    "name": "Naeriam Pälsskiftarn",
@@ -5347,7 +7863,7 @@
    "ilvl": 3,
    "xp": 7490,
    "title": null,
-   "active": 1793874719000,
+   "fetched": 1793882249,
    "hp": 261,
    "power": 382,
    "powerType": "Mana",
@@ -5363,6 +7879,57 @@
     "melee_crit": 5.1,
     "ranged_crit": 3.1,
     "spell_crit": 4.57
+   },
+   "active": 1793874719000,
+   "stat": {
+    "Health potions consumed": 4,
+    "Beverages consumed": 3,
+    "Food eaten": 2,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 2,
+    "Total kills": 376,
+    "Total kills that grant experience or honor": 370,
+    "Creatures killed": 376,
+    "Different creature types killed": 5,
+    "Creature type killed the most": 156,
+    "Total Killing Blows": 312,
+    "World Killing Blows": 312,
+    "Continent with the most Killing Blows": 312,
+    "Total deaths": 4,
+    "Deaths from falling": 1,
+    "Quests completed": 70,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 4,
+    "Professions learned": 1,
+    "Professions at maximum skill": 1,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 4,
+    "Cooking skill": 1,
+    "Cooking Recipes known": 12,
+    "Fishing skill": 1,
+    "Highest Skinning skill": 60,
+    "Flight paths taken": 2,
+    "Number of times hearthed": 4
+   },
+   "ach": {
+    "Explore Moonglade": 1793868989000,
+    "Explore Teldrassil": 1793872076000
+   },
+   "prof": {
+    "Skinning": [
+     60,
+     75
+    ],
+    "Cooking": [
+     1,
+     75
+    ],
+    "Fishing": [
+     1,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -5437,9 +8004,8 @@
    "spec": "Feral Combat",
    "role": "tank",
    "exalted": [],
-   "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793878536
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/90/5609306-main-raw.png"
   },
   {
    "name": "Ranarn Fors",
@@ -5472,7 +8038,7 @@
    "ilvl": 2,
    "xp": 740,
    "title": null,
-   "fetched": 1793882127,
+   "fetched": 1793882228,
    "hp": 241,
    "power": 382,
    "powerType": "Mana",
@@ -5490,6 +8056,59 @@
     "spell_crit": 4.57
    },
    "active": 1793880369000,
+   "stat": {
+    "Times camped": 24,
+    "Beverages consumed": 3,
+    "Food eaten": 2,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Greed rolls made on loot": 9,
+    "Total kills": 543,
+    "Total kills that grant experience or honor": 526,
+    "Creatures killed": 542,
+    "Different creature types killed": 5,
+    "Creature type killed the most": 218,
+    "Critters killed": 1,
+    "Total Killing Blows": 260,
+    "World Killing Blows": 260,
+    "Continent with the most Killing Blows": 260,
+    "Quests completed": 59,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 9,
+    "Cooking Recipes known": 10,
+    "Fishing skill": 1,
+    "Highest Leatherworking skill": 6,
+    "Leatherworking Patterns learned": 14,
+    "Highest Skinning skill": 6,
+    "Flight paths taken": 2,
+    "Number of times hearthed": 3
+   },
+   "ach": {
+    "Explore Moonglade": 1793849366000,
+    "Explore Teldrassil": 1793851076000
+   },
+   "prof": {
+    "Leatherworking": [
+     6,
+     75
+    ],
+    "Skinning": [
+     6,
+     75
+    ],
+    "Cooking": [
+     9,
+     75
+    ],
+    "Fishing": [
+     1,
+     75
+    ]
+   },
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -5579,7 +8198,7 @@
    "ilvl": 2,
    "xp": 7506,
    "title": null,
-   "active": 1793871639000,
+   "fetched": 1793882236,
    "hp": 243,
    "power": 360,
    "powerType": "Mana",
@@ -5595,6 +8214,61 @@
     "melee_crit": 4.32,
     "ranged_crit": 4.72,
     "spell_crit": 5.0
+   },
+   "active": 1793871639000,
+   "stat": {
+    "Health potions consumed": 3,
+    "Food eaten": 8,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Need rolls made on loot": 1,
+    "Total kills": 436,
+    "Total kills that grant experience or honor": 425,
+    "Creatures killed": 430,
+    "Different creature types killed": 4,
+    "Creature type killed the most": 183,
+    "Critters killed": 6,
+    "Total Killing Blows": 402,
+    "World Killing Blows": 402,
+    "Continent with the most Killing Blows": 402,
+    "Total deaths": 9,
+    "Quests completed": 64,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 2,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 4,
+    "Cooking skill": 14,
+    "Cooking Recipes known": 12,
+    "First Aid skill": 1,
+    "First Aid Manuals learned": 4,
+    "Highest Mining skill": 34,
+    "Smelting Recipes learned": 7,
+    "Highest Skinning skill": 66,
+    "Flight paths taken": 1,
+    "Number of times hearthed": 2
+   },
+   "ach": {
+    "Explore Teldrassil": 1793871446000
+   },
+   "prof": {
+    "Skinning": [
+     66,
+     75
+    ],
+    "Mining": [
+     34,
+     75
+    ],
+    "Cooking": [
+     14,
+     75
+    ],
+    "First Aid": [
+     1,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -5686,8 +8360,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/28/8141340-main-raw.png",
-   "fetched": 1793873127
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/28/8141340-main-raw.png"
   },
   {
    "name": "Trubbel Bubble",
@@ -5711,7 +8384,7 @@
    "ilvl": 4,
    "xp": 2185,
    "title": null,
-   "fetched": 1793882134,
+   "fetched": 1793882248,
    "hp": 256,
    "power": 330,
    "powerType": "Mana",
@@ -5729,6 +8402,62 @@
     "spell_crit": 5.0
    },
    "active": 1793880599000,
+   "stat": {
+    "Bandages used": 8,
+    "Bandage used most": 8,
+    "Beverages consumed": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 7,
+    "Mounts owned": 2,
+    "Total kills": 286,
+    "Total kills that grant experience or honor": 286,
+    "Creatures killed": 286,
+    "Different creature types killed": 4,
+    "Creature type killed the most": 129,
+    "Total Killing Blows": 278,
+    "World Killing Blows": 278,
+    "Continent with the most Killing Blows": 278,
+    "Total deaths": 1,
+    "Quests completed": 51,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 3,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 3,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 1,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 38,
+    "First Aid Manuals learned": 6,
+    "Fishing skill": 1,
+    "Highest Leatherworking skill": 42,
+    "Leatherworking Patterns learned": 20,
+    "Highest Skinning skill": 67,
+    "Number of times hearthed": 3
+   },
+   "ach": {},
+   "prof": {
+    "Leatherworking": [
+     42,
+     75
+    ],
+    "Skinning": [
+     68,
+     150
+    ],
+    "Cooking": [
+     1,
+     75
+    ],
+    "Fishing": [
+     1,
+     75
+    ],
+    "First Aid": [
+     38,
+     75
+    ]
+   },
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -5834,7 +8563,7 @@
    "ilvl": 4,
    "xp": 222,
    "title": null,
-   "active": 1793877928000,
+   "fetched": 1793882250,
    "hp": 258,
    "power": 315,
    "powerType": "Mana",
@@ -5850,6 +8579,58 @@
     "melee_crit": 5.64,
     "ranged_crit": 3.84,
     "spell_crit": 6.0
+   },
+   "active": 1793877928000,
+   "stat": {
+    "Times camped": 3,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Greed rolls made on loot": 1,
+    "Need rolls made on loot": 1,
+    "Total kills": 230,
+    "Total kills that grant experience or honor": 230,
+    "Creatures killed": 230,
+    "Different creature types killed": 4,
+    "Creature type killed the most": 177,
+    "Total Killing Blows": 208,
+    "World Killing Blows": 208,
+    "Continent with the most Killing Blows": 208,
+    "Total deaths": 2,
+    "Quests completed": 57,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 5,
+    "Cooking skill": 10,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 22,
+    "First Aid Manuals learned": 4,
+    "Highest Blacksmithing skill": 21,
+    "Blacksmithing Plans learned": 22,
+    "Highest Mining skill": 24,
+    "Smelting Recipes learned": 7,
+    "Flight paths taken": 1,
+    "Number of times hearthed": 1
+   },
+   "ach": {},
+   "prof": {
+    "Mining": [
+     24,
+     75
+    ],
+    "Blacksmithing": [
+     21,
+     75
+    ],
+    "Cooking": [
+     10,
+     75
+    ],
+    "First Aid": [
+     22,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -5932,9 +8713,8 @@
    "spec": null,
    "role": "dps",
    "exalted": [],
-   "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793878536
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/144/10129552-main-raw.png"
   },
   {
    "name": "Dunder Dumle",
@@ -5949,7 +8729,7 @@
    "ilvl": 4,
    "xp": 3461,
    "title": null,
-   "fetched": 1793882134,
+   "fetched": 1793882247,
    "hp": 340,
    "power": 100,
    "powerType": "Rage",
@@ -5967,6 +8747,51 @@
     "spell_crit": 1.0
    },
    "active": 1793878574000,
+   "stat": {
+    "Times camped": 1,
+    "Health potions consumed": 1,
+    "Food eaten": 4,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Total kills": 667,
+    "Total kills that grant experience or honor": 657,
+    "Creatures killed": 659,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 424,
+    "Critters killed": 8,
+    "Total Killing Blows": 248,
+    "World Killing Blows": 248,
+    "Continent with the most Killing Blows": 248,
+    "Quests completed": 59,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 1,
+    "Weapon skills at maximum skill": 4,
+    "Cooking skill": 71,
+    "Cooking Recipes known": 16,
+    "Highest Blacksmithing skill": 64,
+    "Blacksmithing Plans learned": 40,
+    "Highest Mining skill": 73,
+    "Smelting Recipes learned": 7,
+    "Number of times hearthed": 1
+   },
+   "ach": {},
+   "prof": {
+    "Mining": [
+     73,
+     75
+    ],
+    "Blacksmithing": [
+     64,
+     75
+    ],
+    "Cooking": [
+     71,
+     150
+    ]
+   },
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -6072,7 +8897,7 @@
    "ilvl": 2,
    "xp": 461,
    "title": null,
-   "active": 1793869787000,
+   "fetched": 1793882243,
    "hp": 257,
    "power": 330,
    "powerType": "Mana",
@@ -6088,6 +8913,63 @@
     "melee_crit": 6.21,
     "ranged_crit": 3.29,
     "spell_crit": 6.82
+   },
+   "active": 1793869787000,
+   "stat": {
+    "Times camped": 2,
+    "Bandages used": 9,
+    "Bandage used most": 9,
+    "Beverages consumed": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Greed rolls made on loot": 1,
+    "Total kills": 270,
+    "Total kills that grant experience or honor": 262,
+    "Creatures killed": 263,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 148,
+    "Critters killed": 7,
+    "Total Killing Blows": 256,
+    "World Killing Blows": 256,
+    "Continent with the most Killing Blows": 256,
+    "Total deaths": 5,
+    "Deaths from falling": 2,
+    "Quests completed": 48,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 1,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 4,
+    "Cooking Recipes known": 12,
+    "First Aid skill": 31,
+    "First Aid Manuals learned": 8,
+    "Highest Engineering skill": 27,
+    "Engineering Schematics learned": 11,
+    "Highest Mining skill": 31,
+    "Smelting Recipes learned": 9,
+    "Number of times hearthed": 2,
+    "Total cheers": 1
+   },
+   "ach": {},
+   "prof": {
+    "Mining": [
+     31,
+     75
+    ],
+    "Engineering": [
+     27,
+     75
+    ],
+    "Cooking": [
+     4,
+     75
+    ],
+    "First Aid": [
+     31,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -6186,9 +9068,8 @@
    "spec": "Enhancement",
    "role": "dps",
    "exalted": [],
-   "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793871329
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/97/8848225-main-raw.png"
   },
   {
    "name": "Han Nimmer",
@@ -6203,7 +9084,7 @@
    "ilvl": 2,
    "xp": 6964,
    "title": null,
-   "active": 1793879967000,
+   "fetched": 1793882229,
    "hp": 257,
    "power": 330,
    "powerType": "Mana",
@@ -6219,6 +9100,61 @@
     "melee_crit": 4.17,
     "ranged_crit": 2.29,
     "spell_crit": 4.82
+   },
+   "active": 1793879967000,
+   "stat": {
+    "Bandages used": 2,
+    "Bandage used most": 2,
+    "Health potions consumed": 3,
+    "Elixirs consumed": 3,
+    "Beverages consumed": 28,
+    "Food eaten": 15,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 8,
+    "Total 5-player dungeons entered": 1,
+    "Total kills": 252,
+    "Total kills that grant experience or honor": 250,
+    "Creatures killed": 250,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 153,
+    "Critters killed": 2,
+    "Total Killing Blows": 201,
+    "World Killing Blows": 201,
+    "Continent with the most Killing Blows": 201,
+    "Total deaths": 11,
+    "Quests completed": 61,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 4,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 4,
+    "Cooking skill": 6,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 45,
+    "First Aid Manuals learned": 8,
+    "Highest Alchemy skill": 20,
+    "Alchemy Recipes learned": 14,
+    "Highest Herbalism skill": 24
+   },
+   "ach": {},
+   "prof": {
+    "Alchemy": [
+     22,
+     75
+    ],
+    "Herbalism": [
+     26,
+     75
+    ],
+    "Cooking": [
+     6,
+     75
+    ],
+    "First Aid": [
+     25,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -6318,8 +9254,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793880329
+   "renderUrl": null
   },
   {
    "name": "Herr Malte",
@@ -6334,7 +9269,7 @@
    "ilvl": 4,
    "xp": 5993,
    "title": null,
-   "fetched": 1793882127,
+   "fetched": 1793882228,
    "hp": 203,
    "power": 445,
    "powerType": "Mana",
@@ -6352,6 +9287,60 @@
     "spell_crit": 6.1
    },
    "active": 1793876458000,
+   "stat": {
+    "Times camped": 1,
+    "Health potions consumed": 10,
+    "Beverages consumed": 18,
+    "Food eaten": 21,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Greed rolls made on loot": 1,
+    "Need rolls made on loot": 1,
+    "Total kills": 342,
+    "Total kills that grant experience or honor": 336,
+    "Creatures killed": 342,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 244,
+    "Total Killing Blows": 243,
+    "World Killing Blows": 243,
+    "Continent with the most Killing Blows": 243,
+    "Total deaths": 5,
+    "Quests completed": 66,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 5,
+    "Cooking skill": 5,
+    "Cooking Recipes known": 10,
+    "Fishing skill": 1,
+    "Highest Enchanting skill": 4,
+    "Enchanting formulae learned": 13,
+    "Materials produced from disenchanting": 3,
+    "Items disenchanted": 3,
+    "Highest Tailoring skill": 29,
+    "Tailoring Patterns learned": 16,
+    "Number of times hearthed": 1
+   },
+   "ach": {},
+   "prof": {
+    "Tailoring": [
+     29,
+     75
+    ],
+    "Enchanting": [
+     4,
+     75
+    ],
+    "Cooking": [
+     5,
+     75
+    ],
+    "Fishing": [
+     1,
+     75
+    ]
+   },
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -6449,7 +9438,7 @@
    "ilvl": 2,
    "xp": 4687,
    "title": null,
-   "active": null,
+   "fetched": 1793882235,
    "hp": 193,
    "power": 483,
    "powerType": "Mana",
@@ -6465,6 +9454,64 @@
     "melee_crit": 5.21,
     "ranged_crit": 3.21,
     "spell_crit": 5.2
+   },
+   "active": 1793854905000,
+   "stat": {
+    "Bandages used": 49,
+    "Bandage used most": 47,
+    "Health potions consumed": 3,
+    "Beverages consumed": 1,
+    "Food eaten": 15,
+    "Healthstones used": 8,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 3,
+    "Total kills": 459,
+    "Total kills that grant experience or honor": 452,
+    "Creatures killed": 458,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 303,
+    "Critters killed": 1,
+    "Total Killing Blows": 420,
+    "World Killing Blows": 420,
+    "Continent with the most Killing Blows": 420,
+    "Total deaths": 8,
+    "Quests completed": 41,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 1,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 15,
+    "Cooking Recipes known": 12,
+    "First Aid skill": 41,
+    "First Aid Manuals learned": 10,
+    "Highest Engineering skill": 20,
+    "Engineering Schematics learned": 11,
+    "Highest Mining skill": 55,
+    "Smelting Recipes learned": 9,
+    "Number of times hearthed": 3
+   },
+   "ach": {},
+   "prof": {
+    "Mining": [
+     68,
+     75
+    ],
+    "Engineering": [
+     36,
+     75
+    ],
+    "Cooking": [
+     15,
+     75
+    ],
+    "First Aid": [
+     56,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -6547,9 +9594,8 @@
    "spec": null,
    "role": "dps",
    "exalted": [],
-   "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793856927
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/164/7154852-main-raw.png"
   },
   {
    "name": "Leif Lönnmord",
@@ -6573,7 +9619,7 @@
    "ilvl": 2,
    "xp": 5272,
    "title": null,
-   "active": 1793878861000,
+   "fetched": 1793882244,
    "hp": 317,
    "power": 330,
    "powerType": "Mana",
@@ -6589,6 +9635,65 @@
     "melee_crit": 3.7,
     "ranged_crit": 2.7,
     "spell_crit": 5.82
+   },
+   "active": 1793878861000,
+   "stat": {
+    "Times camped": 3,
+    "Health potions consumed": 1,
+    "Beverages consumed": 8,
+    "Food eaten": 6,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Greed rolls made on loot": 1,
+    "Need rolls made on loot": 1,
+    "Total kills": 238,
+    "Total kills that grant experience or honor": 236,
+    "Creatures killed": 236,
+    "Different creature types killed": 2,
+    "Creature type killed the most": 150,
+    "Critters killed": 2,
+    "Total Killing Blows": 193,
+    "World Killing Blows": 193,
+    "Continent with the most Killing Blows": 193,
+    "Total deaths": 4,
+    "Quests completed": 57,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 1,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 4,
+    "Cooking skill": 2,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 6,
+    "First Aid Manuals learned": 4,
+    "Highest Leatherworking skill": 33,
+    "Leatherworking Patterns learned": 22,
+    "Highest Skinning skill": 75,
+    "Flight paths taken": 1,
+    "Number of times hearthed": 2,
+    "Total cheers": 1
+   },
+   "ach": {
+    "Explore Dun Morogh": 1793877692000
+   },
+   "prof": {
+    "Leatherworking": [
+     33,
+     75
+    ],
+    "Skinning": [
+     75,
+     150
+    ],
+    "Cooking": [
+     2,
+     75
+    ],
+    "First Aid": [
+     20,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -6672,8 +9777,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793880333
+   "renderUrl": null
   },
   {
    "name": "Little Stds",
@@ -6688,7 +9792,7 @@
    "ilvl": 3,
    "xp": 2973,
    "title": null,
-   "active": null,
+   "fetched": 1793882228,
    "hp": 193,
    "power": 483,
    "powerType": "Mana",
@@ -6704,6 +9808,62 @@
     "melee_crit": 5.01,
     "ranged_crit": 3.21,
     "spell_crit": 5.2
+   },
+   "active": 1793849015000,
+   "stat": {
+    "Times camped": 1,
+    "Bandages used": 4,
+    "Bandage used most": 4,
+    "Health potions consumed": 1,
+    "Beverages consumed": 42,
+    "Food eaten": 31,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Total kills": 241,
+    "Total kills that grant experience or honor": 238,
+    "Creatures killed": 239,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 136,
+    "Critters killed": 2,
+    "Total Killing Blows": 220,
+    "World Killing Blows": 220,
+    "Continent with the most Killing Blows": 220,
+    "Total deaths": 7,
+    "Quests completed": 48,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 1,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 10,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 25,
+    "First Aid Manuals learned": 6,
+    "Highest Mining skill": 21,
+    "Smelting Recipes learned": 9,
+    "Highest Tailoring skill": 1,
+    "Tailoring Patterns learned": 12,
+    "Number of times hearthed": 2
+   },
+   "ach": {},
+   "prof": {
+    "Tailoring": [
+     13,
+     75
+    ],
+    "Mining": [
+     21,
+     75
+    ],
+    "Cooking": [
+     10,
+     75
+    ],
+    "First Aid": [
+     25,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -6795,8 +9955,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793851524
+   "renderUrl": null
   },
   {
    "name": "Lycia Drollmane",
@@ -6811,7 +9970,7 @@
    "ilvl": 2,
    "xp": 6477,
    "title": null,
-   "active": null,
+   "fetched": 1793882228,
    "hp": 222,
    "power": 445,
    "powerType": "Mana",
@@ -6827,6 +9986,63 @@
     "melee_crit": 4.73,
     "ranged_crit": 5.45,
     "spell_crit": 4.77
+   },
+   "active": 1793853995000,
+   "stat": {
+    "Times camped": 1,
+    "Food eaten": 3,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 9,
+    "Total kills": 525,
+    "Total kills that grant experience or honor": 509,
+    "Creatures killed": 524,
+    "Different creature types killed": 5,
+    "Creature type killed the most": 202,
+    "Critters killed": 1,
+    "Total Killing Blows": 275,
+    "World Killing Blows": 275,
+    "Continent with the most Killing Blows": 275,
+    "Quests completed": 54,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 2,
+    "Professions learned": 3,
+    "Professions at maximum skill": 3,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 11,
+    "Cooking Recipes known": 12,
+    "Fishing skill": 47,
+    "Fish caught": 46,
+    "Fish and other things caught": 46,
+    "Highest Enchanting skill": 14,
+    "Enchanting formulae learned": 15,
+    "Materials produced from disenchanting": 6,
+    "Items disenchanted": 5,
+    "Highest Herbalism skill": 4,
+    "Highest Tailoring skill": 34,
+    "Tailoring Patterns learned": 16,
+    "Number of times hearthed": 3
+   },
+   "ach": {},
+   "prof": {
+    "Tailoring": [
+     47,
+     75
+    ],
+    "Enchanting": [
+     14,
+     75
+    ],
+    "Cooking": [
+     11,
+     75
+    ],
+    "Fishing": [
+     47,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -6909,9 +10125,8 @@
    "spec": "Discipline",
    "role": "healer",
    "exalted": [],
-   "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793855128
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/27/6037531-main-raw.png"
   },
   {
    "name": "Maha Kalle",
@@ -6926,7 +10141,7 @@
    "ilvl": 2,
    "xp": 2161,
    "title": null,
-   "fetched": 1793882127,
+   "fetched": 1793882228,
    "hp": 243,
    "power": 415,
    "powerType": "Mana",
@@ -6944,6 +10159,49 @@
     "spell_crit": 5.9
    },
    "active": 1793880559000,
+   "stat": {
+    "Bandages used": 22,
+    "Bandage used most": 22,
+    "Health potions consumed": 4,
+    "Beverages consumed": 49,
+    "Food eaten": 39,
+    "Healthstones used": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Total kills": 246,
+    "Total kills that grant experience or honor": 246,
+    "Creatures killed": 246,
+    "Different creature types killed": 5,
+    "Creature type killed the most": 174,
+    "Total Killing Blows": 230,
+    "World Killing Blows": 230,
+    "Continent with the most Killing Blows": 230,
+    "Total deaths": 5,
+    "Quests completed": 33,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 6,
+    "Professions learned": 1,
+    "Professions at maximum skill": 1,
+    "Secondary skills at maximum skill": 1,
+    "Weapon skills at maximum skill": 3,
+    "First Aid skill": 28,
+    "First Aid Manuals learned": 6,
+    "Highest Tailoring skill": 17,
+    "Tailoring Patterns learned": 12,
+    "Number of times hearthed": 5
+   },
+   "ach": {},
+   "prof": {
+    "Tailoring": [
+     17,
+     75
+    ],
+    "First Aid": [
+     28,
+     75
+    ]
+   },
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -7049,7 +10307,7 @@
    "ilvl": 2,
    "xp": 1661,
    "title": null,
-   "fetched": 1793882131,
+   "fetched": 1793882242,
    "hp": 203,
    "power": 445,
    "powerType": "Mana",
@@ -7067,6 +10325,71 @@
     "spell_crit": 6.1
    },
    "active": 1793867551000,
+   "stat": {
+    "Bandages used": 5,
+    "Bandage used most": 5,
+    "Health potions consumed": 3,
+    "Beverages consumed": 1,
+    "Food eaten": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Total kills": 262,
+    "Total kills that grant experience or honor": 262,
+    "Creatures killed": 262,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 204,
+    "Total Killing Blows": 248,
+    "World Killing Blows": 248,
+    "Continent with the most Killing Blows": 248,
+    "Total deaths": 2,
+    "Quests completed": 58,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 4,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 3,
+    "Weapon skills at maximum skill": 5,
+    "Cooking skill": 1,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 32,
+    "First Aid Manuals learned": 6,
+    "Fishing skill": 20,
+    "Fish caught": 19,
+    "Fish and other things caught": 19,
+    "Highest Enchanting skill": 9,
+    "Enchanting formulae learned": 13,
+    "Materials produced from disenchanting": 8,
+    "Items disenchanted": 8,
+    "Highest Tailoring skill": 16,
+    "Tailoring Patterns learned": 14,
+    "Flight paths taken": 1,
+    "Number of times hearthed": 1,
+    "Total waves": 1
+   },
+   "ach": {},
+   "prof": {
+    "Tailoring": [
+     20,
+     75
+    ],
+    "Enchanting": [
+     9,
+     75
+    ],
+    "Cooking": [
+     1,
+     75
+    ],
+    "Fishing": [
+     20,
+     75
+    ],
+    "First Aid": [
+     32,
+     75
+    ]
+   },
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -7181,7 +10504,7 @@
    "ilvl": 3,
    "xp": 3800,
    "title": null,
-   "active": 1793879431000,
+   "fetched": 1793882244,
    "hp": 244,
    "power": 350,
    "powerType": "Mana",
@@ -7197,6 +10520,64 @@
     "melee_crit": 5.06,
     "ranged_crit": 3.3,
     "spell_crit": 4.72
+   },
+   "active": 1793879431000,
+   "stat": {
+    "Times camped": 2,
+    "Bandages used": 1,
+    "Bandage used most": 1,
+    "Health potions consumed": 1,
+    "Beverages consumed": 2,
+    "Food eaten": 8,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 2,
+    "Total kills": 236,
+    "Total kills that grant experience or honor": 228,
+    "Creatures killed": 228,
+    "Different creature types killed": 4,
+    "Creature type killed the most": 93,
+    "Critters killed": 8,
+    "Total Killing Blows": 205,
+    "World Killing Blows": 205,
+    "Continent with the most Killing Blows": 205,
+    "Quests completed": 65,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 5,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 20,
+    "First Aid Manuals learned": 8,
+    "Highest Leatherworking skill": 22,
+    "Leatherworking Patterns learned": 16,
+    "Highest Skinning skill": 64,
+    "Flight paths taken": 2,
+    "Number of times hearthed": 2
+   },
+   "ach": {
+    "Explore Moonglade": 1793876116000
+   },
+   "prof": {
+    "Leatherworking": [
+     22,
+     75
+    ],
+    "Skinning": [
+     64,
+     150
+    ],
+    "Cooking": [
+     6,
+     75
+    ],
+    "First Aid": [
+     20,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -7272,8 +10653,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793880333
+   "renderUrl": null
   },
   {
    "name": "Tank Top",
@@ -7288,7 +10668,7 @@
    "ilvl": 4,
    "xp": 991,
    "title": null,
-   "active": 1793875789000,
+   "fetched": 1793882244,
    "hp": 300,
    "power": 100,
    "powerType": "Rage",
@@ -7304,6 +10684,60 @@
     "melee_crit": 5.8,
     "ranged_crit": 3.84,
     "spell_crit": 1.0
+   },
+   "active": 1793875789000,
+   "stat": {
+    "Times camped": 5,
+    "Bandages used": 15,
+    "Bandage used most": 15,
+    "Health potions consumed": 3,
+    "Food eaten": 9,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Total kills": 252,
+    "Total kills that grant experience or honor": 251,
+    "Creatures killed": 252,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 180,
+    "Total Killing Blows": 235,
+    "World Killing Blows": 235,
+    "Continent with the most Killing Blows": 235,
+    "Total deaths": 7,
+    "Quests completed": 63,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 4,
+    "Cooking skill": 20,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 40,
+    "First Aid Manuals learned": 6,
+    "Highest Blacksmithing skill": 37,
+    "Blacksmithing Plans learned": 22,
+    "Highest Mining skill": 59,
+    "Smelting Recipes learned": 11,
+    "Number of times hearthed": 2
+   },
+   "ach": {},
+   "prof": {
+    "Mining": [
+     59,
+     150
+    ],
+    "Blacksmithing": [
+     37,
+     75
+    ],
+    "Cooking": [
+     20,
+     75
+    ],
+    "First Aid": [
+     40,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -7395,8 +10829,7 @@
    "role": "tank",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/56/1317176-main-raw.png",
-   "fetched": 1793876733
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/56/1317176-main-raw.png"
   },
   {
    "name": "Tetab Brewmender",
@@ -7429,7 +10862,7 @@
    "ilvl": 3,
    "xp": 4336,
    "title": null,
-   "active": null,
+   "fetched": 1793882236,
    "hp": 317,
    "power": 330,
    "powerType": "Mana",
@@ -7445,6 +10878,51 @@
     "melee_crit": 6.31,
     "ranged_crit": 3.43,
     "spell_crit": 6.82
+   },
+   "active": 1793856340000,
+   "stat": {
+    "Health potions consumed": 2,
+    "Beverages consumed": 31,
+    "Food eaten": 9,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 3,
+    "Total kills": 287,
+    "Total kills that grant experience or honor": 287,
+    "Creatures killed": 287,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 154,
+    "Total Killing Blows": 259,
+    "World Killing Blows": 259,
+    "Continent with the most Killing Blows": 259,
+    "Total deaths": 4,
+    "Quests completed": 51,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 1,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 14,
+    "Cooking Recipes known": 10,
+    "Highest Leatherworking skill": 42,
+    "Leatherworking Patterns learned": 26,
+    "Highest Skinning skill": 76
+   },
+   "ach": {},
+   "prof": {
+    "Leatherworking": [
+     42,
+     75
+    ],
+    "Skinning": [
+     76,
+     150
+    ],
+    "Cooking": [
+     14,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -7528,8 +11006,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793856927
+   "renderUrl": null
   },
   {
    "name": "Viktorious Vigdor",
@@ -7544,7 +11021,7 @@
    "ilvl": 3,
    "xp": 321,
    "title": null,
-   "active": 1793876141000,
+   "fetched": 1793882242,
    "hp": 244,
    "power": 410,
    "powerType": "Mana",
@@ -7560,6 +11037,50 @@
     "melee_crit": 5.25,
     "ranged_crit": 3.45,
     "spell_crit": 5.09
+   },
+   "active": 1793876141000,
+   "stat": {
+    "Times camped": 2,
+    "Beverages consumed": 5,
+    "Food eaten": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 9,
+    "Mounts owned": 1,
+    "Total kills": 249,
+    "Total kills that grant experience or honor": 249,
+    "Creatures killed": 249,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 160,
+    "Total Killing Blows": 243,
+    "Total deaths": 3,
+    "Total raid and dungeon deaths": 3,
+    "Quests completed": 51,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 1,
+    "Weapon skills at maximum skill": 5,
+    "First Aid skill": 1,
+    "First Aid Manuals learned": 4,
+    "Highest Leatherworking skill": 33,
+    "Leatherworking Patterns learned": 22,
+    "Highest Skinning skill": 78,
+    "Number of times hearthed": 4
+   },
+   "ach": {},
+   "prof": {
+    "Leatherworking": [
+     33,
+     75
+    ],
+    "Skinning": [
+     78,
+     150
+    ],
+    "First Aid": [
+     1,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -7643,8 +11164,7 @@
    "role": "healer",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793876730
+   "renderUrl": null
   },
   {
    "name": "Aa Vv",
@@ -7659,7 +11179,7 @@
    "ilvl": 2,
    "xp": 2320,
    "title": null,
-   "active": 1793879596000,
+   "fetched": 1793882250,
    "hp": 197,
    "power": 319,
    "powerType": "Mana",
@@ -7675,6 +11195,54 @@
     "melee_crit": 4.27,
     "ranged_crit": 3.67,
     "spell_crit": 4.8
+   },
+   "active": 1793879596000,
+   "stat": {
+    "Beverages consumed": 5,
+    "Food eaten": 9,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Mounts owned": 1,
+    "Total kills": 265,
+    "Total kills that grant experience or honor": 262,
+    "Creatures killed": 263,
+    "Different creature types killed": 4,
+    "Creature type killed the most": 155,
+    "Critters killed": 2,
+    "Total Killing Blows": 233,
+    "World Killing Blows": 233,
+    "Continent with the most Killing Blows": 233,
+    "Total deaths": 4,
+    "Quests completed": 44,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 1,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 1,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 13,
+    "Cooking Recipes known": 12,
+    "Highest Mining skill": 36,
+    "Smelting Recipes learned": 9,
+    "Highest Skinning skill": 60,
+    "Flight paths taken": 1
+   },
+   "ach": {
+    "Explore Moonglade": 1793878071000
+   },
+   "prof": {
+    "Skinning": [
+     60,
+     75
+    ],
+    "Mining": [
+     60,
+     75
+    ],
+    "Cooking": [
+     13,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -7750,8 +11318,7 @@
    "role": "tank",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793880334
+   "renderUrl": null
   },
   {
    "name": "Aina Lössnus",
@@ -7766,7 +11333,7 @@
    "ilvl": 3,
    "xp": 1095,
    "title": null,
-   "active": 1793875781000,
+   "fetched": 1793882250,
    "hp": 241,
    "power": 105,
    "powerType": "Rage",
@@ -7782,6 +11349,56 @@
     "melee_crit": 5.46,
     "ranged_crit": 3.62,
     "spell_crit": 0.0
+   },
+   "active": 1793875781000,
+   "stat": {
+    "Food eaten": 31,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 8,
+    "Total kills": 269,
+    "Total kills that grant experience or honor": 266,
+    "Creatures killed": 266,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 173,
+    "Critters killed": 3,
+    "Total Killing Blows": 202,
+    "World Killing Blows": 202,
+    "Continent with the most Killing Blows": 202,
+    "Total deaths": 4,
+    "Quests completed": 39,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 4,
+    "Cooking skill": 5,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 1,
+    "First Aid Manuals learned": 4,
+    "Highest Blacksmithing skill": 16,
+    "Blacksmithing Plans learned": 16,
+    "Highest Mining skill": 27,
+    "Smelting Recipes learned": 9,
+    "Total cheers": 1
+   },
+   "ach": {},
+   "prof": {
+    "Mining": [
+     28,
+     75
+    ],
+    "Blacksmithing": [
+     16,
+     75
+    ],
+    "Cooking": [
+     5,
+     75
+    ],
+    "First Aid": [
+     35,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -7872,9 +11489,8 @@
    "spec": "Protection",
    "role": "tank",
    "exalted": [],
-   "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793878536
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/163/6691491-main-raw.png"
   },
   {
    "name": "Blessica Plåt",
@@ -7898,7 +11514,7 @@
    "ilvl": 4,
    "xp": 105,
    "title": null,
-   "active": 1793876097000,
+   "fetched": 1793882250,
    "hp": 248,
    "power": 105,
    "powerType": "Energy",
@@ -7914,6 +11530,53 @@
     "melee_crit": 11.76,
     "ranged_crit": 11.44,
     "spell_crit": 0.0
+   },
+   "active": 1793876097000,
+   "stat": {
+    "Times camped": 2,
+    "Bandages used": 4,
+    "Bandage used most": 4,
+    "Food eaten": 2,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Mounts owned": 2,
+    "Total kills": 145,
+    "Total kills that grant experience or honor": 145,
+    "Creatures killed": 145,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 72,
+    "Total Killing Blows": 144,
+    "World Killing Blows": 144,
+    "Continent with the most Killing Blows": 144,
+    "Total deaths": 2,
+    "Quests completed": 42,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 1,
+    "Weapon skills at maximum skill": 3,
+    "First Aid skill": 10,
+    "First Aid Manuals learned": 4,
+    "Highest Leatherworking skill": 46,
+    "Leatherworking Patterns learned": 20,
+    "Highest Skinning skill": 75,
+    "Number of times hearthed": 2,
+    "Total cheers": 1
+   },
+   "ach": {},
+   "prof": {
+    "Leatherworking": [
+     46,
+     75
+    ],
+    "Skinning": [
+     75,
+     75
+    ],
+    "First Aid": [
+     10,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -8021,8 +11684,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793878536
+   "renderUrl": null
   },
   {
    "name": "Compensated Beggar",
@@ -8037,7 +11699,7 @@
    "ilvl": 3,
    "xp": 243,
    "title": null,
-   "active": 1793846732000,
+   "fetched": 1793882244,
    "hp": 227,
    "power": 319,
    "powerType": "Mana",
@@ -8053,6 +11715,56 @@
     "melee_crit": 5.63,
     "ranged_crit": 3.99,
     "spell_crit": 4.8
+   },
+   "active": 1793846732000,
+   "stat": {
+    "Health potions consumed": 2,
+    "Beverages consumed": 7,
+    "Food eaten": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Total kills": 220,
+    "Total kills that grant experience or honor": 214,
+    "Creatures killed": 220,
+    "Different creature types killed": 4,
+    "Creature type killed the most": 97,
+    "Total Killing Blows": 169,
+    "World Killing Blows": 169,
+    "Continent with the most Killing Blows": 169,
+    "Total deaths": 3,
+    "Quests completed": 45,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 1,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 1,
+    "First Aid Manuals learned": 4,
+    "Highest Leatherworking skill": 42,
+    "Leatherworking Patterns learned": 26,
+    "Highest Skinning skill": 67,
+    "Number of times hearthed": 2
+   },
+   "ach": {},
+   "prof": {
+    "Leatherworking": [
+     42,
+     75
+    ],
+    "Skinning": [
+     69,
+     150
+    ],
+    "Cooking": [
+     1,
+     75
+    ],
+    "First Aid": [
+     18,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -8128,8 +11840,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793864131
+   "renderUrl": null
   },
   {
    "name": "Dorak Stonetooth",
@@ -8144,7 +11855,7 @@
    "ilvl": 2,
    "xp": 3972,
    "title": null,
-   "fetched": 1793882127,
+   "fetched": 1793882228,
    "hp": 289,
    "power": 286,
    "powerType": "Mana",
@@ -8162,6 +11873,57 @@
     "spell_crit": 4.94
    },
    "active": 1793881442000,
+   "stat": {
+    "Beverages consumed": 1,
+    "Food eaten": 10,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Total kills": 288,
+    "Total kills that grant experience or honor": 286,
+    "Creatures killed": 288,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 170,
+    "Total Killing Blows": 288,
+    "World Killing Blows": 288,
+    "Continent with the most Killing Blows": 288,
+    "Total deaths": 7,
+    "Deaths from falling": 1,
+    "Quests completed": 39,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 1,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 4,
+    "Cooking skill": 18,
+    "Cooking Recipes known": 12,
+    "First Aid skill": 25,
+    "First Aid Manuals learned": 8,
+    "Highest Leatherworking skill": 31,
+    "Leatherworking Patterns learned": 22,
+    "Highest Skinning skill": 75,
+    "Number of times hearthed": 1
+   },
+   "ach": {},
+   "prof": {
+    "Leatherworking": [
+     31,
+     75
+    ],
+    "Skinning": [
+     75,
+     75
+    ],
+    "Cooking": [
+     18,
+     75
+    ],
+    "First Aid": [
+     25,
+     75
+    ]
+   },
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -8284,7 +12046,7 @@
    "ilvl": 1,
    "xp": 1292,
    "title": null,
-   "active": 1793879433000,
+   "fetched": 1793882251,
    "hp": 240,
    "power": 300,
    "powerType": "Mana",
@@ -8300,6 +12062,61 @@
     "melee_crit": 4.07,
     "ranged_crit": 2.35,
     "spell_crit": 4.9
+   },
+   "active": 1793879433000,
+   "stat": {
+    "Times camped": 1,
+    "Bandages used": 2,
+    "Bandage used most": 2,
+    "Health potions consumed": 3,
+    "Beverages consumed": 8,
+    "Food eaten": 5,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Total kills": 234,
+    "Total kills that grant experience or honor": 233,
+    "Creatures killed": 233,
+    "Different creature types killed": 2,
+    "Creature type killed the most": 127,
+    "Critters killed": 1,
+    "Total Killing Blows": 213,
+    "World Killing Blows": 213,
+    "Continent with the most Killing Blows": 213,
+    "Total deaths": 3,
+    "Quests completed": 41,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 1,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 6,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 21,
+    "First Aid Manuals learned": 8,
+    "Highest Mining skill": 56,
+    "Smelting Recipes learned": 9,
+    "Highest Skinning skill": 85,
+    "Number of times hearthed": 3
+   },
+   "ach": {},
+   "prof": {
+    "Skinning": [
+     85,
+     150
+    ],
+    "Mining": [
+     56,
+     75
+    ],
+    "Cooking": [
+     10,
+     75
+    ],
+    "First Aid": [
+     21,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -8375,8 +12192,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793880334
+   "renderUrl": null
   },
   {
    "name": "Iraignis Anima",
@@ -8391,7 +12207,7 @@
    "ilvl": 2,
    "xp": 6810,
    "title": null,
-   "active": null,
+   "fetched": 1793882230,
    "hp": 188,
    "power": 413,
    "powerType": "Mana",
@@ -8407,6 +12223,56 @@
     "melee_crit": 5.32,
     "ranged_crit": 5.76,
     "spell_crit": 6.21
+   },
+   "active": 1793851885000,
+   "stat": {
+    "Health potions consumed": 7,
+    "Beverages consumed": 16,
+    "Food eaten": 12,
+    "Healthstones used": 3,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Need rolls made on loot": 1,
+    "Total kills": 210,
+    "Total kills that grant experience or honor": 208,
+    "Creatures killed": 209,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 164,
+    "Critters killed": 1,
+    "Total Killing Blows": 199,
+    "World Killing Blows": 199,
+    "Continent with the most Killing Blows": 199,
+    "Total deaths": 11,
+    "Quests completed": 54,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 6,
+    "Professions learned": 1,
+    "Professions at maximum skill": 1,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 1,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 40,
+    "First Aid Manuals learned": 8,
+    "Highest Herbalism skill": 53,
+    "Number of times hearthed": 2
+   },
+   "ach": {
+    "Explore Elwynn Forest": 1793848380000
+   },
+   "prof": {
+    "Herbalism": [
+     58,
+     150
+    ],
+    "Cooking": [
+     1,
+     75
+    ],
+    "First Aid": [
+     40,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -8466,8 +12332,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793853326
+   "renderUrl": null
   },
   {
    "name": "Jashira Nohugz",
@@ -8482,7 +12347,7 @@
    "ilvl": 2,
    "xp": 7508,
    "title": null,
-   "active": 1793877474000,
+   "fetched": 1793882250,
    "hp": 207,
    "power": 319,
    "powerType": "Mana",
@@ -8498,6 +12363,62 @@
     "melee_crit": 5.43,
     "ranged_crit": 3.51,
     "spell_crit": 4.8
+   },
+   "active": 1793877474000,
+   "stat": {
+    "Times camped": 2,
+    "Bandages used": 1,
+    "Bandage used most": 1,
+    "Health potions consumed": 1,
+    "Elixirs consumed": 3,
+    "Beverages consumed": 5,
+    "Food eaten": 15,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Total kills": 347,
+    "Total kills that grant experience or honor": 345,
+    "Creatures killed": 346,
+    "Different creature types killed": 4,
+    "Creature type killed the most": 151,
+    "Critters killed": 1,
+    "Total Killing Blows": 266,
+    "World Killing Blows": 266,
+    "Continent with the most Killing Blows": 266,
+    "Total deaths": 1,
+    "Quests completed": 48,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 3,
+    "Cooking Recipes known": 12,
+    "First Aid skill": 55,
+    "First Aid Manuals learned": 6,
+    "Highest Alchemy skill": 33,
+    "Alchemy Recipes learned": 14,
+    "Highest Herbalism skill": 64,
+    "Number of times hearthed": 3
+   },
+   "ach": {},
+   "prof": {
+    "Alchemy": [
+     35,
+     75
+    ],
+    "Herbalism": [
+     64,
+     75
+    ],
+    "Cooking": [
+     6,
+     75
+    ],
+    "First Aid": [
+     23,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -8573,8 +12494,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/28/9618972-main-raw.png",
-   "fetched": 1793878536
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/28/9618972-main-raw.png"
   },
   {
    "name": "Ostsoppa Attacks",
@@ -8607,7 +12527,7 @@
    "ilvl": 1,
    "xp": 824,
    "title": null,
-   "active": 1793874641000,
+   "fetched": 1793882244,
    "hp": 177,
    "power": 496,
    "powerType": "Mana",
@@ -8623,6 +12543,65 @@
     "melee_crit": 4.55,
     "ranged_crit": 5.07,
     "spell_crit": 5.38
+   },
+   "active": 1793874641000,
+   "stat": {
+    "Times camped": 1,
+    "Beverages consumed": 12,
+    "Food eaten": 5,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Total kills": 302,
+    "Total kills that grant experience or honor": 302,
+    "Creatures killed": 302,
+    "Different creature types killed": 2,
+    "Creature type killed the most": 181,
+    "Total Killing Blows": 297,
+    "World Killing Blows": 297,
+    "Continent with the most Killing Blows": 297,
+    "Total deaths": 2,
+    "Quests completed": 35,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 3,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 20,
+    "Cooking Recipes known": 12,
+    "First Aid skill": 1,
+    "First Aid Manuals learned": 4,
+    "Fishing skill": 20,
+    "Fish caught": 19,
+    "Fish and other things caught": 19,
+    "Highest Enchanting skill": 4,
+    "Enchanting formulae learned": 13,
+    "Highest Tailoring skill": 1,
+    "Tailoring Patterns learned": 12,
+    "Number of times hearthed": 2
+   },
+   "ach": {},
+   "prof": {
+    "Tailoring": [
+     1,
+     75
+    ],
+    "Enchanting": [
+     4,
+     75
+    ],
+    "Cooking": [
+     20,
+     75
+    ],
+    "Fishing": [
+     20,
+     75
+    ],
+    "First Aid": [
+     1,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -8714,8 +12693,7 @@
    "role": "healer",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793874932
+   "renderUrl": null
   },
   {
    "name": "Uen Zugzug",
@@ -8730,7 +12708,7 @@
    "ilvl": 1,
    "xp": 1135,
    "title": null,
-   "active": 1793873163000,
+   "fetched": 1793882248,
    "hp": 231,
    "power": 100,
    "powerType": "Rage",
@@ -8746,6 +12724,62 @@
     "melee_crit": 5.84,
     "ranged_crit": 4.04,
     "spell_crit": 1.0
+   },
+   "active": 1793873163000,
+   "stat": {
+    "Times camped": 1,
+    "Bandages used": 14,
+    "Bandage used most": 14,
+    "Health potions consumed": 4,
+    "Food eaten": 6,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Need rolls made on loot": 1,
+    "Total kills": 265,
+    "Total kills that grant experience or honor": 255,
+    "Creatures killed": 256,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 166,
+    "Critters killed": 9,
+    "Total Killing Blows": 250,
+    "World Killing Blows": 250,
+    "Continent with the most Killing Blows": 250,
+    "Total deaths": 8,
+    "Quests completed": 44,
+    "Average quests completed per day": 0,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 4,
+    "Cooking skill": 5,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 23,
+    "First Aid Manuals learned": 6,
+    "Highest Blacksmithing skill": 8,
+    "Blacksmithing Plans learned": 12,
+    "Highest Mining skill": 42,
+    "Smelting Recipes learned": 7,
+    "Total cheers": 1
+   },
+   "ach": {},
+   "prof": {
+    "Mining": [
+     42,
+     75
+    ],
+    "Blacksmithing": [
+     8,
+     75
+    ],
+    "Cooking": [
+     5,
+     75
+    ],
+    "First Aid": [
+     23,
+     75
+    ]
    },
    "hk": 0,
    "pvpRank": 0,
@@ -8829,8 +12863,7 @@
    "role": "tank",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/7/9070343-main-raw.png",
-   "fetched": 1793878536
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/7/9070343-main-raw.png"
   },
   {
    "name": "Blue Face",
