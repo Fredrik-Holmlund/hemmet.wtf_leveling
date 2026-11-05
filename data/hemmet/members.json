@@ -1,7 +1,7 @@
 {
  "guild": "HEMMET",
  "realm": "Forever",
- "generated": "2026-11-05 14:03",
+ "generated": "2026-11-05 14:05",
  "members": [
   {
    "name": "Vyssan Lull",
@@ -25,23 +25,6 @@
    "ilvl": 12,
    "xp": 4316,
    "title": null,
-   "fetched": 1793887380,
-   "hp": 482,
-   "power": 1125,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 20,
-    "agility": 28,
-    "stamina": 39,
-    "intellect": 68,
-    "spirit": 60,
-    "attack_power": 10,
-    "spell_power": 3,
-    "armor": 212,
-    "melee_crit": 2.82,
-    "ranged_crit": 5.06,
-    "spell_crit": 4.08
-   },
    "active": 1793886348000,
    "stat": {
     "Times camped": 5,
@@ -119,6 +102,22 @@
      1,
      75
     ]
+   },
+   "hp": 482,
+   "power": 1125,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 20,
+    "agility": 28,
+    "stamina": 39,
+    "intellect": 68,
+    "spirit": 60,
+    "attack_power": 10,
+    "spell_power": 3,
+    "armor": 212,
+    "melee_crit": 2.82,
+    "ranged_crit": 5.06,
+    "spell_crit": 4.08
    },
    "hk": 0,
    "pvpRank": 0,
@@ -226,7 +225,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null
+   "renderUrl": null,
+   "fetched": 1793887380
   },
   {
    "name": "Flink Eir",
@@ -662,23 +662,6 @@
    "ilvl": 10,
    "xp": 15001,
    "title": null,
-   "fetched": 1793887379,
-   "hp": 429,
-   "power": 583,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 39,
-    "agility": 31,
-    "stamina": 45,
-    "intellect": 36,
-    "spirit": 45,
-    "attack_power": 151,
-    "spell_power": 2,
-    "armor": 305,
-    "melee_crit": 10.15,
-    "ranged_crit": 8.11,
-    "spell_crit": 9.37
-   },
    "active": 1793886079000,
    "stat": {
     "Times camped": 8,
@@ -746,6 +729,22 @@
      32,
      75
     ]
+   },
+   "hp": 429,
+   "power": 583,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 39,
+    "agility": 31,
+    "stamina": 45,
+    "intellect": 36,
+    "spirit": 45,
+    "attack_power": 151,
+    "spell_power": 2,
+    "armor": 305,
+    "melee_crit": 10.15,
+    "ranged_crit": 8.11,
+    "spell_crit": 9.37
    },
    "hk": 0,
    "pvpRank": 0,
@@ -853,7 +852,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/148/2739348-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/148/2739348-main-raw.png",
+   "fetched": 1793887379
   },
   {
    "name": "Dendro Fil",
@@ -1640,23 +1640,6 @@
    "ilvl": 5,
    "xp": 2075,
    "title": null,
-   "fetched": 1793887380,
-   "hp": 268,
-   "power": 730,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 20,
-    "agility": 30,
-    "stamina": 28,
-    "intellect": 45,
-    "spirit": 42,
-    "attack_power": 10,
-    "spell_power": 5,
-    "armor": 156,
-    "melee_crit": 4.09,
-    "ranged_crit": 5.13,
-    "spell_crit": 4.8
-   },
    "active": 1793885654000,
    "stat": {
     "Times camped": 2,
@@ -1711,6 +1694,22 @@
      60,
      150
     ]
+   },
+   "hp": 268,
+   "power": 730,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 20,
+    "agility": 30,
+    "stamina": 28,
+    "intellect": 45,
+    "spirit": 42,
+    "attack_power": 10,
+    "spell_power": 5,
+    "armor": 156,
+    "melee_crit": 4.09,
+    "ranged_crit": 5.13,
+    "spell_crit": 4.8
    },
    "hk": 0,
    "pvpRank": 0,
@@ -1794,7 +1793,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/189/8134845-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/189/8134845-main-raw.png",
+   "fetched": 1793887380
   },
   {
    "name": "Mythaenia Blightvein",
@@ -2339,7 +2339,7 @@
    "ilvl": 8,
    "xp": 3634,
    "title": null,
-   "fetched": 1793887379,
+   "fetched": 1793887529,
    "hp": 369,
    "power": 100,
    "powerType": "Rage",
@@ -2537,7 +2537,7 @@
    "ilvl": 6,
    "xp": 4574,
    "title": null,
-   "fetched": 1793887379,
+   "fetched": 1793887529,
    "hp": 361,
    "power": 422,
    "powerType": "Mana",
@@ -3278,23 +3278,6 @@
    "ilvl": 6,
    "xp": 9992,
    "title": null,
-   "fetched": 1793887382,
-   "hp": 329,
-   "power": 100,
-   "powerType": "Rage",
-   "stats": {
-    "strength": 43,
-    "agility": 38,
-    "stamina": 37,
-    "intellect": 22,
-    "spirit": 25,
-    "attack_power": 111,
-    "spell_power": 0,
-    "armor": 563,
-    "melee_crit": 9.98,
-    "ranged_crit": 2.98,
-    "spell_crit": 0.0
-   },
    "active": 1793886289000,
    "stat": {
     "Times camped": 2,
@@ -3355,6 +3338,22 @@
      71,
      150
     ]
+   },
+   "hp": 329,
+   "power": 100,
+   "powerType": "Rage",
+   "stats": {
+    "strength": 43,
+    "agility": 38,
+    "stamina": 37,
+    "intellect": 22,
+    "spirit": 25,
+    "attack_power": 111,
+    "spell_power": 0,
+    "armor": 563,
+    "melee_crit": 9.98,
+    "ranged_crit": 2.98,
+    "spell_crit": 0.0
    },
    "hk": 0,
    "pvpRank": 0,
@@ -3438,7 +3437,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null
+   "renderUrl": null,
+   "fetched": 1793887382
   },
   {
    "name": "Strato Dvdspelaren",
@@ -3453,23 +3453,6 @@
    "ilvl": 5,
    "xp": 3755,
    "title": null,
-   "fetched": 1793887381,
-   "hp": 317,
-   "power": 501,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 25,
-    "agility": 49,
-    "stamina": 35,
-    "intellect": 31,
-    "spirit": 29,
-    "attack_power": 84,
-    "spell_power": 6,
-    "armor": 350,
-    "melee_crit": 4.05,
-    "ranged_crit": 4.25,
-    "spell_crit": 5.05
-   },
    "active": 1793885653000,
    "stat": {
     "Health potions consumed": 3,
@@ -3526,6 +3509,22 @@
      1,
      75
     ]
+   },
+   "hp": 317,
+   "power": 501,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 25,
+    "agility": 49,
+    "stamina": 35,
+    "intellect": 31,
+    "spirit": 29,
+    "attack_power": 84,
+    "spell_power": 6,
+    "armor": 350,
+    "melee_crit": 4.05,
+    "ranged_crit": 4.25,
+    "spell_crit": 5.05
    },
    "hk": 0,
    "pvpRank": 0,
@@ -3617,7 +3616,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/28/8141340-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/28/8141340-main-raw.png",
+   "fetched": 1793887381
   },
   {
    "name": "Summer Born",
@@ -4174,23 +4174,6 @@
    "ilvl": 4,
    "xp": 12375,
    "title": null,
-   "fetched": 1793887383,
-   "hp": 328,
-   "power": 516,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 34,
-    "agility": 23,
-    "stamina": 38,
-    "intellect": 37,
-    "spirit": 36,
-    "attack_power": 155,
-    "spell_power": 0,
-    "armor": 289,
-    "melee_crit": 4.58,
-    "ranged_crit": 1.86,
-    "spell_crit": 5.0
-   },
    "active": 1793886749000,
    "stat": {
     "Health potions consumed": 1,
@@ -4236,6 +4219,22 @@
      19,
      75
     ]
+   },
+   "hp": 328,
+   "power": 516,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 34,
+    "agility": 23,
+    "stamina": 38,
+    "intellect": 37,
+    "spirit": 36,
+    "attack_power": 155,
+    "spell_power": 0,
+    "armor": 289,
+    "melee_crit": 4.58,
+    "ranged_crit": 1.86,
+    "spell_crit": 5.0
    },
    "hk": 0,
    "pvpRank": 0,
@@ -4327,7 +4326,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/233/8623081-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/233/8623081-main-raw.png",
+   "fetched": 1793887383
   },
   {
    "name": "Ginga Shamx",
@@ -4908,23 +4908,6 @@
    "ilvl": 5,
    "xp": 4311,
    "title": null,
-   "fetched": 1793887378,
-   "hp": 325,
-   "power": 509,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 25,
-    "agility": 34,
-    "stamina": 33,
-    "intellect": 38,
-    "spirit": 36,
-    "attack_power": 33,
-    "spell_power": 3,
-    "armor": 315,
-    "melee_crit": 5.04,
-    "ranged_crit": 3.12,
-    "spell_crit": 4.7
-   },
    "active": 1793886158000,
    "stat": {
     "Times camped": 3,
@@ -4993,6 +4976,22 @@
      1,
      75
     ]
+   },
+   "hp": 325,
+   "power": 509,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 25,
+    "agility": 34,
+    "stamina": 33,
+    "intellect": 38,
+    "spirit": 36,
+    "attack_power": 33,
+    "spell_power": 3,
+    "armor": 315,
+    "melee_crit": 5.04,
+    "ranged_crit": 3.12,
+    "spell_crit": 4.7
    },
    "hk": 0,
    "pvpRank": 0,
@@ -5084,7 +5083,8 @@
    "role": "tank",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null
+   "renderUrl": null,
+   "fetched": 1793887378
   },
   {
    "name": "Nackskägg Instagib",
@@ -5274,23 +5274,6 @@
    "ilvl": 3,
    "xp": 2130,
    "title": null,
-   "fetched": 1793887382,
-   "hp": 297,
-   "power": 550,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 22,
-    "agility": 23,
-    "stamina": 30,
-    "intellect": 38,
-    "spirit": 45,
-    "attack_power": 12,
-    "spell_power": 2,
-    "armor": 123,
-    "melee_crit": 5.24,
-    "ranged_crit": 5.8,
-    "spell_crit": 5.13
-   },
    "active": 1793887214000,
    "stat": {
     "Times camped": 2,
@@ -5347,6 +5330,22 @@
      2,
      75
     ]
+   },
+   "hp": 297,
+   "power": 550,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 22,
+    "agility": 23,
+    "stamina": 30,
+    "intellect": 38,
+    "spirit": 45,
+    "attack_power": 12,
+    "spell_power": 2,
+    "armor": 123,
+    "melee_crit": 5.24,
+    "ranged_crit": 5.8,
+    "spell_crit": 5.13
    },
    "hk": 0,
    "pvpRank": 0,
@@ -5430,7 +5429,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/219/2333147-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/219/2333147-main-raw.png",
+   "fetched": 1793887382
   },
   {
    "name": "Waup Jägare",
@@ -6159,7 +6159,7 @@
    "ilvl": 3,
    "xp": 29,
    "title": null,
-   "fetched": 1793887378,
+   "fetched": 1793887528,
    "hp": 260,
    "power": 406,
    "powerType": "Mana",
@@ -8281,7 +8281,7 @@
    "ilvl": 1,
    "xp": 6100,
    "title": null,
-   "fetched": 1793887379,
+   "fetched": 1793887529,
    "hp": 274,
    "power": 361,
    "powerType": "Mana",
@@ -9827,7 +9827,7 @@
    "ilvl": 4,
    "xp": 3461,
    "title": null,
-   "fetched": 1793887386,
+   "fetched": 1793887534,
    "hp": 340,
    "power": 100,
    "powerType": "Rage",
@@ -10367,7 +10367,7 @@
    "ilvl": 4,
    "xp": 5993,
    "title": null,
-   "fetched": 1793887378,
+   "fetched": 1793887528,
    "hp": 203,
    "power": 445,
    "powerType": "Mana",
@@ -11564,7 +11564,7 @@
    "ilvl": 2,
    "xp": 1661,
    "title": null,
-   "fetched": 1793887382,
+   "fetched": 1793887531,
    "hp": 203,
    "power": 445,
    "powerType": "Mana",
@@ -12248,23 +12248,6 @@
    "ilvl": 5,
    "xp": 5799,
    "title": null,
-   "fetched": 1793887385,
-   "hp": 320,
-   "power": 100,
-   "powerType": "Rage",
-   "stats": {
-    "strength": 38,
-    "agility": 27,
-    "stamina": 40,
-    "intellect": 21,
-    "spirit": 25,
-    "attack_power": 89,
-    "spell_power": 0,
-    "armor": 596,
-    "melee_crit": 5.96,
-    "ranged_crit": 3.84,
-    "spell_crit": 1.0
-   },
    "active": 1793886885000,
    "stat": {
     "Times camped": 5,
@@ -12318,6 +12301,22 @@
      40,
      75
     ]
+   },
+   "hp": 320,
+   "power": 100,
+   "powerType": "Rage",
+   "stats": {
+    "strength": 38,
+    "agility": 27,
+    "stamina": 40,
+    "intellect": 21,
+    "spirit": 25,
+    "attack_power": 89,
+    "spell_power": 0,
+    "armor": 596,
+    "melee_crit": 5.96,
+    "ranged_crit": 3.84,
+    "spell_crit": 1.0
    },
    "hk": 0,
    "pvpRank": 0,
@@ -12409,7 +12408,8 @@
    "role": "tank",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/56/1317176-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/56/1317176-main-raw.png",
+   "fetched": 1793887385
   },
   {
    "name": "Tetab Brewmender",
@@ -13270,7 +13270,7 @@
    "ilvl": 2,
    "xp": 3972,
    "title": null,
-   "fetched": 1793887379,
+   "fetched": 1793887529,
    "hp": 289,
    "power": 286,
    "powerType": "Mana",
@@ -13789,7 +13789,7 @@
    "ilvl": 2,
    "xp": 6810,
    "title": null,
-   "fetched": 1793887379,
+   "fetched": 1793887529,
    "hp": 188,
    "power": 413,
    "powerType": "Mana",
