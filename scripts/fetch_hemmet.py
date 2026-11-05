@@ -115,6 +115,25 @@ def slug(name):
     return urllib.parse.quote(name.lower())
 
 
+def guild_path():
+    """Forever har ingen realm i adressen: /data/wow/guild/hemmet i stället för /data/wow/guild/<realm>/hemmet."""
+    return f"/data/wow/guild/{REALM}/{GUILD}" if REALM else f"/data/wow/guild/{GUILD}"
+
+
+def full_name(c):
+    """Forever har för- och efternamn, och samma förnamn finns många gånger: där är namnet båda."""
+    return f"{c['name']} {c['surname']}" if c.get("surname") else c["name"]
+
+
+def char_path(c):
+    if REALM:
+        return f"/profile/wow/character/{REALM}/{slug(c['name'])}"
+    href = (c.get("key") or {}).get("href")   # rostern länkar till karaktären, t.ex. /profile/wow/character/bonk-donkus
+    if href:
+        return urllib.parse.urlparse(href).path
+    return f"/profile/wow/character/{slug(full_name(c)).replace('%20', '-')}"
+
+
 def download(url, dest, max_age_h=None):
     """Hämtar en bild om den saknas (eller är äldre än max_age_h timmar)."""
     if dest.exists() and (max_age_h is None or time.time() - dest.stat().st_mtime < max_age_h * 3600):
@@ -150,9 +169,9 @@ def fetch_member(entry, prev=None, open_session=False):
     """Allt om en karaktär. Profilen saknas för karaktärer som inte loggat in på länge.
     Inloggade sedan sist, eller mitt i ett pass, hämtas helt. Övriga bara profilen (ett anrop)."""
     c = entry["character"]
-    base = f"/profile/wow/character/{REALM}/{slug(c['name'])}"
+    base = char_path(c)
     m = {
-        "name": c["name"], "id": c["id"], "level": c["level"], "rank": entry.get("rank"),
+        "name": full_name(c), "id": c["id"], "level": c["level"], "rank": entry.get("rank"),
         "cls": CLASSES.get(c["playable_class"]["id"], "warrior"), "race": c["playable_race"]["id"],
     }
     profile = get(base)
@@ -267,10 +286,14 @@ def configure(args):
     AVATARS, ICONS = OUT / "avatars", OUT / "icons"
     if args.ns:
         PROFILE_NS, STATIC_NS = f"profile-{args.ns}-{REGION}", f"static-{args.ns}-{REGION}"
+        if args.ns == "forever":
+            REALM = ""
         return
+    realm = REALM
     for kind in ("forever", "classicann", "classic1x", "classic"):
+        REALM = "" if kind == "forever" else realm   # Forever har inga realmer i adresserna
         try:
-            roster = get(f"/data/wow/guild/{REALM}/{GUILD}/roster", f"profile-{kind}-{REGION}")
+            roster = get(f"{guild_path()}/roster", f"profile-{kind}-{REGION}")
         except urllib.error.HTTPError as e:
             if e.code != 403:   # 403 = namnrymden finns inte (än), se api_vakt.py
                 raise
@@ -281,7 +304,7 @@ def configure(args):
             continue
         # guilden finns: kolla att profilerna lever (gamla kopior har frusna inloggningar)
         sample = sorted(roster["members"], key=lambda e: -e["character"]["level"])[:5]
-        logins = [(get(f"/profile/wow/character/{REALM}/{slug(e['character']['name'])}", f"profile-{kind}-{REGION}") or {}).get("last_login_timestamp") or 0 for e in sample]
+        logins = [(get(char_path(e["character"]), f"profile-{kind}-{REGION}") or {}).get("last_login_timestamp") or 0 for e in sample]
         age_days = (time.time() * 1000 - max(logins)) / 864e5 if max(logins) else None
         print(f"  {kind:<11} {len(roster['members'])} i rostern, senaste inloggning för {age_days:.0f} dagar sedan" if age_days is not None else f"  {kind:<11} {len(roster['members'])} i rostern, inga profiler")
         if age_days is not None and age_days < 30:
@@ -305,7 +328,7 @@ def main():
     for d in (OUT, OUT / "snapshots", AVATARS, ICONS):
         d.mkdir(parents=True, exist_ok=True)
 
-    roster = get(f"/data/wow/guild/{REALM}/{GUILD}/roster")
+    roster = get(f"{guild_path()}/roster")
     entries = roster["members"]
     print(f"{roster['guild']['name']}: {len(entries)} i rostern, hämtar profiler …")
     # Förra körningen: vad vi redan vet, och vilka som har ett pass öppet (inloggade men inte utloggade än)
@@ -314,7 +337,7 @@ def main():
     state = json.loads(state_file.read_text(encoding="utf-8")) if state_file.exists() else {}
     def one(e):
         c = e["character"]
-        opened = (state.get(c["name"]) or {}).get("open")
+        opened = (state.get(full_name(c)) or {}).get("open")
         return fetch_member(e, prev.get(c["id"]), bool(opened) and time.time() * 1000 - opened < OPEN_H * 36e5)
     members = []
     with ThreadPoolExecutor(WORKERS) as ex:
@@ -340,7 +363,7 @@ def main():
     members.sort(key=lambda m: (-m["level"], m["name"]))
     now = datetime.datetime.now()
     (OUT / "members.json").write_text(json.dumps({
-        "guild": roster["guild"]["name"], "realm": REALM, "generated": now.strftime("%Y-%m-%d %H:%M"), "members": members,
+        "guild": roster["guild"]["name"], "realm": REALM or "Forever", "generated": now.strftime("%Y-%m-%d %H:%M"), "members": members,
     }, indent=1, ensure_ascii=False), encoding="utf-8")
     (OUT / "snapshots" / f"{now:%Y-%m-%d}.json").write_text(json.dumps(
         {m["name"]: {"level": m["level"], "hk": m.get("hk")} for m in members}, ensure_ascii=False), encoding="utf-8")
