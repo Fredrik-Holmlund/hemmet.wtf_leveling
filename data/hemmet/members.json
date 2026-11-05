@@ -1,8 +1,139 @@
 {
  "guild": "HEMMET",
  "realm": "Forever",
- "generated": "2026-11-05 10:05",
+ "generated": "2026-11-05 10:35",
  "members": [
+  {
+   "name": "Corrupted Bollz",
+   "id": 2085853,
+   "level": 18,
+   "rank": 4,
+   "cls": "warlock",
+   "race": 1,
+   "profile": true,
+   "gender": 0,
+   "lastLogin": 1793874018000,
+   "ilvl": 8,
+   "xp": 12112,
+   "title": null,
+   "fetched": 1793874929,
+   "hp": 339,
+   "power": 727,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 28,
+    "agility": 26,
+    "stamina": 33,
+    "intellect": 45,
+    "spirit": 51,
+    "attack_power": 21,
+    "spell_power": 28,
+    "armor": 206,
+    "melee_crit": 4.33,
+    "ranged_crit": 5.89,
+    "spell_crit": 5.4
+   },
+   "active": 1793873469000,
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 3,
+     "id": 2575,
+     "name": "Red Linen Shirt",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "135029"
+    },
+    {
+     "slot": 4,
+     "id": 1561,
+     "name": "Harvester's Robe",
+     "quality": 2,
+     "itemLevel": 15,
+     "icon": "132654"
+    },
+    {
+     "slot": 5,
+     "id": 983,
+     "name": "Red Linen Sash",
+     "quality": 1,
+     "itemLevel": 9,
+     "icon": "133694"
+    },
+    {
+     "slot": 6,
+     "id": 12295,
+     "name": "Leggings of the People's Militia",
+     "quality": 2,
+     "itemLevel": 15,
+     "icon": "134586"
+    },
+    {
+     "slot": 7,
+     "id": 860,
+     "name": "Cavalier's Boots",
+     "quality": 1,
+     "itemLevel": 13,
+     "icon": "132539"
+    },
+    {
+     "slot": 8,
+     "id": 271096,
+     "name": "Aetherwisp Bracers",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "132610"
+    },
+    {
+     "slot": 9,
+     "id": 3308,
+     "name": "Barbaric Cloth Gloves",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "132952"
+    },
+    {
+     "slot": 14,
+     "id": 279899,
+     "name": "Catacomb Cloak",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "133763"
+    },
+    {
+     "slot": 15,
+     "id": 271095,
+     "name": "Fang of Magmatus",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "133723"
+    },
+    {
+     "slot": 16,
+     "id": 279898,
+     "name": "Dwarven Tome",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "133739"
+    },
+    {
+     "slot": 17,
+     "id": 279896,
+     "name": "Deepblaze",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "135473"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": "Affliction",
+   "role": "dps",
+   "exalted": [],
+   "avatar": false,
+   "renderUrl": null
+  },
   {
    "name": "Vyssan Lull",
    "id": 594418,
@@ -25,7 +156,7 @@
    "ilvl": 7,
    "xp": 4308,
    "title": null,
-   "fetched": 1793873127,
+   "active": 1793871394000,
    "hp": 480,
    "power": 516,
    "powerType": "Mana",
@@ -42,7 +173,6 @@
     "ranged_crit": 1.52,
     "spell_crit": 9.33
    },
-   "active": 1793871394000,
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -133,7 +263,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/91/3855963-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/91/3855963-main-raw.png",
+   "fetched": 1793873127
   },
   {
    "name": "Shoreline Nevermore",
@@ -157,7 +288,7 @@
    "ilvl": 6,
    "xp": 10045,
    "title": null,
-   "fetched": 1793873127,
+   "active": 1793872810000,
    "hp": 323,
    "power": 778,
    "powerType": "Mana",
@@ -174,7 +305,6 @@
     "ranged_crit": 5.89,
     "spell_crit": 5.88
    },
-   "active": 1793872810000,
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -265,7 +395,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null
+   "renderUrl": null,
+   "fetched": 1793873127
   },
   {
    "name": "Axan Xa",
@@ -274,15 +405,6 @@
    "rank": 4,
    "cls": "mage",
    "race": 95,
-   "profile": false
-  },
-  {
-   "name": "Corrupted Bollz",
-   "id": 2085853,
-   "level": 16,
-   "rank": 4,
-   "cls": "warlock",
-   "race": 1,
    "profile": false
   },
   {
@@ -298,7 +420,7 @@
    "ilvl": 9,
    "xp": 13825,
    "title": null,
-   "fetched": 1793873127,
+   "active": 1793869887000,
    "hp": 378,
    "power": 840,
    "powerType": "Mana",
@@ -315,7 +437,6 @@
     "ranged_crit": 5.22,
     "spell_crit": 5.28
    },
-   "active": 1793869887000,
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -422,7 +543,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/93/3391837-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/93/3391837-main-raw.png",
+   "fetched": 1793873127
   },
   {
    "name": "Flink Eir",
@@ -442,11 +564,11 @@
    "race": 3,
    "profile": true,
    "gender": 1,
-   "lastLogin": 1793872083000,
-   "ilvl": 9,
-   "xp": 3823,
+   "lastLogin": 1793873624000,
+   "ilvl": 10,
+   "xp": 12405,
    "title": null,
-   "fetched": 1793873126,
+   "fetched": 1793874928,
    "hp": 412,
    "power": 540,
    "powerType": "Mana",
@@ -455,15 +577,15 @@
     "agility": 25,
     "stamina": 45,
     "intellect": 36,
-    "spirit": 43,
+    "spirit": 46,
     "attack_power": 123,
     "spell_power": 0,
-    "armor": 284,
-    "melee_crit": 9.49,
+    "armor": 288,
+    "melee_crit": 9.61,
     "ranged_crit": 1.73,
     "spell_crit": 9.61
    },
-   "active": 1793872045000,
+   "active": 1793873601000,
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -509,11 +631,11 @@
     },
     {
      "slot": 7,
-     "id": 2975,
-     "name": "Hunting Boots",
-     "quality": 1,
-     "itemLevel": 14,
-     "icon": "132592"
+     "id": 6557,
+     "name": "Bard's Boots of Spirit",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "132539"
     },
     {
      "slot": 8,
@@ -585,7 +707,7 @@
    "ilvl": 8,
    "xp": 7325,
    "title": null,
-   "fetched": 1793873126,
+   "active": 1793870606000,
    "hp": 449,
    "power": 535,
    "powerType": "Mana",
@@ -602,7 +724,6 @@
     "ranged_crit": 3.48,
     "spell_crit": 4.27
    },
-   "active": 1793870606000,
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -677,7 +798,8 @@
    "role": "tank",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null
+   "renderUrl": null,
+   "fetched": 1793873126
   },
   {
    "name": "Hultn Bultn",
@@ -692,7 +814,7 @@
    "ilvl": 6,
    "xp": 3938,
    "title": null,
-   "fetched": 1793873126,
+   "fetched": 1793874928,
    "hp": 361,
    "power": 422,
    "powerType": "Mana",
@@ -933,6 +1055,121 @@
    "cls": "warrior",
    "race": 1,
    "profile": false
+  },
+  {
+   "name": "Summer Born",
+   "id": 3867927,
+   "level": 15,
+   "rank": 4,
+   "cls": "warrior",
+   "race": 1,
+   "profile": true,
+   "gender": 0,
+   "lastLogin": 1793873544000,
+   "ilvl": 8,
+   "xp": 4243,
+   "title": null,
+   "fetched": 1793874931,
+   "hp": 409,
+   "power": 100,
+   "powerType": "Rage",
+   "stats": {
+    "strength": 48,
+    "agility": 32,
+    "stamina": 45,
+    "intellect": 22,
+    "spirit": 28,
+    "attack_power": 128,
+    "spell_power": 0,
+    "armor": 590,
+    "melee_crit": 5.48,
+    "ranged_crit": 3.04,
+    "spell_crit": 1.0
+   },
+   "active": 1793873514000,
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 3,
+     "id": 38,
+     "name": "Recruit's Shirt",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "135009"
+    },
+    {
+     "slot": 4,
+     "id": 10421,
+     "name": "Rough Copper Vest",
+     "quality": 2,
+     "itemLevel": 10,
+     "icon": "132624"
+    },
+    {
+     "slot": 5,
+     "id": 279897,
+     "name": "Dusty Belt",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "132492"
+    },
+    {
+     "slot": 6,
+     "id": 6084,
+     "name": "Stormwind Guard Leggings",
+     "quality": 2,
+     "itemLevel": 13,
+     "icon": "134583"
+    },
+    {
+     "slot": 7,
+     "id": 250620,
+     "name": "Gemmed Copper Boots",
+     "quality": 3,
+     "itemLevel": 15,
+     "icon": "132554"
+    },
+    {
+     "slot": 8,
+     "id": 6550,
+     "name": "Soldier's Wristguards of Power",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "132611"
+    },
+    {
+     "slot": 9,
+     "id": 3472,
+     "name": "Runed Copper Gauntlets",
+     "quality": 2,
+     "itemLevel": 12,
+     "icon": "132938"
+    },
+    {
+     "slot": 14,
+     "id": 279899,
+     "name": "Catacomb Cloak",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "133763"
+    },
+    {
+     "slot": 15,
+     "id": 279895,
+     "name": "Ironforge Greathammer",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "133058"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": "Protection",
+   "role": "tank",
+   "exalted": [],
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/23/3867927-main-raw.png"
   },
   {
    "name": "Deadborn Forever",
@@ -1774,129 +2011,6 @@
    "profile": false
   },
   {
-   "name": "Summer Born",
-   "id": 3867927,
-   "level": 13,
-   "rank": 4,
-   "cls": "warrior",
-   "race": 1,
-   "profile": true,
-   "gender": 0,
-   "lastLogin": 1793865644000,
-   "ilvl": 5,
-   "xp": 1820,
-   "title": null,
-   "active": 1793865572000,
-   "hp": 358,
-   "power": 100,
-   "powerType": "Rage",
-   "stats": {
-    "strength": 46,
-    "agility": 29,
-    "stamina": 42,
-    "intellect": 21,
-    "spirit": 26,
-    "attack_power": 111,
-    "spell_power": 0,
-    "armor": 744,
-    "melee_crit": 5.35,
-    "ranged_crit": 3.27,
-    "spell_crit": 1.0
-   },
-   "hk": 0,
-   "pvpRank": 0,
-   "gear": [
-    {
-     "slot": 3,
-     "id": 38,
-     "name": "Recruit's Shirt",
-     "quality": 1,
-     "itemLevel": 1,
-     "icon": "135009"
-    },
-    {
-     "slot": 4,
-     "id": 10421,
-     "name": "Rough Copper Vest",
-     "quality": 2,
-     "itemLevel": 10,
-     "icon": "132624"
-    },
-    {
-     "slot": 5,
-     "id": 9758,
-     "name": "Cadet Belt",
-     "quality": 1,
-     "itemLevel": 12,
-     "icon": "132506"
-    },
-    {
-     "slot": 6,
-     "id": 6084,
-     "name": "Stormwind Guard Leggings",
-     "quality": 2,
-     "itemLevel": 13,
-     "icon": "134583"
-    },
-    {
-     "slot": 7,
-     "id": 250620,
-     "name": "Gemmed Copper Boots",
-     "quality": 3,
-     "itemLevel": 15,
-     "icon": "132554"
-    },
-    {
-     "slot": 8,
-     "id": 1182,
-     "name": "Brass-studded Bracers",
-     "quality": 1,
-     "itemLevel": 10,
-     "icon": "132606"
-    },
-    {
-     "slot": 9,
-     "id": 3472,
-     "name": "Runed Copper Gauntlets",
-     "quality": 2,
-     "itemLevel": 12,
-     "icon": "132938"
-    },
-    {
-     "slot": 14,
-     "id": 6520,
-     "name": "Pioneer Cloak",
-     "quality": 1,
-     "itemLevel": 9,
-     "icon": "133755"
-    },
-    {
-     "slot": 15,
-     "id": 3489,
-     "name": "Thick War Axe",
-     "quality": 2,
-     "itemLevel": 17,
-     "icon": "135419"
-    },
-    {
-     "slot": 16,
-     "id": 2249,
-     "name": "Militia Buckler",
-     "quality": 1,
-     "itemLevel": 10,
-     "icon": "134955"
-    }
-   ],
-   "sets": [],
-   "heal": 0,
-   "spec": "Protection",
-   "role": "tank",
-   "exalted": [],
-   "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/23/3867927-main-raw.png",
-   "fetched": 1793865931
-  },
-  {
    "name": "Bethnor Paladin",
    "id": 8315290,
    "level": 12,
@@ -2012,6 +2126,244 @@
    "fetched": 1793858725
   },
   {
+   "name": "Bigblock Chevy",
+   "id": 4578566,
+   "level": 12,
+   "rank": 4,
+   "cls": "druid",
+   "race": 95,
+   "profile": true,
+   "gender": 0,
+   "lastLogin": 1793874724000,
+   "ilvl": 7,
+   "xp": 2479,
+   "title": null,
+   "fetched": 1793874930,
+   "hp": 301,
+   "power": 442,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 27,
+    "agility": 37,
+    "stamina": 33,
+    "intellect": 36,
+    "spirit": 35,
+    "attack_power": 34,
+    "spell_power": 0,
+    "armor": 352,
+    "melee_crit": 6.16,
+    "ranged_crit": 4.16,
+    "spell_crit": 4.91
+   },
+   "active": 1793874605000,
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 3,
+     "id": 273815,
+     "name": "Airy Windseeker's Shirt",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "7813757"
+    },
+    {
+     "slot": 4,
+     "id": 263401,
+     "name": "Martyr's Armor",
+     "quality": 2,
+     "itemLevel": 11,
+     "icon": "7731374"
+    },
+    {
+     "slot": 5,
+     "id": 4246,
+     "name": "Fine Leather Belt",
+     "quality": 2,
+     "itemLevel": 16,
+     "icon": "132493"
+    },
+    {
+     "slot": 6,
+     "id": 2303,
+     "name": "Handstitched Leather Pants",
+     "quality": 2,
+     "itemLevel": 10,
+     "icon": "134706"
+    },
+    {
+     "slot": 7,
+     "id": 263339,
+     "name": "Windswept Slippers",
+     "quality": 2,
+     "itemLevel": 13,
+     "icon": "132539"
+    },
+    {
+     "slot": 8,
+     "id": 7281,
+     "name": "Light Leather Bracers",
+     "quality": 2,
+     "itemLevel": 14,
+     "icon": "132603"
+    },
+    {
+     "slot": 9,
+     "id": 4239,
+     "name": "Embossed Leather Gloves",
+     "quality": 2,
+     "itemLevel": 13,
+     "icon": "132939"
+    },
+    {
+     "slot": 14,
+     "id": 2310,
+     "name": "Embossed Leather Cloak",
+     "quality": 2,
+     "itemLevel": 13,
+     "icon": "133150"
+    },
+    {
+     "slot": 15,
+     "id": 257345,
+     "name": "Honed Greathammer",
+     "quality": 2,
+     "itemLevel": 13,
+     "icon": "7792097"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": "Feral Combat",
+   "role": "tank",
+   "exalted": [],
+   "avatar": false,
+   "renderUrl": null
+  },
+  {
+   "name": "Buck Nekkid",
+   "id": 2271986,
+   "level": 12,
+   "rank": 4,
+   "cls": "hunter",
+   "race": 1,
+   "profile": true,
+   "gender": 1,
+   "lastLogin": 1793874732000,
+   "ilvl": 4,
+   "xp": 4672,
+   "title": null,
+   "fetched": 1793874928,
+   "hp": 283,
+   "power": 360,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 25,
+    "agility": 38,
+    "stamina": 34,
+    "intellect": 26,
+    "spirit": 30,
+    "attack_power": 67,
+    "spell_power": 0,
+    "armor": 314,
+    "melee_crit": 5.04,
+    "ranged_crit": 5.48,
+    "spell_crit": 6.0
+   },
+   "active": 1793874658000,
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 3,
+     "id": 148,
+     "name": "Rugged Trapper's Shirt",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "135005"
+    },
+    {
+     "slot": 4,
+     "id": 6085,
+     "name": "Footman Tunic",
+     "quality": 2,
+     "itemLevel": 13,
+     "icon": "132724"
+    },
+    {
+     "slot": 5,
+     "id": 4666,
+     "name": "Burnt Leather Belt",
+     "quality": 1,
+     "itemLevel": 9,
+     "icon": "132493"
+    },
+    {
+     "slot": 6,
+     "id": 2237,
+     "name": "Patched Pants",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "134582"
+    },
+    {
+     "slot": 7,
+     "id": 1173,
+     "name": "Weather-worn Boots",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "132537"
+    },
+    {
+     "slot": 8,
+     "id": 6070,
+     "name": "Wolfskin Bracers",
+     "quality": 1,
+     "itemLevel": 5,
+     "icon": "132604"
+    },
+    {
+     "slot": 9,
+     "id": 1359,
+     "name": "Lion-stamped Gloves",
+     "quality": 1,
+     "itemLevel": 8,
+     "icon": "132939"
+    },
+    {
+     "slot": 14,
+     "id": 11475,
+     "name": "Wine-stained Cloak",
+     "quality": 1,
+     "itemLevel": 5,
+     "icon": "133770"
+    },
+    {
+     "slot": 15,
+     "id": 4840,
+     "name": "Long Bayonet",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "135641"
+    },
+    {
+     "slot": 17,
+     "id": 276685,
+     "name": "Militia Bow",
+     "quality": 2,
+     "itemLevel": 14,
+     "icon": "135490"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": "Beast Mastery",
+   "role": "dps",
+   "exalted": [],
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/242/2271986-main-raw.png"
+  },
+  {
    "name": "Dvärge Dwarfsson",
    "id": 8623081,
    "level": 12,
@@ -2024,7 +2376,7 @@
    "ilvl": 2,
    "xp": 3099,
    "title": null,
-   "fetched": 1793873128,
+   "active": 1793872759000,
    "hp": 294,
    "power": 376,
    "powerType": "Mana",
@@ -2041,7 +2393,6 @@
     "ranged_crit": 1.98,
     "spell_crit": 4.83
    },
-   "active": 1793872759000,
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -2124,7 +2475,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null
+   "renderUrl": null,
+   "fetched": 1793873128
   },
   {
    "name": "Hedningen Maximus",
@@ -2501,7 +2853,7 @@
    "ilvl": 2,
    "xp": 3900,
    "title": null,
-   "fetched": 1793873128,
+   "active": 1793871496000,
    "hp": 237,
    "power": 479,
    "powerType": "Mana",
@@ -2518,7 +2870,6 @@
     "ranged_crit": 6.0,
     "spell_crit": 5.47
    },
-   "active": 1793871496000,
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -2601,7 +2952,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/219/2333147-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/219/2333147-main-raw.png",
+   "fetched": 1793873128
   },
   {
    "name": "Sterhaven Rootmend",
@@ -2723,7 +3075,7 @@
    "ilvl": 2,
    "xp": 7506,
    "title": null,
-   "fetched": 1793873127,
+   "active": 1793871639000,
    "hp": 243,
    "power": 360,
    "powerType": "Mana",
@@ -2740,7 +3092,6 @@
     "ranged_crit": 4.72,
     "spell_crit": 5.0
    },
-   "active": 1793871639000,
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -2831,7 +3182,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/28/8141340-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/28/8141340-main-raw.png",
+   "fetched": 1793873127
   },
   {
    "name": "Xanoy Shieldwobble",
@@ -3117,7 +3469,7 @@
    "ilvl": 2,
    "xp": 2954,
    "title": null,
-   "fetched": 1793873126,
+   "fetched": 1793874928,
    "hp": 257,
    "power": 330,
    "powerType": "Mana",
@@ -3700,7 +4052,7 @@
    "ilvl": 2,
    "xp": 1661,
    "title": null,
-   "fetched": 1793873128,
+   "fetched": 1793874930,
    "hp": 203,
    "power": 445,
    "powerType": "Mana",
@@ -4146,129 +4498,6 @@
    "avatar": false,
    "renderUrl": null,
    "fetched": 1793851524
-  },
-  {
-   "name": "Buck Nekkid",
-   "id": 2271986,
-   "level": 10,
-   "rank": 4,
-   "cls": "hunter",
-   "race": 1,
-   "profile": true,
-   "gender": 1,
-   "lastLogin": 1793851744000,
-   "ilvl": 3,
-   "xp": 3298,
-   "title": null,
-   "active": null,
-   "hp": 249,
-   "power": 301,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 24,
-    "agility": 35,
-    "stamina": 32,
-    "intellect": 25,
-    "spirit": 28,
-    "attack_power": 59,
-    "spell_power": 0,
-    "armor": 224,
-    "melee_crit": 5.91,
-    "ranged_crit": 6.03,
-    "spell_crit": 6.0
-   },
-   "hk": 0,
-   "pvpRank": 0,
-   "gear": [
-    {
-     "slot": 3,
-     "id": 148,
-     "name": "Rugged Trapper's Shirt",
-     "quality": 1,
-     "itemLevel": 1,
-     "icon": "135005"
-    },
-    {
-     "slot": 4,
-     "id": 60,
-     "name": "Layered Tunic",
-     "quality": 1,
-     "itemLevel": 5,
-     "icon": "132724"
-    },
-    {
-     "slot": 5,
-     "id": 2186,
-     "name": "Outfitter Belt",
-     "quality": 1,
-     "itemLevel": 5,
-     "icon": "132495"
-    },
-    {
-     "slot": 6,
-     "id": 1366,
-     "name": "Ragged Leather Pants",
-     "quality": 0,
-     "itemLevel": 2,
-     "icon": "134586"
-    },
-    {
-     "slot": 7,
-     "id": 6148,
-     "name": "Web-covered Boots",
-     "quality": 1,
-     "itemLevel": 10,
-     "icon": "132539"
-    },
-    {
-     "slot": 8,
-     "id": 6070,
-     "name": "Wolfskin Bracers",
-     "quality": 1,
-     "itemLevel": 5,
-     "icon": "132604"
-    },
-    {
-     "slot": 9,
-     "id": 1359,
-     "name": "Lion-stamped Gloves",
-     "quality": 1,
-     "itemLevel": 8,
-     "icon": "132939"
-    },
-    {
-     "slot": 14,
-     "id": 11475,
-     "name": "Wine-stained Cloak",
-     "quality": 1,
-     "itemLevel": 5,
-     "icon": "133770"
-    },
-    {
-     "slot": 15,
-     "id": 4565,
-     "name": "Simple Dagger",
-     "quality": 1,
-     "itemLevel": 6,
-     "icon": "135637"
-    },
-    {
-     "slot": 17,
-     "id": 276685,
-     "name": "Militia Bow",
-     "quality": 2,
-     "itemLevel": 14,
-     "icon": "135490"
-    }
-   ],
-   "sets": [],
-   "heal": 0,
-   "spec": null,
-   "role": "dps",
-   "exalted": [],
-   "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/242/2271986-main-raw.png",
-   "fetched": 1793853326
   },
   {
    "name": "Compensated Beggar",
@@ -4743,6 +4972,129 @@
    "profile": false
   },
   {
+   "name": "Profeten Papi",
+   "id": 582042,
+   "level": 10,
+   "rank": 4,
+   "cls": "priest",
+   "race": 7,
+   "profile": true,
+   "gender": 1,
+   "lastLogin": 1793874646000,
+   "ilvl": 1,
+   "xp": 824,
+   "title": null,
+   "fetched": 1793874932,
+   "hp": 177,
+   "power": 496,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 17,
+    "agility": 25,
+    "stamina": 22,
+    "intellect": 36,
+    "spirit": 35,
+    "attack_power": 7,
+    "spell_power": 0,
+    "armor": 98,
+    "melee_crit": 4.55,
+    "ranged_crit": 5.07,
+    "spell_crit": 5.38
+   },
+   "active": 1793874641000,
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 3,
+     "id": 53,
+     "name": "Neophyte's Shirt",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "135005"
+    },
+    {
+     "slot": 4,
+     "id": 16605,
+     "name": "Friar's Robes of the Light",
+     "quality": 2,
+     "itemLevel": 5,
+     "icon": "132645"
+    },
+    {
+     "slot": 6,
+     "id": 1378,
+     "name": "Frayed Pants",
+     "quality": 0,
+     "itemLevel": 2,
+     "icon": "134589"
+    },
+    {
+     "slot": 7,
+     "id": 2959,
+     "name": "Journeyman's Boots",
+     "quality": 1,
+     "itemLevel": 9,
+     "icon": "132543"
+    },
+    {
+     "slot": 8,
+     "id": 2326,
+     "name": "Ivy-weave Bracers",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "132611"
+    },
+    {
+     "slot": 9,
+     "id": 719,
+     "name": "Rabbit Handler Gloves",
+     "quality": 1,
+     "itemLevel": 5,
+     "icon": "132940"
+    },
+    {
+     "slot": 14,
+     "id": 1421,
+     "name": "Worn Hide Cloak",
+     "quality": 0,
+     "itemLevel": 10,
+     "icon": "133766"
+    },
+    {
+     "slot": 15,
+     "id": 2048,
+     "name": "Anvilmar Hammer",
+     "quality": 1,
+     "itemLevel": 5,
+     "icon": "133057"
+    },
+    {
+     "slot": 16,
+     "id": 6292,
+     "name": "10 Pound Mud Snapper",
+     "quality": 1,
+     "itemLevel": 15,
+     "icon": "133919"
+    },
+    {
+     "slot": 17,
+     "id": 247789,
+     "name": "Novice's Practice Wand",
+     "quality": 1,
+     "itemLevel": 6,
+     "icon": "135645"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": "Discipline",
+   "role": "healer",
+   "exalted": [],
+   "avatar": false,
+   "renderUrl": null
+  },
+  {
    "name": "Tank Top",
    "id": 1317176,
    "level": 10,
@@ -4755,7 +5107,7 @@
    "ilvl": 3,
    "xp": 1294,
    "title": null,
-   "fetched": 1793873129,
+   "active": 1793871771000,
    "hp": 281,
    "power": 100,
    "powerType": "Rage",
@@ -4772,7 +5124,6 @@
     "ranged_crit": 4.04,
     "spell_crit": 1.0
    },
-   "active": 1793871771000,
    "hk": 0,
    "pvpRank": 0,
    "gear": [
@@ -4863,7 +5214,8 @@
    "role": "tank",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/56/1317176-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/56/1317176-main-raw.png",
+   "fetched": 1793873129
   },
   {
    "name": "Tjacktackan På",
@@ -5105,15 +5457,6 @@
    "rank": 4,
    "cls": "hunter",
    "race": 4,
-   "profile": false
-  },
-  {
-   "name": "Bigblock Chevy",
-   "id": 4578566,
-   "level": 7,
-   "rank": 4,
-   "cls": "druid",
-   "race": 95,
    "profile": false
   },
   {
@@ -5374,15 +5717,6 @@
    "level": 5,
    "rank": 4,
    "cls": "mage",
-   "race": 7,
-   "profile": false
-  },
-  {
-   "name": "Profeten Papi",
-   "id": 582042,
-   "level": 5,
-   "rank": 4,
-   "cls": "priest",
    "race": 7,
    "profile": false
   },
