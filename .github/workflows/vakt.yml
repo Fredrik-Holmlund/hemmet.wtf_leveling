@@ -1,11 +1,11 @@
-# Spanar en gång om dagen efter Blizzards API för WoW Forever (scripts/api_vakt.py).
+# Spanar varje timme efter Blizzards API för WoW Forever (scripts/api_vakt.py).
 # Vid fynd skapas ett issue som nämner ägaren, så att GitHub skickar ett mejl.
 # Bara ett öppet vakt-issue åt gången: stäng det när fyndet är omhändertaget.
 name: API-vakt
 
 on:
   schedule:
-    - cron: "17 6 * * *"     # varje morgon (GitHub kan komma sent, det gör inget här)
+    - cron: "17 * * * *"     # varje timme (GitHub kan komma sent, det gör inget här)
   workflow_dispatch:
     inputs:
       prov:

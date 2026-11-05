@@ -11,7 +11,7 @@ Två saker räknas som fynd:
   2. en ny realm har dykt upp i forever eller en befintlig namnrymd (classicann, classic1x, classic, retail),
      jämfört med data/api-vakt.json — de riktiga Forever-realmerna ersätter testrealmerna (CAMWOW …)
 
-Körs dagligen av .github/workflows/vakt.yml, som skapar ett issue vid fynd.
+Körs varje timme av .github/workflows/vakt.yml, som skapar ett issue vid fynd.
 Kräver BNET_ID och BNET_SECRET (.env lokalt, Secrets i Actions).
 """
 import argparse
@@ -33,6 +33,9 @@ KANDIDATER = ["classicforever", "forever", "classic-forever", "classicfv", "clas
 # "" = retail: Forever bygger på retail-klienten och kan hamna i dess namnrymd (dynamic-eu)
 KANDA = ["forever", "classicann", "classic1x", "classic", ""]
 TYPER = ["dynamic", "static", "profile"]
+# Karaktärer i HEMMET (förnamn-efternamn, utan realm) och guilden, i profile-forever-eu
+PROFILER = ["profile/wow/character/bonk-donkus", "profile/wow/character/mephistos-son",
+            "profile/wow/character/bobbo-hemmet", "data/wow/guild/hemmet", "data/wow/guild/pvp/hemmet"]
 
 
 def namnrymd(ns, region, typ="dynamic"):
@@ -45,6 +48,15 @@ def realmer(tok, ns, region, typ="dynamic"):
     try:
         req = urllib.request.Request(url, headers={"Authorization": f"Bearer {tok}"})
         return sorted(r["name"] for r in json.load(urllib.request.urlopen(req, timeout=30))["realms"])
+    except urllib.error.HTTPError as e:
+        return e.code
+
+
+def svarskod(tok, path, region):
+    url = f"https://{region}.api.blizzard.com/{path}?namespace=profile-forever-{region}&locale=en_GB"
+    try:
+        req = urllib.request.Request(url, headers={"Authorization": f"Bearer {tok}"})
+        return urllib.request.urlopen(req, timeout=30).status
     except urllib.error.HTTPError as e:
         return e.code
 
@@ -74,6 +86,13 @@ def main():
                 if kod != kand.get(namn, 403):
                     extra = f" med {len(svar)} realmer: {', '.join(svar)}" if isinstance(svar, list) else ""
                     fynd.append(f"**`{namn}` svarar nu {kod}** (var {kand.get(namn, 403)}){extra}")
+    for path in PROFILER:
+        namn = f"{path} (profile-forever-eu)"
+        kod = svarskod(tok, path, "eu")
+        status[namn] = kod
+        logg.append(f"{namn}: {kod}")
+        if kod != kand.get(namn, 404):
+            fynd.append(f"**`{path}` svarar nu {kod}** (var {kand.get(namn, 404)}), profilerna kan ha öppnat")
     nu["status"] = status
 
     for region in REGIONER:
