@@ -1,7 +1,7 @@
 {
  "guild": "HEMMET",
  "realm": "Forever",
- "generated": "2026-11-05 06:35",
+ "generated": "2026-11-05 07:05",
  "members": [
   {
    "name": "Fae Lock",
@@ -268,7 +268,6 @@
    "ilvl": 7,
    "xp": 10192,
    "title": null,
-   "fetched": 1793860530,
    "hp": 438,
    "power": 426,
    "powerType": "Mana",
@@ -375,7 +374,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/91/3855963-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/91/3855963-main-raw.png",
+   "fetched": 1793860530
   },
   {
    "name": "Vyssan Lull",
@@ -741,7 +741,6 @@
    "ilvl": 3,
    "xp": 3222,
    "title": null,
-   "fetched": 1793860528,
    "hp": 311,
    "power": 408,
    "powerType": "Mana",
@@ -856,7 +855,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/148/2739348-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/148/2739348-main-raw.png",
+   "fetched": 1793860528
   },
   {
    "name": "Obra Dinn",
@@ -1597,10 +1597,11 @@
    "race": 3,
    "profile": true,
    "gender": 1,
-   "lastLogin": 1793844823000,
+   "lastLogin": 1793862326000,
    "ilvl": 2,
    "xp": 2954,
    "title": null,
+   "fetched": 1793862330,
    "hp": 257,
    "power": 330,
    "powerType": "Mana",
@@ -1699,8 +1700,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null,
-   "fetched": 1793851525
+   "renderUrl": null
   },
   {
    "name": "Herr Malte",
@@ -2165,6 +2165,120 @@
    "avatar": false,
    "renderUrl": null,
    "fetched": 1793855128
+  },
+  {
+   "name": "Mystic Dots",
+   "id": 8134845,
+   "level": 11,
+   "rank": 4,
+   "cls": "warlock",
+   "race": 7,
+   "profile": true,
+   "gender": 0,
+   "lastLogin": 1793860778000,
+   "ilvl": 3,
+   "xp": 7633,
+   "title": null,
+   "fetched": 1793862331,
+   "hp": 193,
+   "power": 483,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 18,
+    "agility": 28,
+    "stamina": 25,
+    "intellect": 36,
+    "spirit": 34,
+    "attack_power": 8,
+    "spell_power": 2,
+    "armor": 126,
+    "melee_crit": 5.18,
+    "ranged_crit": 3.34,
+    "spell_crit": 5.2
+   },
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 3,
+     "id": 6097,
+     "name": "Acolyte's Shirt",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "135005"
+    },
+    {
+     "slot": 4,
+     "id": 3216,
+     "name": "Warm Winter Robe",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "132682"
+    },
+    {
+     "slot": 6,
+     "id": 10549,
+     "name": "Rancher's Trousers",
+     "quality": 2,
+     "itemLevel": 12,
+     "icon": "134593"
+    },
+    {
+     "slot": 7,
+     "id": 1374,
+     "name": "Frayed Shoes",
+     "quality": 0,
+     "itemLevel": 4,
+     "icon": "132543"
+    },
+    {
+     "slot": 8,
+     "id": 3373,
+     "name": "Patchwork Bracers",
+     "quality": 0,
+     "itemLevel": 9,
+     "icon": "132606"
+    },
+    {
+     "slot": 9,
+     "id": 10550,
+     "name": "Wooly Mittens",
+     "quality": 1,
+     "itemLevel": 12,
+     "icon": "132936"
+    },
+    {
+     "slot": 14,
+     "id": 4665,
+     "name": "Burnt Cloak",
+     "quality": 1,
+     "itemLevel": 8,
+     "icon": "133763"
+    },
+    {
+     "slot": 15,
+     "id": 2218,
+     "name": "Craftsman's Dagger",
+     "quality": 2,
+     "itemLevel": 13,
+     "icon": "135641"
+    },
+    {
+     "slot": 17,
+     "id": 11287,
+     "name": "Lesser Magic Wand",
+     "quality": 2,
+     "itemLevel": 15,
+     "icon": "135139"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": "Affliction",
+   "role": "dps",
+   "exalted": [],
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/189/8134845-main-raw.png"
   },
   {
    "name": "Mythaenia Blightvein",
@@ -2749,6 +2863,112 @@
    "profile": false
   },
   {
+   "name": "Venai Forever",
+   "id": 7200615,
+   "level": 10,
+   "rank": 4,
+   "cls": "druid",
+   "race": 4,
+   "profile": true,
+   "gender": 1,
+   "lastLogin": 1793862146000,
+   "ilvl": 2,
+   "xp": 838,
+   "title": null,
+   "fetched": 1793862331,
+   "hp": 237,
+   "power": 319,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 23,
+    "agility": 30,
+    "stamina": 28,
+    "intellect": 30,
+    "spirit": 32,
+    "attack_power": 26,
+    "spell_power": 0,
+    "armor": 292,
+    "melee_crit": 5.39,
+    "ranged_crit": 3.67,
+    "spell_crit": 4.8
+   },
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 4,
+     "id": 5957,
+     "name": "Handstitched Leather Vest",
+     "quality": 2,
+     "itemLevel": 10,
+     "icon": "132760"
+    },
+    {
+     "slot": 5,
+     "id": 6058,
+     "name": "Blackened Leather Belt",
+     "quality": 1,
+     "itemLevel": 5,
+     "icon": "132492"
+    },
+    {
+     "slot": 6,
+     "id": 18611,
+     "name": "Gnarlpine Leggings",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "134582"
+    },
+    {
+     "slot": 7,
+     "id": 2302,
+     "name": "Handstitched Leather Boots",
+     "quality": 1,
+     "itemLevel": 8,
+     "icon": "132538"
+    },
+    {
+     "slot": 8,
+     "id": 7277,
+     "name": "Handstitched Leather Bracers",
+     "quality": 1,
+     "itemLevel": 9,
+     "icon": "132607"
+    },
+    {
+     "slot": 9,
+     "id": 5394,
+     "name": "Archery Training Gloves",
+     "quality": 1,
+     "itemLevel": 5,
+     "icon": "132939"
+    },
+    {
+     "slot": 14,
+     "id": 7276,
+     "name": "Handstitched Leather Cloak",
+     "quality": 1,
+     "itemLevel": 9,
+     "icon": "133150"
+    },
+    {
+     "slot": 15,
+     "id": 5393,
+     "name": "Thistlewood Staff",
+     "quality": 1,
+     "itemLevel": 5,
+     "icon": "135146"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": null,
+   "role": "dps",
+   "exalted": [],
+   "avatar": false,
+   "renderUrl": null
+  },
+  {
    "name": "Dorak Stonetooth",
    "id": 4067785,
    "level": 9,
@@ -2854,15 +3074,6 @@
    "rank": 4,
    "cls": "druid",
    "race": 4,
-   "profile": false
-  },
-  {
-   "name": "Mystic Dots",
-   "id": 8134845,
-   "level": 7,
-   "rank": 4,
-   "cls": "warlock",
-   "race": 7,
    "profile": false
   },
   {
@@ -3015,15 +3226,6 @@
    "level": 5,
    "rank": 4,
    "cls": "hunter",
-   "race": 4,
-   "profile": false
-  },
-  {
-   "name": "Venai Forever",
-   "id": 7200615,
-   "level": 4,
-   "rank": 4,
-   "cls": "druid",
    "race": 4,
    "profile": false
   },
