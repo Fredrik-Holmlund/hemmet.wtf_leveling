@@ -1,7 +1,7 @@
 {
  "guild": "HEMMET",
  "realm": "Forever",
- "generated": "2026-11-05 05:05",
+ "generated": "2026-11-05 05:35",
  "members": [
   {
    "name": "Vyssan Lull",
@@ -367,7 +367,6 @@
    "ilvl": 4,
    "xp": 1960,
    "title": null,
-   "fetched": 1793855130,
    "hp": 278,
    "power": 415,
    "powerType": "Mana",
@@ -466,7 +465,8 @@
    "role": "tank",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/127/6801535-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/127/6801535-main-raw.png",
+   "fetched": 1793855130
   },
   {
    "name": "Axan Xa",
@@ -508,7 +508,6 @@
    "ilvl": 3,
    "xp": 5842,
    "title": null,
-   "fetched": 1793855130,
    "hp": 256,
    "power": 344,
    "powerType": "Mana",
@@ -607,7 +606,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null
+   "renderUrl": null,
+   "fetched": 1793855130
   },
   {
    "name": "Jarnet Biceps",
@@ -850,7 +850,6 @@
    "ilvl": 3,
    "xp": 7361,
    "title": null,
-   "fetched": 1793855129,
    "hp": 294,
    "power": 376,
    "powerType": "Mana",
@@ -965,7 +964,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/148/2739348-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/148/2739348-main-raw.png",
+   "fetched": 1793855129
   },
   {
    "name": "Ramsu Jr",
@@ -998,7 +998,6 @@
    "ilvl": 2,
    "xp": 115,
    "title": null,
-   "fetched": 1793855128,
    "hp": 241,
    "power": 382,
    "powerType": "Mana",
@@ -1089,7 +1088,8 @@
    "role": "healer",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null
+   "renderUrl": null,
+   "fetched": 1793855128
   },
   {
    "name": "Corrupted Bollz",
@@ -1233,6 +1233,120 @@
    "profile": false
   },
   {
+   "name": "Lazzy Dazzy",
+   "id": 7154852,
+   "level": 11,
+   "rank": 4,
+   "cls": "warlock",
+   "race": 7,
+   "profile": true,
+   "gender": 0,
+   "lastLogin": 1793855494000,
+   "ilvl": 2,
+   "xp": 4687,
+   "title": null,
+   "fetched": 1793856927,
+   "hp": 193,
+   "power": 483,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 18,
+    "agility": 27,
+    "stamina": 25,
+    "intellect": 36,
+    "spirit": 35,
+    "attack_power": 8,
+    "spell_power": 0,
+    "armor": 130,
+    "melee_crit": 5.21,
+    "ranged_crit": 3.21,
+    "spell_crit": 5.2
+   },
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 3,
+     "id": 6097,
+     "name": "Acolyte's Shirt",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "135005"
+    },
+    {
+     "slot": 4,
+     "id": 2957,
+     "name": "Journeyman's Vest",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "132647"
+    },
+    {
+     "slot": 5,
+     "id": 3370,
+     "name": "Patchwork Belt",
+     "quality": 0,
+     "itemLevel": 8,
+     "icon": "132492"
+    },
+    {
+     "slot": 6,
+     "id": 1431,
+     "name": "Patchwork Pants",
+     "quality": 0,
+     "itemLevel": 8,
+     "icon": "134591"
+    },
+    {
+     "slot": 7,
+     "id": 1427,
+     "name": "Patchwork Shoes",
+     "quality": 0,
+     "itemLevel": 10,
+     "icon": "132543"
+    },
+    {
+     "slot": 8,
+     "id": 2326,
+     "name": "Ivy-weave Bracers",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "132611"
+    },
+    {
+     "slot": 9,
+     "id": 719,
+     "name": "Rabbit Handler Gloves",
+     "quality": 1,
+     "itemLevel": 5,
+     "icon": "132940"
+    },
+    {
+     "slot": 14,
+     "id": 1421,
+     "name": "Worn Hide Cloak",
+     "quality": 0,
+     "itemLevel": 10,
+     "icon": "133766"
+    },
+    {
+     "slot": 15,
+     "id": 10547,
+     "name": "Camping Knife",
+     "quality": 1,
+     "itemLevel": 8,
+     "icon": "135637"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": null,
+   "role": "dps",
+   "exalted": [],
+   "avatar": false,
+   "renderUrl": null
+  },
+  {
    "name": "Little Stds",
    "id": 6802126,
    "level": 11,
@@ -1367,7 +1481,6 @@
    "ilvl": 2,
    "xp": 6477,
    "title": null,
-   "fetched": 1793855128,
    "hp": 222,
    "power": 445,
    "powerType": "Mana",
@@ -1466,7 +1579,8 @@
    "role": "healer",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null
+   "renderUrl": null,
+   "fetched": 1793855128
   },
   {
    "name": "Mythaenia Blightvein",
@@ -1590,6 +1704,120 @@
    "avatar": false,
    "renderUrl": null,
    "fetched": 1793853327
+  },
+  {
+   "name": "Tåtem Ubben",
+   "id": 4866319,
+   "level": 11,
+   "rank": 4,
+   "cls": "shaman",
+   "race": 3,
+   "profile": true,
+   "gender": 1,
+   "lastLogin": 1793856364000,
+   "ilvl": 3,
+   "xp": 4336,
+   "title": null,
+   "fetched": 1793856927,
+   "hp": 317,
+   "power": 330,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 32,
+    "agility": 21,
+    "stamina": 39,
+    "intellect": 28,
+    "spirit": 30,
+    "attack_power": 134,
+    "spell_power": 0,
+    "armor": 273,
+    "melee_crit": 6.31,
+    "ranged_crit": 3.43,
+    "spell_crit": 6.82
+   },
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 3,
+     "id": 154,
+     "name": "Primitive Mantle",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "133766"
+    },
+    {
+     "slot": 4,
+     "id": 2300,
+     "name": "Embossed Leather Vest",
+     "quality": 2,
+     "itemLevel": 12,
+     "icon": "132724"
+    },
+    {
+     "slot": 5,
+     "id": 4237,
+     "name": "Handstitched Leather Belt",
+     "quality": 2,
+     "itemLevel": 10,
+     "icon": "132493"
+    },
+    {
+     "slot": 6,
+     "id": 2303,
+     "name": "Handstitched Leather Pants",
+     "quality": 2,
+     "itemLevel": 10,
+     "icon": "134706"
+    },
+    {
+     "slot": 7,
+     "id": 1367,
+     "name": "Ragged Leather Boots",
+     "quality": 0,
+     "itemLevel": 3,
+     "icon": "132540"
+    },
+    {
+     "slot": 8,
+     "id": 1370,
+     "name": "Ragged Leather Bracers",
+     "quality": 0,
+     "itemLevel": 4,
+     "icon": "132609"
+    },
+    {
+     "slot": 9,
+     "id": 6171,
+     "name": "Wolf Handler Gloves",
+     "quality": 1,
+     "itemLevel": 5,
+     "icon": "132939"
+    },
+    {
+     "slot": 14,
+     "id": 2905,
+     "name": "Goat Fur Cloak",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "133763"
+    },
+    {
+     "slot": 15,
+     "id": 1010,
+     "name": "Gnarled Short Staff",
+     "quality": 1,
+     "itemLevel": 8,
+     "icon": "135154"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": "Enhancement",
+   "role": "dps",
+   "exalted": [],
+   "avatar": false,
+   "renderUrl": null
   },
   {
    "name": "Bonk Donkus",
@@ -1928,15 +2156,6 @@
    "fetched": 1793853326
   },
   {
-   "name": "Lazzy Dazzy",
-   "id": 7154852,
-   "level": 10,
-   "rank": 4,
-   "cls": "warlock",
-   "race": 7,
-   "profile": false
-  },
-  {
    "name": "Mrs Bög",
    "id": 956511,
    "level": 10,
@@ -2087,15 +2306,6 @@
    "rank": 4,
    "cls": "paladin",
    "race": 1,
-   "profile": false
-  },
-  {
-   "name": "Tåtem Ubben",
-   "id": 4866319,
-   "level": 7,
-   "rank": 4,
-   "cls": "shaman",
-   "race": 3,
    "profile": false
   },
   {
