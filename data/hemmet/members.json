@@ -1,7 +1,7 @@
 {
  "guild": "HEMMET",
  "realm": "Forever",
- "generated": "2026-11-05 06:05",
+ "generated": "2026-11-05 06:35",
  "members": [
   {
    "name": "Fae Lock",
@@ -16,7 +16,6 @@
    "ilvl": 5,
    "xp": 1570,
    "title": null,
-   "fetched": 1793858725,
    "hp": 278,
    "power": 590,
    "powerType": "Mana",
@@ -131,7 +130,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null
+   "renderUrl": null,
+   "fetched": 1793858725
   },
   {
    "name": "Inkvoterad Antagonist",
@@ -146,7 +146,6 @@
    "ilvl": 6,
    "xp": 2344,
    "title": null,
-   "fetched": 1793858724,
    "hp": 298,
    "power": 423,
    "powerType": "Mana",
@@ -253,7 +252,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null
+   "renderUrl": null,
+   "fetched": 1793858724
   },
   {
    "name": "Mabb Stormforge",
@@ -264,26 +264,26 @@
    "race": 3,
    "profile": true,
    "gender": 1,
-   "lastLogin": 1793857654000,
-   "ilvl": 5,
-   "xp": 1087,
+   "lastLogin": 1793859629000,
+   "ilvl": 7,
+   "xp": 10192,
    "title": null,
-   "fetched": 1793858725,
-   "hp": 378,
+   "fetched": 1793860530,
+   "hp": 438,
    "power": 426,
    "powerType": "Mana",
    "stats": {
-    "strength": 35,
-    "agility": 22,
-    "stamina": 43,
+    "strength": 36,
+    "agility": 24,
+    "stamina": 49,
     "intellect": 31,
     "spirit": 33,
-    "attack_power": 78,
-    "spell_power": 0,
-    "armor": 298,
-    "melee_crit": 8.33,
-    "ranged_crit": 1.73,
-    "spell_crit": 8.56
+    "attack_power": 159,
+    "spell_power": 2,
+    "armor": 354,
+    "melee_crit": 9.63,
+    "ranged_crit": 1.99,
+    "spell_crit": 9.56
    },
    "hk": 0,
    "pvpRank": 0,
@@ -322,35 +322,35 @@
     },
     {
      "slot": 7,
-     "id": 1173,
-     "name": "Weather-worn Boots",
-     "quality": 1,
-     "itemLevel": 10,
-     "icon": "132537"
+     "id": 2309,
+     "name": "Embossed Leather Boots",
+     "quality": 2,
+     "itemLevel": 15,
+     "icon": "132539"
     },
     {
      "slot": 8,
-     "id": 6519,
-     "name": "Pioneer Bracers",
-     "quality": 1,
-     "itemLevel": 10,
-     "icon": "132611"
+     "id": 7281,
+     "name": "Light Leather Bracers",
+     "quality": 2,
+     "itemLevel": 14,
+     "icon": "132603"
     },
     {
      "slot": 9,
-     "id": 6171,
-     "name": "Wolf Handler Gloves",
-     "quality": 1,
-     "itemLevel": 5,
+     "id": 4239,
+     "name": "Embossed Leather Gloves",
+     "quality": 2,
+     "itemLevel": 13,
      "icon": "132939"
     },
     {
      "slot": 14,
-     "id": 2905,
-     "name": "Goat Fur Cloak",
-     "quality": 1,
-     "itemLevel": 10,
-     "icon": "133763"
+     "id": 2308,
+     "name": "Fine Leather Cloak",
+     "quality": 2,
+     "itemLevel": 15,
+     "icon": "133762"
     },
     {
      "slot": 15,
@@ -359,6 +359,14 @@
      "quality": 2,
      "itemLevel": null,
      "icon": "133489"
+    },
+    {
+     "slot": 17,
+     "id": 263412,
+     "name": "Totem of Charged Flames",
+     "quality": 2,
+     "itemLevel": 10,
+     "icon": "134919"
     }
    ],
    "sets": [],
@@ -497,7 +505,6 @@
    "ilvl": 2,
    "xp": 2185,
    "title": null,
-   "fetched": 1793858724,
    "hp": 304,
    "power": 359,
    "powerType": "Mana",
@@ -596,7 +603,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/242/7321074-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/242/7321074-main-raw.png",
+   "fetched": 1793858724
   },
   {
    "name": "Krille Krutlös",
@@ -719,6 +727,136 @@
    "avatar": false,
    "renderUrl": null,
    "fetched": 1793851524
+  },
+  {
+   "name": "Markst Stormbrother",
+   "id": 2739348,
+   "level": 13,
+   "rank": 4,
+   "cls": "shaman",
+   "race": 3,
+   "profile": true,
+   "gender": 1,
+   "lastLogin": 1793858968000,
+   "ilvl": 3,
+   "xp": 3222,
+   "title": null,
+   "fetched": 1793860528,
+   "hp": 311,
+   "power": 408,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 33,
+    "agility": 22,
+    "stamina": 37,
+    "intellect": 31,
+    "spirit": 32,
+    "attack_power": 72,
+    "spell_power": 5,
+    "armor": 371,
+    "melee_crit": 8.56,
+    "ranged_crit": 3.04,
+    "spell_crit": 8.69
+   },
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 3,
+     "id": 154,
+     "name": "Primitive Mantle",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "133766"
+    },
+    {
+     "slot": 4,
+     "id": 2817,
+     "name": "Soft Leather Tunic",
+     "quality": 2,
+     "itemLevel": 12,
+     "icon": "135014"
+    },
+    {
+     "slot": 5,
+     "id": 1369,
+     "name": "Ragged Leather Belt",
+     "quality": 0,
+     "itemLevel": 5,
+     "icon": "132513"
+    },
+    {
+     "slot": 6,
+     "id": 2962,
+     "name": "Burnt Leather Breeches",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "134586"
+    },
+    {
+     "slot": 7,
+     "id": 281322,
+     "name": "Frosthowl's Footwarmers",
+     "quality": 1,
+     "itemLevel": 9,
+     "icon": "132537"
+    },
+    {
+     "slot": 8,
+     "id": 1370,
+     "name": "Ragged Leather Bracers",
+     "quality": 0,
+     "itemLevel": 4,
+     "icon": "132609"
+    },
+    {
+     "slot": 9,
+     "id": 3152,
+     "name": "Driving Gloves",
+     "quality": 1,
+     "itemLevel": 9,
+     "icon": "132952"
+    },
+    {
+     "slot": 10,
+     "id": 286737,
+     "name": "Avala's Binding",
+     "quality": 1,
+     "itemLevel": 8,
+     "icon": "133349"
+    },
+    {
+     "slot": 14,
+     "id": 4677,
+     "name": "Veteran Cloak",
+     "quality": 1,
+     "itemLevel": 12,
+     "icon": "133759"
+    },
+    {
+     "slot": 15,
+     "id": 4561,
+     "name": "Scalping Tomahawk of Magic",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "132410"
+    },
+    {
+     "slot": 16,
+     "id": 15895,
+     "name": "Burnt Buckler",
+     "quality": 1,
+     "itemLevel": null,
+     "icon": "134955"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": "Enhancement",
+   "role": "dps",
+   "exalted": [],
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/148/2739348-main-raw.png"
   },
   {
    "name": "Obra Dinn",
@@ -856,7 +994,6 @@
    "ilvl": 3,
    "xp": 5197,
    "title": null,
-   "fetched": 1793858725,
    "hp": 256,
    "power": 344,
    "powerType": "Mana",
@@ -955,7 +1092,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null
+   "renderUrl": null,
+   "fetched": 1793858725
   },
   {
    "name": "Deadborn Forever",
@@ -1318,136 +1456,6 @@
    "fetched": 1793853326
   },
   {
-   "name": "Markst Stormbrother",
-   "id": 2739348,
-   "level": 12,
-   "rank": 4,
-   "cls": "shaman",
-   "race": 3,
-   "profile": true,
-   "gender": 1,
-   "lastLogin": 1793854646000,
-   "ilvl": 3,
-   "xp": 7361,
-   "title": null,
-   "hp": 294,
-   "power": 376,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 32,
-    "agility": 21,
-    "stamina": 36,
-    "intellect": 30,
-    "spirit": 31,
-    "attack_power": 140,
-    "spell_power": 5,
-    "armor": 369,
-    "melee_crit": 7.35,
-    "ranged_crit": 5.11,
-    "spell_crit": 7.83
-   },
-   "hk": 0,
-   "pvpRank": 0,
-   "gear": [
-    {
-     "slot": 3,
-     "id": 154,
-     "name": "Primitive Mantle",
-     "quality": 1,
-     "itemLevel": 1,
-     "icon": "133766"
-    },
-    {
-     "slot": 4,
-     "id": 2817,
-     "name": "Soft Leather Tunic",
-     "quality": 2,
-     "itemLevel": 12,
-     "icon": "135014"
-    },
-    {
-     "slot": 5,
-     "id": 1369,
-     "name": "Ragged Leather Belt",
-     "quality": 0,
-     "itemLevel": 5,
-     "icon": "132513"
-    },
-    {
-     "slot": 6,
-     "id": 2962,
-     "name": "Burnt Leather Breeches",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "134586"
-    },
-    {
-     "slot": 7,
-     "id": 281322,
-     "name": "Frosthowl's Footwarmers",
-     "quality": 1,
-     "itemLevel": 9,
-     "icon": "132537"
-    },
-    {
-     "slot": 8,
-     "id": 1370,
-     "name": "Ragged Leather Bracers",
-     "quality": 0,
-     "itemLevel": 4,
-     "icon": "132609"
-    },
-    {
-     "slot": 9,
-     "id": 3152,
-     "name": "Driving Gloves",
-     "quality": 1,
-     "itemLevel": 9,
-     "icon": "132952"
-    },
-    {
-     "slot": 10,
-     "id": 286737,
-     "name": "Avala's Binding",
-     "quality": 1,
-     "itemLevel": 8,
-     "icon": "133349"
-    },
-    {
-     "slot": 14,
-     "id": 4677,
-     "name": "Veteran Cloak",
-     "quality": 1,
-     "itemLevel": 12,
-     "icon": "133759"
-    },
-    {
-     "slot": 15,
-     "id": 4561,
-     "name": "Scalping Tomahawk of Magic",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "132410"
-    },
-    {
-     "slot": 16,
-     "id": 15895,
-     "name": "Burnt Buckler",
-     "quality": 1,
-     "itemLevel": null,
-     "icon": "134955"
-    }
-   ],
-   "sets": [],
-   "heal": 0,
-   "spec": "Enhancement",
-   "role": "dps",
-   "exalted": [],
-   "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/148/2739348-main-raw.png",
-   "fetched": 1793855129
-  },
-  {
    "name": "Ramsu Jr",
    "id": 5212533,
    "level": 12,
@@ -1707,7 +1715,6 @@
    "ilvl": 4,
    "xp": 5993,
    "title": null,
-   "fetched": 1793858723,
    "hp": 203,
    "power": 445,
    "powerType": "Mana",
@@ -1806,7 +1813,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null
+   "renderUrl": null,
+   "fetched": 1793858723
   },
   {
    "name": "Lazzy Dazzy",
