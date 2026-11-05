@@ -4,8 +4,7 @@
 name: API-vakt
 
 on:
-  schedule:
-    - cron: "17 * * * *"     # varje timme (GitHub kan komma sent, det gör inget här)
+  # Schemat är avstängt sedan 2026-11-05: Forever-API:t är hittat och HEMMET hämtas. Kan köras för hand.
   workflow_dispatch:
     inputs:
       prov:
