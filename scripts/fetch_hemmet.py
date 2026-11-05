@@ -8,12 +8,13 @@ Namespace väljs automatiskt: Anniversary (classicann), Era/Hardcore (classic1x)
 progression (classic). Det som både har guilden och levande profiler vinner.
 
 Per medlem: profil (level, ilvl, senaste inloggning), statistik (HP m.m.),
-PvP (honorable kills, rank), utrustning, rykten (Exalted) och porträtt. Allt utom profilen hämtas bara för
+PvP (honorable kills, rank), utrustning, rykten (Exalted), porträtt och i Forever även
+spelstatistiken (stat), klara achievements med datum (ach) och yrken (prof). Allt utom profilen hämtas bara för
 dem som loggat in sedan förra körningen (resten återanvänds ur members.json, se unchanged()).
 Skriver till utmappen (standard data/hc):
 
   members.json           allt sidan visar
-  snapshots/<datum>.json levels och HKs just i dag (historiken byggs av dessa)
+  snapshots/<datum>.json levels, HKs och spelstatistik just i dag (historiken byggs av dessa)
   items.json             cache: item-ID → item level och ikon
   events.jsonl           dings, in- och utloggningar och HKs med tidsstämpel
   state.json             förra körningens läge (för att hitta nya händelser)
@@ -147,7 +148,7 @@ def download(url, dest, max_age_h=None):
 
 
 # Fälten som bara kan ändras när karaktären är inloggad: återanvänds från förra körningen om inget hänt
-REUSE = ("active", "hp", "power", "powerType", "stats", "hk", "pvpRank", "gear", "sets", "heal", "spec", "role", "exalted", "avatar", "renderUrl")
+REUSE = ("active", "stat", "ach", "prof", "hp", "power", "powerType", "stats", "hk", "pvpRank", "gear", "sets", "heal", "spec", "role", "exalted", "avatar", "renderUrl")
 REFRESH_H = 24   # oförändrade hämtas ändå helt efter 24–48 h (förskjutet per karaktär så att det sprids ut)
 # Ett öppet pass hämtas helt varje körning, så att en utloggning som bara ändrar HKs märks. Pass där
 # utloggningen aldrig syntes (ingen XP, inga HKs) står öppna för alltid, därför bara så här länge.
@@ -159,6 +160,8 @@ def unchanged(m, prev, open_session):
     if not prev or not prev.get("profile") or not prev.get("fetched") or open_session:
         return False
     if any(m.get(k) != prev.get(k) for k in ("lastLogin", "level", "xp", "ilvl")):
+        return False
+    if "stat" not in prev:   # hämtad innan spelstatistiken sparades: hämta helt en gång
         return False
     if prev.get("avatar") and not (AVATARS / f"{m['id']}.jpg").exists():   # Actions-cachen kan ha tappats
         return False
@@ -201,8 +204,29 @@ def fetch_member(entry, prev=None, open_session=False):
         m["stats"][k] = round(v.get("value", 0), 2) if isinstance(v, dict) else v
     # Senast något hände i spelet (kills, quests, skills ...). Levlarna har ingen tidsstämpel, men statistiken har,
     # och den ligger nära utloggningen. Används i stället för körningens tid för dings och utloggningar
-    ach = json.dumps(get(base + "/achievements/statistics") or {})
+    stat_tree = get(base + "/achievements/statistics") or {}
+    ach = json.dumps(stat_tree)
     m["active"] = max(map(int, re.findall(r'"last_updated_timestamp": ?(\d+)', ach)), default=None)
+    # Hela statistiken (kills, dödsfall, camps, fiskar, rolls ...), namn → antal. En rad finns först när man gjort
+    # det minst en gång, så nya rader dyker upp av sig själva. Sparas även i dagens snapshot för historiken
+    m["stat"] = {}
+    def walk(c):
+        for st in c.get("statistics", []):
+            m["stat"][st["name"]] = int(st["quantity"]) if float(st.get("quantity") or 0).is_integer() else st["quantity"]
+        for sc in c.get("sub_categories", []):
+            walk(sc)
+    for c in stat_tree.get("categories", []):
+        walk(c)
+    # Klara achievements, namn → när (ms). Namnet, eftersom samma achievement finns med ett id per faktion
+    achs = get(base + "/achievements")
+    m["ach"] = None if achs is None else {a["achievement"]["name"]: a["completed_timestamp"]
+                                          for a in achs.get("achievements", []) if a.get("completed_timestamp")}
+    # Yrken, även Fishing, Cooking och First Aid: namn → [skill, tak]
+    profs = get(base + "/professions")
+    m["prof"] = None if profs is None else {
+        p["profession"]["name"]: [max((t.get("skill_points") or 0) for t in p.get("tiers") or [{}]),
+                                  max((t.get("max_skill_points") or 0) for t in p.get("tiers") or [{}])]
+        for k in ("primaries", "secondaries") for p in profs.get(k, [])}
     pvp = get(base + "/pvp-summary") or {}
     m["hk"], m["pvpRank"] = pvp.get("honorable_kills", 0), pvp.get("pvp_rank", 0)
     equip = get(base + "/equipment") or {}
@@ -370,7 +394,7 @@ def main():
         "guild": roster["guild"]["name"], "realm": REALM or "Forever", "generated": now.strftime("%Y-%m-%d %H:%M"), "members": members,
     }, indent=1, ensure_ascii=False), encoding="utf-8")
     (OUT / "snapshots" / f"{now:%Y-%m-%d}.json").write_text(json.dumps(
-        {m["name"]: {"level": m["level"], "hk": m.get("hk")} for m in members}, ensure_ascii=False), encoding="utf-8")
+        {m["name"]: {"level": m["level"], "hk": m.get("hk"), "stat": m.get("stat")} for m in members}, ensure_ascii=False), encoding="utf-8")
     log_events(members, now)
     print(f"Klart: {OUT}")
 
