@@ -19,12 +19,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60   # utan bildcache och när Blizzard är långsamt kan 30 min vara för lite
     env:
-      # Sätts under Settings → Secrets and variables → Variables; utan dem körs testguilden Frienship.
-      # När HEMMET finns: REALM, GUILD och OUT=data/hemmet. NS tvingar en namnrymd, annars väljs den automatiskt.
+      # HEMMET i WoW Forever sedan 2026-11-05. Forever har ingen realm i adresserna, så REALM används inte.
+      # Variables (Settings → Secrets and variables → Variables) går före, t.ex. för att köra testguilden igen:
+      # REALM=stitches, GUILD=Frienship, OUT=data/hc och NS=classic1x.
       REALM: ${{ vars.REALM || 'stitches' }}
-      GUILD: ${{ vars.GUILD || 'Frienship' }}
-      OUT: ${{ vars.OUT || 'data/hc' }}
-      NS: ${{ vars.NS }}
+      GUILD: ${{ vars.GUILD || 'HEMMET' }}
+      OUT: ${{ vars.OUT || 'data/hemmet' }}
+      NS: ${{ vars.NS || 'forever' }}
       PYTHONUNBUFFERED: "1"   # loggen syns medan den körs, inte först i slutet
     steps:
       # Senaste main, inte committen från när körningen startades: väntar den i kön har förra körningen
