@@ -1,7 +1,7 @@
 {
  "guild": "HEMMET",
  "realm": "Forever",
- "generated": "2026-11-06 05:35",
+ "generated": "2026-11-06 06:05",
  "members": [
   {
    "name": "Vyssan Lull",
@@ -1762,23 +1762,6 @@
    "ilvl": 16,
    "xp": 6418,
    "title": null,
-   "fetched": 1793943327,
-   "hp": 947,
-   "power": 843,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 28,
-    "agility": 74,
-    "stamina": 80,
-    "intellect": 37,
-    "spirit": 41,
-    "attack_power": 143,
-    "spell_power": 0,
-    "armor": 550,
-    "melee_crit": 4.78,
-    "ranged_crit": 3.98,
-    "spell_crit": 5.93
-   },
    "active": 1793941170000,
    "stat": {
     "Times camped": 1,
@@ -1866,6 +1849,22 @@
      22,
      75
     ]
+   },
+   "hp": 947,
+   "power": 843,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 28,
+    "agility": 74,
+    "stamina": 80,
+    "intellect": 37,
+    "spirit": 41,
+    "attack_power": 143,
+    "spell_power": 0,
+    "armor": 550,
+    "melee_crit": 4.78,
+    "ranged_crit": 3.98,
+    "spell_crit": 5.93
    },
    "hk": 1,
    "pvpRank": 0,
@@ -1989,7 +1988,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null
+   "renderUrl": null,
+   "fetched": 1793943327
   },
   {
    "name": "Pandemic Dots",
@@ -3276,7 +3276,7 @@
    "ilvl": 13,
    "xp": 2194,
    "title": null,
-   "fetched": 1793943328,
+   "fetched": 1793945127,
    "hp": 626,
    "power": 937,
    "powerType": "Mana",
@@ -3496,7 +3496,7 @@
    "ilvl": 15,
    "xp": 2985,
    "title": null,
-   "fetched": 1793943332,
+   "fetched": 1793945129,
    "hp": 874,
    "power": 100,
    "powerType": "Rage",
@@ -4957,23 +4957,6 @@
    "ilvl": 11,
    "xp": 13252,
    "title": null,
-   "fetched": 1793943329,
-   "hp": 672,
-   "power": 764,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 63,
-    "agility": 37,
-    "stamina": 63,
-    "intellect": 39,
-    "spirit": 44,
-    "attack_power": 172,
-    "spell_power": 0,
-    "armor": 790,
-    "melee_crit": 6.08,
-    "ranged_crit": 2.88,
-    "spell_crit": 6.04
-   },
    "active": 1793943000000,
    "stat": {
     "Times camped": 3,
@@ -5047,6 +5030,22 @@
      41,
      75
     ]
+   },
+   "hp": 672,
+   "power": 764,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 63,
+    "agility": 37,
+    "stamina": 63,
+    "intellect": 39,
+    "spirit": 44,
+    "attack_power": 172,
+    "spell_power": 0,
+    "armor": 790,
+    "melee_crit": 6.08,
+    "ranged_crit": 2.88,
+    "spell_crit": 6.04
    },
    "hk": 0,
    "pvpRank": 0,
@@ -5130,7 +5129,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/213/5332181-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/213/5332181-main-raw.png",
+   "fetched": 1793943329
   },
   {
    "name": "Startale Deadge",
@@ -5796,7 +5796,7 @@
    "ilvl": 13,
    "xp": 3025,
    "title": null,
-   "fetched": 1793943331,
+   "fetched": 1793945129,
    "hp": 590,
    "power": 100,
    "powerType": "Energy",
@@ -6020,7 +6020,7 @@
    "ilvl": 12,
    "xp": 4316,
    "title": null,
-   "fetched": 1793943328,
+   "fetched": 1793945127,
    "hp": 492,
    "power": 1500,
    "powerType": "Mana",
@@ -20462,7 +20462,7 @@
    "ilvl": 9,
    "xp": 11391,
    "title": null,
-   "fetched": 1793943331,
+   "fetched": 1793945129,
    "hp": 512,
    "power": 540,
    "powerType": "Mana",
@@ -21235,7 +21235,7 @@
    "ilvl": 6,
    "xp": 2550,
    "title": null,
-   "fetched": 1793943335,
+   "fetched": 1793945131,
    "hp": 349,
    "power": 100,
    "powerType": "Rage",
@@ -21397,6 +21397,200 @@
    "exalted": [],
    "avatar": true,
    "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/141/8396685-main-raw.png"
+  },
+  {
+   "name": "Herr Malte",
+   "id": 6869375,
+   "level": 15,
+   "rank": 4,
+   "cls": "warlock",
+   "race": 1,
+   "profile": true,
+   "gender": 1,
+   "lastLogin": 1793943649000,
+   "ilvl": 7,
+   "xp": 13761,
+   "title": null,
+   "fetched": 1793945126,
+   "hp": 273,
+   "power": 673,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 24,
+    "agility": 25,
+    "stamina": 30,
+    "intellect": 45,
+    "spirit": 45,
+    "attack_power": 14,
+    "spell_power": 8,
+    "armor": 165,
+    "melee_crit": 4.85,
+    "ranged_crit": 5.88,
+    "spell_crit": 5.93
+   },
+   "active": 1793943626000,
+   "stat": {
+    "Times camped": 3,
+    "Health potions consumed": 17,
+    "Elixirs consumed": 2,
+    "Beverages consumed": 21,
+    "Food eaten": 33,
+    "Healthstones used": 7,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Greed rolls made on loot": 9,
+    "Need rolls made on loot": 4,
+    "Total 5-player dungeons entered": 1,
+    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
+    "Bazzalan kills (Ragefire Chasm)": 1,
+    "Total kills": 644,
+    "Total kills that grant experience or honor": 613,
+    "Creatures killed": 631,
+    "Different creature types killed": 7,
+    "Creature type killed the most": 404,
+    "Critters killed": 2,
+    "Total Killing Blows": 448,
+    "World Killing Blows": 419,
+    "Continent with the most Killing Blows": 419,
+    "Total deaths": 9,
+    "Quests completed": 101,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 2,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 3,
+    "Weapon skills at maximum skill": 5,
+    "Cooking skill": 92,
+    "Cooking Recipes known": 18,
+    "First Aid skill": 89,
+    "First Aid Manuals learned": 12,
+    "Fishing skill": 75,
+    "Fish caught": 76,
+    "Fish and other things caught": 76,
+    "Highest Alchemy skill": 39,
+    "Alchemy Recipes learned": 12,
+    "Materials produced from disenchanting": 3,
+    "Items disenchanted": 3,
+    "Highest Herbalism skill": 52,
+    "Flight paths taken": 5,
+    "Number of times hearthed": 4
+   },
+   "ach": {
+    "Explore Elwynn Forest": 1793881221000
+   },
+   "prof": {
+    "Alchemy": [
+     45,
+     75
+    ],
+    "Herbalism": [
+     69,
+     150
+    ],
+    "Cooking": [
+     93,
+     150
+    ],
+    "Fishing": [
+     75,
+     150
+    ],
+    "First Aid": [
+     54,
+     150
+    ]
+   },
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 3,
+     "id": 2575,
+     "name": "Red Linen Shirt",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "135029"
+    },
+    {
+     "slot": 4,
+     "id": 270000,
+     "name": "Apprentice Wizard's Gown",
+     "quality": 2,
+     "itemLevel": 13,
+     "icon": "132665"
+    },
+    {
+     "slot": 5,
+     "id": 983,
+     "name": "Red Linen Sash",
+     "quality": 1,
+     "itemLevel": 9,
+     "icon": "133694"
+    },
+    {
+     "slot": 6,
+     "id": 10549,
+     "name": "Rancher's Trousers",
+     "quality": 2,
+     "itemLevel": 12,
+     "icon": "134593"
+    },
+    {
+     "slot": 7,
+     "id": 860,
+     "name": "Cavalier's Boots",
+     "quality": 1,
+     "itemLevel": 13,
+     "icon": "132539"
+    },
+    {
+     "slot": 8,
+     "id": 281256,
+     "name": "Repurposed Hair Band",
+     "quality": 2,
+     "itemLevel": 20,
+     "icon": "132603"
+    },
+    {
+     "slot": 9,
+     "id": 280096,
+     "name": "Tomb Robber's Gloves",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "132952"
+    },
+    {
+     "slot": 14,
+     "id": 2580,
+     "name": "Reinforced Linen Cape",
+     "quality": 2,
+     "itemLevel": 12,
+     "icon": "133759"
+    },
+    {
+     "slot": 15,
+     "id": 248008,
+     "name": "Apprentice's Spellstaff",
+     "quality": 2,
+     "itemLevel": 12,
+     "icon": "135155"
+    },
+    {
+     "slot": 17,
+     "id": 279896,
+     "name": "Deepblaze",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "135473"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": "Affliction",
+   "role": "dps",
+   "exalted": [],
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/127/6869375-main-raw.png"
   },
   {
    "name": "Jerka Jernkrok",
@@ -24692,198 +24886,6 @@
    "fetched": 1793921730
   },
   {
-   "name": "Herr Malte",
-   "id": 6869375,
-   "level": 14,
-   "rank": 4,
-   "cls": "warlock",
-   "race": 1,
-   "profile": true,
-   "gender": 1,
-   "lastLogin": 1793892430000,
-   "ilvl": 5,
-   "xp": 12721,
-   "title": null,
-   "active": 1793890508000,
-   "stat": {
-    "Times camped": 3,
-    "Health potions consumed": 14,
-    "Beverages consumed": 20,
-    "Food eaten": 27,
-    "Healthstones used": 5,
-    "Most Alliance factions at Exalted": 4,
-    "Total factions encountered": 8,
-    "Greed rolls made on loot": 9,
-    "Need rolls made on loot": 4,
-    "Total 5-player dungeons entered": 1,
-    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
-    "Bazzalan kills (Ragefire Chasm)": 1,
-    "Total kills": 560,
-    "Total kills that grant experience or honor": 529,
-    "Creatures killed": 547,
-    "Different creature types killed": 7,
-    "Creature type killed the most": 346,
-    "Critters killed": 2,
-    "Total Killing Blows": 364,
-    "World Killing Blows": 335,
-    "Continent with the most Killing Blows": 335,
-    "Total deaths": 7,
-    "Quests completed": 92,
-    "Average quests completed per day": 0,
-    "Quests abandoned": 2,
-    "Professions learned": 4,
-    "Professions at maximum skill": 4,
-    "Secondary skills at maximum skill": 2,
-    "Weapon skills at maximum skill": 5,
-    "Cooking skill": 50,
-    "Cooking Recipes known": 14,
-    "First Aid skill": 14,
-    "Fishing skill": 20,
-    "Fish caught": 19,
-    "Fish and other things caught": 19,
-    "Highest Alchemy skill": 14,
-    "Alchemy Recipes learned": 8,
-    "Highest Enchanting skill": 4,
-    "Enchanting formulae learned": 13,
-    "Materials produced from disenchanting": 3,
-    "Items disenchanted": 3,
-    "Highest Herbalism skill": 51,
-    "Highest Tailoring skill": 29,
-    "Tailoring Patterns learned": 20,
-    "Flight paths taken": 3,
-    "Number of times hearthed": 3
-   },
-   "ach": {
-    "Explore Elwynn Forest": 1793881221000
-   },
-   "prof": {
-    "Alchemy": [
-     14,
-     75
-    ],
-    "Herbalism": [
-     51,
-     75
-    ],
-    "Cooking": [
-     50,
-     75
-    ],
-    "Fishing": [
-     20,
-     75
-    ]
-   },
-   "hp": 258,
-   "power": 607,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 24,
-    "agility": 25,
-    "stamina": 29,
-    "intellect": 42,
-    "spirit": 41,
-    "attack_power": 14,
-    "spell_power": 8,
-    "armor": 151,
-    "melee_crit": 5.04,
-    "ranged_crit": 6.0,
-    "spell_crit": 5.92
-   },
-   "hk": 0,
-   "pvpRank": 0,
-   "gear": [
-    {
-     "slot": 3,
-     "id": 2575,
-     "name": "Red Linen Shirt",
-     "quality": 1,
-     "itemLevel": 10,
-     "icon": "135029"
-    },
-    {
-     "slot": 4,
-     "id": 270000,
-     "name": "Apprentice Wizard's Gown",
-     "quality": 2,
-     "itemLevel": 13,
-     "icon": "132665"
-    },
-    {
-     "slot": 5,
-     "id": 983,
-     "name": "Red Linen Sash",
-     "quality": 1,
-     "itemLevel": 9,
-     "icon": "133694"
-    },
-    {
-     "slot": 6,
-     "id": 10549,
-     "name": "Rancher's Trousers",
-     "quality": 2,
-     "itemLevel": 12,
-     "icon": "134593"
-    },
-    {
-     "slot": 7,
-     "id": 6148,
-     "name": "Web-covered Boots",
-     "quality": 1,
-     "itemLevel": 10,
-     "icon": "132539"
-    },
-    {
-     "slot": 8,
-     "id": 3365,
-     "name": "Frayed Bracers",
-     "quality": 0,
-     "itemLevel": 5,
-     "icon": "132609"
-    },
-    {
-     "slot": 9,
-     "id": 280096,
-     "name": "Tomb Robber's Gloves",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "132952"
-    },
-    {
-     "slot": 14,
-     "id": 2580,
-     "name": "Reinforced Linen Cape",
-     "quality": 2,
-     "itemLevel": 12,
-     "icon": "133759"
-    },
-    {
-     "slot": 15,
-     "id": 248008,
-     "name": "Apprentice's Spellstaff",
-     "quality": 2,
-     "itemLevel": 12,
-     "icon": "135155"
-    },
-    {
-     "slot": 17,
-     "id": 279896,
-     "name": "Deepblaze",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "135473"
-    }
-   ],
-   "sets": [],
-   "heal": 0,
-   "spec": "Affliction",
-   "role": "dps",
-   "exalted": [],
-   "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/127/6869375-main-raw.png",
-   "fetched": 1793892926
-  },
-  {
    "name": "Hitchen Malox",
    "id": 6593987,
    "level": 14,
@@ -26528,7 +26530,7 @@
    "ilvl": 6,
    "xp": 8952,
    "title": null,
-   "fetched": 1793943328,
+   "fetched": 1793945127,
    "hp": 268,
    "power": 653,
    "powerType": "Mana",
@@ -31178,7 +31180,7 @@
    "ilvl": 5,
    "xp": 2937,
    "title": null,
-   "fetched": 1793943329,
+   "fetched": 1793945128,
    "hp": 328,
    "power": 415,
    "powerType": "Mana",
@@ -31880,23 +31882,6 @@
    "ilvl": 6,
    "xp": 9340,
    "title": null,
-   "fetched": 1793943329,
-   "hp": 389,
-   "power": 100,
-   "powerType": "Rage",
-   "stats": {
-    "strength": 49,
-    "agility": 24,
-    "stamina": 46,
-    "intellect": 20,
-    "spirit": 22,
-    "attack_power": 114,
-    "spell_power": 0,
-    "armor": 565,
-    "melee_crit": 4.25,
-    "ranged_crit": 1.93,
-    "spell_crit": 0.0
-   },
    "active": 1793943140000,
    "stat": {
     "Times camped": 1,
@@ -31954,6 +31939,22 @@
      47,
      75
     ]
+   },
+   "hp": 389,
+   "power": 100,
+   "powerType": "Rage",
+   "stats": {
+    "strength": 49,
+    "agility": 24,
+    "stamina": 46,
+    "intellect": 20,
+    "spirit": 22,
+    "attack_power": 114,
+    "spell_power": 0,
+    "armor": 565,
+    "melee_crit": 4.25,
+    "ranged_crit": 1.93,
+    "spell_crit": 0.0
    },
    "hk": 0,
    "pvpRank": 0,
@@ -32045,7 +32046,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null
+   "renderUrl": null,
+   "fetched": 1793943329
   },
   {
    "name": "Blåvitt Bibbii",
@@ -35108,7 +35110,7 @@
    "ilvl": 5,
    "xp": 2363,
    "title": null,
-   "fetched": 1793943335,
+   "fetched": 1793945132,
    "hp": 297,
    "power": 662,
    "powerType": "Mana",
@@ -37420,7 +37422,7 @@
    "ilvl": 2,
    "xp": 153,
    "title": null,
-   "fetched": 1793943331,
+   "fetched": 1793945129,
    "hp": 260,
    "power": 100,
    "powerType": "Rage",
@@ -39153,7 +39155,7 @@
    "ilvl": 2,
    "xp": 2161,
    "title": null,
-   "fetched": 1793943327,
+   "fetched": 1793945126,
    "hp": 243,
    "power": 415,
    "powerType": "Mana",
@@ -43382,7 +43384,7 @@
    "ilvl": 4,
    "xp": 2089,
    "title": null,
-   "fetched": 1793943338,
+   "fetched": 1793945134,
    "hp": 280,
    "power": 300,
    "powerType": "Mana",
@@ -44243,7 +44245,7 @@
    "ilvl": 4,
    "xp": 5195,
    "title": null,
-   "fetched": 1793943332,
+   "fetched": 1793945130,
    "hp": 271,
    "power": 100,
    "powerType": "Rage",
