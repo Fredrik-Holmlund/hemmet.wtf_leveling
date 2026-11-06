@@ -1,7 +1,7 @@
 {
  "guild": "HEMMET",
  "realm": "Forever",
- "generated": "2026-11-06 02:05",
+ "generated": "2026-11-06 02:36",
  "members": [
   {
    "name": "Vyssan Lull",
@@ -3034,7 +3034,7 @@
    "ilvl": 13,
    "xp": 2194,
    "title": null,
-   "fetched": 1793930729,
+   "fetched": 1793932526,
    "hp": 626,
    "power": 937,
    "powerType": "Mana",
@@ -3254,7 +3254,7 @@
    "ilvl": 15,
    "xp": 2985,
    "title": null,
-   "fetched": 1793930735,
+   "fetched": 1793932529,
    "hp": 874,
    "power": 100,
    "powerType": "Rage",
@@ -4066,23 +4066,6 @@
    "ilvl": 13,
    "xp": 13685,
    "title": null,
-   "fetched": 1793930733,
-   "hp": 566,
-   "power": 847,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 46,
-    "agility": 71,
-    "stamina": 48,
-    "intellect": 49,
-    "spirit": 48,
-    "attack_power": 72,
-    "spell_power": 5,
-    "armor": 522,
-    "melee_crit": 5.21,
-    "ranged_crit": 4.41,
-    "spell_crit": 4.18
-   },
    "active": 1793928947000,
    "stat": {
     "Times camped": 7,
@@ -4169,6 +4152,22 @@
      49,
      75
     ]
+   },
+   "hp": 566,
+   "power": 847,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 46,
+    "agility": 71,
+    "stamina": 48,
+    "intellect": 49,
+    "spirit": 48,
+    "attack_power": 72,
+    "spell_power": 5,
+    "armor": 522,
+    "melee_crit": 5.21,
+    "ranged_crit": 4.41,
+    "spell_crit": 4.18
    },
    "hk": 1,
    "pvpRank": 0,
@@ -4268,7 +4267,8 @@
    "role": "tank",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/221/484061-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/221/484061-main-raw.png",
+   "fetched": 1793930733
   },
   {
    "name": "Naxxramas Shadowborn",
@@ -5152,23 +5152,6 @@
    "ilvl": 15,
    "xp": 16804,
    "title": null,
-   "fetched": 1793930736,
-   "hp": 628,
-   "power": 1189,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 24,
-    "agility": 25,
-    "stamina": 54,
-    "intellect": 69,
-    "spirit": 73,
-    "attack_power": 14,
-    "spell_power": 35,
-    "armor": 257,
-    "melee_crit": 3.92,
-    "ranged_crit": 5.8,
-    "spell_crit": 5.42
-   },
    "active": 1793928969000,
    "stat": {
     "Times camped": 10,
@@ -5236,6 +5219,22 @@
      1,
      75
     ]
+   },
+   "hp": 628,
+   "power": 1189,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 24,
+    "agility": 25,
+    "stamina": 54,
+    "intellect": 69,
+    "spirit": 73,
+    "attack_power": 14,
+    "spell_power": 35,
+    "armor": 257,
+    "melee_crit": 3.92,
+    "ranged_crit": 5.8,
+    "spell_crit": 5.42
    },
    "hk": 1,
    "pvpRank": 0,
@@ -5351,7 +5350,8 @@
    "role": "healer",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/57/10171193-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/57/10171193-main-raw.png",
+   "fetched": 1793930736
   },
   {
    "name": "Trini Trinitron",
@@ -5366,7 +5366,7 @@
    "ilvl": 13,
    "xp": 3025,
    "title": null,
-   "fetched": 1793930733,
+   "fetched": 1793932529,
    "hp": 590,
    "power": 100,
    "powerType": "Energy",
@@ -5590,7 +5590,7 @@
    "ilvl": 12,
    "xp": 4316,
    "title": null,
-   "fetched": 1793930729,
+   "fetched": 1793932526,
    "hp": 492,
    "power": 1500,
    "powerType": "Mana",
@@ -7460,23 +7460,6 @@
    "ilvl": 12,
    "xp": 7567,
    "title": null,
-   "fetched": 1793930731,
-   "hp": 756,
-   "power": 100,
-   "powerType": "Rage",
-   "stats": {
-    "strength": 82,
-    "agility": 35,
-    "stamina": 73,
-    "intellect": 29,
-    "spirit": 35,
-    "attack_power": 210,
-    "spell_power": 0,
-    "armor": 1041,
-    "melee_crit": 5.21,
-    "ranged_crit": 3.29,
-    "spell_crit": 1.0
-   },
    "active": 1793928803000,
    "stat": {
     "Times camped": 16,
@@ -7543,6 +7526,22 @@
      82,
      150
     ]
+   },
+   "hp": 756,
+   "power": 100,
+   "powerType": "Rage",
+   "stats": {
+    "strength": 82,
+    "agility": 35,
+    "stamina": 73,
+    "intellect": 29,
+    "spirit": 35,
+    "attack_power": 210,
+    "spell_power": 0,
+    "armor": 1041,
+    "melee_crit": 5.21,
+    "ranged_crit": 3.29,
+    "spell_crit": 1.0
    },
    "hk": 0,
    "pvpRank": 0,
@@ -7658,7 +7657,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/142/409486-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/142/409486-main-raw.png",
+   "fetched": 1793930731
   },
   {
    "name": "Waup Jägare",
@@ -11508,7 +11508,7 @@
    "ilvl": 8,
    "xp": 12357,
    "title": null,
-   "fetched": 1793930729,
+   "fetched": 1793932526,
    "hp": 473,
    "power": 658,
    "powerType": "Mana",
@@ -12674,23 +12674,6 @@
    "ilvl": 7,
    "xp": 4386,
    "title": null,
-   "fetched": 1793930728,
-   "hp": 175,
-   "power": 333,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 9,
-    "agility": 11,
-    "stamina": 16,
-    "intellect": 10,
-    "spirit": 13,
-    "attack_power": 54,
-    "spell_power": 0,
-    "armor": 70,
-    "melee_crit": 7.67,
-    "ranged_crit": 0.0,
-    "spell_crit": 7.87
-   },
    "active": 1793929093000,
    "stat": {
     "Times camped": 3,
@@ -12756,6 +12739,22 @@
      4,
      75
     ]
+   },
+   "hp": 175,
+   "power": 333,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 9,
+    "agility": 11,
+    "stamina": 16,
+    "intellect": 10,
+    "spirit": 13,
+    "attack_power": 54,
+    "spell_power": 0,
+    "armor": 70,
+    "melee_crit": 7.67,
+    "ranged_crit": 0.0,
+    "spell_crit": 7.87
    },
    "hk": 1,
    "pvpRank": 0,
@@ -12847,7 +12846,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/130/538754-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/130/538754-main-raw.png",
+   "fetched": 1793930728
   },
   {
    "name": "Inkvoterad Antagonist",
@@ -15186,23 +15186,6 @@
    "ilvl": 7,
    "xp": 6054,
    "title": null,
-   "fetched": 1793930733,
-   "hp": 446,
-   "power": 632,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 28,
-    "agility": 41,
-    "stamina": 42,
-    "intellect": 42,
-    "spirit": 40,
-    "attack_power": 36,
-    "spell_power": 6,
-    "armor": 398,
-    "melee_crit": 5.72,
-    "ranged_crit": 2.96,
-    "spell_crit": 4.43
-   },
    "active": 1793928563000,
    "stat": {
     "Times camped": 2,
@@ -15266,6 +15249,22 @@
      45,
      75
     ]
+   },
+   "hp": 446,
+   "power": 632,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 28,
+    "agility": 41,
+    "stamina": 42,
+    "intellect": 42,
+    "spirit": 40,
+    "attack_power": 36,
+    "spell_power": 6,
+    "armor": 398,
+    "melee_crit": 5.72,
+    "ranged_crit": 2.96,
+    "spell_crit": 4.43
    },
    "hk": 0,
    "pvpRank": 0,
@@ -15341,7 +15340,8 @@
    "role": "tank",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/56/7404088-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/56/7404088-main-raw.png",
+   "fetched": 1793930733
   },
   {
    "name": "Disciplined Aszaszin",
@@ -16362,7 +16362,7 @@
    "ilvl": 9,
    "xp": 10318,
    "title": null,
-   "fetched": 1793930738,
+   "fetched": 1793932532,
    "hp": 518,
    "power": 555,
    "powerType": "Mana",
@@ -16548,23 +16548,6 @@
    "ilvl": 7,
    "xp": 5348,
    "title": null,
-   "fetched": 1793930729,
-   "hp": 353,
-   "power": 688,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 27,
-    "agility": 26,
-    "stamina": 36,
-    "intellect": 44,
-    "spirit": 46,
-    "attack_power": 20,
-    "spell_power": 28,
-    "armor": 177,
-    "melee_crit": 4.81,
-    "ranged_crit": 5.81,
-    "spell_crit": 5.49
-   },
    "active": 1793928591000,
    "stat": {
     "Times camped": 3,
@@ -16627,6 +16610,22 @@
      95,
      150
     ]
+   },
+   "hp": 353,
+   "power": 688,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 27,
+    "agility": 26,
+    "stamina": 36,
+    "intellect": 44,
+    "spirit": 46,
+    "attack_power": 20,
+    "spell_power": 28,
+    "armor": 177,
+    "melee_crit": 4.81,
+    "ranged_crit": 5.81,
+    "spell_crit": 5.49
    },
    "hk": 0,
    "pvpRank": 0,
@@ -16718,7 +16717,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null
+   "renderUrl": null,
+   "fetched": 1793930729
   },
   {
    "name": "Ister Band",
@@ -19655,23 +19655,6 @@
    "ilvl": 7,
    "xp": 12946,
    "title": null,
-   "fetched": 1793930729,
-   "hp": 399,
-   "power": 565,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 28,
-    "agility": 38,
-    "stamina": 38,
-    "intellect": 39,
-    "spirit": 44,
-    "attack_power": 36,
-    "spell_power": 0,
-    "armor": 390,
-    "melee_crit": 5.73,
-    "ranged_crit": 2.93,
-    "spell_crit": 4.4
-   },
    "active": 1793929245000,
    "stat": {
     "Times camped": 3,
@@ -19740,6 +19723,22 @@
      62,
      150
     ]
+   },
+   "hp": 399,
+   "power": 565,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 28,
+    "agility": 38,
+    "stamina": 38,
+    "intellect": 39,
+    "spirit": 44,
+    "attack_power": 36,
+    "spell_power": 0,
+    "armor": 390,
+    "melee_crit": 5.73,
+    "ranged_crit": 2.93,
+    "spell_crit": 4.4
    },
    "hk": 0,
    "pvpRank": 0,
@@ -19815,7 +19814,8 @@
    "role": "tank",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/111/6703215-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/111/6703215-main-raw.png",
+   "fetched": 1793930729
   },
   {
    "name": "Mystic Dots",
@@ -20381,7 +20381,7 @@
    "ilvl": 9,
    "xp": 11391,
    "title": null,
-   "fetched": 1793930733,
+   "fetched": 1793932529,
    "hp": 512,
    "power": 540,
    "powerType": "Mana",
@@ -24253,23 +24253,6 @@
    "ilvl": 3,
    "xp": 401,
    "title": null,
-   "fetched": 1793930739,
-   "hp": 308,
-   "power": 423,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 26,
-    "agility": 42,
-    "stamina": 35,
-    "intellect": 27,
-    "spirit": 31,
-    "attack_power": 76,
-    "spell_power": 0,
-    "armor": 323,
-    "melee_crit": 4.72,
-    "ranged_crit": 5.04,
-    "spell_crit": 5.95
-   },
    "active": 1793928774000,
    "stat": {
     "Times camped": 3,
@@ -24324,6 +24307,22 @@
      31,
      75
     ]
+   },
+   "hp": 308,
+   "power": 423,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 26,
+    "agility": 42,
+    "stamina": 35,
+    "intellect": 27,
+    "spirit": 31,
+    "attack_power": 76,
+    "spell_power": 0,
+    "armor": 323,
+    "melee_crit": 4.72,
+    "ranged_crit": 5.04,
+    "spell_crit": 5.95
    },
    "hk": 0,
    "pvpRank": 0,
@@ -24415,7 +24414,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null
+   "renderUrl": null,
+   "fetched": 1793930739
   },
   {
    "name": "Gurre Vabbar",
@@ -25334,7 +25334,7 @@
    "ilvl": 6,
    "xp": 10632,
    "title": null,
-   "fetched": 1793930728,
+   "fetched": 1793932525,
    "hp": 337,
    "power": 610,
    "powerType": "Mana",
@@ -26247,7 +26247,7 @@
    "ilvl": 6,
    "xp": 8952,
    "title": null,
-   "fetched": 1793930730,
+   "fetched": 1793932527,
    "hp": 268,
    "power": 653,
    "powerType": "Mana",
@@ -31091,7 +31091,7 @@
    "ilvl": 5,
    "xp": 2937,
    "title": null,
-   "fetched": 1793930730,
+   "fetched": 1793932527,
    "hp": 328,
    "power": 415,
    "powerType": "Mana",
@@ -34841,7 +34841,7 @@
    "ilvl": 5,
    "xp": 2363,
    "title": null,
-   "fetched": 1793930738,
+   "fetched": 1793932532,
    "hp": 297,
    "power": 662,
    "powerType": "Mana",
@@ -37153,7 +37153,7 @@
    "ilvl": 2,
    "xp": 153,
    "title": null,
-   "fetched": 1793930733,
+   "fetched": 1793932528,
    "hp": 260,
    "power": 100,
    "powerType": "Rage",
@@ -38886,7 +38886,7 @@
    "ilvl": 2,
    "xp": 2161,
    "title": null,
-   "fetched": 1793930728,
+   "fetched": 1793932525,
    "hp": 243,
    "power": 415,
    "powerType": "Mana",
@@ -39052,7 +39052,7 @@
    "ilvl": 4,
    "xp": 8696,
    "title": null,
-   "fetched": 1793930737,
+   "fetched": 1793932531,
    "hp": 192,
    "power": 530,
    "powerType": "Mana",
@@ -43294,7 +43294,7 @@
    "ilvl": 4,
    "xp": 2089,
    "title": null,
-   "fetched": 1793930742,
+   "fetched": 1793932535,
    "hp": 280,
    "power": 300,
    "powerType": "Mana",
@@ -44155,7 +44155,7 @@
    "ilvl": 4,
    "xp": 5195,
    "title": null,
-   "fetched": 1793930735,
+   "fetched": 1793932529,
    "hp": 271,
    "power": 100,
    "powerType": "Rage",
