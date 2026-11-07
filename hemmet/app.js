@@ -267,6 +267,8 @@ const dLbl = (i) => fmtDate(J.dates[Math.max(0, Math.min(LAST, Math.round(i)))])
 // började spara). Börjar mätningen på releasedagen startade alla på level 1, och då räknas första dagen från 1.
 
 const FROM_START = DATA.dates[0] === `${RELEASE.getFullYear()}-${String(RELEASE.getMonth() + 1).padStart(2, "0")}-${String(RELEASE.getDate()).padStart(2, "0")}`;
+// Blizzards API öppnade guildlistan först på releasemorgonen: före första hämtningen finns inga dings, bara en gissning
+const API_OPEN = FROM_START && !DEMO_MODE && DATA.events.length ? DATA.events[0][0] : null;
 
 const gainOn = (m, d) => {
 
@@ -573,6 +575,8 @@ function drawBoard() {
 
     $("dayline").innerHTML = `<b>${fmtDate(RELEASE)} kl 00:00</b> <span>Forever öppnar. <em>${inn.length}</em> står redo i Elwynn Forest, alla på level 1.</span>`;
 
+  } else if (API_OPEN && cutAt(T) < API_OPEN) {
+    $("dayline").innerHTML = `<b>${fmtDate(RELEASE)} kl ${hhmm(cutAt(T))}</b> <span>Blizzards API var nere till kl <em>${hhmm(API_OPEN)}</em>, så de första timmarna gissar vi. Att det levlades är vi däremot säkra på.</span>`;
   } else if (LAST === 0) {
 
     $("dayline").innerHTML = `<b>Idag</b> <span><em>${cnt(T, MAX)}</em> på max level och <em>${inn.length - cnt(T, MAX)}</em> på väg dit.</span>`;
@@ -1071,7 +1075,7 @@ function drawStats() {
 
   $("hoursRead").innerHTML = dings.length
 
-    ? `<b>${share[0]} %</b> av dingarna togs när man borde sova, <b>${share[1]} %</b> på arbetstid och <b>${share[2]} %</b> på ledig tid. Flest kl <b>${String(peak).padStart(2, "0")}-${String((peak + 1) % 24).padStart(2, "0")}</b>.`
+    ? `<b>${share[0]} %</b> av dingarna togs när man borde sova, <b>${share[1]} %</b> på arbetstid och <b>${share[2]} %</b> på ledig tid. Flest kl <b>${String(peak).padStart(2, "0")}-${String((peak + 1) % 24).padStart(2, "0")}</b>.${API_OPEN ? ` Releasenatten fram till kl ${hhmm(API_OPEN)} saknas: Blizzards API var nere.` : ""}`
 
     : "Här syns snart när på dygnet vi dingar.";
 
