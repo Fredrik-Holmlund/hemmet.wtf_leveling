@@ -214,7 +214,15 @@ function lvSnap(m, t) {
 
 function lvAt(m, t) {
 
-  if (t < 0) return L_(m)[0] != null ? 1 : null;   // releasen: alla som är med första dagen står på level 1
+  if (t <= -1) return L_(m)[0] != null ? 1 : null;   // releasen: alla som är med första dagen står på level 1
+  if (t < 0 && FROM_START) {   // releasedagen: hämtningen började först på morgonen, så före första kända dingen
+    if (L_(m)[0] == null) return null;   // går det jämnt från level 1 vid midnatt mot den (eller mot dagens sista läge)
+    const dg0 = DINGS.get(m), ts = cutAt(t), t0 = cutAt(-1);
+    if (!dg0 || ts < dg0[0][0]) {
+      const [t1, v1] = dg0 && dg0[0][0] < cutAt(0) ? [dg0[0][0], dg0[0][1] - 1] : [cutAt(0), L_(m)[0]];
+      return Math.max(1, Math.min(v1, 1 + Math.floor(((v1 - 1) * (ts - t0)) / Math.max(1, t1 - t0))));
+    }
+  }
 
   const dg = DINGS.get(m);
 
@@ -553,7 +561,7 @@ function drawBoard() {
 
   board.style.height = `${Math.round(46 + CAP * step + 90)}px`;
 
-  const inn = inAt(T), d = Math.round(T);
+  const inn = inAt(T), d = Math.max(0, Math.round(T));   // releasedagen (T mellan -1 och 0) är dag 0
 
   let today = 0; inn.forEach((m) => (today += gainOn(m, d)));
 
@@ -561,7 +569,7 @@ function drawBoard() {
 
     <div class="kpi"><b>${median(T)}</b><span>medianlevel</span></div><div class="kpi"><b>+${nf(today)}</b><span>levels ${d === LAST ? "senaste dagen" : "den dagen"}</span></div>`;
 
-  if (T < 0) {   // releasen: alla står i Elwynn
+  if (T <= -1 + 1e-6) {   // releasen: alla står i Elwynn
 
     $("dayline").innerHTML = `<b>${fmtDate(RELEASE)} kl 00:00</b> <span>Forever öppnar. <em>${inn.length}</em> står redo i Elwynn Forest, alla på level 1.</span>`;
 
