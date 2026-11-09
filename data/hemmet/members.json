@@ -1,7 +1,7 @@
 {
  "guild": "HEMMET",
  "realm": "Forever",
- "generated": "2026-11-09 05:08",
+ "generated": "2026-11-09 05:36",
  "members": [
   {
    "name": "Carolean Skybreaker",
@@ -16,23 +16,6 @@
    "ilvl": 39,
    "xp": 110509,
    "title": null,
-   "fetched": 1794200795,
-   "hp": 2821,
-   "power": 100,
-   "powerType": "Rage",
-   "stats": {
-    "strength": 153,
-    "agility": 93,
-    "stamina": 212,
-    "intellect": 27,
-    "spirit": 47,
-    "attack_power": 434,
-    "spell_power": 0,
-    "armor": 4226,
-    "melee_crit": 11.2,
-    "ranged_crit": 5.32,
-    "spell_crit": 0.0
-   },
    "active": 1794199544000,
    "stat": {
     "Times camped": 70,
@@ -135,6 +118,22 @@
      270,
      300
     ]
+   },
+   "hp": 2821,
+   "power": 100,
+   "powerType": "Rage",
+   "stats": {
+    "strength": 153,
+    "agility": 93,
+    "stamina": 212,
+    "intellect": 27,
+    "spirit": 47,
+    "attack_power": 434,
+    "spell_power": 0,
+    "armor": 4226,
+    "melee_crit": 11.2,
+    "ranged_crit": 5.32,
+    "spell_crit": 0.0
    },
    "hk": 18,
    "pvpRank": 0,
@@ -290,7 +289,8 @@
    "role": "tank",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/207/6362319-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/207/6362319-main-raw.png",
+   "fetched": 1794200795
   },
   {
    "name": "Vyssan Lull",
@@ -1112,11 +1112,11 @@
    "race": 1,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1794166849000,
+   "lastLogin": 1794202292000,
    "ilvl": 32,
    "xp": 37109,
    "title": null,
-   "fetched": 1794200724,
+   "fetched": 1794202531,
    "hp": 1746,
    "power": 2734,
    "powerType": "Mana",
@@ -1133,7 +1133,7 @@
     "ranged_crit": 5.4,
     "spell_crit": 6.27
    },
-   "active": 1794166611000,
+   "active": 1794202132000,
    "stat": {
     "Times camped": 6,
     "Bandages used": 25,
@@ -1378,7 +1378,7 @@
    "ilvl": 34,
    "xp": 4558,
    "title": null,
-   "fetched": 1794200733,
+   "fetched": 1794202542,
    "hp": 1774,
    "power": 3141,
    "powerType": "Mana",
@@ -4556,11 +4556,28 @@
    "race": 4,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1794172148000,
+   "lastLogin": 1794201236000,
    "ilvl": 37,
    "xp": 83389,
    "title": null,
-   "active": 1794172064000,
+   "fetched": 1794202542,
+   "hp": 2119,
+   "power": 100,
+   "powerType": "Rage",
+   "stats": {
+    "strength": 122,
+    "agility": 102,
+    "stamina": 165,
+    "intellect": 37,
+    "spirit": 50,
+    "attack_power": 424,
+    "spell_power": 0,
+    "armor": 1595,
+    "melee_crit": 13.19,
+    "ranged_crit": 7.79,
+    "spell_crit": 0.5
+   },
+   "active": 1794197019000,
    "stat": {
     "Times camped": 20,
     "Bandages used": 49,
@@ -4621,7 +4638,7 @@
     "First Aid Manuals learned": 18,
     "Highest Engineering skill": 141,
     "Engineering Schematics learned": 34,
-    "Highest Mining skill": 163,
+    "Highest Mining skill": 166,
     "Smelting Recipes learned": 18,
     "Flight paths taken": 67,
     "Summons accepted": 1,
@@ -4653,22 +4670,6 @@
      225,
      225
     ]
-   },
-   "hp": 2119,
-   "power": 100,
-   "powerType": "Rage",
-   "stats": {
-    "strength": 122,
-    "agility": 102,
-    "stamina": 165,
-    "intellect": 37,
-    "spirit": 50,
-    "attack_power": 424,
-    "spell_power": 0,
-    "armor": 1595,
-    "melee_crit": 13.19,
-    "ranged_crit": 7.79,
-    "spell_crit": 0.5
    },
    "hk": 36,
    "pvpRank": 0,
@@ -4824,8 +4825,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/197/9029061-main-raw.png",
-   "fetched": 1794173740
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/197/9029061-main-raw.png"
   },
   {
    "name": "Inkvoterad Antagonist",
@@ -18734,7 +18734,7 @@
    "ilvl": 29,
    "xp": 1042,
    "title": null,
-   "fetched": 1794200729,
+   "fetched": 1794202537,
    "hp": 1236,
    "power": 105,
    "powerType": "Energy",
@@ -20569,23 +20569,6 @@
    "ilvl": 25,
    "xp": 51782,
    "title": null,
-   "fetched": 1794200744,
-   "hp": 1230,
-   "power": 100,
-   "powerType": "Energy",
-   "stats": {
-    "strength": 54,
-    "agility": 124,
-    "stamina": 91,
-    "intellect": 41,
-    "spirit": 49,
-    "attack_power": 278,
-    "spell_power": 9,
-    "armor": 790,
-    "melee_crit": 9.53,
-    "ranged_crit": 2.05,
-    "spell_crit": 1.0
-   },
    "active": 1794199353000,
    "stat": {
     "Times camped": 15,
@@ -20683,6 +20666,22 @@
      180,
      225
     ]
+   },
+   "hp": 1230,
+   "power": 100,
+   "powerType": "Energy",
+   "stats": {
+    "strength": 54,
+    "agility": 124,
+    "stamina": 91,
+    "intellect": 41,
+    "spirit": 49,
+    "attack_power": 278,
+    "spell_power": 9,
+    "armor": 790,
+    "melee_crit": 9.53,
+    "ranged_crit": 2.05,
+    "spell_crit": 1.0
    },
    "hk": 47,
    "pvpRank": 0,
@@ -20814,7 +20813,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/102/6829414-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/102/6829414-main-raw.png",
+   "fetched": 1794200744
   },
   {
    "name": "Lily Långbåge",
@@ -25833,7 +25833,7 @@
    "ilvl": 26,
    "xp": 42204,
    "title": null,
-   "fetched": 1794200733,
+   "fetched": 1794202541,
    "hp": 1321,
    "power": 105,
    "powerType": "Energy",
@@ -28600,7 +28600,7 @@
    "ilvl": 24,
    "xp": 12807,
    "title": null,
-   "fetched": 1794200764,
+   "fetched": 1794202554,
    "hp": 1128,
    "power": 100,
    "powerType": "Energy",
@@ -36878,7 +36878,7 @@
    "ilvl": 23,
    "xp": 19295,
    "title": null,
-   "fetched": 1794200725,
+   "fetched": 1794202532,
    "hp": 1129,
    "power": 1084,
    "powerType": "Mana",
@@ -37120,7 +37120,7 @@
    "ilvl": 16,
    "xp": 3834,
    "title": null,
-   "fetched": 1794200728,
+   "fetched": 1794202535,
    "hp": 994,
    "power": 1278,
    "powerType": "Mana",
@@ -39519,11 +39519,11 @@
    "race": 1,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1794200392000,
+   "lastLogin": 1794202504000,
    "ilvl": 16,
-   "xp": 863,
+   "xp": 5774,
    "title": null,
-   "fetched": 1794200744,
+   "fetched": 1794202550,
    "hp": 603,
    "power": 1484,
    "powerType": "Mana",
@@ -39540,7 +39540,7 @@
     "ranged_crit": 5.8,
     "spell_crit": 5.2
    },
-   "active": 1794199932000,
+   "active": 1794201495000,
    "stat": {
     "Times camped": 13,
     "Health potions consumed": 10,
@@ -39574,7 +39574,7 @@
     "Continent with the most Killing Blows": 1694,
     "Total deaths": 21,
     "Deaths from falling": 1,
-    "Quests completed": 191,
+    "Quests completed": 193,
     "Average quests completed per day": 0,
     "Quests abandoned": 10,
     "Professions learned": 2,
@@ -39596,7 +39596,7 @@
     "Highest Tailoring skill": 106,
     "Tailoring Patterns learned": 98,
     "Flight paths taken": 14,
-    "Number of times hearthed": 16
+    "Number of times hearthed": 17
    },
    "ach": {
     "Novice Priest": 1794048960000,
@@ -39745,7 +39745,7 @@
    "ilvl": 19,
    "xp": 12499,
    "title": null,
-   "fetched": 1794200727,
+   "fetched": 1794202535,
    "hp": 1107,
    "power": 881,
    "powerType": "Mana",
@@ -41845,7 +41845,7 @@
    "ilvl": 19,
    "xp": 17145,
    "title": null,
-   "fetched": 1794200724,
+   "fetched": 1794202531,
    "hp": 907,
    "power": 990,
    "powerType": "Mana",
@@ -46185,7 +46185,7 @@
    "ilvl": 17,
    "xp": 268,
    "title": null,
-   "fetched": 1794200731,
+   "fetched": 1794202539,
    "hp": 890,
    "power": 1035,
    "powerType": "Mana",
@@ -46409,7 +46409,7 @@
    "ilvl": 14,
    "xp": 9017,
    "title": null,
-   "fetched": 1794200728,
+   "fetched": 1794202536,
    "hp": 532,
    "power": 1447,
    "powerType": "Mana",
@@ -48468,23 +48468,6 @@
    "ilvl": 13,
    "xp": 24312,
    "title": null,
-   "fetched": 1794200742,
-   "hp": 528,
-   "power": 1563,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 23,
-    "agility": 35,
-    "stamina": 41,
-    "intellect": 92,
-    "spirit": 64,
-    "attack_power": 13,
-    "spell_power": 45,
-    "armor": 338,
-    "melee_crit": 3.64,
-    "ranged_crit": 6.68,
-    "spell_crit": 5.75
-   },
    "active": 1794159056000,
    "stat": {
     "Times camped": 10,
@@ -48545,6 +48528,22 @@
      149,
      150
     ]
+   },
+   "hp": 528,
+   "power": 1563,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 23,
+    "agility": 35,
+    "stamina": 41,
+    "intellect": 92,
+    "spirit": 64,
+    "attack_power": 13,
+    "spell_power": 45,
+    "armor": 338,
+    "melee_crit": 3.64,
+    "ranged_crit": 6.68,
+    "spell_crit": 5.75
    },
    "hk": 0,
    "pvpRank": 0,
@@ -48644,7 +48643,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/17/14850833-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/17/14850833-main-raw.png",
+   "fetched": 1794200742
   },
   {
    "name": "Disturned Twix",
@@ -50649,7 +50649,7 @@
    "ilvl": 17,
    "xp": 14510,
    "title": null,
-   "fetched": 1794200729,
+   "fetched": 1794202537,
    "hp": 827,
    "power": 890,
    "powerType": "Mana",
@@ -51807,7 +51807,7 @@
    "ilvl": 12,
    "xp": 5476,
    "title": null,
-   "fetched": 1794200729,
+   "fetched": 1794202537,
    "hp": 679,
    "power": 800,
    "powerType": "Mana",
@@ -52243,7 +52243,7 @@
    "ilvl": 14,
    "xp": 17827,
    "title": null,
-   "fetched": 1794200726,
+   "fetched": 1794202533,
    "hp": 562,
    "power": 1245,
    "powerType": "Mana",
@@ -52653,6 +52653,232 @@
    "avatar": true,
    "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/250/5720058-main-raw.png",
    "fetched": 1794175534
+  },
+  {
+   "name": "Cloud Ninee",
+   "id": 6949163,
+   "level": 23,
+   "rank": 6,
+   "cls": "priest",
+   "race": 1,
+   "profile": true,
+   "gender": 0,
+   "lastLogin": 1794202030000,
+   "ilvl": 17,
+   "xp": 28056,
+   "title": null,
+   "fetched": 1794202555,
+   "hp": 415,
+   "power": 1399,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 24,
+    "agility": 26,
+    "stamina": 32,
+    "intellect": 82,
+    "spirit": 78,
+    "attack_power": 14,
+    "spell_power": 33,
+    "armor": 292,
+    "melee_crit": 3.32,
+    "ranged_crit": 6.0,
+    "spell_crit": 5.95
+   },
+   "active": 1794200913000,
+   "stat": {
+    "Times camped": 7,
+    "Mana potions consumed": 15,
+    "Beverages consumed": 48,
+    "Food eaten": 9,
+    "Most factions at Honored or higher": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 6,
+    "Greed rolls made on loot": 5,
+    "Need rolls made on loot": 62,
+    "Total deaths from other players": 7,
+    "Total deaths from opposite faction": 7,
+    "Total 5-player dungeons entered": 2,
+    "Edwin VanCleef Kills (Deadmines)": 1,
+    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
+    "Bazzalan kills (Ragefire Chasm)": 1,
+    "Total kills": 2319,
+    "Total kills that grant experience or honor": 2183,
+    "Creatures killed": 2305,
+    "Different creature types killed": 7,
+    "Creature type killed the most": 1630,
+    "Critters killed": 12,
+    "Total Honorable Kills": 2,
+    "World Honorable Kills": 2,
+    "Continent with the most Honorable Kills": 2,
+    "Total Killing Blows": 428,
+    "World Killing Blows": 412,
+    "Continent with the most Killing Blows": 411,
+    "Total deaths": 72,
+    "Total raid and dungeon deaths": 4,
+    "Total deaths in 5-player dungeons": 4,
+    "Deaths from falling": 4,
+    "Revived by druids": 1,
+    "Quests completed": 173,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 18,
+    "Professions learned": 3,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 1,
+    "Cooking Recipes known": 10,
+    "Fishing skill": 1,
+    "Highest Herbalism skill": 26,
+    "Highest Mining skill": 18,
+    "Smelting Recipes learned": 7,
+    "Flight paths taken": 36,
+    "Number of times hearthed": 6,
+    "Total waves": 1
+   },
+   "ach": {
+    "Explore Redridge Mountains": 1794113962000
+   },
+   "prof": {
+    "Skinning": [
+     1,
+     75
+    ],
+    "Mining": [
+     19,
+     75
+    ],
+    "Cooking": [
+     1,
+     75
+    ],
+    "Fishing": [
+     1,
+     75
+    ]
+   },
+   "hk": 2,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 2,
+     "id": 5274,
+     "name": "Rose Mantle",
+     "quality": 2,
+     "itemLevel": 27,
+     "icon": "135040"
+    },
+    {
+     "slot": 3,
+     "id": 53,
+     "name": "Neophyte's Shirt",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "135005"
+    },
+    {
+     "slot": 4,
+     "id": 277213,
+     "name": "Dro'zem's Tunic",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "133765"
+    },
+    {
+     "slot": 5,
+     "id": 9799,
+     "name": "Ivycloth Sash of Healing",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "132514"
+    },
+    {
+     "slot": 6,
+     "id": 6568,
+     "name": "Shimmering Trousers of Intellect",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "134581"
+    },
+    {
+     "slot": 7,
+     "id": 6612,
+     "name": "Sage's Boots of Spirit",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "132539"
+    },
+    {
+     "slot": 8,
+     "id": 271096,
+     "name": "Aetherwisp Bracers",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "132610"
+    },
+    {
+     "slot": 9,
+     "id": 12977,
+     "name": "Magefist Gloves",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "132961"
+    },
+    {
+     "slot": 10,
+     "id": 11965,
+     "name": "Quartz Ring of Regeneration",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "133347"
+    },
+    {
+     "slot": 11,
+     "id": 11965,
+     "name": "Quartz Ring of Concentration",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "133347"
+    },
+    {
+     "slot": 14,
+     "id": 6378,
+     "name": "Seer's Cape",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "133757"
+    },
+    {
+     "slot": 15,
+     "id": 15223,
+     "name": "Jagged Star of Healing",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "133045"
+    },
+    {
+     "slot": 16,
+     "id": 15972,
+     "name": "Ritual Stein of Spirit",
+     "quality": 2,
+     "itemLevel": 24,
+     "icon": "132795"
+    },
+    {
+     "slot": 17,
+     "id": 279896,
+     "name": "Deepblaze",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "135473"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": "Holy",
+   "role": "healer",
+   "exalted": [],
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/43/6949163-main-raw.png"
   },
   {
    "name": "Deeh Licious",
@@ -56617,7 +56843,7 @@
    "ilvl": 18,
    "xp": 9749,
    "title": null,
-   "fetched": 1794200737,
+   "fetched": 1794202546,
    "hp": 982,
    "power": 674,
    "powerType": "Mana",
@@ -61217,211 +61443,6 @@
    "avatar": true,
    "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/128/15487872-main-raw.png",
    "fetched": 1794170152
-  },
-  {
-   "name": "Cloud Ninee",
-   "id": 6949163,
-   "level": 21,
-   "rank": 6,
-   "cls": "priest",
-   "race": 1,
-   "profile": true,
-   "gender": 0,
-   "lastLogin": 1794117290000,
-   "ilvl": 13,
-   "xp": 12055,
-   "title": null,
-   "active": 1794117158000,
-   "stat": {
-    "Times camped": 5,
-    "Mana potions consumed": 10,
-    "Beverages consumed": 39,
-    "Food eaten": 4,
-    "Most factions at Honored or higher": 1,
-    "Most Alliance factions at Exalted": 4,
-    "Total factions encountered": 6,
-    "Greed rolls made on loot": 5,
-    "Need rolls made on loot": 30,
-    "Total deaths from other players": 6,
-    "Total deaths from opposite faction": 6,
-    "Total 5-player dungeons entered": 1,
-    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
-    "Bazzalan kills (Ragefire Chasm)": 1,
-    "Total kills": 1741,
-    "Total kills that grant experience or honor": 1710,
-    "Creatures killed": 1731,
-    "Different creature types killed": 7,
-    "Creature type killed the most": 1172,
-    "Critters killed": 10,
-    "Total Killing Blows": 335,
-    "World Killing Blows": 334,
-    "Continent with the most Killing Blows": 333,
-    "Total deaths": 67,
-    "Total raid and dungeon deaths": 4,
-    "Total deaths in 5-player dungeons": 4,
-    "Deaths from falling": 3,
-    "Quests completed": 146,
-    "Average quests completed per day": 0,
-    "Quests abandoned": 18,
-    "Professions learned": 2,
-    "Professions at maximum skill": 2,
-    "Secondary skills at maximum skill": 2,
-    "Weapon skills at maximum skill": 3,
-    "Cooking skill": 1,
-    "Cooking Recipes known": 10,
-    "Fishing skill": 1,
-    "Highest Herbalism skill": 26,
-    "Highest Mining skill": 17,
-    "Smelting Recipes learned": 7,
-    "Flight paths taken": 24,
-    "Number of times hearthed": 3,
-    "Total waves": 1
-   },
-   "ach": {
-    "Explore Redridge Mountains": 1794113962000
-   },
-   "prof": {
-    "Mining": [
-     17,
-     75
-    ],
-    "Herbalism": [
-     26,
-     75
-    ],
-    "Cooking": [
-     1,
-     75
-    ],
-    "Fishing": [
-     1,
-     75
-    ]
-   },
-   "hp": 392,
-   "power": 1160,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 24,
-    "agility": 27,
-    "stamina": 32,
-    "intellect": 69,
-    "spirit": 72,
-    "attack_power": 14,
-    "spell_power": 27,
-    "armor": 276,
-    "melee_crit": 3.88,
-    "ranged_crit": 6.04,
-    "spell_crit": 5.66
-   },
-   "hk": 0,
-   "pvpRank": 0,
-   "gear": [
-    {
-     "slot": 2,
-     "id": 4314,
-     "name": "Double-Stitched Woolen Shoulders",
-     "quality": 2,
-     "itemLevel": 22,
-     "icon": "135037"
-    },
-    {
-     "slot": 3,
-     "id": 53,
-     "name": "Neophyte's Shirt",
-     "quality": 1,
-     "itemLevel": 1,
-     "icon": "135005"
-    },
-    {
-     "slot": 4,
-     "id": 277213,
-     "name": "Dro'zem's Tunic",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "133765"
-    },
-    {
-     "slot": 5,
-     "id": 14025,
-     "name": "Mystic's Belt",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "132515"
-    },
-    {
-     "slot": 6,
-     "id": 6568,
-     "name": "Shimmering Trousers of Intellect",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "134581"
-    },
-    {
-     "slot": 7,
-     "id": 14174,
-     "name": "Buccaneer's Boots of Spirit",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "132539"
-    },
-    {
-     "slot": 8,
-     "id": 271096,
-     "name": "Aetherwisp Bracers",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "132610"
-    },
-    {
-     "slot": 9,
-     "id": 2984,
-     "name": "Seer's Gloves",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "132952"
-    },
-    {
-     "slot": 14,
-     "id": 6378,
-     "name": "Seer's Cape",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "133757"
-    },
-    {
-     "slot": 15,
-     "id": 15223,
-     "name": "Jagged Star of Healing",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "133045"
-    },
-    {
-     "slot": 16,
-     "id": 15972,
-     "name": "Ritual Stein of Spirit",
-     "quality": 2,
-     "itemLevel": 24,
-     "icon": "132795"
-    },
-    {
-     "slot": 17,
-     "id": 279896,
-     "name": "Deepblaze",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "135473"
-    }
-   ],
-   "sets": [],
-   "heal": 0,
-   "spec": "Holy",
-   "role": "healer",
-   "exalted": [],
-   "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/43/6949163-main-raw.png",
-   "fetched": 1794170154
   },
   {
    "name": "Don Palm",
@@ -66076,23 +66097,6 @@
    "ilvl": 10,
    "xp": 21044,
    "title": null,
-   "fetched": 1794200750,
-   "hp": 633,
-   "power": 689,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 47,
-    "agility": 43,
-    "stamina": 57,
-    "intellect": 41,
-    "spirit": 51,
-    "attack_power": 74,
-    "spell_power": 0,
-    "armor": 545,
-    "melee_crit": 4.92,
-    "ranged_crit": 1.84,
-    "spell_crit": 3.95
-   },
    "active": 1794199385000,
    "stat": {
     "Times camped": 23,
@@ -66174,6 +66178,22 @@
      82,
      150
     ]
+   },
+   "hp": 633,
+   "power": 689,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 47,
+    "agility": 43,
+    "stamina": 57,
+    "intellect": 41,
+    "spirit": 51,
+    "attack_power": 74,
+    "spell_power": 0,
+    "armor": 545,
+    "melee_crit": 4.92,
+    "ranged_crit": 1.84,
+    "spell_crit": 3.95
    },
    "hk": 0,
    "pvpRank": 0,
@@ -66273,7 +66293,8 @@
    "role": "tank",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/40/17367592-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/40/17367592-main-raw.png",
+   "fetched": 1794200750
   },
   {
    "name": "La Bin",
@@ -68399,23 +68420,6 @@
    "ilvl": 12,
    "xp": 16909,
    "title": null,
-   "fetched": 1794200736,
-   "hp": 447,
-   "power": 1230,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 19,
-    "agility": 27,
-    "stamina": 37,
-    "intellect": 72,
-    "spirit": 47,
-    "attack_power": 9,
-    "spell_power": 37,
-    "armor": 224,
-    "melee_crit": 1.39,
-    "ranged_crit": 5.11,
-    "spell_crit": 4.47
-   },
    "active": 1794042106000,
    "stat": {
     "Times camped": 5,
@@ -68487,6 +68491,22 @@
      70,
      150
     ]
+   },
+   "hp": 447,
+   "power": 1230,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 19,
+    "agility": 27,
+    "stamina": 37,
+    "intellect": 72,
+    "spirit": 47,
+    "attack_power": 9,
+    "spell_power": 37,
+    "armor": 224,
+    "melee_crit": 1.39,
+    "ranged_crit": 5.11,
+    "spell_crit": 4.47
    },
    "hk": 0,
    "pvpRank": 0,
@@ -68602,7 +68622,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/164/10951844-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/164/10951844-main-raw.png",
+   "fetched": 1794200736
   },
   {
    "name": "Anitha Ress",
@@ -69196,7 +69217,7 @@
    "ilvl": 12,
    "xp": 13658,
    "title": null,
-   "fetched": 1794200731,
+   "fetched": 1794202540,
    "hp": 493,
    "power": 598,
    "powerType": "Mana",
@@ -73729,23 +73750,6 @@
    "ilvl": 8,
    "xp": 4526,
    "title": null,
-   "fetched": 1794200732,
-   "hp": 390,
-   "power": 621,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 28,
-    "agility": 59,
-    "stamina": 39,
-    "intellect": 34,
-    "spirit": 33,
-    "attack_power": 106,
-    "spell_power": 0,
-    "armor": 375,
-    "melee_crit": 4.04,
-    "ranged_crit": 4.2,
-    "spell_crit": 5.04
-   },
    "active": 1794199543000,
    "stat": {
     "Times camped": 6,
@@ -73817,6 +73821,22 @@
      60,
      75
     ]
+   },
+   "hp": 390,
+   "power": 621,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 28,
+    "agility": 59,
+    "stamina": 39,
+    "intellect": 34,
+    "spirit": 33,
+    "attack_power": 106,
+    "spell_power": 0,
+    "armor": 375,
+    "melee_crit": 4.04,
+    "ranged_crit": 4.2,
+    "spell_crit": 5.04
    },
    "hk": 0,
    "pvpRank": 0,
@@ -73916,7 +73936,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/226/8751330-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/226/8751330-main-raw.png",
+   "fetched": 1794200732
   },
   {
    "name": "Kalle Kortsvärd",
@@ -76264,23 +76285,6 @@
    "ilvl": 9,
    "xp": 5219,
    "title": null,
-   "fetched": 1794200728,
-   "hp": 578,
-   "power": 100,
-   "powerType": "Rage",
-   "stats": {
-    "strength": 56,
-    "agility": 33,
-    "stamina": 59,
-    "intellect": 22,
-    "spirit": 29,
-    "attack_power": 155,
-    "spell_power": 0,
-    "armor": 1127,
-    "melee_crit": 10.38,
-    "ranged_crit": 5.3,
-    "spell_crit": 1.0
-   },
    "active": 1794158908000,
    "stat": {
     "Times camped": 5,
@@ -76374,6 +76378,22 @@
      75,
      75
     ]
+   },
+   "hp": 578,
+   "power": 100,
+   "powerType": "Rage",
+   "stats": {
+    "strength": 56,
+    "agility": 33,
+    "stamina": 59,
+    "intellect": 22,
+    "spirit": 29,
+    "attack_power": 155,
+    "spell_power": 0,
+    "armor": 1127,
+    "melee_crit": 10.38,
+    "ranged_crit": 5.3,
+    "spell_crit": 1.0
    },
    "hk": 73,
    "pvpRank": 0,
@@ -76473,7 +76493,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/65/6532929-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/65/6532929-main-raw.png",
+   "fetched": 1794200728
   },
   {
    "name": "Ansgar Ironhearth",
@@ -81675,7 +81696,7 @@
    "ilvl": 7,
    "xp": 2972,
    "title": null,
-   "fetched": 1794200763,
+   "fetched": 1794202554,
    "hp": 318,
    "power": 840,
    "powerType": "Mana",
@@ -84350,7 +84371,7 @@
    "ilvl": 7,
    "xp": 6472,
    "title": null,
-   "fetched": 1794200734,
+   "fetched": 1794202543,
    "hp": 272,
    "power": 742,
    "powerType": "Mana",
@@ -86728,7 +86749,7 @@
    "ilvl": 5,
    "xp": 2329,
    "title": null,
-   "fetched": 1794200742,
+   "fetched": 1794202549,
    "hp": 305,
    "power": 479,
    "powerType": "Mana",
@@ -87226,7 +87247,7 @@
    "ilvl": 3,
    "xp": 11069,
    "title": null,
-   "fetched": 1794200787,
+   "fetched": 1794202552,
    "hp": 237,
    "power": 644,
    "powerType": "Mana",
@@ -90906,7 +90927,7 @@
    "ilvl": 4,
    "xp": 7822,
    "title": null,
-   "fetched": 1794200772,
+   "fetched": 1794202549,
    "hp": 310,
    "power": 391,
    "powerType": "Mana",
@@ -91287,7 +91308,7 @@
    "ilvl": 4,
    "xp": 1062,
    "title": null,
-   "fetched": 1794200733,
+   "fetched": 1794202542,
    "hp": 338,
    "power": 100,
    "powerType": "Rage",
@@ -92855,7 +92876,7 @@
    "ilvl": 4,
    "xp": 1716,
    "title": null,
-   "fetched": 1794200739,
+   "fetched": 1794202548,
    "hp": 268,
    "power": 523,
    "powerType": "Mana",
@@ -93915,7 +93936,7 @@
    "ilvl": 8,
    "xp": 5083,
    "title": null,
-   "fetched": 1794200725,
+   "fetched": 1794202533,
    "hp": 529,
    "power": 100,
    "powerType": "Rage",
@@ -94757,7 +94778,7 @@
    "ilvl": 5,
    "xp": 1871,
    "title": null,
-   "fetched": 1794200730,
+   "fetched": 1794202538,
    "hp": 273,
    "power": 460,
    "powerType": "Mana",
@@ -96919,7 +96940,7 @@
    "ilvl": 2,
    "xp": 3972,
    "title": null,
-   "fetched": 1794200726,
+   "fetched": 1794202534,
    "hp": 289,
    "power": 286,
    "powerType": "Mana",
