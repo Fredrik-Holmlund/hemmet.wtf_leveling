@@ -1,7 +1,7 @@
 {
  "guild": "HEMMET",
  "realm": "Forever",
- "generated": "2026-11-09 11:05",
+ "generated": "2026-11-09 11:35",
  "members": [
   {
    "name": "Vyssan Lull",
@@ -16,23 +16,6 @@
    "ilvl": 42,
    "xp": 18022,
    "title": null,
-   "fetched": 1794222326,
-   "hp": 1945,
-   "power": 100,
-   "powerType": "Energy",
-   "stats": {
-    "strength": 78,
-    "agility": 187,
-    "stamina": 117,
-    "intellect": 35,
-    "spirit": 74,
-    "attack_power": 363,
-    "spell_power": 13,
-    "armor": 1005,
-    "melee_crit": 4.42,
-    "ranged_crit": 3.1,
-    "spell_crit": 1.0
-   },
    "active": 1794221296000,
    "stat": {
     "Times camped": 22,
@@ -133,6 +116,22 @@
      213,
      225
     ]
+   },
+   "hp": 1945,
+   "power": 100,
+   "powerType": "Energy",
+   "stats": {
+    "strength": 78,
+    "agility": 187,
+    "stamina": 117,
+    "intellect": 35,
+    "spirit": 74,
+    "attack_power": 363,
+    "spell_power": 13,
+    "armor": 1005,
+    "melee_crit": 4.42,
+    "ranged_crit": 3.1,
+    "spell_crit": 1.0
    },
    "hk": 19,
    "pvpRank": 0,
@@ -296,7 +295,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/242/594418-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/242/594418-main-raw.png",
+   "fetched": 1794222326
   },
   {
    "name": "Carolean Skybreaker",
@@ -865,7 +865,7 @@
    "ilvl": 36,
    "xp": 6733,
    "title": null,
-   "fetched": 1794222331,
+   "fetched": 1794224129,
    "hp": 2246,
    "power": 1922,
    "powerType": "Mana",
@@ -1125,7 +1125,7 @@
    "ilvl": 32,
    "xp": 37109,
    "title": null,
-   "fetched": 1794222326,
+   "fetched": 1794224125,
    "hp": 1746,
    "power": 2734,
    "powerType": "Mana",
@@ -4043,23 +4043,6 @@
    "ilvl": 30,
    "xp": 34642,
    "title": null,
-   "fetched": 1794222329,
-   "hp": 1553,
-   "power": 1639,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 83,
-    "agility": 101,
-    "stamina": 105,
-    "intellect": 71,
-    "spirit": 85,
-    "attack_power": 170,
-    "spell_power": 14,
-    "armor": 867,
-    "melee_crit": 4.16,
-    "ranged_crit": 0.2,
-    "spell_crit": 3.65
-   },
    "active": 1794220980000,
    "stat": {
     "Times camped": 11,
@@ -4156,6 +4139,22 @@
      1,
      75
     ]
+   },
+   "hp": 1553,
+   "power": 1639,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 83,
+    "agility": 101,
+    "stamina": 105,
+    "intellect": 71,
+    "spirit": 85,
+    "attack_power": 170,
+    "spell_power": 14,
+    "armor": 867,
+    "melee_crit": 4.16,
+    "ranged_crit": 0.2,
+    "spell_crit": 3.65
    },
    "hk": 28,
    "pvpRank": 0,
@@ -4295,7 +4294,8 @@
    "role": "tank",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/6/4578566-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/6/4578566-main-raw.png",
+   "fetched": 1794222329
   },
   {
    "name": "Inkvoterad Antagonist",
@@ -4595,7 +4595,7 @@
    "ilvl": 30,
    "xp": 52066,
    "title": null,
-   "fetched": 1794222329,
+   "fetched": 1794224128,
    "hp": 1373,
    "power": 100,
    "powerType": "Energy",
@@ -5129,7 +5129,7 @@
    "ilvl": 37,
    "xp": 83389,
    "title": null,
-   "fetched": 1794222334,
+   "fetched": 1794224132,
    "hp": 2119,
    "power": 100,
    "powerType": "Rage",
@@ -5661,6 +5661,276 @@
    "fetched": 1794206127
   },
   {
+   "name": "Deadborn Forever",
+   "id": 2278960,
+   "level": 39,
+   "rank": 5,
+   "cls": "warrior",
+   "race": 1,
+   "profile": true,
+   "gender": 1,
+   "lastLogin": 1794224040000,
+   "ilvl": 31,
+   "xp": 33461,
+   "title": null,
+   "fetched": 1794224126,
+   "hp": 1829,
+   "power": 100,
+   "powerType": "Rage",
+   "stats": {
+    "strength": 139,
+    "agility": 84,
+    "stamina": 140,
+    "intellect": 37,
+    "spirit": 64,
+    "attack_power": 375,
+    "spell_power": 0,
+    "armor": 2416,
+    "melee_crit": 7.52,
+    "ranged_crit": 2.08,
+    "spell_crit": 1.0
+   },
+   "active": 1794222216000,
+   "stat": {
+    "Times camped": 25,
+    "Bandages used": 125,
+    "Bandage used most": 39,
+    "Health potions consumed": 67,
+    "Food eaten": 170,
+    "Most factions at Honored or higher": 4,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 19,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 167,
+    "Need rolls made on loot": 39,
+    "Total deaths from other players": 42,
+    "Total deaths from opposite faction": 42,
+    "Total 5-player dungeons entered": 20,
+    "Edwin VanCleef Kills (Deadmines)": 1,
+    "Rath'mael Kills (Ruins of Lordaeron)": 1,
+    "Shade of the Archmage Kills (City of Dalaran)": 2,
+    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
+    "Bazzalan kills (Ragefire Chasm)": 1,
+    "Mutanus the Devourer kills (Wailing Caverns)": 1,
+    "Archmage Arugal kills (Shadowfang Keep)": 1,
+    "Bazil Thredd kills (Stormwind Stockade)": 1,
+    "Aku'mai kills (Blackfathom Deeps)": 1,
+    "Charlga Razorflank kills (Razorfen Kraul)": 1,
+    "Mekgineer Thermaplugg kills (Gnomeregan)": 1,
+    "Total kills": 5199,
+    "Total kills that grant experience or honor": 4753,
+    "Creatures killed": 5047,
+    "Different creature types killed": 9,
+    "Creature type killed the most": 2487,
+    "Critters killed": 90,
+    "Total Honorable Kills": 62,
+    "World Honorable Kills": 62,
+    "Continent with the most Honorable Kills": 49,
+    "Total Killing Blows": 2057,
+    "World Killing Blows": 1589,
+    "Continent with the most Killing Blows": 1186,
+    "Total deaths": 84,
+    "Total raid and dungeon deaths": 20,
+    "Total deaths in 5-player dungeons": 20,
+    "Deaths from falling": 2,
+    "Resurrected by priests": 1,
+    "Revived by druids": 1,
+    "Spirit returned to body by shamans": 3,
+    "Redeemed by paladins": 1,
+    "Quests completed": 438,
+    "Average quests completed per day": 438,
+    "Quests abandoned": 95,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 3,
+    "Weapon skills at maximum skill": 14,
+    "Cooking skill": 188,
+    "Cooking Recipes known": 60,
+    "First Aid skill": 184,
+    "First Aid Manuals learned": 28,
+    "Fishing skill": 1,
+    "Highest Mining skill": 99,
+    "Smelting Recipes learned": 15,
+    "Highest Skinning skill": 220,
+    "Flight paths taken": 106,
+    "Summons accepted": 1,
+    "Number of times hearthed": 28
+   },
+   "ach": {
+    "Novice Warrior": 1793965860000,
+    "Novice Spelunker": 1793994420000
+   },
+   "prof": {
+    "Skinning": [
+     220,
+     225
+    ],
+    "Mining": [
+     100,
+     150
+    ],
+    "Cooking": [
+     188,
+     225
+    ],
+    "Fishing": [
+     1,
+     75
+    ],
+    "First Aid": [
+     193,
+     225
+    ]
+   },
+   "hk": 62,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 0,
+     "id": 3836,
+     "name": "Green Iron Helm",
+     "quality": 2,
+     "itemLevel": 34,
+     "icon": "133071"
+    },
+    {
+     "slot": 1,
+     "id": 273088,
+     "name": "Snake Eye Kaleidoscope",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "133884"
+    },
+    {
+     "slot": 2,
+     "id": 273028,
+     "name": "Reliquary Mantle",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "135058"
+    },
+    {
+     "slot": 3,
+     "id": 38,
+     "name": "Recruit's Shirt",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "135009"
+    },
+    {
+     "slot": 4,
+     "id": 279881,
+     "name": "Intrepid Explorer's Chainmail",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "132624"
+    },
+    {
+     "slot": 5,
+     "id": 3758,
+     "name": "Crusader Belt",
+     "quality": 2,
+     "itemLevel": 33,
+     "icon": "132495"
+    },
+    {
+     "slot": 6,
+     "id": 9625,
+     "name": "Dual Reinforced Leggings",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "134583"
+    },
+    {
+     "slot": 7,
+     "id": 273025,
+     "name": "Raptorclaw Greaves",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "132551"
+    },
+    {
+     "slot": 8,
+     "id": 274600,
+     "name": "Berserker Shackles",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "132614"
+    },
+    {
+     "slot": 9,
+     "id": 273810,
+     "name": "Ogre Grips",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "132939"
+    },
+    {
+     "slot": 10,
+     "id": 284715,
+     "name": "First Mate Band",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "133343"
+    },
+    {
+     "slot": 11,
+     "id": 2933,
+     "name": "Seal of Wrynn",
+     "quality": 3,
+     "itemLevel": 31,
+     "icon": "133347"
+    },
+    {
+     "slot": 12,
+     "id": 280766,
+     "name": "Satchel of Potions",
+     "quality": 2,
+     "itemLevel": 33,
+     "icon": "133633"
+    },
+    {
+     "slot": 14,
+     "id": 2805,
+     "name": "Yeti Fur Cloak",
+     "quality": 2,
+     "itemLevel": 34,
+     "icon": "133756"
+    },
+    {
+     "slot": 15,
+     "id": 286650,
+     "name": "Pyromancer's Baton",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "135432"
+    },
+    {
+     "slot": 16,
+     "id": 6725,
+     "name": "Marbled Buckler",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "134956"
+    },
+    {
+     "slot": 17,
+     "id": 17687,
+     "name": "Master Hunter's Rifle",
+     "quality": 2,
+     "itemLevel": 43,
+     "icon": "135614"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": "Protection",
+   "role": "tank",
+   "exalted": [],
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/48/2278960-main-raw.png"
+  },
+  {
    "name": "Leif Lönnmord",
    "id": 9902747,
    "level": 39,
@@ -5673,7 +5943,7 @@
    "ilvl": 26,
    "xp": 7680,
    "title": null,
-   "fetched": 1794222336,
+   "fetched": 1794224133,
    "hp": 1421,
    "power": 105,
    "powerType": "Energy",
@@ -6974,274 +7244,6 @@
    "fetched": 1794220527
   },
   {
-   "name": "Deadborn Forever",
-   "id": 2278960,
-   "level": 38,
-   "rank": 5,
-   "cls": "warrior",
-   "race": 1,
-   "profile": true,
-   "gender": 1,
-   "lastLogin": 1794183481000,
-   "ilvl": 29,
-   "xp": 72430,
-   "title": null,
-   "active": 1794183330000,
-   "stat": {
-    "Times camped": 24,
-    "Bandages used": 124,
-    "Bandage used most": 39,
-    "Health potions consumed": 66,
-    "Food eaten": 165,
-    "Most factions at Honored or higher": 4,
-    "Most Alliance factions at Exalted": 4,
-    "Total factions encountered": 19,
-    "Mounts owned": 2,
-    "Greed rolls made on loot": 163,
-    "Need rolls made on loot": 37,
-    "Total deaths from other players": 42,
-    "Total deaths from opposite faction": 42,
-    "Total 5-player dungeons entered": 18,
-    "Edwin VanCleef Kills (Deadmines)": 1,
-    "Rath'mael Kills (Ruins of Lordaeron)": 1,
-    "Shade of the Archmage Kills (City of Dalaran)": 2,
-    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
-    "Bazzalan kills (Ragefire Chasm)": 1,
-    "Mutanus the Devourer kills (Wailing Caverns)": 1,
-    "Archmage Arugal kills (Shadowfang Keep)": 1,
-    "Bazil Thredd kills (Stormwind Stockade)": 1,
-    "Aku'mai kills (Blackfathom Deeps)": 1,
-    "Charlga Razorflank kills (Razorfen Kraul)": 1,
-    "Mekgineer Thermaplugg kills (Gnomeregan)": 1,
-    "Total kills": 4937,
-    "Total kills that grant experience or honor": 4520,
-    "Creatures killed": 4804,
-    "Different creature types killed": 9,
-    "Creature type killed the most": 2369,
-    "Critters killed": 71,
-    "Total Honorable Kills": 62,
-    "World Honorable Kills": 62,
-    "Continent with the most Honorable Kills": 49,
-    "Total Killing Blows": 2005,
-    "World Killing Blows": 1588,
-    "Continent with the most Killing Blows": 1185,
-    "Total deaths": 82,
-    "Total raid and dungeon deaths": 18,
-    "Total deaths in 5-player dungeons": 18,
-    "Deaths from falling": 2,
-    "Revived by druids": 1,
-    "Spirit returned to body by shamans": 3,
-    "Quests completed": 435,
-    "Average quests completed per day": 435,
-    "Quests abandoned": 93,
-    "Professions learned": 2,
-    "Professions at maximum skill": 2,
-    "Secondary skills at maximum skill": 3,
-    "Weapon skills at maximum skill": 14,
-    "Cooking skill": 185,
-    "Cooking Recipes known": 60,
-    "First Aid skill": 150,
-    "First Aid Manuals learned": 28,
-    "Fishing skill": 1,
-    "Highest Mining skill": 98,
-    "Smelting Recipes learned": 15,
-    "Highest Skinning skill": 219,
-    "Flight paths taken": 101,
-    "Summons accepted": 1,
-    "Number of times hearthed": 26
-   },
-   "ach": {
-    "Novice Warrior": 1793965860000,
-    "Novice Spelunker": 1793994420000
-   },
-   "prof": {
-    "Skinning": [
-     220,
-     225
-    ],
-    "Mining": [
-     99,
-     150
-    ],
-    "Cooking": [
-     185,
-     225
-    ],
-    "Fishing": [
-     1,
-     75
-    ],
-    "First Aid": [
-     171,
-     225
-    ]
-   },
-   "hp": 1741,
-   "power": 100,
-   "powerType": "Rage",
-   "stats": {
-    "strength": 142,
-    "agility": 71,
-    "stamina": 134,
-    "intellect": 36,
-    "spirit": 46,
-    "attack_power": 378,
-    "spell_power": 0,
-    "armor": 2287,
-    "melee_crit": 5.68,
-    "ranged_crit": 1.0,
-    "spell_crit": 1.0
-   },
-   "hk": 62,
-   "pvpRank": 0,
-   "gear": [
-    {
-     "slot": 0,
-     "id": 3836,
-     "name": "Green Iron Helm",
-     "quality": 2,
-     "itemLevel": 34,
-     "icon": "133071"
-    },
-    {
-     "slot": 1,
-     "id": 273088,
-     "name": "Snake Eye Kaleidoscope",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "133884"
-    },
-    {
-     "slot": 2,
-     "id": 273028,
-     "name": "Reliquary Mantle",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "135058"
-    },
-    {
-     "slot": 3,
-     "id": 38,
-     "name": "Recruit's Shirt",
-     "quality": 1,
-     "itemLevel": 1,
-     "icon": "135009"
-    },
-    {
-     "slot": 4,
-     "id": 271205,
-     "name": "Abomination Bones",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "132637"
-    },
-    {
-     "slot": 5,
-     "id": 3758,
-     "name": "Crusader Belt",
-     "quality": 2,
-     "itemLevel": 33,
-     "icon": "132495"
-    },
-    {
-     "slot": 6,
-     "id": 9625,
-     "name": "Dual Reinforced Leggings",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "134583"
-    },
-    {
-     "slot": 7,
-     "id": 273025,
-     "name": "Raptorclaw Greaves",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "132551"
-    },
-    {
-     "slot": 8,
-     "id": 14750,
-     "name": "Slayer's Cuffs",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "132610"
-    },
-    {
-     "slot": 9,
-     "id": 273810,
-     "name": "Ogre Grips",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "132939"
-    },
-    {
-     "slot": 10,
-     "id": 284715,
-     "name": "First Mate Band",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "133343"
-    },
-    {
-     "slot": 11,
-     "id": 2933,
-     "name": "Seal of Wrynn",
-     "quality": 3,
-     "itemLevel": 31,
-     "icon": "133347"
-    },
-    {
-     "slot": 12,
-     "id": 280766,
-     "name": "Satchel of Potions",
-     "quality": 2,
-     "itemLevel": 33,
-     "icon": "133633"
-    },
-    {
-     "slot": 14,
-     "id": 2805,
-     "name": "Yeti Fur Cloak",
-     "quality": 2,
-     "itemLevel": 34,
-     "icon": "133756"
-    },
-    {
-     "slot": 15,
-     "id": 286650,
-     "name": "Pyromancer's Baton",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "135432"
-    },
-    {
-     "slot": 16,
-     "id": 6725,
-     "name": "Marbled Buckler",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "134956"
-    },
-    {
-     "slot": 17,
-     "id": 17687,
-     "name": "Master Hunter's Rifle",
-     "quality": 2,
-     "itemLevel": 43,
-     "icon": "135614"
-    }
-   ],
-   "sets": [],
-   "heal": 0,
-   "spec": "Protection",
-   "role": "tank",
-   "exalted": [],
-   "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/48/2278960-main-raw.png",
-   "fetched": 1794184526
-  },
-  {
    "name": "Dogwater Vendor",
    "id": 3973772,
    "level": 38,
@@ -7254,7 +7256,7 @@
    "ilvl": 27,
    "xp": 55219,
    "title": null,
-   "fetched": 1794222349,
+   "fetched": 1794224144,
    "hp": 1087,
    "power": 2889,
    "powerType": "Mana",
@@ -9863,7 +9865,7 @@
    "ilvl": 29,
    "xp": 40532,
    "title": null,
-   "fetched": 1794222329,
+   "fetched": 1794224128,
    "hp": 1895,
    "power": 100,
    "powerType": "Rage",
@@ -11128,41 +11130,41 @@
    "race": 1,
    "profile": true,
    "gender": 1,
-   "lastLogin": 1794220831000,
-   "ilvl": 29,
-   "xp": 28715,
+   "lastLogin": 1794223969000,
+   "ilvl": 31,
+   "xp": 62725,
    "title": null,
-   "fetched": 1794222335,
-   "hp": 1428,
+   "fetched": 1794224132,
+   "hp": 1458,
    "power": 1530,
    "powerType": "Mana",
    "stats": {
-    "strength": 52,
+    "strength": 53,
     "agility": 141,
-    "stamina": 103,
+    "stamina": 106,
     "intellect": 53,
-    "spirit": 75,
-    "attack_power": 257,
-    "spell_power": 5,
-    "armor": 838,
-    "melee_crit": 4.75,
-    "ranged_crit": 5.63,
+    "spirit": 90,
+    "attack_power": 258,
+    "spell_power": 0,
+    "armor": 848,
+    "melee_crit": 4.95,
+    "ranged_crit": 5.67,
     "spell_crit": 6.0
    },
-   "active": 1794220737000,
+   "active": 1794223756000,
    "stat": {
     "Times camped": 7,
     "Health potions consumed": 44,
-    "Mana potions consumed": 18,
-    "Beverages consumed": 128,
-    "Food eaten": 102,
+    "Mana potions consumed": 19,
+    "Beverages consumed": 132,
+    "Food eaten": 106,
     "Most factions at Honored or higher": 1,
     "Most Alliance factions at Exalted": 4,
     "Total factions encountered": 15,
     "Greed rolls made on loot": 114,
     "Need rolls made on loot": 14,
-    "Total deaths from other players": 14,
-    "Total deaths from opposite faction": 14,
+    "Total deaths from other players": 15,
+    "Total deaths from opposite faction": 15,
     "Total 5-player dungeons entered": 10,
     "Edwin VanCleef Kills (Deadmines)": 1,
     "Rath'mael Kills (Ruins of Lordaeron)": 1,
@@ -11171,25 +11173,25 @@
     "Bazzalan kills (Ragefire Chasm)": 1,
     "Bazil Thredd kills (Stormwind Stockade)": 1,
     "Mekgineer Thermaplugg kills (Gnomeregan)": 1,
-    "Total kills": 3931,
-    "Total kills that grant experience or honor": 3487,
-    "Creatures killed": 3924,
+    "Total kills": 3979,
+    "Total kills that grant experience or honor": 3535,
+    "Creatures killed": 3972,
     "Different creature types killed": 9,
-    "Creature type killed the most": 2208,
+    "Creature type killed the most": 2228,
     "Critters killed": 6,
     "Total Honorable Kills": 1,
     "World Honorable Kills": 1,
     "Continent with the most Honorable Kills": 1,
-    "Total Killing Blows": 2190,
-    "World Killing Blows": 1802,
-    "Continent with the most Killing Blows": 1757,
-    "Total deaths": 63,
+    "Total Killing Blows": 2238,
+    "World Killing Blows": 1850,
+    "Continent with the most Killing Blows": 1805,
+    "Total deaths": 64,
     "Total raid and dungeon deaths": 4,
     "Total deaths in 5-player dungeons": 4,
     "Resurrected by priests": 3,
-    "Quests completed": 407,
+    "Quests completed": 417,
     "Average quests completed per day": 0,
-    "Quests abandoned": 50,
+    "Quests abandoned": 51,
     "Professions learned": 2,
     "Professions at maximum skill": 2,
     "Secondary skills at maximum skill": 2,
@@ -11199,9 +11201,9 @@
     "Fishing skill": 20,
     "Fish caught": 19,
     "Fish and other things caught": 19,
-    "Highest Mining skill": 181,
+    "Highest Mining skill": 186,
     "Smelting Recipes learned": 24,
-    "Highest Skinning skill": 238,
+    "Highest Skinning skill": 239,
     "Flight paths taken": 65,
     "Summons accepted": 1,
     "Number of times hearthed": 24,
@@ -11216,11 +11218,11 @@
    },
    "prof": {
     "Skinning": [
-     239,
+     243,
      300
     ],
     "Mining": [
-     186,
+     188,
      225
     ],
     "Cooking": [
@@ -11301,11 +11303,11 @@
     },
     {
      "slot": 8,
-     "id": 271202,
-     "name": "Witherbite Bracers",
-     "quality": 3,
+     "id": 274931,
+     "name": "Fur-Lined Bracers",
+     "quality": 2,
      "itemLevel": null,
-     "icon": "132606"
+     "icon": "132607"
     },
     {
      "slot": 9,
@@ -11317,11 +11319,11 @@
     },
     {
      "slot": 10,
-     "id": 11968,
-     "name": "Amber Hoop of the Tiger",
-     "quality": 2,
+     "id": 13093,
+     "name": "Blush Ember Ring",
+     "quality": 3,
      "itemLevel": null,
-     "icon": "133356"
+     "icon": "133367"
     },
     {
      "slot": 11,
@@ -11357,11 +11359,11 @@
     },
     {
      "slot": 16,
-     "id": 15232,
-     "name": "Hacking Cleaver of the Monkey",
+     "id": 274928,
+     "name": "Curly's Chopper",
      "quality": 2,
-     "itemLevel": null,
-     "icon": "135649"
+     "itemLevel": 39,
+     "icon": "132405"
     },
     {
      "slot": 17,
@@ -12174,23 +12176,6 @@
    "ilvl": 28,
    "xp": 13710,
    "title": null,
-   "fetched": 1794222337,
-   "hp": 1581,
-   "power": 1409,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 127,
-    "agility": 49,
-    "stamina": 125,
-    "intellect": 54,
-    "spirit": 62,
-    "attack_power": 350,
-    "spell_power": 6,
-    "armor": 1265,
-    "melee_crit": 11.55,
-    "ranged_crit": 1.0,
-    "spell_crit": 11.97
-   },
    "active": 1794221833000,
    "stat": {
     "Times camped": 34,
@@ -12275,6 +12260,22 @@
      153,
      225
     ]
+   },
+   "hp": 1581,
+   "power": 1409,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 127,
+    "agility": 49,
+    "stamina": 125,
+    "intellect": 54,
+    "spirit": 62,
+    "attack_power": 350,
+    "spell_power": 6,
+    "armor": 1265,
+    "melee_crit": 11.55,
+    "ranged_crit": 1.0,
+    "spell_crit": 11.97
    },
    "hk": 44,
    "pvpRank": 0,
@@ -12406,7 +12407,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/144/10129552-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/144/10129552-main-raw.png",
+   "fetched": 1794222337
   },
   {
    "name": "Dunder Dumle",
@@ -16640,23 +16642,6 @@
    "ilvl": 28,
    "xp": 44143,
    "title": null,
-   "fetched": 1794222331,
-   "hp": 1234,
-   "power": 2733,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 24,
-    "agility": 37,
-    "stamina": 92,
-    "intellect": 117,
-    "spirit": 71,
-    "attack_power": 14,
-    "spell_power": 105,
-    "armor": 365,
-    "melee_crit": 1.69,
-    "ranged_crit": 4.85,
-    "spell_crit": 6.25
-   },
    "active": 1794222187000,
    "stat": {
     "Times camped": 36,
@@ -16751,6 +16736,22 @@
      96,
      150
     ]
+   },
+   "hp": 1234,
+   "power": 2733,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 24,
+    "agility": 37,
+    "stamina": 92,
+    "intellect": 117,
+    "spirit": 71,
+    "attack_power": 14,
+    "spell_power": 105,
+    "armor": 365,
+    "melee_crit": 1.69,
+    "ranged_crit": 4.85,
+    "spell_crit": 6.25
    },
    "hk": 17,
    "pvpRank": 0,
@@ -16898,7 +16899,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": false,
-   "renderUrl": null
+   "renderUrl": null,
+   "fetched": 1794222331
   },
   {
    "name": "Mrs Bög",
@@ -18489,11 +18491,28 @@
    "race": 3,
    "profile": true,
    "gender": 1,
-   "lastLogin": 1794218422000,
+   "lastLogin": 1794223343000,
    "ilvl": 27,
-   "xp": 41785,
+   "xp": 49411,
    "title": null,
-   "active": 1794218376000,
+   "fetched": 1794224125,
+   "hp": 1469,
+   "power": 1976,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 104,
+    "agility": 63,
+    "stamina": 123,
+    "intellect": 98,
+    "spirit": 60,
+    "attack_power": 411,
+    "spell_power": 36,
+    "armor": 725,
+    "melee_crit": 11.78,
+    "ranged_crit": 0.94,
+    "spell_crit": 10.38
+   },
+   "active": 1794223303000,
    "stat": {
     "Times camped": 23,
     "Bandages used": 1,
@@ -18501,8 +18520,8 @@
     "Health potions consumed": 32,
     "Mana potions consumed": 1,
     "Elixirs consumed": 20,
-    "Beverages consumed": 232,
-    "Food eaten": 129,
+    "Beverages consumed": 234,
+    "Food eaten": 130,
     "Most factions at Honored or higher": 3,
     "Most Alliance factions at Exalted": 4,
     "Total factions encountered": 17,
@@ -18522,23 +18541,23 @@
     "Archmage Arugal kills (Shadowfang Keep)": 1,
     "Bazil Thredd kills (Stormwind Stockade)": 1,
     "Aku'mai kills (Blackfathom Deeps)": 1,
-    "Total kills": 3588,
-    "Total kills that grant experience or honor": 3114,
-    "Creatures killed": 3490,
+    "Total kills": 3626,
+    "Total kills that grant experience or honor": 3152,
+    "Creatures killed": 3528,
     "Different creature types killed": 9,
-    "Creature type killed the most": 1603,
+    "Creature type killed the most": 1625,
     "Critters killed": 57,
     "Total Honorable Kills": 39,
     "World Honorable Kills": 39,
     "Continent with the most Honorable Kills": 22,
-    "Total Killing Blows": 2050,
-    "World Killing Blows": 1536,
-    "Continent with the most Killing Blows": 1146,
+    "Total Killing Blows": 2083,
+    "World Killing Blows": 1569,
+    "Continent with the most Killing Blows": 1179,
     "Total deaths": 41,
     "Total raid and dungeon deaths": 3,
     "Total deaths in 5-player dungeons": 3,
     "Deaths from falling": 2,
-    "Quests completed": 365,
+    "Quests completed": 366,
     "Average quests completed per day": 0,
     "Quests abandoned": 95,
     "Professions learned": 2,
@@ -18572,7 +18591,7 @@
      150
     ],
     "Skinning": [
-     223,
+     224,
      300
     ],
     "Cooking": [
@@ -18587,22 +18606,6 @@
      77,
      150
     ]
-   },
-   "hp": 1469,
-   "power": 1976,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 104,
-    "agility": 63,
-    "stamina": 123,
-    "intellect": 98,
-    "spirit": 60,
-    "attack_power": 411,
-    "spell_power": 36,
-    "armor": 725,
-    "melee_crit": 11.74,
-    "ranged_crit": 0.94,
-    "spell_crit": 10.38
    },
    "hk": 39,
    "pvpRank": 0,
@@ -18742,8 +18745,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/203/933067-main-raw.png",
-   "fetched": 1794218730
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/203/933067-main-raw.png"
   },
   {
    "name": "Fimbul Fambi",
@@ -19556,23 +19558,6 @@
    "ilvl": 24,
    "xp": 7951,
    "title": null,
-   "fetched": 1794222328,
-   "hp": 1218,
-   "power": 1590,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 47,
-    "agility": 156,
-    "stamina": 90,
-    "intellect": 64,
-    "spirit": 54,
-    "attack_power": 251,
-    "spell_power": 32,
-    "armor": 899,
-    "melee_crit": 4.73,
-    "ranged_crit": 5.49,
-    "spell_crit": 5.39
-   },
    "active": 1794221447000,
    "stat": {
     "Times camped": 6,
@@ -19657,6 +19642,22 @@
      1,
      75
     ]
+   },
+   "hp": 1218,
+   "power": 1590,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 47,
+    "agility": 156,
+    "stamina": 90,
+    "intellect": 64,
+    "spirit": 54,
+    "attack_power": 251,
+    "spell_power": 32,
+    "armor": 899,
+    "melee_crit": 4.73,
+    "ranged_crit": 5.49,
+    "spell_crit": 5.39
    },
    "hk": 11,
    "pvpRank": 0,
@@ -19788,7 +19789,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/8/2717960-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/8/2717960-main-raw.png",
+   "fetched": 1794222328
   },
   {
    "name": "Shank Schráder",
@@ -23346,11 +23348,28 @@
    "race": 4,
    "profile": true,
    "gender": 1,
-   "lastLogin": 1794176269000,
+   "lastLogin": 1794222631000,
    "ilvl": 26,
    "xp": 44584,
    "title": null,
-   "active": 1794176247000,
+   "fetched": 1794224126,
+   "hp": 1171,
+   "power": 1429,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 37,
+    "agility": 42,
+    "stamina": 89,
+    "intellect": 70,
+    "spirit": 77,
+    "attack_power": 62,
+    "spell_power": 93,
+    "armor": 571,
+    "melee_crit": 8.08,
+    "ranged_crit": 4.0,
+    "spell_crit": 8.11
+   },
+   "active": 1794222188000,
    "stat": {
     "Times camped": 23,
     "Bandages used": 17,
@@ -23399,16 +23418,16 @@
     "Professions at maximum skill": 2,
     "Secondary skills at maximum skill": 3,
     "Weapon skills at maximum skill": 5,
-    "Cooking skill": 85,
-    "Cooking Recipes known": 30,
+    "Cooking skill": 119,
+    "Cooking Recipes known": 32,
     "First Aid skill": 142,
     "First Aid Manuals learned": 24,
     "Fishing skill": 70,
-    "Fish caught": 70,
-    "Fish and other things caught": 70,
-    "Highest Leatherworking skill": 130,
+    "Fish caught": 123,
+    "Fish and other things caught": 123,
+    "Highest Leatherworking skill": 133,
     "Leatherworking Patterns learned": 104,
-    "Highest Skinning skill": 212,
+    "Highest Skinning skill": 216,
     "Flight paths taken": 62,
     "Number of times hearthed": 15
    },
@@ -23421,7 +23440,7 @@
    },
    "prof": {
     "Leatherworking": [
-     133,
+     145,
      225
     ],
     "Skinning": [
@@ -23429,33 +23448,17 @@
      225
     ],
     "Cooking": [
-     85,
+     119,
      150
     ],
     "Fishing": [
-     70,
+     104,
      150
     ],
     "First Aid": [
-     142,
+     147,
      150
     ]
-   },
-   "hp": 1171,
-   "power": 1429,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 37,
-    "agility": 42,
-    "stamina": 89,
-    "intellect": 70,
-    "spirit": 77,
-    "attack_power": 62,
-    "spell_power": 93,
-    "armor": 571,
-    "melee_crit": 8.08,
-    "ranged_crit": 4.0,
-    "spell_crit": 8.11
    },
    "hk": 5,
    "pvpRank": 0,
@@ -23587,8 +23590,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/220/1675740-main-raw.png",
-   "fetched": 1794177327
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/220/1675740-main-raw.png"
   },
   {
    "name": "Shockita Totemlylost",
@@ -24620,7 +24622,7 @@
    "ilvl": 24,
    "xp": 24135,
    "title": null,
-   "fetched": 1794222327,
+   "fetched": 1794224126,
    "hp": 1187,
    "power": 1305,
    "powerType": "Mana",
@@ -26139,6 +26141,229 @@
    "avatar": true,
    "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/198/9015494-main-raw.png",
    "fetched": 1794213340
+  },
+  {
+   "name": "Mavie Moss",
+   "id": 6854770,
+   "level": 31,
+   "rank": 6,
+   "cls": "druid",
+   "race": 4,
+   "profile": true,
+   "gender": 0,
+   "lastLogin": 1794223992000,
+   "ilvl": 18,
+   "xp": 44324,
+   "title": null,
+   "fetched": 1794224130,
+   "hp": 899,
+   "power": 1159,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 70,
+    "agility": 69,
+    "stamina": 64,
+    "intellect": 54,
+    "spirit": 60,
+    "attack_power": 120,
+    "spell_power": 0,
+    "armor": 593,
+    "melee_crit": 3.6,
+    "ranged_crit": 0.8,
+    "spell_crit": 3.66
+   },
+   "active": 1794223888000,
+   "stat": {
+    "Times camped": 23,
+    "Health potions consumed": 32,
+    "Mana potions consumed": 6,
+    "Beverages consumed": 28,
+    "Food eaten": 17,
+    "Most factions at Honored or higher": 4,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 16,
+    "Greed rolls made on loot": 91,
+    "Need rolls made on loot": 22,
+    "Total deaths from other players": 12,
+    "Total deaths from opposite faction": 12,
+    "Total 5-player dungeons entered": 9,
+    "Edwin VanCleef Kills (Deadmines)": 1,
+    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
+    "Bazzalan kills (Ragefire Chasm)": 1,
+    "Mutanus the Devourer kills (Wailing Caverns)": 1,
+    "Archmage Arugal kills (Shadowfang Keep)": 1,
+    "Bazil Thredd kills (Stormwind Stockade)": 2,
+    "Aku'mai kills (Blackfathom Deeps)": 1,
+    "Total kills": 3337,
+    "Total kills that grant experience or honor": 2945,
+    "Creatures killed": 3266,
+    "Different creature types killed": 8,
+    "Creature type killed the most": 1614,
+    "Critters killed": 47,
+    "Total Honorable Kills": 22,
+    "World Honorable Kills": 22,
+    "Continent with the most Honorable Kills": 15,
+    "Total Killing Blows": 2060,
+    "World Killing Blows": 1851,
+    "Continent with the most Killing Blows": 1209,
+    "Total deaths": 55,
+    "Total raid and dungeon deaths": 5,
+    "Total deaths in 5-player dungeons": 5,
+    "Deaths from drowning": 1,
+    "Spirit returned to body by shamans": 3,
+    "Quests completed": 298,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 51,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 6,
+    "Cooking skill": 1,
+    "Cooking Recipes known": 10,
+    "Fishing skill": 94,
+    "Fish caught": 106,
+    "Fish and other things caught": 106,
+    "Highest Leatherworking skill": 57,
+    "Leatherworking Patterns learned": 28,
+    "Highest Skinning skill": 150,
+    "Flight paths taken": 44,
+    "Summons accepted": 2,
+    "Number of times hearthed": 17,
+    "Number of hugs": 2,
+    "Total times LOL'd": 2,
+    "Total waves": 9
+   },
+   "ach": {
+    "Novice Druid": 1794106020000,
+    "Explore Moonglade": 1793879927000,
+    "Explore Redridge Mountains": 1794067277000,
+    "Explore Darkshore": 1794016208000
+   },
+   "prof": {
+    "Leatherworking": [
+     57,
+     75
+    ],
+    "Skinning": [
+     150,
+     150
+    ],
+    "Cooking": [
+     1,
+     75
+    ],
+    "Fishing": [
+     94,
+     150
+    ]
+   },
+   "hk": 22,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 2,
+     "id": 15345,
+     "name": "Pathfinder Shoulder Pads of Strength",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "135039"
+    },
+    {
+     "slot": 4,
+     "id": 2041,
+     "name": "Tunic of Westfall",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "132722"
+    },
+    {
+     "slot": 5,
+     "id": 6382,
+     "name": "Forest Leather Belt",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "132492"
+    },
+    {
+     "slot": 6,
+     "id": 1310,
+     "name": "Smith's Trousers",
+     "quality": 2,
+     "itemLevel": 20,
+     "icon": "134582"
+    },
+    {
+     "slot": 7,
+     "id": 10402,
+     "name": "Blackened Defias Boots",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "132539"
+    },
+    {
+     "slot": 8,
+     "id": 270015,
+     "name": "Bravo's Armbands",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "132606"
+    },
+    {
+     "slot": 9,
+     "id": 5195,
+     "name": "Gold-flecked Gloves",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "132957"
+    },
+    {
+     "slot": 10,
+     "id": 6743,
+     "name": "Sustaining Ring",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "133350"
+    },
+    {
+     "slot": 11,
+     "id": 12054,
+     "name": "Demon Band",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "133346"
+    },
+    {
+     "slot": 14,
+     "id": 9794,
+     "name": "Ivycloth Cloak of the Tiger",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "133767"
+    },
+    {
+     "slot": 15,
+     "id": 5815,
+     "name": "Glacial Stone",
+     "quality": 2,
+     "itemLevel": 31,
+     "icon": "133484"
+    },
+    {
+     "slot": 17,
+     "id": 263411,
+     "name": "Idol of Shifting Tides",
+     "quality": 2,
+     "itemLevel": 16,
+     "icon": "134914"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": "Feral Combat",
+   "role": "tank",
+   "exalted": [],
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/114/6854770-main-raw.png"
   },
   {
    "name": "Parts Sniffer",
@@ -29147,6 +29372,257 @@
    "fetched": 1794218755
   },
   {
+   "name": "Limhans Iv",
+   "id": 9966874,
+   "level": 30,
+   "rank": 5,
+   "cls": "shaman",
+   "race": 3,
+   "profile": true,
+   "gender": 1,
+   "lastLogin": 1794222871000,
+   "ilvl": 23,
+   "xp": 16896,
+   "title": null,
+   "fetched": 1794224133,
+   "hp": 1315,
+   "power": 1330,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 96,
+    "agility": 59,
+    "stamina": 116,
+    "intellect": 63,
+    "spirit": 66,
+    "attack_power": 346,
+    "spell_power": 14,
+    "armor": 765,
+    "melee_crit": 11.5,
+    "ranged_crit": 3.34,
+    "spell_crit": 9.54
+   },
+   "active": 1794222224000,
+   "stat": {
+    "Times camped": 6,
+    "Bandages used": 10,
+    "Bandage used most": 8,
+    "Health potions consumed": 16,
+    "Mana potions consumed": 20,
+    "Elixirs consumed": 3,
+    "Beverages consumed": 123,
+    "Food eaten": 69,
+    "Most factions at Honored or higher": 4,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 14,
+    "Greed rolls made on loot": 171,
+    "Need rolls made on loot": 28,
+    "Total deaths from other players": 5,
+    "Total deaths from opposite faction": 5,
+    "Total 5-player dungeons entered": 13,
+    "Edwin VanCleef Kills (Deadmines)": 1,
+    "Rath'mael Kills (Ruins of Lordaeron)": 1,
+    "Durgen Dirgehammer Kills (Hall of Thanes)": 2,
+    "Bazzalan kills (Ragefire Chasm)": 2,
+    "Mutanus the Devourer kills (Wailing Caverns)": 1,
+    "Archmage Arugal kills (Shadowfang Keep)": 1,
+    "Bazil Thredd kills (Stormwind Stockade)": 2,
+    "Aku'mai kills (Blackfathom Deeps)": 1,
+    "Total kills": 2835,
+    "Total kills that grant experience or honor": 2575,
+    "Creatures killed": 2776,
+    "Different creature types killed": 8,
+    "Creature type killed the most": 1444,
+    "Critters killed": 50,
+    "Total Honorable Kills": 8,
+    "World Honorable Kills": 8,
+    "Continent with the most Honorable Kills": 8,
+    "Total Killing Blows": 1381,
+    "World Killing Blows": 926,
+    "Continent with the most Killing Blows": 738,
+    "Total deaths": 23,
+    "Total raid and dungeon deaths": 6,
+    "Total deaths in 5-player dungeons": 6,
+    "Deaths from falling": 3,
+    "Revived by druids": 1,
+    "Quests completed": 277,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 17,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 3,
+    "Weapon skills at maximum skill": 7,
+    "Cooking skill": 65,
+    "Cooking Recipes known": 18,
+    "First Aid skill": 146,
+    "First Aid Manuals learned": 14,
+    "Fishing skill": 1,
+    "Highest Leatherworking skill": 134,
+    "Leatherworking Patterns learned": 76,
+    "Highest Skinning skill": 186,
+    "Flight paths taken": 44,
+    "Number of times hearthed": 17,
+    "Total cheers": 1
+   },
+   "ach": {
+    "Novice Shaman": 1794096660000,
+    "Explore Dun Morogh": 1793877692000,
+    "Explore Darkshore": 1794049014000
+   },
+   "prof": {
+    "Leatherworking": [
+     140,
+     150
+    ],
+    "Skinning": [
+     186,
+     225
+    ],
+    "Cooking": [
+     65,
+     150
+    ],
+    "Fishing": [
+     1,
+     75
+    ],
+    "First Aid": [
+     146,
+     225
+    ]
+   },
+   "hk": 8,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 0,
+     "id": 252455,
+     "name": "Defender's Leather Helm",
+     "quality": 3,
+     "itemLevel": 30,
+     "icon": "133135"
+    },
+    {
+     "slot": 1,
+     "id": 279870,
+     "name": "Tarnished Locket",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "133295"
+    },
+    {
+     "slot": 2,
+     "id": 273804,
+     "name": "Executioner Mantle",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "135039"
+    },
+    {
+     "slot": 3,
+     "id": 154,
+     "name": "Primitive Mantle",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "133766"
+    },
+    {
+     "slot": 4,
+     "id": 2041,
+     "name": "Tunic of Westfall",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "132722"
+    },
+    {
+     "slot": 5,
+     "id": 273807,
+     "name": "Demolition Girdle",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "132513"
+    },
+    {
+     "slot": 6,
+     "id": 273647,
+     "name": "Worgpelt Leggings",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "134592"
+    },
+    {
+     "slot": 7,
+     "id": 10402,
+     "name": "Blackened Defias Boots",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "132539"
+    },
+    {
+     "slot": 8,
+     "id": 270032,
+     "name": "Cultist's Armguards",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "132611"
+    },
+    {
+     "slot": 9,
+     "id": 888,
+     "name": "Naga Battle Gloves",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "132947"
+    },
+    {
+     "slot": 10,
+     "id": 2933,
+     "name": "Seal of Wrynn",
+     "quality": 3,
+     "itemLevel": 31,
+     "icon": "133347"
+    },
+    {
+     "slot": 11,
+     "id": 12054,
+     "name": "Demon Band",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "133346"
+    },
+    {
+     "slot": 14,
+     "id": 281305,
+     "name": "Excavation Cloak",
+     "quality": 2,
+     "itemLevel": 31,
+     "icon": "133768"
+    },
+    {
+     "slot": 15,
+     "id": 1264,
+     "name": "Headbasher",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "133482"
+    },
+    {
+     "slot": 17,
+     "id": 263412,
+     "name": "Totem of Charged Flames",
+     "quality": 2,
+     "itemLevel": 10,
+     "icon": "134919"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": "Enhancement",
+   "role": "dps",
+   "exalted": [],
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/26/9966874-main-raw.png"
+  },
+  {
    "name": "Maserin Nyu",
    "id": 9505101,
    "level": 30,
@@ -29389,229 +29865,6 @@
    "fetched": 1794206135
   },
   {
-   "name": "Mavie Moss",
-   "id": 6854770,
-   "level": 30,
-   "rank": 6,
-   "cls": "druid",
-   "race": 4,
-   "profile": true,
-   "gender": 0,
-   "lastLogin": 1794169310000,
-   "ilvl": 18,
-   "xp": 6999,
-   "title": null,
-   "active": 1794169129000,
-   "stat": {
-    "Times camped": 22,
-    "Health potions consumed": 31,
-    "Mana potions consumed": 6,
-    "Beverages consumed": 26,
-    "Food eaten": 17,
-    "Most factions at Honored or higher": 4,
-    "Most Alliance factions at Exalted": 4,
-    "Total factions encountered": 14,
-    "Greed rolls made on loot": 91,
-    "Need rolls made on loot": 22,
-    "Total deaths from other players": 7,
-    "Total deaths from opposite faction": 7,
-    "Total 5-player dungeons entered": 9,
-    "Edwin VanCleef Kills (Deadmines)": 1,
-    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
-    "Bazzalan kills (Ragefire Chasm)": 1,
-    "Mutanus the Devourer kills (Wailing Caverns)": 1,
-    "Archmage Arugal kills (Shadowfang Keep)": 1,
-    "Bazil Thredd kills (Stormwind Stockade)": 2,
-    "Aku'mai kills (Blackfathom Deeps)": 1,
-    "Total kills": 3128,
-    "Total kills that grant experience or honor": 2747,
-    "Creatures killed": 3060,
-    "Different creature types killed": 8,
-    "Creature type killed the most": 1579,
-    "Critters killed": 47,
-    "Total Honorable Kills": 19,
-    "World Honorable Kills": 19,
-    "Continent with the most Honorable Kills": 12,
-    "Total Killing Blows": 1863,
-    "World Killing Blows": 1654,
-    "Continent with the most Killing Blows": 1123,
-    "Total deaths": 48,
-    "Total raid and dungeon deaths": 5,
-    "Total deaths in 5-player dungeons": 5,
-    "Deaths from drowning": 1,
-    "Spirit returned to body by shamans": 3,
-    "Quests completed": 269,
-    "Average quests completed per day": 0,
-    "Quests abandoned": 49,
-    "Professions learned": 2,
-    "Professions at maximum skill": 2,
-    "Secondary skills at maximum skill": 2,
-    "Weapon skills at maximum skill": 6,
-    "Cooking skill": 1,
-    "Cooking Recipes known": 10,
-    "Fishing skill": 93,
-    "Fish caught": 104,
-    "Fish and other things caught": 104,
-    "Highest Leatherworking skill": 57,
-    "Leatherworking Patterns learned": 28,
-    "Highest Skinning skill": 150,
-    "Flight paths taken": 39,
-    "Summons accepted": 2,
-    "Number of times hearthed": 15,
-    "Number of hugs": 2,
-    "Total times LOL'd": 2,
-    "Total waves": 7
-   },
-   "ach": {
-    "Novice Druid": 1794106020000,
-    "Explore Moonglade": 1793879927000,
-    "Explore Redridge Mountains": 1794067277000,
-    "Explore Darkshore": 1794016208000
-   },
-   "prof": {
-    "Leatherworking": [
-     57,
-     75
-    ],
-    "Skinning": [
-     150,
-     150
-    ],
-    "Cooking": [
-     1,
-     75
-    ],
-    "Fishing": [
-     93,
-     150
-    ]
-   },
-   "hp": 868,
-   "power": 1174,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 69,
-    "agility": 78,
-    "stamina": 63,
-    "intellect": 56,
-    "spirit": 59,
-    "attack_power": 118,
-    "spell_power": 32,
-    "armor": 611,
-    "melee_crit": 4.89,
-    "ranged_crit": 1.93,
-    "spell_crit": 3.77
-   },
-   "hk": 19,
-   "pvpRank": 0,
-   "gear": [
-    {
-     "slot": 2,
-     "id": 15345,
-     "name": "Pathfinder Shoulder Pads of Strength",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "135039"
-    },
-    {
-     "slot": 4,
-     "id": 2041,
-     "name": "Tunic of Westfall",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "132722"
-    },
-    {
-     "slot": 5,
-     "id": 6382,
-     "name": "Forest Leather Belt",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "132492"
-    },
-    {
-     "slot": 6,
-     "id": 1310,
-     "name": "Smith's Trousers",
-     "quality": 2,
-     "itemLevel": 20,
-     "icon": "134582"
-    },
-    {
-     "slot": 7,
-     "id": 10402,
-     "name": "Blackened Defias Boots",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "132539"
-    },
-    {
-     "slot": 8,
-     "id": 270015,
-     "name": "Bravo's Armbands",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "132606"
-    },
-    {
-     "slot": 9,
-     "id": 5195,
-     "name": "Gold-flecked Gloves",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "132957"
-    },
-    {
-     "slot": 10,
-     "id": 6743,
-     "name": "Sustaining Ring",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "133350"
-    },
-    {
-     "slot": 11,
-     "id": 12054,
-     "name": "Demon Band",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "133346"
-    },
-    {
-     "slot": 14,
-     "id": 9794,
-     "name": "Ivycloth Cloak of the Tiger",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "133767"
-    },
-    {
-     "slot": 15,
-     "id": 2280,
-     "name": "Kam's Walking Stick",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "135143"
-    },
-    {
-     "slot": 17,
-     "id": 263411,
-     "name": "Idol of Shifting Tides",
-     "quality": 2,
-     "itemLevel": 16,
-     "icon": "134914"
-    }
-   ],
-   "sets": [],
-   "heal": 0,
-   "spec": "Feral Combat",
-   "role": "tank",
-   "exalted": [],
-   "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/114/6854770-main-raw.png",
-   "fetched": 1794170132
-  },
-  {
    "name": "Mystic Dots",
    "id": 8134845,
    "level": 30,
@@ -29624,7 +29877,7 @@
    "ilvl": 22,
    "xp": 43056,
    "title": null,
-   "fetched": 1794222333,
+   "fetched": 1794224131,
    "hp": 859,
    "power": 2135,
    "powerType": "Mana",
@@ -29868,23 +30121,6 @@
    "ilvl": 20,
    "xp": 21660,
    "title": null,
-   "fetched": 1794222342,
-   "hp": 978,
-   "power": 1189,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 61,
-    "agility": 77,
-    "stamina": 74,
-    "intellect": 57,
-    "spirit": 77,
-    "attack_power": 118,
-    "spell_power": 9,
-    "armor": 751,
-    "melee_crit": 5.56,
-    "ranged_crit": 1.84,
-    "spell_crit": 3.81
-   },
    "active": 1794220988000,
    "stat": {
     "Times camped": 16,
@@ -29970,6 +30206,22 @@
      55,
      75
     ]
+   },
+   "hp": 978,
+   "power": 1189,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 61,
+    "agility": 77,
+    "stamina": 74,
+    "intellect": 57,
+    "spirit": 77,
+    "attack_power": 118,
+    "spell_power": 9,
+    "armor": 751,
+    "melee_crit": 5.56,
+    "ranged_crit": 1.84,
+    "spell_crit": 3.81
    },
    "hk": 3,
    "pvpRank": 0,
@@ -30085,7 +30337,8 @@
    "role": "tank",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/101/13079653-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/101/13079653-main-raw.png",
+   "fetched": 1794222342
   },
   {
    "name": "Twin Faded",
@@ -32331,249 +32584,6 @@
    "avatar": true,
    "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/42/12480298-main-raw.png",
    "fetched": 1794184544
-  },
-  {
-   "name": "Limhans Iv",
-   "id": 9966874,
-   "level": 29,
-   "rank": 5,
-   "cls": "shaman",
-   "race": 3,
-   "profile": true,
-   "gender": 1,
-   "lastLogin": 1794211095000,
-   "ilvl": 21,
-   "xp": 20898,
-   "title": null,
-   "active": 1794211067000,
-   "stat": {
-    "Times camped": 6,
-    "Bandages used": 8,
-    "Bandage used most": 6,
-    "Health potions consumed": 16,
-    "Mana potions consumed": 20,
-    "Elixirs consumed": 3,
-    "Beverages consumed": 118,
-    "Food eaten": 68,
-    "Most factions at Honored or higher": 4,
-    "Most Alliance factions at Exalted": 4,
-    "Total factions encountered": 13,
-    "Greed rolls made on loot": 171,
-    "Need rolls made on loot": 28,
-    "Total deaths from other players": 5,
-    "Total deaths from opposite faction": 5,
-    "Total 5-player dungeons entered": 13,
-    "Edwin VanCleef Kills (Deadmines)": 1,
-    "Rath'mael Kills (Ruins of Lordaeron)": 1,
-    "Durgen Dirgehammer Kills (Hall of Thanes)": 2,
-    "Bazzalan kills (Ragefire Chasm)": 2,
-    "Mutanus the Devourer kills (Wailing Caverns)": 1,
-    "Archmage Arugal kills (Shadowfang Keep)": 1,
-    "Bazil Thredd kills (Stormwind Stockade)": 2,
-    "Aku'mai kills (Blackfathom Deeps)": 1,
-    "Total kills": 2774,
-    "Total kills that grant experience or honor": 2515,
-    "Creatures killed": 2716,
-    "Different creature types killed": 8,
-    "Creature type killed the most": 1411,
-    "Critters killed": 49,
-    "Total Honorable Kills": 8,
-    "World Honorable Kills": 8,
-    "Continent with the most Honorable Kills": 8,
-    "Total Killing Blows": 1339,
-    "World Killing Blows": 884,
-    "Continent with the most Killing Blows": 697,
-    "Total deaths": 22,
-    "Total raid and dungeon deaths": 6,
-    "Total deaths in 5-player dungeons": 6,
-    "Deaths from falling": 2,
-    "Revived by druids": 1,
-    "Quests completed": 262,
-    "Average quests completed per day": 0,
-    "Quests abandoned": 17,
-    "Professions learned": 2,
-    "Professions at maximum skill": 2,
-    "Secondary skills at maximum skill": 3,
-    "Weapon skills at maximum skill": 7,
-    "Cooking skill": 65,
-    "Cooking Recipes known": 16,
-    "First Aid skill": 146,
-    "First Aid Manuals learned": 12,
-    "Fishing skill": 1,
-    "Highest Leatherworking skill": 117,
-    "Leatherworking Patterns learned": 64,
-    "Highest Skinning skill": 171,
-    "Flight paths taken": 39,
-    "Number of times hearthed": 16,
-    "Total cheers": 1
-   },
-   "ach": {
-    "Novice Shaman": 1794096660000,
-    "Explore Dun Morogh": 1793877692000,
-    "Explore Darkshore": 1794049014000
-   },
-   "prof": {
-    "Leatherworking": [
-     117,
-     150
-    ],
-    "Skinning": [
-     171,
-     225
-    ],
-    "Cooking": [
-     65,
-     150
-    ],
-    "Fishing": [
-     1,
-     75
-    ],
-    "First Aid": [
-     146,
-     150
-    ]
-   },
-   "hp": 1144,
-   "power": 1281,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 83,
-    "agility": 58,
-    "stamina": 101,
-    "intellect": 62,
-    "spirit": 65,
-    "attack_power": 520,
-    "spell_power": 14,
-    "armor": 671,
-    "melee_crit": 11.62,
-    "ranged_crit": 3.74,
-    "spell_crit": 9.59
-   },
-   "hk": 8,
-   "pvpRank": 0,
-   "gear": [
-    {
-     "slot": 1,
-     "id": 279870,
-     "name": "Tarnished Locket",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "133295"
-    },
-    {
-     "slot": 2,
-     "id": 273804,
-     "name": "Executioner Mantle",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "135039"
-    },
-    {
-     "slot": 3,
-     "id": 154,
-     "name": "Primitive Mantle",
-     "quality": 1,
-     "itemLevel": 1,
-     "icon": "133766"
-    },
-    {
-     "slot": 4,
-     "id": 2041,
-     "name": "Tunic of Westfall",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "132722"
-    },
-    {
-     "slot": 5,
-     "id": 273807,
-     "name": "Demolition Girdle",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "132513"
-    },
-    {
-     "slot": 6,
-     "id": 273647,
-     "name": "Worgpelt Leggings",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "134592"
-    },
-    {
-     "slot": 7,
-     "id": 10402,
-     "name": "Blackened Defias Boots",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "132539"
-    },
-    {
-     "slot": 8,
-     "id": 270032,
-     "name": "Cultist's Armguards",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "132611"
-    },
-    {
-     "slot": 9,
-     "id": 888,
-     "name": "Naga Battle Gloves",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "132947"
-    },
-    {
-     "slot": 10,
-     "id": 2933,
-     "name": "Seal of Wrynn",
-     "quality": 3,
-     "itemLevel": 31,
-     "icon": "133347"
-    },
-    {
-     "slot": 11,
-     "id": 12054,
-     "name": "Demon Band",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "133346"
-    },
-    {
-     "slot": 14,
-     "id": 281305,
-     "name": "Excavation Cloak",
-     "quality": 2,
-     "itemLevel": 31,
-     "icon": "133768"
-    },
-    {
-     "slot": 15,
-     "id": 1264,
-     "name": "Headbasher",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "133482"
-    },
-    {
-     "slot": 17,
-     "id": 263412,
-     "name": "Totem of Charged Flames",
-     "quality": 2,
-     "itemLevel": 10,
-     "icon": "134919"
-    }
-   ],
-   "sets": [],
-   "heal": 0,
-   "spec": "Enhancement",
-   "role": "dps",
-   "exalted": [],
-   "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/26/9966874-main-raw.png",
-   "fetched": 1794211546
   },
   {
    "name": "Magis Mutter",
@@ -36655,6 +36665,258 @@
    "fetched": 1794173739
   },
   {
+   "name": "Melda Huggington",
+   "id": 11833492,
+   "level": 28,
+   "rank": 6,
+   "cls": "mage",
+   "race": 7,
+   "profile": true,
+   "gender": 0,
+   "lastLogin": 1794224003000,
+   "ilvl": 20,
+   "xp": 26967,
+   "title": null,
+   "fetched": 1794224140,
+   "hp": 672,
+   "power": 1692,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 26,
+    "agility": 31,
+    "stamina": 49,
+    "intellect": 89,
+    "spirit": 90,
+    "attack_power": 16,
+    "spell_power": 52,
+    "armor": 296,
+    "melee_crit": 0.75,
+    "ranged_crit": 5.35,
+    "spell_crit": 3.73
+   },
+   "active": 1794223968000,
+   "stat": {
+    "Times camped": 11,
+    "Bandages used": 19,
+    "Bandage used most": 8,
+    "Health potions consumed": 10,
+    "Mana potions consumed": 3,
+    "Beverages consumed": 234,
+    "Food eaten": 125,
+    "Most factions at Honored or higher": 3,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 7,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 54,
+    "Need rolls made on loot": 7,
+    "Total deaths from other players": 1,
+    "Total deaths from opposite faction": 1,
+    "Total 5-player dungeons entered": 6,
+    "Edwin VanCleef Kills (Deadmines)": 1,
+    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
+    "Bazzalan kills (Ragefire Chasm)": 1,
+    "Bazil Thredd kills (Stormwind Stockade)": 2,
+    "Total kills": 1977,
+    "Total kills that grant experience or honor": 1888,
+    "Creatures killed": 1968,
+    "Different creature types killed": 8,
+    "Creature type killed the most": 1219,
+    "Critters killed": 8,
+    "Total Honorable Kills": 1,
+    "World Honorable Kills": 1,
+    "Continent with the most Honorable Kills": 1,
+    "Total Killing Blows": 1264,
+    "World Killing Blows": 1147,
+    "Continent with the most Killing Blows": 956,
+    "Total deaths": 6,
+    "Quests completed": 276,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 17,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 3,
+    "Weapon skills at maximum skill": 5,
+    "Cooking skill": 50,
+    "Cooking Recipes known": 16,
+    "First Aid skill": 140,
+    "First Aid Manuals learned": 24,
+    "Fishing skill": 1,
+    "Highest Enchanting skill": 21,
+    "Enchanting formulae learned": 13,
+    "Materials produced from disenchanting": 37,
+    "Items disenchanted": 20,
+    "Highest Tailoring skill": 29,
+    "Tailoring Patterns learned": 36,
+    "Flight paths taken": 17,
+    "Number of times hearthed": 10,
+    "Number of hugs": 17,
+    "Total cheers": 8,
+    "Total waves": 2
+   },
+   "ach": {
+    "Novice Mage": 1794171480000,
+    "Novice Warlock": 1793971500000,
+    "Explore Dun Morogh": 1794136747000,
+    "Explore Elwynn Forest": 1793872020000,
+    "Explore Redridge Mountains": 1793958240000,
+    "Explore Westfall": 1793971200000,
+    "Explore Darkshore": 1794122137000
+   },
+   "prof": {
+    "Tailoring": [
+     29,
+     75
+    ],
+    "Enchanting": [
+     21,
+     75
+    ],
+    "Cooking": [
+     50,
+     150
+    ],
+    "Fishing": [
+     1,
+     75
+    ],
+    "First Aid": [
+     143,
+     150
+    ]
+   },
+   "hk": 1,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 1,
+     "id": 270227,
+     "name": "Ephemeral Choker",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "466975"
+    },
+    {
+     "slot": 2,
+     "id": 2913,
+     "name": "Silk Mantle of Gamn",
+     "quality": 2,
+     "itemLevel": 28,
+     "icon": "135036"
+    },
+    {
+     "slot": 3,
+     "id": 6096,
+     "name": "Apprentice's Shirt",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "135005"
+    },
+    {
+     "slot": 4,
+     "id": 270261,
+     "name": "Robes of the Disgraced Thane",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "132650"
+    },
+    {
+     "slot": 5,
+     "id": 6611,
+     "name": "Sage's Sash of the Sorcerer",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "133693"
+    },
+    {
+     "slot": 6,
+     "id": 273289,
+     "name": "Ogre Loincloth",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "134589"
+    },
+    {
+     "slot": 7,
+     "id": 2583,
+     "name": "Woolen Boots",
+     "quality": 2,
+     "itemLevel": 19,
+     "icon": "132543"
+    },
+    {
+     "slot": 8,
+     "id": 281256,
+     "name": "Repurposed Hair Band",
+     "quality": 2,
+     "itemLevel": 20,
+     "icon": "132603"
+    },
+    {
+     "slot": 9,
+     "id": 4318,
+     "name": "Gloves of Meditation",
+     "quality": 2,
+     "itemLevel": 26,
+     "icon": "132939"
+    },
+    {
+     "slot": 10,
+     "id": 2933,
+     "name": "Seal of Wrynn",
+     "quality": 3,
+     "itemLevel": 31,
+     "icon": "133347"
+    },
+    {
+     "slot": 11,
+     "id": 1319,
+     "name": "Ring of Iron Will",
+     "quality": 2,
+     "itemLevel": 25,
+     "icon": "132520"
+    },
+    {
+     "slot": 12,
+     "id": 273298,
+     "name": "Lookie's Spyglass",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "134440"
+    },
+    {
+     "slot": 14,
+     "id": 6378,
+     "name": "Seer's Cape",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "133757"
+    },
+    {
+     "slot": 15,
+     "id": 2950,
+     "name": "Icicle Rod",
+     "quality": 2,
+     "itemLevel": 25,
+     "icon": "135152"
+    },
+    {
+     "slot": 17,
+     "id": 11288,
+     "name": "Greater Magic Wand",
+     "quality": 2,
+     "itemLevel": 23,
+     "icon": "135144"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": "Frost",
+   "role": "dps",
+   "exalted": [],
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/148/11833492-main-raw.png"
+  },
+  {
    "name": "Naxxramas Shadowborn",
    "id": 1942331,
    "level": 28,
@@ -37176,7 +37438,7 @@
    "ilvl": 16,
    "xp": 3834,
    "title": null,
-   "fetched": 1794222330,
+   "fetched": 1794224128,
    "hp": 994,
    "power": 1278,
    "powerType": "Mana",
@@ -38828,23 +39090,6 @@
    "ilvl": 19,
    "xp": 9893,
    "title": null,
-   "fetched": 1794222343,
-   "hp": 991,
-   "power": 979,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 55,
-    "agility": 51,
-    "stamina": 81,
-    "intellect": 49,
-    "spirit": 70,
-    "attack_power": 126,
-    "spell_power": 9,
-    "armor": 576,
-    "melee_crit": 6.84,
-    "ranged_crit": 4.64,
-    "spell_crit": 7.76
-   },
    "active": 1794221616000,
    "stat": {
     "Times camped": 1,
@@ -38919,6 +39164,22 @@
      142,
      150
     ]
+   },
+   "hp": 991,
+   "power": 979,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 55,
+    "agility": 51,
+    "stamina": 81,
+    "intellect": 49,
+    "spirit": 70,
+    "attack_power": 126,
+    "spell_power": 9,
+    "armor": 576,
+    "melee_crit": 6.84,
+    "ranged_crit": 4.64,
+    "spell_crit": 7.76
    },
    "hk": 0,
    "pvpRank": 0,
@@ -39042,7 +39303,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/122/14140026-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/122/14140026-main-raw.png",
+   "fetched": 1794222343
   },
   {
    "name": "Leynia Windborn",
@@ -40038,7 +40300,7 @@
    "ilvl": 19,
    "xp": 12499,
    "title": null,
-   "fetched": 1794222329,
+   "fetched": 1794224128,
    "hp": 1107,
    "power": 881,
    "powerType": "Mana",
@@ -40262,23 +40524,6 @@
    "ilvl": 21,
    "xp": 30061,
    "title": null,
-   "fetched": 1794222338,
-   "hp": 1269,
-   "power": 100,
-   "powerType": "Rage",
-   "stats": {
-    "strength": 99,
-    "agility": 54,
-    "stamina": 114,
-    "intellect": 23,
-    "spirit": 40,
-    "attack_power": 259,
-    "spell_power": 0,
-    "armor": 1910,
-    "melee_crit": 6.59,
-    "ranged_crit": 6.31,
-    "spell_crit": 1.0
-   },
    "active": 1794221299000,
    "stat": {
     "Times camped": 20,
@@ -40356,6 +40601,22 @@
      150,
      150
     ]
+   },
+   "hp": 1269,
+   "power": 100,
+   "powerType": "Rage",
+   "stats": {
+    "strength": 99,
+    "agility": 54,
+    "stamina": 114,
+    "intellect": 23,
+    "spirit": 40,
+    "attack_power": 259,
+    "spell_power": 0,
+    "armor": 1910,
+    "melee_crit": 6.59,
+    "ranged_crit": 6.31,
+    "spell_crit": 1.0
    },
    "hk": 9,
    "pvpRank": 0,
@@ -40487,7 +40748,8 @@
    "role": "tank",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/161/10694049-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/161/10694049-main-raw.png",
+   "fetched": 1794222338
   },
   {
    "name": "Sindara Faithmender",
@@ -40727,11 +40989,28 @@
    "race": 95,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1794217577000,
+   "lastLogin": 1794223200000,
    "ilvl": 18,
-   "xp": 17379,
+   "xp": 18112,
    "title": null,
-   "active": 1794217547000,
+   "fetched": 1794224126,
+   "hp": 921,
+   "power": 1039,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 34,
+    "agility": 71,
+    "stamina": 74,
+    "intellect": 53,
+    "spirit": 79,
+    "attack_power": 88,
+    "spell_power": 5,
+    "armor": 630,
+    "melee_crit": 5.32,
+    "ranged_crit": 2.64,
+    "spell_crit": 3.92
+   },
+   "active": 1794223119000,
    "stat": {
     "Times camped": 6,
     "Bandages used": 1,
@@ -40754,18 +41033,18 @@
     "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
     "Bazzalan kills (Ragefire Chasm)": 1,
     "Bazil Thredd kills (Stormwind Stockade)": 1,
-    "Total kills": 1711,
+    "Total kills": 1728,
     "Total kills that grant experience or honor": 1550,
-    "Creatures killed": 1703,
-    "Different creature types killed": 7,
+    "Creatures killed": 1720,
+    "Different creature types killed": 8,
     "Creature type killed the most": 904,
     "Critters killed": 5,
     "Total Honorable Kills": 3,
     "World Honorable Kills": 3,
     "Continent with the most Honorable Kills": 2,
-    "Total Killing Blows": 1173,
-    "World Killing Blows": 709,
-    "Continent with the most Killing Blows": 426,
+    "Total Killing Blows": 1189,
+    "World Killing Blows": 725,
+    "Continent with the most Killing Blows": 442,
     "Total deaths": 18,
     "Total raid and dungeon deaths": 10,
     "Total deaths in 5-player dungeons": 2,
@@ -40784,8 +41063,8 @@
     "First Aid Manuals learned": 4,
     "Highest Leatherworking skill": 76,
     "Leatherworking Patterns learned": 64,
-    "Highest Skinning skill": 70,
-    "Flight paths taken": 24,
+    "Highest Skinning skill": 76,
+    "Flight paths taken": 25,
     "Number of times hearthed": 13,
     "Number of hugs": 9
    },
@@ -40800,7 +41079,7 @@
      150
     ],
     "Skinning": [
-     70,
+     100,
      150
     ],
     "Cooking": [
@@ -40811,22 +41090,6 @@
      57,
      75
     ]
-   },
-   "hp": 921,
-   "power": 1039,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 34,
-    "agility": 71,
-    "stamina": 74,
-    "intellect": 53,
-    "spirit": 79,
-    "attack_power": 88,
-    "spell_power": 5,
-    "armor": 630,
-    "melee_crit": 5.32,
-    "ranged_crit": 2.64,
-    "spell_crit": 3.92
    },
    "hk": 3,
    "pvpRank": 0,
@@ -40950,8 +41213,7 @@
    "role": "tank",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/223/2855903-main-raw.png",
-   "fetched": 1794218731
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/223/2855903-main-raw.png"
   },
   {
    "name": "Xam Xam",
@@ -42378,23 +42640,6 @@
    "ilvl": 17,
    "xp": 25749,
    "title": null,
-   "fetched": 1794222335,
-   "hp": 874,
-   "power": 1129,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 38,
-    "agility": 74,
-    "stamina": 72,
-    "intellect": 60,
-    "spirit": 66,
-    "attack_power": 66,
-    "spell_power": 6,
-    "armor": 543,
-    "melee_crit": 7.49,
-    "ranged_crit": 3.33,
-    "spell_crit": 4.3
-   },
    "active": 1794221916000,
    "stat": {
     "Times camped": 15,
@@ -42481,6 +42726,22 @@
      117,
      150
     ]
+   },
+   "hp": 874,
+   "power": 1129,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 38,
+    "agility": 74,
+    "stamina": 72,
+    "intellect": 60,
+    "spirit": 66,
+    "attack_power": 66,
+    "spell_power": 6,
+    "armor": 543,
+    "melee_crit": 7.49,
+    "ranged_crit": 3.33,
+    "spell_crit": 4.3
    },
    "hk": 10,
    "pvpRank": 0,
@@ -42596,7 +42857,8 @@
    "role": "tank",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/182/9345974-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/182/9345974-main-raw.png",
+   "fetched": 1794222335
   },
   {
    "name": "Gunnar Dunder",
@@ -42611,7 +42873,7 @@
    "ilvl": 19,
    "xp": 17145,
    "title": null,
-   "fetched": 1794222326,
+   "fetched": 1794224125,
    "hp": 907,
    "power": 990,
    "powerType": "Mana",
@@ -42837,7 +43099,7 @@
    "ilvl": 18,
    "xp": 2092,
    "title": null,
-   "fetched": 1794222336,
+   "fetched": 1794224133,
    "hp": 892,
    "power": 1125,
    "powerType": "Mana",
@@ -43785,247 +44047,6 @@
    "avatar": true,
    "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/8/13517832-main-raw.png",
    "fetched": 1794171947
-  },
-  {
-   "name": "Melda Huggington",
-   "id": 11833492,
-   "level": 26,
-   "rank": 6,
-   "cls": "mage",
-   "race": 7,
-   "profile": true,
-   "gender": 0,
-   "lastLogin": 1794180654000,
-   "ilvl": 18,
-   "xp": 22734,
-   "title": null,
-   "active": 1794180600000,
-   "stat": {
-    "Times camped": 9,
-    "Bandages used": 17,
-    "Bandage used most": 8,
-    "Health potions consumed": 10,
-    "Mana potions consumed": 3,
-    "Beverages consumed": 191,
-    "Food eaten": 101,
-    "Most factions at Honored or higher": 3,
-    "Most Alliance factions at Exalted": 4,
-    "Total factions encountered": 9,
-    "Mounts owned": 2,
-    "Greed rolls made on loot": 49,
-    "Need rolls made on loot": 7,
-    "Total deaths from other players": 1,
-    "Total deaths from opposite faction": 1,
-    "Total 5-player dungeons entered": 6,
-    "Edwin VanCleef Kills (Deadmines)": 1,
-    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
-    "Bazzalan kills (Ragefire Chasm)": 1,
-    "Bazil Thredd kills (Stormwind Stockade)": 2,
-    "Total kills": 1599,
-    "Total kills that grant experience or honor": 1532,
-    "Creatures killed": 1591,
-    "Different creature types killed": 8,
-    "Creature type killed the most": 976,
-    "Critters killed": 8,
-    "Total Killing Blows": 1047,
-    "World Killing Blows": 930,
-    "Continent with the most Killing Blows": 739,
-    "Total deaths": 5,
-    "Quests completed": 244,
-    "Average quests completed per day": 0,
-    "Quests abandoned": 16,
-    "Professions learned": 2,
-    "Professions at maximum skill": 2,
-    "Secondary skills at maximum skill": 3,
-    "Weapon skills at maximum skill": 5,
-    "Cooking skill": 50,
-    "Cooking Recipes known": 16,
-    "First Aid skill": 124,
-    "First Aid Manuals learned": 22,
-    "Fishing skill": 1,
-    "Highest Enchanting skill": 21,
-    "Enchanting formulae learned": 13,
-    "Materials produced from disenchanting": 37,
-    "Items disenchanted": 20,
-    "Highest Tailoring skill": 29,
-    "Tailoring Patterns learned": 36,
-    "Flight paths taken": 15,
-    "Number of times hearthed": 9,
-    "Number of hugs": 13,
-    "Total cheers": 8,
-    "Total waves": 2
-   },
-   "ach": {
-    "Novice Mage": 1794171480000,
-    "Novice Warlock": 1793971500000,
-    "Explore Dun Morogh": 1794136747000,
-    "Explore Elwynn Forest": 1793872020000,
-    "Explore Redridge Mountains": 1793958240000,
-    "Explore Westfall": 1793971200000,
-    "Explore Darkshore": 1794122137000
-   },
-   "prof": {
-    "Tailoring": [
-     29,
-     75
-    ],
-    "Enchanting": [
-     21,
-     75
-    ],
-    "Cooking": [
-     50,
-     150
-    ],
-    "Fishing": [
-     1,
-     75
-    ],
-    "First Aid": [
-     124,
-     150
-    ]
-   },
-   "hp": 593,
-   "power": 1601,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 25,
-    "agility": 31,
-    "stamina": 44,
-    "intellect": 86,
-    "spirit": 91,
-    "attack_power": 15,
-    "spell_power": 50,
-    "armor": 295,
-    "melee_crit": 1.11,
-    "ranged_crit": 5.31,
-    "spell_crit": 4.13
-   },
-   "hk": 0,
-   "pvpRank": 0,
-   "gear": [
-    {
-     "slot": 1,
-     "id": 270227,
-     "name": "Ephemeral Choker",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "466975"
-    },
-    {
-     "slot": 2,
-     "id": 4661,
-     "name": "Bright Mantle",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "135040"
-    },
-    {
-     "slot": 3,
-     "id": 6096,
-     "name": "Apprentice's Shirt",
-     "quality": 1,
-     "itemLevel": 1,
-     "icon": "135005"
-    },
-    {
-     "slot": 4,
-     "id": 270261,
-     "name": "Robes of the Disgraced Thane",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "132650"
-    },
-    {
-     "slot": 5,
-     "id": 6611,
-     "name": "Sage's Sash of the Sorcerer",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "133693"
-    },
-    {
-     "slot": 6,
-     "id": 273289,
-     "name": "Ogre Loincloth",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "134589"
-    },
-    {
-     "slot": 7,
-     "id": 2583,
-     "name": "Woolen Boots",
-     "quality": 2,
-     "itemLevel": 19,
-     "icon": "132543"
-    },
-    {
-     "slot": 8,
-     "id": 281256,
-     "name": "Repurposed Hair Band",
-     "quality": 2,
-     "itemLevel": 20,
-     "icon": "132603"
-    },
-    {
-     "slot": 9,
-     "id": 4318,
-     "name": "Gloves of Meditation",
-     "quality": 2,
-     "itemLevel": 26,
-     "icon": "132939"
-    },
-    {
-     "slot": 10,
-     "id": 2933,
-     "name": "Seal of Wrynn",
-     "quality": 3,
-     "itemLevel": 31,
-     "icon": "133347"
-    },
-    {
-     "slot": 12,
-     "id": 273298,
-     "name": "Lookie's Spyglass",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "134440"
-    },
-    {
-     "slot": 14,
-     "id": 6378,
-     "name": "Seer's Cape",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "133757"
-    },
-    {
-     "slot": 15,
-     "id": 2042,
-     "name": "Staff of Westfall",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "135147"
-    },
-    {
-     "slot": 17,
-     "id": 11288,
-     "name": "Greater Magic Wand",
-     "quality": 2,
-     "itemLevel": 23,
-     "icon": "135144"
-    }
-   ],
-   "sets": [],
-   "heal": 0,
-   "spec": "Frost",
-   "role": "dps",
-   "exalted": [],
-   "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/148/11833492-main-raw.png",
-   "fetched": 1794180941
   },
   {
    "name": "Ottogrim Kernbeard",
@@ -46489,23 +46510,6 @@
    "ilvl": 17,
    "xp": 268,
    "title": null,
-   "fetched": 1794222332,
-   "hp": 890,
-   "power": 1035,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 66,
-    "agility": 36,
-    "stamina": 83,
-    "intellect": 54,
-    "spirit": 53,
-    "attack_power": 257,
-    "spell_power": 4,
-    "armor": 449,
-    "melee_crit": 9.52,
-    "ranged_crit": 1.04,
-    "spell_crit": 9.58
-   },
    "active": 1794180012000,
    "stat": {
     "Times camped": 31,
@@ -46583,6 +46587,22 @@
      84,
      150
     ]
+   },
+   "hp": 890,
+   "power": 1035,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 66,
+    "agility": 36,
+    "stamina": 83,
+    "intellect": 54,
+    "spirit": 53,
+    "attack_power": 257,
+    "spell_power": 4,
+    "armor": 449,
+    "melee_crit": 9.52,
+    "ranged_crit": 1.04,
+    "spell_crit": 9.58
    },
    "hk": 2,
    "pvpRank": 0,
@@ -46698,7 +46718,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/230/7000294-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/230/7000294-main-raw.png",
+   "fetched": 1794222332
   },
   {
    "name": "Ister Band",
@@ -47137,6 +47158,233 @@
    "avatar": true,
    "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/156/4906396-main-raw.png",
    "fetched": 1794179129
+  },
+  {
+   "name": "Kött Klubban",
+   "id": 10983781,
+   "level": 25,
+   "rank": 5,
+   "cls": "warrior",
+   "race": 95,
+   "profile": true,
+   "gender": 1,
+   "lastLogin": 1794223625000,
+   "ilvl": 20,
+   "xp": 17586,
+   "title": null,
+   "fetched": 1794224135,
+   "hp": 1104,
+   "power": 100,
+   "powerType": "Rage",
+   "stats": {
+    "strength": 110,
+    "agility": 59,
+    "stamina": 101,
+    "intellect": 28,
+    "spirit": 26,
+    "attack_power": 306,
+    "spell_power": 0,
+    "armor": 1232,
+    "melee_crit": 10.51,
+    "ranged_crit": 5.91,
+    "spell_crit": 0.0
+   },
+   "active": 1794223396000,
+   "stat": {
+    "Times camped": 30,
+    "Health potions consumed": 12,
+    "Elixirs consumed": 4,
+    "Beverages consumed": 2,
+    "Food eaten": 26,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 16,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 229,
+    "Need rolls made on loot": 17,
+    "Total deaths from other players": 25,
+    "Total deaths from opposite faction": 25,
+    "Total 5-player dungeons entered": 25,
+    "Edwin VanCleef Kills (Deadmines)": 6,
+    "Rath'mael Kills (Ruins of Lordaeron)": 1,
+    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
+    "Bazzalan kills (Ragefire Chasm)": 1,
+    "Mutanus the Devourer kills (Wailing Caverns)": 1,
+    "Archmage Arugal kills (Shadowfang Keep)": 2,
+    "Total kills": 3680,
+    "Total kills that grant experience or honor": 3266,
+    "Creatures killed": 3588,
+    "Different creature types killed": 8,
+    "Creature type killed the most": 2167,
+    "Critters killed": 83,
+    "Total Honorable Kills": 9,
+    "World Honorable Kills": 9,
+    "Continent with the most Honorable Kills": 5,
+    "Total Killing Blows": 1613,
+    "World Killing Blows": 607,
+    "Continent with the most Killing Blows": 596,
+    "Total deaths": 51,
+    "Total raid and dungeon deaths": 12,
+    "Total deaths in 5-player dungeons": 9,
+    "Resurrected by priests": 2,
+    "Quests completed": 176,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 2,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Weapon skills at maximum skill": 8,
+    "Highest Blacksmithing skill": 126,
+    "Blacksmithing Plans learned": 66,
+    "Highest Mining skill": 120,
+    "Smelting Recipes learned": 15,
+    "Flight paths taken": 21,
+    "Number of times hearthed": 15,
+    "Total times LOL'd": 1,
+    "Total waves": 8
+   },
+   "ach": {
+    "Novice Warrior": 1794215100000
+   },
+   "prof": {
+    "Mining": [
+     120,
+     150
+    ],
+    "Blacksmithing": [
+     126,
+     150
+    ]
+   },
+   "hk": 9,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 0,
+     "id": 250528,
+     "name": "Veteran's Silvered Chain Helm",
+     "quality": 3,
+     "itemLevel": 25,
+     "icon": "133141"
+    },
+    {
+     "slot": 1,
+     "id": 273088,
+     "name": "Snake Eye Kaleidoscope",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "133884"
+    },
+    {
+     "slot": 2,
+     "id": 3480,
+     "name": "Rough Bronze Shoulders",
+     "quality": 2,
+     "itemLevel": 22,
+     "icon": "135036"
+    },
+    {
+     "slot": 3,
+     "id": 271669,
+     "name": "Thendal Warrior's Shirt",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "7813752"
+    },
+    {
+     "slot": 4,
+     "id": 6627,
+     "name": "Mutant Scale Breastplate",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "132743"
+    },
+    {
+     "slot": 5,
+     "id": 270230,
+     "name": "Kindlegem Girdle",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "132509"
+    },
+    {
+     "slot": 6,
+     "id": 250523,
+     "name": "Veteran's Silvered Chain Leggings",
+     "quality": 3,
+     "itemLevel": 30,
+     "icon": "134657"
+    },
+    {
+     "slot": 7,
+     "id": 250620,
+     "name": "Gemmed Copper Boots",
+     "quality": 3,
+     "itemLevel": 15,
+     "icon": "132554"
+    },
+    {
+     "slot": 8,
+     "id": 9811,
+     "name": "Fortified Bracers of Power",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "132602"
+    },
+    {
+     "slot": 9,
+     "id": 6481,
+     "name": "Dagmire Gauntlets",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "132939"
+    },
+    {
+     "slot": 10,
+     "id": 12008,
+     "name": "Savannah Ring of the Bandit",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "133345"
+    },
+    {
+     "slot": 11,
+     "id": 11969,
+     "name": "Jacinth Circle of the Bear",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "133351"
+    },
+    {
+     "slot": 14,
+     "id": 6314,
+     "name": "Wolfmaster Cape",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "133762"
+    },
+    {
+     "slot": 15,
+     "id": 7230,
+     "name": "Smite's Mighty Hammer",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "133046"
+    },
+    {
+     "slot": 17,
+     "id": 285292,
+     "name": "Dull Sawblade",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "134427"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": "Arms",
+   "role": "dps",
+   "exalted": [],
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/101/10983781-main-raw.png"
   },
   {
    "name": "Lingon Plockaren",
@@ -47627,7 +47875,7 @@
    "ilvl": 16,
    "xp": 1000,
    "title": null,
-   "fetched": 1794222343,
+   "fetched": 1794224139,
    "hp": 750,
    "power": 1050,
    "powerType": "Mana",
@@ -49160,231 +49408,6 @@
    "fetched": 1794135941
   },
   {
-   "name": "Kött Klubban",
-   "id": 10983781,
-   "level": 24,
-   "rank": 5,
-   "cls": "warrior",
-   "race": 95,
-   "profile": true,
-   "gender": 1,
-   "lastLogin": 1794181930000,
-   "ilvl": 19,
-   "xp": 19620,
-   "title": null,
-   "active": 1794181379000,
-   "stat": {
-    "Times camped": 27,
-    "Health potions consumed": 12,
-    "Elixirs consumed": 4,
-    "Beverages consumed": 2,
-    "Food eaten": 22,
-    "Most Alliance factions at Exalted": 4,
-    "Total factions encountered": 15,
-    "Mounts owned": 2,
-    "Greed rolls made on loot": 229,
-    "Need rolls made on loot": 17,
-    "Total deaths from other players": 25,
-    "Total deaths from opposite faction": 25,
-    "Total 5-player dungeons entered": 25,
-    "Edwin VanCleef Kills (Deadmines)": 6,
-    "Rath'mael Kills (Ruins of Lordaeron)": 1,
-    "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
-    "Bazzalan kills (Ragefire Chasm)": 1,
-    "Mutanus the Devourer kills (Wailing Caverns)": 1,
-    "Archmage Arugal kills (Shadowfang Keep)": 2,
-    "Total kills": 3561,
-    "Total kills that grant experience or honor": 3147,
-    "Creatures killed": 3470,
-    "Different creature types killed": 8,
-    "Creature type killed the most": 2150,
-    "Critters killed": 83,
-    "Total Honorable Kills": 8,
-    "World Honorable Kills": 8,
-    "Continent with the most Honorable Kills": 5,
-    "Total Killing Blows": 1531,
-    "World Killing Blows": 525,
-    "Continent with the most Killing Blows": 519,
-    "Total deaths": 48,
-    "Total raid and dungeon deaths": 12,
-    "Total deaths in 5-player dungeons": 9,
-    "Resurrected by priests": 2,
-    "Quests completed": 160,
-    "Average quests completed per day": 0,
-    "Quests abandoned": 2,
-    "Professions learned": 2,
-    "Professions at maximum skill": 2,
-    "Weapon skills at maximum skill": 8,
-    "Highest Blacksmithing skill": 110,
-    "Blacksmithing Plans learned": 62,
-    "Highest Mining skill": 115,
-    "Smelting Recipes learned": 15,
-    "Flight paths taken": 18,
-    "Number of times hearthed": 13,
-    "Total times LOL'd": 1,
-    "Total waves": 7
-   },
-   "ach": {},
-   "prof": {
-    "Mining": [
-     119,
-     150
-    ],
-    "Blacksmithing": [
-     123,
-     150
-    ]
-   },
-   "hp": 1053,
-   "power": 100,
-   "powerType": "Rage",
-   "stats": {
-    "strength": 93,
-    "agility": 51,
-    "stamina": 98,
-    "intellect": 28,
-    "spirit": 31,
-    "attack_power": 269,
-    "spell_power": 0,
-    "armor": 1101,
-    "melee_crit": 8.93,
-    "ranged_crit": 5.41,
-    "spell_crit": 0.0
-   },
-   "hk": 8,
-   "pvpRank": 0,
-   "gear": [
-    {
-     "slot": 0,
-     "id": 250528,
-     "name": "Veteran's Silvered Chain Helm",
-     "quality": 3,
-     "itemLevel": 25,
-     "icon": "133141"
-    },
-    {
-     "slot": 1,
-     "id": 273088,
-     "name": "Snake Eye Kaleidoscope",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "133884"
-    },
-    {
-     "slot": 2,
-     "id": 3480,
-     "name": "Rough Bronze Shoulders",
-     "quality": 2,
-     "itemLevel": 22,
-     "icon": "135036"
-    },
-    {
-     "slot": 3,
-     "id": 271669,
-     "name": "Thendal Warrior's Shirt",
-     "quality": 1,
-     "itemLevel": 1,
-     "icon": "7813752"
-    },
-    {
-     "slot": 4,
-     "id": 6627,
-     "name": "Mutant Scale Breastplate",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "132743"
-    },
-    {
-     "slot": 5,
-     "id": 270230,
-     "name": "Kindlegem Girdle",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "132509"
-    },
-    {
-     "slot": 6,
-     "id": 5199,
-     "name": "Smelting Pants",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "134582"
-    },
-    {
-     "slot": 7,
-     "id": 250620,
-     "name": "Gemmed Copper Boots",
-     "quality": 3,
-     "itemLevel": 15,
-     "icon": "132554"
-    },
-    {
-     "slot": 8,
-     "id": 9811,
-     "name": "Fortified Bracers of Power",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "132602"
-    },
-    {
-     "slot": 9,
-     "id": 6481,
-     "name": "Dagmire Gauntlets",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "132939"
-    },
-    {
-     "slot": 10,
-     "id": 12008,
-     "name": "Savannah Ring of the Bandit",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "133345"
-    },
-    {
-     "slot": 11,
-     "id": 279867,
-     "name": "Slain Baron's Signet",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "133361"
-    },
-    {
-     "slot": 14,
-     "id": 6314,
-     "name": "Wolfmaster Cape",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "133762"
-    },
-    {
-     "slot": 15,
-     "id": 7230,
-     "name": "Smite's Mighty Hammer",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "133046"
-    },
-    {
-     "slot": 17,
-     "id": 285292,
-     "name": "Dull Sawblade",
-     "quality": 3,
-     "itemLevel": null,
-     "icon": "134427"
-    }
-   ],
-   "sets": [],
-   "heal": 0,
-   "spec": "Arms",
-   "role": "dps",
-   "exalted": [],
-   "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/101/10983781-main-raw.png",
-   "fetched": 1794182738
-  },
-  {
    "name": "Levi Slackerman",
    "id": 12349846,
    "level": 24,
@@ -49397,7 +49420,7 @@
    "ilvl": 16,
    "xp": 8100,
    "title": null,
-   "fetched": 1794222341,
+   "fetched": 1794224137,
    "hp": 758,
    "power": 1548,
    "powerType": "Mana",
@@ -51148,41 +51171,59 @@
    "race": 4,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1794214984000,
+   "lastLogin": 1794222945000,
    "ilvl": 19,
-   "xp": 1148,
+   "xp": 12500,
    "title": null,
-   "active": 1794214845000,
+   "fetched": 1794224144,
+   "hp": 613,
+   "power": 1535,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 19,
+    "agility": 33,
+    "stamina": 50,
+    "intellect": 89,
+    "spirit": 71,
+    "attack_power": 9,
+    "spell_power": 21,
+    "armor": 245,
+    "melee_crit": 1.06,
+    "ranged_crit": 5.5,
+    "spell_crit": 5.05
+   },
+   "active": 1794219380000,
    "stat": {
     "Times camped": 23,
     "Mana potions consumed": 5,
-    "Beverages consumed": 206,
+    "Beverages consumed": 223,
     "Food eaten": 1,
     "Most factions at Honored or higher": 1,
     "Most Alliance factions at Exalted": 4,
     "Total factions encountered": 11,
     "Mounts owned": 1,
-    "Greed rolls made on loot": 128,
-    "Need rolls made on loot": 35,
+    "Greed rolls made on loot": 133,
+    "Need rolls made on loot": 38,
     "Total deaths from other players": 4,
     "Total deaths from opposite faction": 4,
-    "Total 5-player dungeons entered": 11,
+    "Total 5-player dungeons entered": 12,
     "Edwin VanCleef Kills (Deadmines)": 2,
     "Rath'mael Kills (Ruins of Lordaeron)": 1,
     "Durgen Dirgehammer Kills (Hall of Thanes)": 2,
     "Bazzalan kills (Ragefire Chasm)": 2,
     "Mutanus the Devourer kills (Wailing Caverns)": 1,
     "Archmage Arugal kills (Shadowfang Keep)": 1,
-    "Total kills": 3144,
-    "Total kills that grant experience or honor": 3015,
-    "Creatures killed": 3111,
+    "Bazil Thredd kills (Stormwind Stockade)": 1,
+    "Total kills": 3237,
+    "Total kills that grant experience or honor": 3108,
+    "Creatures killed": 3204,
     "Different creature types killed": 8,
-    "Creature type killed the most": 1875,
+    "Creature type killed the most": 1968,
     "Critters killed": 28,
     "Total Honorable Kills": 4,
     "World Honorable Kills": 4,
     "Continent with the most Honorable Kills": 3,
-    "Total Killing Blows": 606,
+    "Total Killing Blows": 609,
     "World Killing Blows": 521,
     "Continent with the most Killing Blows": 512,
     "Total deaths": 35,
@@ -51192,7 +51233,7 @@
     "Revived by druids": 1,
     "Redeemed by paladins": 1,
     "Resurrected by soulstones": 1,
-    "Quests completed": 119,
+    "Quests completed": 120,
     "Average quests completed per day": 0,
     "Quests abandoned": 20,
     "Professions learned": 2,
@@ -51226,22 +51267,6 @@
      1,
      75
     ]
-   },
-   "hp": 643,
-   "power": 1520,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 19,
-    "agility": 33,
-    "stamina": 53,
-    "intellect": 88,
-    "spirit": 67,
-    "attack_power": 9,
-    "spell_power": 21,
-    "armor": 242,
-    "melee_crit": 1.06,
-    "ranged_crit": 5.34,
-    "spell_crit": 5.0
    },
    "hk": 4,
    "pvpRank": 0,
@@ -51304,11 +51329,11 @@
     },
     {
      "slot": 9,
-     "id": 14124,
-     "name": "Ritual Gloves of the Eagle",
+     "id": 3066,
+     "name": "Bright Gloves",
      "quality": 2,
      "itemLevel": null,
-     "icon": "132952"
+     "icon": "132957"
     },
     {
      "slot": 10,
@@ -51373,8 +51398,7 @@
    "role": "healer",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/61/6366525-main-raw.png",
-   "fetched": 1794215146
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/61/6366525-main-raw.png"
   },
   {
    "name": "Sven Destroyer",
@@ -51389,7 +51413,7 @@
    "ilvl": 14,
    "xp": 6976,
    "title": null,
-   "fetched": 1794222346,
+   "fetched": 1794224141,
    "hp": 638,
    "power": 1383,
    "powerType": "Mana",
@@ -57185,7 +57209,7 @@
    "ilvl": 11,
    "xp": 1413,
    "title": null,
-   "fetched": 1794222335,
+   "fetched": 1794224132,
    "hp": 732,
    "power": 674,
    "powerType": "Mana",
@@ -57390,7 +57414,7 @@
    "ilvl": 18,
    "xp": 9749,
    "title": null,
-   "fetched": 1794222340,
+   "fetched": 1794224136,
    "hp": 982,
    "power": 674,
    "powerType": "Mana",
@@ -58287,11 +58311,28 @@
    "race": 3,
    "profile": true,
    "gender": 1,
-   "lastLogin": 1794219496000,
+   "lastLogin": 1794224119000,
    "ilvl": 15,
-   "xp": 404,
+   "xp": 1866,
    "title": null,
-   "active": 1794219428000,
+   "fetched": 1794224125,
+   "hp": 695,
+   "power": 1026,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 50,
+    "agility": 44,
+    "stamina": 67,
+    "intellect": 59,
+    "spirit": 51,
+    "attack_power": 338,
+    "spell_power": 16,
+    "armor": 452,
+    "melee_crit": 11.04,
+    "ranged_crit": 1.88,
+    "spell_crit": 10.14
+   },
+   "active": 1794224089000,
    "stat": {
     "Times camped": 10,
     "Health potions consumed": 9,
@@ -58314,18 +58355,18 @@
     "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
     "Bazzalan kills (Ragefire Chasm)": 1,
     "Archmage Arugal kills (Shadowfang Keep)": 1,
-    "Total kills": 1569,
-    "Total kills that grant experience or honor": 1501,
-    "Creatures killed": 1541,
+    "Total kills": 1575,
+    "Total kills that grant experience or honor": 1507,
+    "Creatures killed": 1547,
     "Different creature types killed": 8,
-    "Creature type killed the most": 912,
+    "Creature type killed the most": 918,
     "Critters killed": 22,
     "Total Honorable Kills": 6,
     "World Honorable Kills": 6,
     "Continent with the most Honorable Kills": 6,
-    "Total Killing Blows": 892,
-    "World Killing Blows": 861,
-    "Continent with the most Killing Blows": 861,
+    "Total Killing Blows": 898,
+    "World Killing Blows": 867,
+    "Continent with the most Killing Blows": 867,
     "Total deaths": 14,
     "Total raid and dungeon deaths": 1,
     "Total deaths in 5-player dungeons": 1,
@@ -58356,22 +58397,6 @@
      142,
      225
     ]
-   },
-   "hp": 695,
-   "power": 1026,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 50,
-    "agility": 44,
-    "stamina": 67,
-    "intellect": 59,
-    "spirit": 51,
-    "attack_power": 212,
-    "spell_power": 16,
-    "armor": 452,
-    "melee_crit": 11.0,
-    "ranged_crit": 1.88,
-    "spell_crit": 10.14
    },
    "hk": 6,
    "pvpRank": 0,
@@ -58487,8 +58512,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/21/1521941-main-raw.png",
-   "fetched": 1794220529
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/21/1521941-main-raw.png"
   },
   {
    "name": "Lanarn Pitepalt",
@@ -58721,23 +58745,6 @@
    "ilvl": 12,
    "xp": 8378,
    "title": null,
-   "fetched": 1794222337,
-   "hp": 686,
-   "power": 862,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 46,
-    "agility": 61,
-    "stamina": 60,
-    "intellect": 50,
-    "spirit": 49,
-    "attack_power": 72,
-    "spell_power": 8,
-    "armor": 516,
-    "melee_crit": 5.78,
-    "ranged_crit": 3.3,
-    "spell_crit": 4.22
-   },
    "active": 1794220632000,
    "stat": {
     "Times camped": 3,
@@ -58807,6 +58814,22 @@
      19,
      75
     ]
+   },
+   "hp": 686,
+   "power": 862,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 46,
+    "agility": 61,
+    "stamina": 60,
+    "intellect": 50,
+    "spirit": 49,
+    "attack_power": 72,
+    "spell_power": 8,
+    "armor": 516,
+    "melee_crit": 5.78,
+    "ranged_crit": 3.3,
+    "spell_crit": 4.22
    },
    "hk": 0,
    "pvpRank": 0,
@@ -58914,7 +58937,8 @@
    "role": "tank",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/140/10356364-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/140/10356364-main-raw.png",
+   "fetched": 1794222337
   },
   {
    "name": "Merlin Pyr",
@@ -60446,60 +60470,61 @@
    "race": 1,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1794221250000,
+   "lastLogin": 1794223944000,
    "ilvl": 16,
-   "xp": 2694,
+   "xp": 17465,
    "title": null,
-   "fetched": 1794222337,
+   "fetched": 1794224134,
    "hp": 944,
    "power": 100,
    "powerType": "Rage",
    "stats": {
-    "strength": 74,
+    "strength": 71,
     "agility": 41,
     "stamina": 90,
     "intellect": 29,
-    "spirit": 29,
-    "attack_power": 194,
+    "spirit": 35,
+    "attack_power": 188,
     "spell_power": 0,
-    "armor": 1509,
-    "melee_crit": 5.92,
+    "armor": 1626,
+    "melee_crit": 6.08,
     "ranged_crit": 2.81,
     "spell_crit": 1.0
    },
-   "active": 1794219403000,
+   "active": 1794223905000,
    "stat": {
     "Times camped": 7,
-    "Bandages used": 31,
+    "Bandages used": 36,
     "Bandage used most": 16,
-    "Health potions consumed": 19,
-    "Food eaten": 100,
+    "Health potions consumed": 21,
+    "Food eaten": 106,
     "Healthstones used": 1,
     "Most factions at Honored or higher": 1,
     "Most Alliance factions at Exalted": 4,
     "Total factions encountered": 6,
-    "Greed rolls made on loot": 80,
+    "Greed rolls made on loot": 83,
     "Need rolls made on loot": 21,
     "Total 5-player dungeons entered": 6,
     "Edwin VanCleef Kills (Deadmines)": 1,
     "Rath'mael Kills (Ruins of Lordaeron)": 1,
     "Durgen Dirgehammer Kills (Hall of Thanes)": 1,
     "Bazzalan kills (Ragefire Chasm)": 1,
-    "Total kills": 1692,
-    "Total kills that grant experience or honor": 1625,
-    "Creatures killed": 1674,
+    "Total kills": 1732,
+    "Total kills that grant experience or honor": 1665,
+    "Creatures killed": 1714,
     "Different creature types killed": 7,
-    "Creature type killed the most": 1100,
+    "Creature type killed the most": 1137,
     "Critters killed": 15,
-    "Total Killing Blows": 826,
-    "World Killing Blows": 738,
-    "Continent with the most Killing Blows": 738,
-    "Total deaths": 13,
+    "Total Killing Blows": 835,
+    "World Killing Blows": 747,
+    "Continent with the most Killing Blows": 747,
+    "Total deaths": 15,
     "Total raid and dungeon deaths": 4,
     "Total deaths in 5-player dungeons": 4,
     "Spirit returned to body by shamans": 2,
+    "Redeemed by paladins": 1,
     "Resurrected by soulstones": 1,
-    "Quests completed": 136,
+    "Quests completed": 140,
     "Average quests completed per day": 0,
     "Quests abandoned": 6,
     "Professions learned": 2,
@@ -60513,13 +60538,15 @@
     "Fishing skill": 1,
     "Highest Blacksmithing skill": 49,
     "Blacksmithing Plans learned": 26,
-    "Highest Mining skill": 41,
+    "Highest Mining skill": 55,
     "Smelting Recipes learned": 9,
-    "Flight paths taken": 13,
+    "Flight paths taken": 14,
     "Summons accepted": 1,
     "Number of times hearthed": 10
    },
-   "ach": {},
+   "ach": {
+    "Explore Redridge Mountains": 1794221990000
+   },
    "prof": {
     "Mining": [
      55,
@@ -60643,11 +60670,11 @@
     },
     {
      "slot": 16,
-     "id": 6970,
-     "name": "Furen's Favor",
+     "id": 1276,
+     "name": "Fire Hardened Buckler",
      "quality": 2,
-     "itemLevel": 20,
-     "icon": "134951"
+     "itemLevel": 27,
+     "icon": "134955"
     }
    ],
    "sets": [],
@@ -60671,23 +60698,6 @@
    "ilvl": 16,
    "xp": 23073,
    "title": null,
-   "fetched": 1794222339,
-   "hp": 758,
-   "power": 835,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 32,
-    "agility": 78,
-    "stamina": 70,
-    "intellect": 40,
-    "spirit": 38,
-    "attack_power": 204,
-    "spell_power": 5,
-    "armor": 598,
-    "melee_crit": 8.36,
-    "ranged_crit": 9.4,
-    "spell_crit": 10.16
-   },
    "active": 1794222157000,
    "stat": {
     "Times camped": 7,
@@ -60772,6 +60782,22 @@
      116,
      150
     ]
+   },
+   "hp": 758,
+   "power": 835,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 32,
+    "agility": 78,
+    "stamina": 70,
+    "intellect": 40,
+    "spirit": 38,
+    "attack_power": 204,
+    "spell_power": 5,
+    "armor": 598,
+    "melee_crit": 8.36,
+    "ranged_crit": 9.4,
+    "spell_crit": 10.16
    },
    "hk": 89,
    "pvpRank": 0,
@@ -60887,7 +60913,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/149/11246485-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/149/11246485-main-raw.png",
+   "fetched": 1794222339
   },
   {
    "name": "Tobias Theold",
@@ -63198,7 +63225,7 @@
    "ilvl": 9,
    "xp": 4098,
    "title": null,
-   "fetched": 1794222337,
+   "fetched": 1794224133,
    "hp": 652,
    "power": 645,
    "powerType": "Mana",
@@ -67006,41 +67033,58 @@
    "race": 7,
    "profile": true,
    "gender": 1,
-   "lastLogin": 1794181756000,
+   "lastLogin": 1794222565000,
    "ilvl": 11,
-   "xp": 5351,
+   "xp": 15705,
    "title": null,
-   "active": 1794181726000,
+   "fetched": 1794224139,
+   "hp": 593,
+   "power": 105,
+   "powerType": "Energy",
+   "stats": {
+    "strength": 35,
+    "agility": 72,
+    "stamina": 54,
+    "intellect": 27,
+    "spirit": 27,
+    "attack_power": 134,
+    "spell_power": 0,
+    "armor": 511,
+    "melee_crit": 8.85,
+    "ranged_crit": 4.93,
+    "spell_crit": 0.0
+   },
+   "active": 1794221977000,
    "stat": {
-    "Times camped": 13,
-    "Bandages used": 10,
-    "Bandage used most": 8,
-    "Health potions consumed": 12,
-    "Food eaten": 41,
+    "Times camped": 15,
+    "Bandages used": 12,
+    "Bandage used most": 10,
+    "Health potions consumed": 13,
+    "Food eaten": 42,
     "Most factions at Honored or higher": 2,
     "Most Alliance factions at Exalted": 4,
-    "Total factions encountered": 7,
+    "Total factions encountered": 6,
     "Greed rolls made on loot": 36,
     "Need rolls made on loot": 7,
     "Total 5-player dungeons entered": 3,
     "Edwin VanCleef Kills (Deadmines)": 1,
     "Durgen Dirgehammer Kills (Hall of Thanes)": 2,
     "Bazzalan kills (Ragefire Chasm)": 2,
-    "Total kills": 1325,
-    "Total kills that grant experience or honor": 1286,
-    "Creatures killed": 1321,
+    "Total kills": 1348,
+    "Total kills that grant experience or honor": 1309,
+    "Creatures killed": 1344,
     "Different creature types killed": 7,
-    "Creature type killed the most": 842,
+    "Creature type killed the most": 843,
     "Critters killed": 4,
-    "Total Killing Blows": 848,
-    "World Killing Blows": 782,
-    "Continent with the most Killing Blows": 782,
-    "Total deaths": 12,
+    "Total Killing Blows": 872,
+    "World Killing Blows": 806,
+    "Continent with the most Killing Blows": 806,
+    "Total deaths": 15,
     "Total raid and dungeon deaths": 4,
     "Total deaths in 5-player dungeons": 4,
-    "Quests completed": 126,
+    "Quests completed": 136,
     "Average quests completed per day": 0,
-    "Quests abandoned": 2,
+    "Quests abandoned": 6,
     "Professions learned": 2,
     "Professions at maximum skill": 2,
     "Secondary skills at maximum skill": 2,
@@ -67048,11 +67092,11 @@
     "Cooking skill": 29,
     "Cooking Recipes known": 12,
     "First Aid skill": 81,
-    "First Aid Manuals learned": 18,
+    "First Aid Manuals learned": 16,
     "Highest Leatherworking skill": 70,
-    "Leatherworking Patterns learned": 34,
-    "Highest Skinning skill": 143,
-    "Flight paths taken": 12,
+    "Leatherworking Patterns learned": 32,
+    "Highest Skinning skill": 144,
+    "Flight paths taken": 15,
     "Total cheers": 3,
     "Total waves": 1
    },
@@ -67071,25 +67115,9 @@
      75
     ],
     "First Aid": [
-     81,
+     90,
      150
     ]
-   },
-   "hp": 593,
-   "power": 105,
-   "powerType": "Energy",
-   "stats": {
-    "strength": 35,
-    "agility": 72,
-    "stamina": 54,
-    "intellect": 27,
-    "spirit": 27,
-    "attack_power": 134,
-    "spell_power": 0,
-    "armor": 511,
-    "melee_crit": 8.81,
-    "ranged_crit": 4.93,
-    "spell_crit": 0.0
    },
    "hk": 0,
    "pvpRank": 0,
@@ -67205,8 +67233,7 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/200/13981640-main-raw.png",
-   "fetched": 1794182741
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/200/13981640-main-raw.png"
   },
   {
    "name": "Punda Runda",
@@ -69099,7 +69126,7 @@
    "ilvl": 8,
    "xp": 43,
    "title": null,
-   "fetched": 1794222332,
+   "fetched": 1794224130,
    "hp": 422,
    "power": 955,
    "powerType": "Mana",
@@ -69295,7 +69322,7 @@
    "ilvl": 12,
    "xp": 13658,
    "title": null,
-   "fetched": 1794222333,
+   "fetched": 1794224131,
    "hp": 493,
    "power": 598,
    "powerType": "Mana",
@@ -71368,7 +71395,7 @@
    "ilvl": 10,
    "xp": 20446,
    "title": null,
-   "fetched": 1794222338,
+   "fetched": 1794224134,
    "hp": 577,
    "power": 605,
    "powerType": "Mana",
@@ -74191,23 +74218,6 @@
    "ilvl": 7,
    "xp": 4527,
    "title": null,
-   "fetched": 1794222349,
-   "hp": 400,
-   "power": 606,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 28,
-    "agility": 61,
-    "stamina": 40,
-    "intellect": 33,
-    "spirit": 34,
-    "attack_power": 122,
-    "spell_power": 0,
-    "armor": 408,
-    "melee_crit": 9.03,
-    "ranged_crit": 9.35,
-    "spell_crit": 10.0
-   },
    "active": 1794221158000,
    "stat": {
     "Times camped": 7,
@@ -74275,6 +74285,22 @@
      110,
      150
     ]
+   },
+   "hp": 400,
+   "power": 606,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 28,
+    "agility": 61,
+    "stamina": 40,
+    "intellect": 33,
+    "spirit": 34,
+    "attack_power": 122,
+    "spell_power": 0,
+    "armor": 408,
+    "melee_crit": 9.03,
+    "ranged_crit": 9.35,
+    "spell_crit": 10.0
    },
    "hk": 0,
    "pvpRank": 0,
@@ -74374,7 +74400,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/24/7221016-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/24/7221016-main-raw.png",
+   "fetched": 1794222349
   },
   {
    "name": "Jobe Forever",
@@ -74779,23 +74806,6 @@
    "ilvl": 11,
    "xp": 7052,
    "title": null,
-   "fetched": 1794222333,
-   "hp": 467,
-   "power": 906,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 22,
-    "agility": 25,
-    "stamina": 41,
-    "intellect": 57,
-    "spirit": 53,
-    "attack_power": 12,
-    "spell_power": 37,
-    "armor": 250,
-    "melee_crit": 4.28,
-    "ranged_crit": 5.96,
-    "spell_crit": 5.0
-   },
    "active": 1794221862000,
    "stat": {
     "Times camped": 5,
@@ -74863,6 +74873,22 @@
      1,
      75
     ]
+   },
+   "hp": 467,
+   "power": 906,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 22,
+    "agility": 25,
+    "stamina": 41,
+    "intellect": 57,
+    "spirit": 53,
+    "attack_power": 12,
+    "spell_power": 37,
+    "armor": 250,
+    "melee_crit": 4.28,
+    "ranged_crit": 5.96,
+    "spell_crit": 5.0
    },
    "hk": 1,
    "pvpRank": 0,
@@ -74970,7 +74996,8 @@
    "role": "dps",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/66/7351618-main-raw.png"
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/66/7351618-main-raw.png",
+   "fetched": 1794222333
   },
   {
    "name": "Luri Faxen",
@@ -75382,7 +75409,7 @@
    "ilvl": 8,
    "xp": 9516,
    "title": null,
-   "fetched": 1794222346,
+   "fetched": 1794224141,
    "hp": 438,
    "power": 100,
    "powerType": "Rage",
@@ -77931,6 +77958,169 @@
    "avatar": true,
    "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/115/16419443-main-raw.png",
    "fetched": 1794170146
+  },
+  {
+   "name": "Flexy Mr",
+   "id": 18341071,
+   "level": 17,
+   "rank": 6,
+   "cls": "priest",
+   "race": 1,
+   "profile": true,
+   "gender": 1,
+   "lastLogin": 1794223734000,
+   "ilvl": 8,
+   "xp": 602,
+   "title": null,
+   "fetched": 1794224141,
+   "hp": 332,
+   "power": 769,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 26,
+    "agility": 24,
+    "stamina": 30,
+    "intellect": 48,
+    "spirit": 51,
+    "attack_power": 19,
+    "spell_power": 31,
+    "armor": 212,
+    "melee_crit": 2.92,
+    "ranged_crit": 5.8,
+    "spell_crit": 5.16
+   },
+   "active": 1794223629000,
+   "stat": {
+    "Times camped": 1,
+    "Health potions consumed": 3,
+    "Mana potions consumed": 1,
+    "Beverages consumed": 65,
+    "Food eaten": 9,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 7,
+    "Greed rolls made on loot": 17,
+    "Need rolls made on loot": 7,
+    "Total 5-player dungeons entered": 4,
+    "Durgen Dirgehammer Kills (Hall of Thanes)": 2,
+    "Bazzalan kills (Ragefire Chasm)": 2,
+    "Total kills": 788,
+    "Total kills that grant experience or honor": 783,
+    "Creatures killed": 786,
+    "Different creature types killed": 6,
+    "Creature type killed the most": 515,
+    "Critters killed": 2,
+    "Total Killing Blows": 617,
+    "World Killing Blows": 593,
+    "Continent with the most Killing Blows": 593,
+    "Total deaths": 3,
+    "Quests completed": 80,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 8,
+    "Weapon skills at maximum skill": 5,
+    "Flight paths taken": 2,
+    "Number of times hearthed": 4
+   },
+   "ach": {},
+   "prof": {},
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 3,
+     "id": 2575,
+     "name": "Red Linen Shirt",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "135029"
+    },
+    {
+     "slot": 4,
+     "id": 270261,
+     "name": "Robes of the Disgraced Thane",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "132650"
+    },
+    {
+     "slot": 5,
+     "id": 6513,
+     "name": "Disciple's Sash",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "132491"
+    },
+    {
+     "slot": 6,
+     "id": 12295,
+     "name": "Leggings of the People's Militia",
+     "quality": 2,
+     "itemLevel": 15,
+     "icon": "134586"
+    },
+    {
+     "slot": 7,
+     "id": 860,
+     "name": "Cavalier's Boots",
+     "quality": 1,
+     "itemLevel": 13,
+     "icon": "132539"
+    },
+    {
+     "slot": 8,
+     "id": 271096,
+     "name": "Aetherwisp Bracers",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "132610"
+    },
+    {
+     "slot": 9,
+     "id": 280096,
+     "name": "Tomb Robber's Gloves",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "132952"
+    },
+    {
+     "slot": 14,
+     "id": 279899,
+     "name": "Catacomb Cloak",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "133763"
+    },
+    {
+     "slot": 15,
+     "id": 271095,
+     "name": "Fang of Magmatus",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "133723"
+    },
+    {
+     "slot": 16,
+     "id": 15932,
+     "name": "Disciple's Stein of the Bear",
+     "quality": 2,
+     "itemLevel": 12,
+     "icon": "132790"
+    },
+    {
+     "slot": 17,
+     "id": 279896,
+     "name": "Deepblaze",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "135473"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": "Shadow Magic",
+   "role": "dps",
+   "exalted": [],
+   "avatar": false,
+   "renderUrl": null
   },
   {
    "name": "Lake Boomer",
@@ -83661,7 +83851,7 @@
    "ilvl": 9,
    "xp": 1063,
    "title": null,
-   "fetched": 1794222339,
+   "fetched": 1794224135,
    "hp": 441,
    "power": 515,
    "powerType": "Mana",
@@ -84604,7 +84794,7 @@
    "ilvl": 6,
    "xp": 12635,
    "title": null,
-   "fetched": 1794222335,
+   "fetched": 1794224132,
    "hp": 431,
    "power": 100,
    "powerType": "Energy",
@@ -84803,6 +84993,199 @@
    "cls": "druid",
    "race": 4,
    "profile": false
+  },
+  {
+   "name": "Bbl Villain",
+   "id": 19496255,
+   "level": 15,
+   "rank": 6,
+   "cls": "rogue",
+   "race": 4,
+   "profile": true,
+   "gender": 0,
+   "lastLogin": 1794223833000,
+   "ilvl": 8,
+   "xp": 11932,
+   "title": null,
+   "fetched": 1794224143,
+   "hp": 293,
+   "power": 100,
+   "powerType": "Energy",
+   "stats": {
+    "strength": 35,
+    "agility": 65,
+    "stamina": 30,
+    "intellect": 23,
+    "spirit": 30,
+    "attack_power": 110,
+    "spell_power": 0,
+    "armor": 435,
+    "melee_crit": 11.21,
+    "ranged_crit": 11.01,
+    "spell_crit": 0.0
+   },
+   "active": 1794223718000,
+   "stat": {
+    "Times camped": 4,
+    "Bandages used": 8,
+    "Bandage used most": 8,
+    "Health potions consumed": 2,
+    "Food eaten": 17,
+    "Most factions at Honored or higher": 1,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 1,
+    "Total kills": 531,
+    "Total kills that grant experience or honor": 529,
+    "Creatures killed": 529,
+    "Different creature types killed": 5,
+    "Creature type killed the most": 224,
+    "Total Honorable Kills": 2,
+    "World Honorable Kills": 2,
+    "Continent with the most Honorable Kills": 2,
+    "Total Killing Blows": 515,
+    "World Killing Blows": 515,
+    "Continent with the most Killing Blows": 416,
+    "Total deaths": 4,
+    "Quests completed": 93,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 2,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 2,
+    "Weapon skills at maximum skill": 4,
+    "Cooking skill": 21,
+    "Cooking Recipes known": 12,
+    "First Aid skill": 11,
+    "First Aid Manuals learned": 4,
+    "Highest Mining skill": 65,
+    "Smelting Recipes learned": 9,
+    "Highest Skinning skill": 78,
+    "Flight paths taken": 1,
+    "Number of times hearthed": 3
+   },
+   "ach": {
+    "Explore Moonglade": 1793878020000,
+    "Explore Teldrassil": 1794169002000,
+    "Explore Darkshore": 1794096780000
+   },
+   "prof": {
+    "Skinning": [
+     86,
+     150
+    ],
+    "Mining": [
+     71,
+     150
+    ],
+    "Cooking": [
+     21,
+     75
+    ],
+    "First Aid": [
+     11,
+     75
+    ]
+   },
+   "hk": 2,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 3,
+     "id": 49,
+     "name": "Footpad's Shirt",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "135009"
+    },
+    {
+     "slot": 4,
+     "id": 9757,
+     "name": "Nomad Tunic of Agility",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "135010"
+    },
+    {
+     "slot": 5,
+     "id": 15011,
+     "name": "Lupine Cord of the Wolf",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "132492"
+    },
+    {
+     "slot": 6,
+     "id": 2974,
+     "name": "Hunting Pants",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "134706"
+    },
+    {
+     "slot": 7,
+     "id": 6557,
+     "name": "Bard's Boots of the Tiger",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "132539"
+    },
+    {
+     "slot": 8,
+     "id": 6556,
+     "name": "Bard's Bracers of Strength",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "132604"
+    },
+    {
+     "slot": 9,
+     "id": 4239,
+     "name": "Embossed Leather Gloves",
+     "quality": 2,
+     "itemLevel": 13,
+     "icon": "132939"
+    },
+    {
+     "slot": 14,
+     "id": 14365,
+     "name": "Mystic's Cape",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "133768"
+    },
+    {
+     "slot": 15,
+     "id": 1936,
+     "name": "Goblin Screwdriver",
+     "quality": 3,
+     "itemLevel": null,
+     "icon": "135641"
+    },
+    {
+     "slot": 16,
+     "id": 3184,
+     "name": "Hook Dagger of Strength",
+     "quality": 2,
+     "itemLevel": 20,
+     "icon": "135637"
+    },
+    {
+     "slot": 17,
+     "id": 287062,
+     "name": "Darnassian Knife",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "135425"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": "Assassination",
+   "role": "dps",
+   "exalted": [],
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/63/19496255-main-raw.png"
   },
   {
    "name": "Broder Björkvald",
@@ -85204,7 +85587,7 @@
    "ilvl": 7,
    "xp": 6472,
    "title": null,
-   "fetched": 1794222335,
+   "fetched": 1794224132,
    "hp": 272,
    "power": 742,
    "powerType": "Mana",
@@ -86841,194 +87224,177 @@
    "fetched": 1794211543
   },
   {
-   "name": "Bbl Villain",
-   "id": 19496255,
+   "name": "Aes Giver",
+   "id": 10267534,
    "level": 14,
-   "rank": 6,
-   "cls": "rogue",
+   "rank": 5,
+   "cls": "priest",
    "race": 4,
    "profile": true,
    "gender": 0,
-   "lastLogin": 1794172994000,
-   "ilvl": 8,
-   "xp": 177,
+   "lastLogin": 1794223560000,
+   "ilvl": 4,
+   "xp": 1726,
    "title": null,
-   "active": 1794172888000,
+   "fetched": 1794224134,
+   "hp": 287,
+   "power": 595,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 19,
+    "agility": 28,
+    "stamina": 29,
+    "intellect": 41,
+    "spirit": 39,
+    "attack_power": 9,
+    "spell_power": 6,
+    "armor": 152,
+    "melee_crit": 4.96,
+    "ranged_crit": 2.68,
+    "spell_crit": 4.39
+   },
+   "active": 1794223510000,
    "stat": {
-    "Times camped": 3,
+    "Times camped": 2,
     "Bandages used": 6,
     "Bandage used most": 6,
-    "Health potions consumed": 2,
-    "Food eaten": 14,
+    "Health potions consumed": 4,
+    "Beverages consumed": 69,
+    "Food eaten": 18,
     "Most factions at Honored or higher": 1,
     "Most Alliance factions at Exalted": 4,
     "Total factions encountered": 5,
-    "Mounts owned": 1,
-    "Total kills": 400,
-    "Total kills that grant experience or honor": 400,
-    "Creatures killed": 400,
-    "Different creature types killed": 4,
-    "Creature type killed the most": 181,
-    "Total Killing Blows": 386,
-    "World Killing Blows": 386,
-    "Continent with the most Killing Blows": 386,
-    "Total deaths": 4,
-    "Quests completed": 74,
+    "Greed rolls made on loot": 2,
+    "Total kills": 447,
+    "Total kills that grant experience or honor": 446,
+    "Creatures killed": 447,
+    "Different creature types killed": 5,
+    "Creature type killed the most": 223,
+    "Total Killing Blows": 352,
+    "World Killing Blows": 352,
+    "Continent with the most Killing Blows": 352,
+    "Total deaths": 6,
+    "Quests completed": 84,
     "Average quests completed per day": 0,
     "Quests abandoned": 1,
     "Professions learned": 2,
     "Professions at maximum skill": 2,
     "Secondary skills at maximum skill": 2,
     "Weapon skills at maximum skill": 3,
-    "Cooking skill": 21,
-    "Cooking Recipes known": 12,
-    "First Aid skill": 11,
-    "First Aid Manuals learned": 4,
-    "Highest Mining skill": 62,
-    "Smelting Recipes learned": 11,
-    "Highest Skinning skill": 75,
-    "Flight paths taken": 1,
-    "Number of times hearthed": 3
+    "Cooking skill": 1,
+    "Cooking Recipes known": 10,
+    "First Aid skill": 20,
+    "First Aid Manuals learned": 8,
+    "Highest Herbalism skill": 38,
+    "Highest Tailoring skill": 19,
+    "Tailoring Patterns learned": 16,
+    "Flight paths taken": 3,
+    "Number of times hearthed": 5
    },
    "ach": {
-    "Explore Moonglade": 1793878020000,
-    "Explore Teldrassil": 1794169002000,
-    "Explore Darkshore": 1794096780000
+    "Explore Teldrassil": 1794175765000
    },
    "prof": {
-    "Skinning": [
-     75,
-     150
+    "Tailoring": [
+     19,
+     75
     ],
-    "Mining": [
-     62,
-     150
+    "Herbalism": [
+     39,
+     75
     ],
     "Cooking": [
-     21,
+     1,
      75
     ],
     "First Aid": [
-     11,
+     20,
      75
     ]
-   },
-   "hp": 276,
-   "power": 100,
-   "powerType": "Energy",
-   "stats": {
-    "strength": 32,
-    "agility": 60,
-    "stamina": 30,
-    "intellect": 22,
-    "spirit": 31,
-    "attack_power": 100,
-    "spell_power": 0,
-    "armor": 425,
-    "melee_crit": 11.34,
-    "ranged_crit": 11.18,
-    "spell_crit": 0.0
    },
    "hk": 0,
    "pvpRank": 0,
    "gear": [
     {
      "slot": 3,
-     "id": 49,
-     "name": "Footpad's Shirt",
+     "id": 4344,
+     "name": "Brown Linen Shirt",
      "quality": 1,
-     "itemLevel": 1,
-     "icon": "135009"
+     "itemLevel": 7,
+     "icon": "135006"
     },
     {
      "slot": 4,
-     "id": 9757,
-     "name": "Nomad Tunic of Agility",
+     "id": 284167,
+     "name": "Blackmoss Robes",
      "quality": 2,
      "itemLevel": null,
-     "icon": "135010"
+     "icon": "132654"
     },
     {
      "slot": 5,
-     "id": 15011,
-     "name": "Lupine Cord of the Wolf",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "132492"
+     "id": 5458,
+     "name": "Dirtwood Belt",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "132493"
     },
     {
      "slot": 6,
-     "id": 2974,
-     "name": "Hunting Pants",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "134706"
+     "id": 10045,
+     "name": "Simple Linen Pants",
+     "quality": 1,
+     "itemLevel": 7,
+     "icon": "134591"
     },
     {
      "slot": 7,
-     "id": 6557,
-     "name": "Bard's Boots of the Tiger",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "132539"
+     "id": 15398,
+     "name": "Sandcomber Boots",
+     "quality": 1,
+     "itemLevel": 14,
+     "icon": "132537"
     },
     {
      "slot": 8,
-     "id": 6556,
-     "name": "Bard's Bracers of Strength",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "132604"
+     "id": 14095,
+     "name": "Native Bands",
+     "quality": 1,
+     "itemLevel": 11,
+     "icon": "132607"
     },
     {
      "slot": 9,
-     "id": 4239,
-     "name": "Embossed Leather Gloves",
-     "quality": 2,
-     "itemLevel": 13,
+     "id": 5606,
+     "name": "Gardening Gloves",
+     "quality": 1,
+     "itemLevel": 9,
      "icon": "132939"
     },
     {
      "slot": 14,
-     "id": 14365,
-     "name": "Mystic's Cape",
+     "id": 281250,
+     "name": "Forest Oracle's Cloak",
      "quality": 2,
-     "itemLevel": null,
-     "icon": "133768"
+     "itemLevel": 11,
+     "icon": "133769"
     },
     {
      "slot": 15,
-     "id": 2632,
-     "name": "Curved Dagger of the Tiger",
+     "id": 5587,
+     "name": "Thornroot Club",
      "quality": 2,
-     "itemLevel": null,
-     "icon": "135637"
-    },
-    {
-     "slot": 16,
-     "id": 2632,
-     "name": "Curved Dagger of the Wolf",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "135637"
-    },
-    {
-     "slot": 17,
-     "id": 2946,
-     "name": "Balanced Throwing Dagger",
-     "quality": 1,
-     "itemLevel": 8,
-     "icon": "135641"
+     "itemLevel": 13,
+     "icon": "133490"
     }
    ],
    "sets": [],
    "heal": 0,
-   "spec": "Assassination",
+   "spec": null,
    "role": "dps",
    "exalted": [],
-   "avatar": false,
-   "renderUrl": null,
-   "fetched": 1794173765
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/142/10267534-main-raw.png"
   },
   {
    "name": "Chappele Humbleman",
@@ -87401,7 +87767,7 @@
    "ilvl": 5,
    "xp": 2329,
    "title": null,
-   "fetched": 1794222343,
+   "fetched": 1794224139,
    "hp": 305,
    "power": 479,
    "powerType": "Mana",
@@ -87727,164 +88093,6 @@
    "avatar": true,
    "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/81/15508561-main-raw.png",
    "fetched": 1794218751
-  },
-  {
-   "name": "Flexy Mr",
-   "id": 18341071,
-   "level": 14,
-   "rank": 6,
-   "cls": "priest",
-   "race": 1,
-   "profile": true,
-   "gender": 1,
-   "lastLogin": 1794172990000,
-   "ilvl": 4,
-   "xp": 11832,
-   "title": null,
-   "active": 1794172918000,
-   "stat": {
-    "Times camped": 1,
-    "Health potions consumed": 3,
-    "Beverages consumed": 39,
-    "Food eaten": 9,
-    "Most Alliance factions at Exalted": 4,
-    "Total factions encountered": 5,
-    "Greed rolls made on loot": 1,
-    "Need rolls made on loot": 1,
-    "Total kills": 541,
-    "Total kills that grant experience or honor": 540,
-    "Creatures killed": 540,
-    "Different creature types killed": 3,
-    "Creature type killed the most": 387,
-    "Critters killed": 1,
-    "Total Killing Blows": 529,
-    "World Killing Blows": 529,
-    "Continent with the most Killing Blows": 529,
-    "Total deaths": 3,
-    "Quests completed": 69,
-    "Average quests completed per day": 0,
-    "Quests abandoned": 8,
-    "Weapon skills at maximum skill": 3,
-    "Number of times hearthed": 3
-   },
-   "ach": {},
-   "prof": {},
-   "hp": 267,
-   "power": 550,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 23,
-    "agility": 23,
-    "stamina": 27,
-    "intellect": 38,
-    "spirit": 41,
-    "attack_power": 13,
-    "spell_power": 4,
-    "armor": 140,
-    "melee_crit": 4.64,
-    "ranged_crit": 6.0,
-    "spell_crit": 5.13
-   },
-   "hk": 0,
-   "pvpRank": 0,
-   "gear": [
-    {
-     "slot": 3,
-     "id": 2575,
-     "name": "Red Linen Shirt",
-     "quality": 1,
-     "itemLevel": 10,
-     "icon": "135029"
-    },
-    {
-     "slot": 4,
-     "id": 1561,
-     "name": "Harvester's Robe",
-     "quality": 2,
-     "itemLevel": 15,
-     "icon": "132654"
-    },
-    {
-     "slot": 5,
-     "id": 6513,
-     "name": "Disciple's Sash",
-     "quality": 1,
-     "itemLevel": 10,
-     "icon": "132491"
-    },
-    {
-     "slot": 6,
-     "id": 2238,
-     "name": "Urchin's Pants",
-     "quality": 1,
-     "itemLevel": 10,
-     "icon": "134588"
-    },
-    {
-     "slot": 7,
-     "id": 860,
-     "name": "Cavalier's Boots",
-     "quality": 1,
-     "itemLevel": 13,
-     "icon": "132539"
-    },
-    {
-     "slot": 8,
-     "id": 3641,
-     "name": "Journeyman's Bracers",
-     "quality": 1,
-     "itemLevel": 8,
-     "icon": "132602"
-    },
-    {
-     "slot": 9,
-     "id": 11192,
-     "name": "Outfitter Gloves",
-     "quality": 1,
-     "itemLevel": 5,
-     "icon": "132939"
-    },
-    {
-     "slot": 14,
-     "id": 4677,
-     "name": "Veteran Cloak",
-     "quality": 1,
-     "itemLevel": 12,
-     "icon": "133759"
-    },
-    {
-     "slot": 15,
-     "id": 4569,
-     "name": "Staunch Hammer of the Whale",
-     "quality": 2,
-     "itemLevel": null,
-     "icon": "133045"
-    },
-    {
-     "slot": 16,
-     "id": 15932,
-     "name": "Disciple's Stein of the Bear",
-     "quality": 2,
-     "itemLevel": 12,
-     "icon": "132790"
-    },
-    {
-     "slot": 17,
-     "id": 11288,
-     "name": "Greater Magic Wand",
-     "quality": 2,
-     "itemLevel": 23,
-     "icon": "135144"
-    }
-   ],
-   "sets": [],
-   "heal": 0,
-   "spec": "Shadow Magic",
-   "role": "dps",
-   "exalted": [],
-   "avatar": false,
-   "renderUrl": null,
-   "fetched": 1794173760
   },
   {
    "name": "Hallon Tofsar",
@@ -89836,7 +90044,7 @@
    "ilvl": 6,
    "xp": 6564,
    "title": null,
-   "fetched": 1794222327,
+   "fetched": 1794224125,
    "hp": 252,
    "power": 729,
    "powerType": "Mana",
@@ -90580,6 +90788,195 @@
    "fetched": 1794184595
   },
   {
+   "name": "Ljus Båge",
+   "id": 12595766,
+   "level": 13,
+   "rank": 6,
+   "cls": "paladin",
+   "race": 3,
+   "profile": true,
+   "gender": 0,
+   "lastLogin": 1794222490000,
+   "ilvl": 4,
+   "xp": 5924,
+   "title": null,
+   "fetched": 1794224143,
+   "hp": 344,
+   "power": 374,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 38,
+    "agility": 25,
+    "stamina": 40,
+    "intellect": 27,
+    "spirit": 29,
+    "attack_power": 95,
+    "spell_power": 0,
+    "armor": 526,
+    "melee_crit": 4.46,
+    "ranged_crit": 1.98,
+    "spell_crit": 4.95
+   },
+   "active": 1794222148000,
+   "stat": {
+    "Times camped": 6,
+    "Bandages used": 1,
+    "Bandage used most": 1,
+    "Health potions consumed": 3,
+    "Elixirs consumed": 8,
+    "Beverages consumed": 13,
+    "Food eaten": 7,
+    "Most Alliance factions at Exalted": 4,
+    "Total factions encountered": 5,
+    "Mounts owned": 2,
+    "Greed rolls made on loot": 1,
+    "Total kills": 319,
+    "Total kills that grant experience or honor": 319,
+    "Creatures killed": 319,
+    "Different creature types killed": 3,
+    "Creature type killed the most": 199,
+    "Total Killing Blows": 315,
+    "World Killing Blows": 315,
+    "Continent with the most Killing Blows": 315,
+    "Total deaths": 4,
+    "Quests completed": 72,
+    "Average quests completed per day": 0,
+    "Quests abandoned": 4,
+    "Professions learned": 2,
+    "Professions at maximum skill": 2,
+    "Secondary skills at maximum skill": 3,
+    "Weapon skills at maximum skill": 3,
+    "Cooking skill": 10,
+    "Cooking Recipes known": 16,
+    "First Aid skill": 132,
+    "First Aid Manuals learned": 12,
+    "Fishing skill": 1,
+    "Highest Alchemy skill": 80,
+    "Alchemy Recipes learned": 30,
+    "Highest Herbalism skill": 77,
+    "Flight paths taken": 4,
+    "Number of times hearthed": 2,
+    "Total cheers": 1,
+    "Total waves": 5
+   },
+   "ach": {
+    "Explore Teldrassil": 1793881500000
+   },
+   "prof": {
+    "Alchemy": [
+     80,
+     150
+    ],
+    "Herbalism": [
+     84,
+     150
+    ],
+    "Cooking": [
+     10,
+     75
+    ],
+    "Fishing": [
+     1,
+     75
+    ],
+    "First Aid": [
+     52,
+     150
+    ]
+   },
+   "hk": 0,
+   "pvpRank": 0,
+   "gear": [
+    {
+     "slot": 3,
+     "id": 6117,
+     "name": "Squire's Shirt",
+     "quality": 1,
+     "itemLevel": 1,
+     "icon": "135005"
+    },
+    {
+     "slot": 4,
+     "id": 3166,
+     "name": "Ironheart Chain",
+     "quality": 2,
+     "itemLevel": 15,
+     "icon": "132624"
+    },
+    {
+     "slot": 5,
+     "id": 6509,
+     "name": "Infantry Belt",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "132511"
+    },
+    {
+     "slot": 6,
+     "id": 2978,
+     "name": "Veteran Leggings",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "134589"
+    },
+    {
+     "slot": 7,
+     "id": 2650,
+     "name": "Flimsy Chain Boots",
+     "quality": 0,
+     "itemLevel": 3,
+     "icon": "132535"
+    },
+    {
+     "slot": 8,
+     "id": 6550,
+     "name": "Soldier's Wristguards of the Owl",
+     "quality": 2,
+     "itemLevel": null,
+     "icon": "132611"
+    },
+    {
+     "slot": 9,
+     "id": 2547,
+     "name": "Boar Handler Gloves",
+     "quality": 1,
+     "itemLevel": 5,
+     "icon": "132938"
+    },
+    {
+     "slot": 10,
+     "id": 286737,
+     "name": "Avala's Binding",
+     "quality": 1,
+     "itemLevel": 8,
+     "icon": "133349"
+    },
+    {
+     "slot": 14,
+     "id": 2905,
+     "name": "Goat Fur Cloak",
+     "quality": 1,
+     "itemLevel": 10,
+     "icon": "133763"
+    },
+    {
+     "slot": 15,
+     "id": 1414,
+     "name": "Cracked Sledge",
+     "quality": 0,
+     "itemLevel": 9,
+     "icon": "133046"
+    }
+   ],
+   "sets": [],
+   "heal": 0,
+   "spec": "Retribution",
+   "role": "dps",
+   "exalted": [],
+   "avatar": true,
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/54/12595766-main-raw.png"
+  },
+  {
    "name": "Neowhyn Eluneseeker",
    "id": 16805977,
    "level": 13,
@@ -91240,7 +91637,7 @@
    "ilvl": 4,
    "xp": 7822,
    "title": null,
-   "fetched": 1794222343,
+   "fetched": 1794224139,
    "hp": 310,
    "power": 391,
    "powerType": "Mana",
@@ -91792,179 +92189,6 @@
    "fetched": 1794204333
   },
   {
-   "name": "Aes Giver",
-   "id": 10267534,
-   "level": 12,
-   "rank": 5,
-   "cls": "priest",
-   "race": 4,
-   "profile": true,
-   "gender": 0,
-   "lastLogin": 1794176333000,
-   "ilvl": 2,
-   "xp": 8549,
-   "title": null,
-   "active": 1794176205000,
-   "stat": {
-    "Times camped": 2,
-    "Bandages used": 4,
-    "Bandage used most": 4,
-    "Health potions consumed": 3,
-    "Beverages consumed": 43,
-    "Food eaten": 10,
-    "Most factions at Honored or higher": 1,
-    "Most Alliance factions at Exalted": 4,
-    "Total factions encountered": 5,
-    "Greed rolls made on loot": 2,
-    "Total kills": 389,
-    "Total kills that grant experience or honor": 388,
-    "Creatures killed": 389,
-    "Different creature types killed": 4,
-    "Creature type killed the most": 205,
-    "Total Killing Blows": 295,
-    "World Killing Blows": 295,
-    "Continent with the most Killing Blows": 295,
-    "Total deaths": 6,
-    "Quests completed": 70,
-    "Average quests completed per day": 0,
-    "Quests abandoned": 1,
-    "Professions learned": 2,
-    "Professions at maximum skill": 2,
-    "Secondary skills at maximum skill": 2,
-    "Weapon skills at maximum skill": 3,
-    "Cooking skill": 1,
-    "Cooking Recipes known": 10,
-    "First Aid skill": 20,
-    "First Aid Manuals learned": 8,
-    "Highest Herbalism skill": 34,
-    "Highest Tailoring skill": 19,
-    "Tailoring Patterns learned": 14,
-    "Flight paths taken": 2,
-    "Number of times hearthed": 4
-   },
-   "ach": {
-    "Explore Teldrassil": 1794175765000
-   },
-   "prof": {
-    "Tailoring": [
-     19,
-     75
-    ],
-    "Herbalism": [
-     34,
-     75
-    ],
-    "Cooking": [
-     1,
-     75
-    ],
-    "First Aid": [
-     20,
-     75
-    ]
-   },
-   "hp": 227,
-   "power": 479,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 19,
-    "agility": 28,
-    "stamina": 25,
-    "intellect": 35,
-    "spirit": 38,
-    "attack_power": 9,
-    "spell_power": 6,
-    "armor": 136,
-    "melee_crit": 5.12,
-    "ranged_crit": 3.08,
-    "spell_crit": 4.47
-   },
-   "hk": 0,
-   "pvpRank": 0,
-   "gear": [
-    {
-     "slot": 3,
-     "id": 4344,
-     "name": "Brown Linen Shirt",
-     "quality": 1,
-     "itemLevel": 7,
-     "icon": "135006"
-    },
-    {
-     "slot": 4,
-     "id": 16604,
-     "name": "Moon Robes of Elune",
-     "quality": 2,
-     "itemLevel": 10,
-     "icon": "132677"
-    },
-    {
-     "slot": 5,
-     "id": 3370,
-     "name": "Patchwork Belt",
-     "quality": 0,
-     "itemLevel": 8,
-     "icon": "132492"
-    },
-    {
-     "slot": 6,
-     "id": 10045,
-     "name": "Simple Linen Pants",
-     "quality": 1,
-     "itemLevel": 7,
-     "icon": "134591"
-    },
-    {
-     "slot": 7,
-     "id": 1427,
-     "name": "Patchwork Shoes",
-     "quality": 0,
-     "itemLevel": 10,
-     "icon": "132543"
-    },
-    {
-     "slot": 8,
-     "id": 14095,
-     "name": "Native Bands",
-     "quality": 1,
-     "itemLevel": 11,
-     "icon": "132607"
-    },
-    {
-     "slot": 9,
-     "id": 5606,
-     "name": "Gardening Gloves",
-     "quality": 1,
-     "itemLevel": 9,
-     "icon": "132939"
-    },
-    {
-     "slot": 14,
-     "id": 281250,
-     "name": "Forest Oracle's Cloak",
-     "quality": 2,
-     "itemLevel": 11,
-     "icon": "133769"
-    },
-    {
-     "slot": 15,
-     "id": 5587,
-     "name": "Thornroot Club",
-     "quality": 2,
-     "itemLevel": 13,
-     "icon": "133490"
-    }
-   ],
-   "sets": [],
-   "heal": 0,
-   "spec": null,
-   "role": "dps",
-   "exalted": [],
-   "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/142/10267534-main-raw.png",
-   "fetched": 1794177344
-  },
-  {
    "name": "Churt Krigaren",
    "id": 15466832,
    "level": 12,
@@ -92506,16 +92730,34 @@
    "cls": "druid",
    "race": 4,
    "profile": true,
-   "gender": 0,
-   "lastLogin": 1794170876000,
-   "ilvl": 2,
-   "xp": 8792,
+   "gender": 1,
+   "lastLogin": 1794223105000,
+   "ilvl": 3,
+   "xp": 8972,
    "title": null,
-   "active": 1794170843000,
+   "fetched": 1794224138,
+   "hp": 261,
+   "power": 382,
+   "powerType": "Mana",
+   "stats": {
+    "strength": 24,
+    "agility": 30,
+    "stamina": 29,
+    "intellect": 32,
+    "spirit": 34,
+    "attack_power": 28,
+    "spell_power": 2,
+    "armor": 233,
+    "melee_crit": 4.86,
+    "ranged_crit": 3.1,
+    "spell_crit": 4.57
+   },
+   "active": 1794222867000,
    "stat": {
     "Times camped": 1,
     "Beverages consumed": 6,
     "Food eaten": 3,
+    "Most factions at Honored or higher": 1,
     "Most Alliance factions at Exalted": 4,
     "Total factions encountered": 6,
     "Total kills": 351,
@@ -92528,20 +92770,20 @@
     "World Killing Blows": 276,
     "Continent with the most Killing Blows": 276,
     "Total deaths": 1,
-    "Quests completed": 74,
+    "Quests completed": 76,
     "Average quests completed per day": 0,
     "Professions learned": 2,
     "Professions at maximum skill": 2,
     "Secondary skills at maximum skill": 3,
     "Weapon skills at maximum skill": 3,
-    "Cooking skill": 75,
-    "Cooking Recipes known": 18,
-    "First Aid skill": 40,
+    "Cooking skill": 100,
+    "Cooking Recipes known": 16,
+    "First Aid skill": 49,
     "First Aid Manuals learned": 10,
-    "Fishing skill": 81,
-    "Fish caught": 187,
-    "Fish and other things caught": 187,
-    "Highest Mining skill": 41,
+    "Fishing skill": 130,
+    "Fish caught": 247,
+    "Fish and other things caught": 247,
+    "Highest Mining skill": 43,
     "Smelting Recipes learned": 9,
     "Highest Skinning skill": 75,
     "Flight paths taken": 1,
@@ -92566,29 +92808,13 @@
      150
     ],
     "Fishing": [
-     130,
+     150,
      150
     ],
     "First Aid": [
      49,
      75
     ]
-   },
-   "hp": 251,
-   "power": 382,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 24,
-    "agility": 30,
-    "stamina": 28,
-    "intellect": 32,
-    "spirit": 34,
-    "attack_power": 28,
-    "spell_power": 0,
-    "armor": 233,
-    "melee_crit": 8.14,
-    "ranged_crit": 3.1,
-    "spell_crit": 4.57
    },
    "hk": 0,
    "pvpRank": 0,
@@ -92651,11 +92877,11 @@
     },
     {
      "slot": 15,
-     "id": 6256,
-     "name": "Fishing Pole",
-     "quality": 1,
-     "itemLevel": 1,
-     "icon": "132932"
+     "id": 9603,
+     "name": "Gritroot Staff",
+     "quality": 2,
+     "itemLevel": 10,
+     "icon": "135159"
     }
    ],
    "sets": [],
@@ -92664,8 +92890,7 @@
    "role": "tank",
    "exalted": [],
    "avatar": true,
-   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/80/13215568-main-raw.png",
-   "fetched": 1794171944
+   "renderUrl": "https://render.worldofwarcraft.com/forever-eu/character/80/13215568-main-raw.png"
   },
   {
    "name": "Mac Poyle",
@@ -92857,11 +93082,11 @@
    "race": 1,
    "profile": true,
    "gender": 1,
-   "lastLogin": 1794212874000,
+   "lastLogin": 1794223325000,
    "ilvl": 4,
    "xp": 694,
    "title": null,
-   "fetched": 1794222343,
+   "fetched": 1794224138,
    "hp": 306,
    "power": 404,
    "powerType": "Mana",
@@ -92878,7 +93103,7 @@
     "ranged_crit": 3.64,
     "spell_crit": 6.22
    },
-   "active": 1794212838000,
+   "active": 1794223244000,
    "stat": {
     "Times camped": 3,
     "Health potions consumed": 1,
@@ -94915,7 +95140,7 @@
    "ilvl": 6,
    "xp": 4054,
    "title": null,
-   "fetched": 1794222341,
+   "fetched": 1794224137,
    "hp": 255,
    "power": 100,
    "powerType": "Energy",
@@ -95595,188 +95820,6 @@
    "avatar": false,
    "renderUrl": null,
    "fetched": 1794166598
-  },
-  {
-   "name": "Ljus Båge",
-   "id": 12595766,
-   "level": 11,
-   "rank": 6,
-   "cls": "paladin",
-   "race": 3,
-   "profile": true,
-   "gender": 0,
-   "lastLogin": 1794162721000,
-   "ilvl": 1,
-   "xp": 143,
-   "title": null,
-   "active": 1794162711000,
-   "stat": {
-    "Times camped": 3,
-    "Bandages used": 1,
-    "Bandage used most": 1,
-    "Health potions consumed": 1,
-    "Elixirs consumed": 2,
-    "Beverages consumed": 12,
-    "Food eaten": 3,
-    "Most Alliance factions at Exalted": 4,
-    "Total factions encountered": 6,
-    "Mounts owned": 2,
-    "Greed rolls made on loot": 1,
-    "Total kills": 235,
-    "Total kills that grant experience or honor": 235,
-    "Creatures killed": 235,
-    "Different creature types killed": 3,
-    "Creature type killed the most": 136,
-    "Total Killing Blows": 232,
-    "World Killing Blows": 232,
-    "Continent with the most Killing Blows": 232,
-    "Total deaths": 4,
-    "Quests completed": 47,
-    "Average quests completed per day": 0,
-    "Quests abandoned": 2,
-    "Professions learned": 2,
-    "Professions at maximum skill": 2,
-    "Secondary skills at maximum skill": 2,
-    "Weapon skills at maximum skill": 3,
-    "Cooking skill": 1,
-    "Cooking Recipes known": 12,
-    "First Aid skill": 80,
-    "First Aid Manuals learned": 8,
-    "Highest Alchemy skill": 50,
-    "Alchemy Recipes learned": 24,
-    "Highest Herbalism skill": 60,
-    "Number of times hearthed": 1,
-    "Total waves": 5
-   },
-   "ach": {
-    "Explore Teldrassil": 1793881500000
-   },
-   "prof": {
-    "Alchemy": [
-     50,
-     75
-    ],
-    "Herbalism": [
-     61,
-     150
-    ],
-    "Cooking": [
-     1,
-     75
-    ],
-    "First Aid": [
-     30,
-     75
-    ]
-   },
-   "hp": 268,
-   "power": 300,
-   "powerType": "Mana",
-   "stats": {
-    "strength": 34,
-    "agility": 21,
-    "stamina": 34,
-    "intellect": 25,
-    "spirit": 27,
-    "attack_power": 81,
-    "spell_power": 0,
-    "armor": 362,
-    "melee_crit": 4.11,
-    "ranged_crit": 2.15,
-    "spell_crit": 4.94
-   },
-   "hk": 0,
-   "pvpRank": 0,
-   "gear": [
-    {
-     "slot": 3,
-     "id": 6117,
-     "name": "Squire's Shirt",
-     "quality": 1,
-     "itemLevel": 1,
-     "icon": "135005"
-    },
-    {
-     "slot": 4,
-     "id": 2648,
-     "name": "Loose Chain Vest",
-     "quality": 0,
-     "itemLevel": 10,
-     "icon": "132624"
-    },
-    {
-     "slot": 5,
-     "id": 6509,
-     "name": "Infantry Belt",
-     "quality": 1,
-     "itemLevel": 10,
-     "icon": "132511"
-    },
-    {
-     "slot": 6,
-     "id": 2646,
-     "name": "Loose Chain Pants",
-     "quality": 0,
-     "itemLevel": 8,
-     "icon": "134583"
-    },
-    {
-     "slot": 7,
-     "id": 2650,
-     "name": "Flimsy Chain Boots",
-     "quality": 0,
-     "itemLevel": 3,
-     "icon": "132535"
-    },
-    {
-     "slot": 8,
-     "id": 3373,
-     "name": "Patchwork Bracers",
-     "quality": 0,
-     "itemLevel": 9,
-     "icon": "132606"
-    },
-    {
-     "slot": 9,
-     "id": 2547,
-     "name": "Boar Handler Gloves",
-     "quality": 1,
-     "itemLevel": 5,
-     "icon": "132938"
-    },
-    {
-     "slot": 10,
-     "id": 286737,
-     "name": "Avala's Binding",
-     "quality": 1,
-     "itemLevel": 8,
-     "icon": "133349"
-    },
-    {
-     "slot": 14,
-     "id": 2905,
-     "name": "Goat Fur Cloak",
-     "quality": 1,
-     "itemLevel": 10,
-     "icon": "133763"
-    },
-    {
-     "slot": 15,
-     "id": 1414,
-     "name": "Cracked Sledge",
-     "quality": 0,
-     "itemLevel": 9,
-     "icon": "133046"
-    }
-   ],
-   "sets": [],
-   "heal": 0,
-   "spec": "Retribution",
-   "role": "dps",
-   "exalted": [],
-   "avatar": false,
-   "renderUrl": null,
-   "fetched": 1794162948
   },
   {
    "name": "Maha Kalle",
