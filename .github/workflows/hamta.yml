@@ -13,6 +13,7 @@ concurrency:
 
 permissions:
   contents: write
+  actions: write   # för att rensa gamla bildcacher
 
 jobs:
   hamta:
@@ -66,6 +67,15 @@ jobs:
             ${{ env.OUT }}/icons
             ${{ env.OUT }}/renders
           key: bilder-${{ github.run_id }}
+
+      # Varje körning sparar en ny kopia (~25 MB). Behåll de tre senaste, så att cachen inte växer mot GitHubs gräns på 10 GB
+      - name: Rensa gamla bildcacher
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh cache list --key bilder- --sort created_at --order desc --limit 1000 --json id -q '.[3:][].id' | xargs -r -n1 gh cache delete
 
       - name: Bygg
         run: |

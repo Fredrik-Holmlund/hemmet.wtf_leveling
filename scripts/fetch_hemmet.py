@@ -183,7 +183,9 @@ def fetch_member(entry, prev=None, open_session=False):
         return m
     m.update({
         "profile": True,
-        "level": profile.get("level", m["level"]),
+        # Profilen sparas när man loggar ut, men rostern får nya levels medan man spelar (och profilen kan stå kvar
+        # i dagar, t.ex. efter en disconnect). Den högsta vinner. plevel = profilens, för att se när ett pass är slut
+        "level": max(m["level"], profile.get("level") or 0), "plevel": profile.get("level"),
         "gender": 1 if (profile.get("gender") or {}).get("type") == "MALE" else 0,
         "lastLogin": profile.get("last_login_timestamp"),
         "ilvl": profile.get("equipped_item_level"),
@@ -422,7 +424,7 @@ def log_events(members, now):
         if not m.get("profile"):
             continue
         prev = state.get(m["name"])
-        cur = {"level": m["level"], "login": m.get("lastLogin"), "xp": m.get("xp"), "hk": m.get("hk") or 0,
+        cur = {"level": m["level"], "plevel": m.get("plevel"), "login": m.get("lastLogin"), "xp": m.get("xp"), "hk": m.get("hk") or 0,
                "open": (prev or {}).get("open"),
                # ryktena kunde inte hämtas: behåll förra läget så att inget tolkas som nytt nästa gång
                "exalted": m["exalted"] if m.get("exalted") is not None else (prev or {}).get("exalted")}
@@ -435,7 +437,8 @@ def log_events(members, now):
             if cur["login"] and cur["login"] != prev.get("login"):
                 events.append({"t": cur["login"], "n": m["name"], "k": "login"})
                 cur["open"] = cur["login"]                       # ett pass pågår tills profilen ändras
-            changed = cur["xp"] != prev.get("xp") or cur["level"] != prev.get("level") or cur["hk"] != prev.get("hk")
+            # profilens level, inte rosterns: rostern ändras mitt i passet och säger inget om utloggningen
+            changed = cur["xp"] != prev.get("xp") or cur["plevel"] != prev.get("plevel", prev.get("level")) or cur["hk"] != prev.get("hk")
             a = m.get("active")
             tm = a if a and cur.get("open") and cur["open"] < a <= t else t
             if changed and cur.get("open"):
