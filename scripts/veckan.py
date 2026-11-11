@@ -131,6 +131,14 @@ def main():
     if fil.stem == RELEASE and forst and min(e["t"] for e in forst.values()) >= fran:
         ut.append(f"- (Hämtningen startade först {tid(min(e['t'] for e in events))}: dings före det syns inte här. Klass-achievements som Novice Rogue har Blizzards exakta tid för level 25.)")
 
+    # Epics och kompletta set: guildens första någonsin, och alla nya under perioden
+    for kind, rubrik in (("epic", "Epics (första gången någon har en på sig)"), ("set", "Kompletta set")):
+        alla = [e for e in events if e["k"] == kind]
+        ut += ["", f"## {rubrik}"]
+        if alla and alla[0]["t"] >= fran:
+            ut.append(f"- Först i guilden: {alla[0]['n']} med {alla[0]['v']}, {tid(alla[0]['t'])}")
+        ut += lista(f"{e['n']}: {e['v']}, {tid(e['t'])}" for e in alla if e["t"] >= fran)
+
     ut += ["", "## Exalted"]
     ut += lista(f"{e['n']}: {e['v']}, {tid(e['t'])}" for e in period if e["k"] == "rep")
 
