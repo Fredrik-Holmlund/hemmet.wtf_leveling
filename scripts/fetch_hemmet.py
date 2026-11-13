@@ -401,6 +401,17 @@ def main():
     print(f"Klart: {OUT}")
 
 
+# Klass-achievements har Blizzards exakta tid för level 25, 45 och 60 ("Reach level 60 for the first time on a Paladin")
+CLASS_ACH = {25: "Novice", 45: "Experienced", 60: "Master"}
+
+
+def exact_ding(m, lvl, after, before):
+    """Exakt tid för dingen ur klass-achievementen, om den finns och ligger mellan förra dingen och nu.
+    Achievementen gäller hela kontot, så en tid före karaktärens förra ding kommer från en annan karaktär."""
+    ts = (m.get("ach") or {}).get(f"{CLASS_ACH.get(lvl)} {m['cls'].capitalize()}") if lvl in CLASS_ACH else None
+    return ts if ts and after < ts <= before else None
+
+
 def log_events(members, now):
     """Jämför med förra körningen och skriver det som hänt till events.jsonl.
 
@@ -425,7 +436,7 @@ def log_events(members, now):
             continue
         prev = state.get(m["name"])
         cur = {"level": m["level"], "plevel": m.get("plevel"), "login": m.get("lastLogin"), "xp": m.get("xp"), "hk": m.get("hk") or 0,
-               "open": (prev or {}).get("open"),
+               "open": (prev or {}).get("open"), "ding": (prev or {}).get("ding", 0),   # ding = tid för senaste dingen
                # ryktena kunde inte hämtas: behåll förra läget så att inget tolkas som nytt nästa gång
                "exalted": m["exalted"] if m.get("exalted") is not None else (prev or {}).get("exalted")}
         # Epics och set som karaktären haft på sig någon gång: ett byte fram och tillbaka blir ingen ny händelse.
@@ -444,11 +455,14 @@ def log_events(members, now):
             if changed and cur.get("open"):
                 events.append({"t": tm, "n": m["name"], "k": "logout", "s": cur["open"]})
                 cur["open"] = None
+            forra = cur["ding"]   # dings i samma hämtning jämförs mot dingen före hämtningen, inte mot varandra
             for lvl in range(prev.get("level", cur["level"]) + 1, cur["level"] + 1):
                 # XP in i nivån avgör ordningen mellan dem som dingat i samma hämtning.
                 # Nivåer som passerats helt (flera dings sedan förra körningen) kom tidigare.
                 xp = cur["xp"] if lvl == cur["level"] else 10 ** 9
-                events.append({"t": tm, "n": m["name"], "k": "level", "v": lvl, "xp": xp})
+                exact = exact_ding(m, lvl, forra, t)
+                events.append({"t": exact or tm, "n": m["name"], "k": "level", "v": lvl, "xp": xp, **({"x": 1} if exact else {})})
+                cur["ding"] = max(cur["ding"], exact or tm)
             if cur["hk"] > prev.get("hk", 0):
                 events.append({"t": tm, "n": m["name"], "k": "hk", "v": cur["hk"] - prev.get("hk", 0)})
             # Exalted: bara jämfört med ett känt förra läge (första gången är utgångsläget, inte nya rykten)
