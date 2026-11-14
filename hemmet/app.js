@@ -391,7 +391,8 @@ embers($("embers"), "drift");
 
 embers($("fireEmbers"), "fire");
 
-new IntersectionObserver(([e]) => $("topbar").classList.toggle("is-visible", !e.isIntersecting), { threshold: .15 }).observe($("hero"));
+// menyn syns hela tiden, genomskinlig över heron
+new IntersectionObserver(([e]) => $("topbar").classList.toggle("at-top", e.isIntersecting), { threshold: .15 }).observe($("hero"));
 
 // remsan: resans roligaste siffror (följer läget), sedan riktiga dings och inloggningar
 
