@@ -406,7 +406,7 @@ async function fetchDiscord() {
 
   try {
 
-    const j = await (await fetch("https://discord.com/api/v10/invites/hemmet?with_counts=true")).json();
+    const j = await (await fetch("https://discord.com/api/v10/invites/JbqEcYsWDC?with_counts=true")).json();
 
     if (j.approximate_member_count) DISCORD = { members: j.approximate_member_count, online: j.approximate_presence_count };
 
