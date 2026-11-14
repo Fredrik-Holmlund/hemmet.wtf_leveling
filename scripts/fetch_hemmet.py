@@ -208,7 +208,16 @@ def fetch_member(entry, prev=None, open_session=False):
     # och den ligger nära utloggningen. Används i stället för körningens tid för dings och utloggningar
     stat_tree = get(base + "/achievements/statistics") or {}
     ach = json.dumps(stat_tree)
-    m["active"] = max(map(int, re.findall(r'"last_updated_timestamp": ?(\d+)', ach)), default=None)
+    ts = sorted({int(x) for x in re.findall(r'"last_updated_timestamp": ?(\d+)', ach)})
+    m["active"] = ts[-1] if ts else None
+    # När det senaste passet började: profilen syns först efter utloggningen, så reloggar man inom samma halvtimme
+    # syns bara den nya inloggningen och det långa passet före försvinner. Statistiken som ändrats sedan förra
+    # hämtningen visar det: bakåt från den senaste ändringen, så länge det är högst 90 minuter mellan två.
+    old, m["start"] = (prev or {}).get("active") or 0, None
+    for x in reversed([x for x in ts if x > old]):
+        if m["start"] and m["start"] - x > 90 * 60_000:
+            break
+        m["start"] = x
     # Hela statistiken (kills, dödsfall, camps, fiskar, rolls ...), namn → antal. En rad finns först när man gjort
     # det minst en gång, så nya rader dyker upp av sig själva. Sparas även i dagens snapshot för historiken
     m["stat"] = {}
@@ -453,7 +462,8 @@ def log_events(members, now):
             a = m.get("active")
             tm = a if a and cur.get("open") and cur["open"] < a <= t else t
             if changed and cur.get("open"):
-                events.append({"t": tm, "n": m["name"], "k": "logout", "s": cur["open"]})
+                start = min(cur["open"], m.get("start") or cur["open"])   # passet kan ha börjat före en relogg
+                events.append({"t": tm, "n": m["name"], "k": "logout", "s": start})
                 cur["open"] = None
             forra = cur["ding"]   # dings i samma hämtning jämförs mot dingen före hämtningen, inte mot varandra
             for lvl in range(prev.get("level", cur["level"]) + 1, cur["level"] + 1):

@@ -1088,7 +1088,14 @@ function drawStats() {
 
   const byM = new Map(); dings.forEach((e) => (byM.get(e.m) || byM.set(e.m, []).get(e.m)).push(e));
 
-  const sessions = J.events.filter((e) => e.k === "logout" && e.v && J.lv.has(e.m)).map((e) => ({ m: e.m, len: e.t - e.v, start: e.v }));
+  // passen: från inloggningen till utloggningen. En paus på högst 20 minuter (en relogg) räknas som samma pass.
+  const sessions = [], lastS = new Map();
+  J.events.filter((e) => e.k === "logout" && e.v && J.lv.has(e.m)).sort((a, b) => a.v - b.v).forEach((e) => {
+    const last = lastS.get(e.m);
+    if (last && e.v - last.end <= 20 * 6e4) last.end = Math.max(last.end, e.t);
+    else { const s = { m: e.m, start: e.v, end: e.t }; sessions.push(s); lastS.set(e.m, s); }
+  });
+  sessions.forEach((s) => (s.len = s.end - s.start));
 
   const streak = (m, hot) => {
 
@@ -1118,7 +1125,9 @@ function drawStats() {
 
   add("hot", "Het streak", top1(people, (m) => streak(m, true).best), (v) => `${v} d`, (m) => `i rad med minst en ding${streak(m, true).cur === streak(m, true).best ? ", pågår" : ""}`);
 
-  add("cold", "Kall streak", top1(people.filter((m) => !streak(m, false).maxed && gainOn(m, joinOf(m)) >= 0 && L_(m)[LAST] > 1), (m) => streak(m, false).cur), (v) => `${v} d`, () => "utan ding, och räknar");
+  // kall streak och comebacken: bara level 40 och uppåt, annars vinner alla alts som står och väntar
+  const mains = people.filter((m) => L_(m)[LAST] >= 40);
+  add("cold", "Kall streak", top1(mains.filter((m) => !streak(m, false).maxed && gainOn(m, joinOf(m)) >= 0 && L_(m)[LAST] > 1), (m) => streak(m, false).cur), (v) => `${v} d`, () => "utan ding, och räknar");
 
   const longS = sessions.reduce((a, s) => (!a || s.len > a.len ? s : a), null);
 
@@ -1134,7 +1143,7 @@ function drawStats() {
 
   cards.push({ key: "flash", lbl: "Blixten", m: f1 && f1.m, val: f1 ? dur(f1.g) : null, sub: f1 ? `från ${f1.v - 1} till ${f1.v}` : "" });
 
-  add("comeback", "Comebacken", top1(people, (m) => { let run = 0, best = 0; for (let d = joinOf(m) + 1; d <= LAST; d++) { if (gainOn(m, d) > 0) { best = Math.max(best, run); run = 0; } else run++; } return best; }), (v) => `${v} d`, () => "borta, och sedan tillbaka med en ding");
+  add("comeback", "Comebacken", top1(mains, (m) => { let run = 0, best = 0; for (let d = joinOf(m) + 1; d <= LAST; d++) { if (gainOn(m, d) > 0) { best = Math.max(best, run); run = 0; } else run++; } return best; }), (v) => `${v} d`, () => "borta, och sedan tillbaka med en ding");
 
   const nSess = new Map(); J.events.filter((e) => e.k === "login" && J.lv.has(e.m)).forEach((e) => nSess.set(e.m, (nSess.get(e.m) || 0) + 1));
 
