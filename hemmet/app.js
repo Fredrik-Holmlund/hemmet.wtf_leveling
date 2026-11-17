@@ -1111,7 +1111,10 @@ function drawStats() {
 
   const add = (key, lbl, hit, val, sub) => cards.push({ key, lbl, m: hit && hit[0], val: hit ? val(hit[1]) : null, sub: hit ? sub(hit[0], hit[1]) : "" });
 
-  add("rocket", "Raketen", top1(people, (m) => J.dates.reduce((s, _, d) => s + gainOn(m, d), 0)), (v) => `+${v}`, (m) => `levels sedan start, nu ${L_(m)[LAST]}`);
+  // Nykomlingen: flest levels sedan de flyttade in, bland dem som kom med efter releasedagen.
+  // (Raketen, levels sedan start, blev samma sak som Förstafemman, och Veckans raket visar redan vem som har fart.)
+  const sedanInflytt = (m) => (joinOf(m) > 0 ? J.dates.reduce((s, _, d) => s + gainOn(m, d), 0) : null);
+  add("newcomer", "Nykomlingen", top1(people, sedanInflytt), (v) => `+${v}`, (m) => `levels sedan de flyttade in ${dLbl(joinOf(m))}, nu ${L_(m)[LAST]}`);
 
   add("week", "Veckans raket", top1(people, gainedWeek), (v) => `+${v}`, () => "levels senaste 7 dagarna");
 
