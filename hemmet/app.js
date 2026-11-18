@@ -2074,6 +2074,42 @@ if (FV && document.documentElement.dataset.page === "bedrifter") {
       <div class="ach__body"><h4>${esc(a.n)}</h4><p>${esc(a.d)}</p><div class="ach__who">${a.h.length ? who(a.h[0][0], `först, ${day(a.h[0][1])}`) : ""}</div></div>
       <div class="ach__pts"><b>${a.h.length || ""}</b><small>${a.h.length ? "har den" : ""}</small></div></div>`;
   const firsts = A.filter((a) => !zone(a));
+  // ---------- Guildens rekord: det som har flyttat hit från "Resan i siffror" (där mäter korten bara veckan) ----------
+  const levelEv = J.events.filter((e) => e.k === "level" && J.lv.has(e.m));
+  const dingsAv = new Map(); levelEv.forEach((e) => (dingsAv.get(e.m) || dingsAv.set(e.m, []).get(e.m)).push(e));
+  const ACH_LVL = { 25: "Novice", 45: "Experienced", 60: "Master" };
+  const achName = (m, L) => `${ACH_LVL[L]} ${CLS_NAME[m.cls]}`;
+  const dingAt = (m, L) => (dingsAv.get(m) || []).find((e) => e.v === L)?.t ?? (ACH_LVL[L] && m.fa ? m.fa[A.findIndex((a) => a.n === achName(m, L))] : undefined);
+  const lang = (ms) => { const dd = Math.floor(ms / 864e5); return dd ? `${dd} d ${Math.floor((ms % 864e5) / 36e5)} h` : dur(ms); };
+  const alla = members.filter((m) => J.lv.has(m));
+  const basta = (v, low) => alla.map((m) => [m, v(m)]).filter(([, x]) => x != null && x > 0).sort((a, b) => (low ? a[1] - b[1] : b[1] - a[1]));
+  // från releasen gäller alla: varje karaktär i Forever skapades efter releasen (även de som kom med i guilden senare)
+  const fran = (L) => (L === 1 ? () => (FROM_START ? cutAt(-1) : null) : (m) => dingAt(m, L));
+  const fart = (a, b) => basta((m) => { const x = fran(a)(m), y = dingAt(m, b); return x && y && y > x ? y - x : null; }, true);
+  const dagVinst = (m, d) => (d === joinOf(m) && d > 0 ? 0 : gainOn(m, d));
+  const strk = (m) => { let run = 0, best = 0; for (let d = joinOf(m); d <= LAST; d++) { run = gainOn(m, d) > 0 ? run + 1 : 0; best = Math.max(best, run); } return best; };
+  const timmar = (m, a, b) => (dingsAv.get(m) || []).filter((e) => { const h = new Date(e.t).getHours(); return h >= a && h < b; }).length;
+  const REKORD = [
+    ["Maratondagen", basta((m) => Math.max(0, ...J.dates.map((_, d) => dagVinst(m, d)))), (v) => `+${v}`, (m, v) => `levels på en dag, ${dLbl(J.dates.findIndex((_, d) => dagVinst(m, d) === v))}`],
+    ["Längsta streaken", basta(strk), (v) => `${v} d`, () => "i rad med minst en ding"],
+    ["Hela vägen", fart(1, J.max), lang, () => `från releasen till level ${J.max}`],
+    ["Blixten", fart(1, 25), lang, () => "från releasen till level 25"],
+    ["Raketen", fart(25, 45), lang, () => "från level 25 till 45"],
+    ["Slutspurten", fart(45, J.max), lang, () => `från level 45 till ${J.max}`],
+    ["Nattugglan", basta((m) => timmar(m, 0, 5)), (v) => `${v}`, () => "dings mellan 00 och 05, totalt"],
+    ["Morgonpigg", basta((m) => timmar(m, 5, 9)), (v) => `${v}`, () => "dings före kl 09, totalt"],
+  ];
+  $("rekord").innerHTML = REKORD.map(([lbl, list, val, sub]) => {
+    const [top, ...rest] = list;
+    return `<div class="qk${top ? " done" : ""}"${top ? ` data-n="${esc(top[0].name)}"` : ""}>
+      <span class="qk__lbl">${lbl}</span>
+      ${top ? `<div class="qk__who">${pf(top[0])}<b style="color:${CLS[top[0].cls]}">${esc(top[0].name)}</b></div>` : ""}
+      <strong class="qk__val">${top ? val(top[1]) : "-"}</strong><span class="qk__sub">${top ? sub(top[0], top[1]) : "ingen än"}</span>
+      ${rest.length ? `<ol class="qk__rest" start="2">${rest.slice(0, 2).map(([m, x]) => `<li data-n="${esc(m.name)}"><b style="color:${CLS[m.cls]}">${esc(m.name)}</b> ${val(x)}</li>`).join("")}</ol>` : ""}
+    </div>`;
+  }).join("");
+
+
   $("faSum").innerHTML = `<b>${firsts.filter((a) => a.h.length).length}</b> av ${firsts.length} klara i guilden`;
   $("fa").innerHTML = CATS.map(([c, lbl]) => {
     const list = firsts.filter((a) => a.cat === c).sort((a, b) => (b.h.length > 0) - (a.h.length > 0) || (a.sub || "").localeCompare(b.sub || "") || a.order - b.order);
