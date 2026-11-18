@@ -20,6 +20,7 @@ TZ = ZoneInfo("Europe/Stockholm")
 DAG = 86_400_000
 MAX_LEVEL = 60
 RELEASE = "2026-11-05"   # alla började på level 1 den här dagen
+CLASS_ACH = {25: "Novice", 45: "Experienced", 60: "Master"}   # klass-achievements med Blizzards exakta tid för dingen
 FOREVER = ROOT / "data" / "forever"
 # Veckans titlar ur spelstatistiken: (titel, vad som räknas, statistikrader som summeras). Samma som på Bedrifter
 TITLAR = [
@@ -153,6 +154,84 @@ def main():
     ut += lista(f"{n}, level {lvl[n]}" for n in sorted(set(lvl) - set(start)))
     ut += ["", "## Har lämnat guilden"]
     ut += lista(f"{n}, level {start[n]['level']}" for n in sorted(set(start) - set(lvl)))
+
+    # ---------- Guildens rekord genom tiderna (samma som på Bedrifter), med "NYTT" när rekordet sattes i veckan ----------
+    rel = int(datetime.datetime.fromisoformat(RELEASE).replace(tzinfo=TZ).timestamp() * 1000)
+    dag_ = lambda t: datetime.datetime.fromtimestamp(t / 1000, TZ).date()
+    dings = collections.defaultdict(list)
+    for e in events:
+        if e["k"] == "level" and e["n"] in lvl:
+            dings[e["n"]].append(e)
+    cls = {m["name"]: m["cls"] for m in members}
+    rel_fil = src / "snapshots" / f"{RELEASE}.json"
+    rel_snap = json.loads(rel_fil.read_text(encoding="utf-8")) if rel_fil.exists() else {}
+    ach = {m["name"]: m.get("ach") or {} for m in members}
+
+    def ding_at(n, L):
+        t = next((e["t"] for e in dings[n] if e["v"] == L), None)
+        return t or (ach[n].get(f"{CLASS_ACH[L]} {cls[n].capitalize()}") if L in CLASS_ACH else None)
+
+    def dagar(n):
+        """Levels per dag. Releasedagen: från level 1 vid midnatt (hämtningen började först på morgonen)."""
+        """Den som kom med i guilden senare räknas inte dagen hen kom med (då vet vi inte varifrån hen levlade)."""
+        per, forra_ = collections.Counter(), 1
+        if not dings[n]:
+            return per
+        forsta_dag = dag_(dings[n][0]["t"])
+        sen = forsta_dag > dag_(rel)
+        for e in dings[n]:
+            if not (sen and dag_(e["t"]) == forsta_dag):
+                per[dag_(e["t"])] += e["v"] - forra_
+            forra_ = e["v"]
+        if n in rel_snap:   # releasedagen: dagens sista läge, eftersom dings från natten saknas
+            per[dag_(rel)] = max(per[dag_(rel)], (rel_snap[n].get("level") or 1) - 1)
+        return per
+
+    def streak(n):
+        d = sorted(k for k, v in dagar(n).items() if v > 0)
+        best = run = 0
+        for i, k in enumerate(d):
+            run = run + 1 if i and (k - d[i - 1]).days == 1 else 1
+            best = max(best, run)
+        return best
+
+    def fart(a, b):
+        def v(n):
+            x = rel if a == 1 else ding_at(n, a)
+            y = ding_at(n, b)
+            return (y - x, y) if x and y and y > x else None
+        return v
+
+    def lang(ms):
+        d_, h_ = divmod(ms // 3_600_000, 24)
+        return f"{d_} d {h_} h" if d_ else f"{h_} h {ms % 3_600_000 // 60_000} min"
+
+    def maraton(n):
+        per = dagar(n)
+        return max(((v, d_) for d_, v in per.items()), default=None)
+
+    def timmar(a, b):
+        return lambda n: (sum(a <= datetime.datetime.fromtimestamp(e["t"] / 1000, TZ).hour < b for e in dings[n]), None)
+
+    REKORD = [
+        ("Maratondagen", "flest levels på en dag", maraton, lambda v: f"+{v[0]} ({v[1].isoformat()})", False),
+        ("Längsta streaken", "dagar i rad med minst en ding", lambda n: (streak(n), None), lambda v: f"{v[0]} d", False),
+        ("Hela vägen", f"från releasen till level {MAX_LEVEL}", fart(1, MAX_LEVEL), lambda v: lang(v[0]), True),
+        ("Blixten", "från releasen till level 25", fart(1, 25), lambda v: lang(v[0]), True),
+        ("Raketen", "från level 25 till 45", fart(25, 45), lambda v: lang(v[0]), True),
+        ("Slutspurten", f"från level 45 till {MAX_LEVEL}", fart(45, MAX_LEVEL), lambda v: lang(v[0]), True),
+        ("Nattugglan", "dings mellan 00 och 05, totalt", timmar(0, 5), lambda v: str(v[0]), False),
+        ("Morgonpigg", "dings mellan 05 och 09, totalt", timmar(5, 9), lambda v: str(v[0]), False),
+    ]
+    ut += ["", "## Guildens rekord genom tiderna (samma som på Bedrifter, topp 3)"]
+    ut.append("NYTT = rekordet sattes under perioden. Fartrekorden räknas från releasen för alla.")
+    for titel, vad, f, fmt, lagst in REKORD:
+        rad = [(n, v) for n in lvl if (v := f(n)) and v[0] and v[0] > 0]
+        rad.sort(key=lambda x: x[1][0] if lagst else -x[1][0])
+        def visa(n, v):
+            nar = v[1] if isinstance(v[1], (int, type(None))) else int(datetime.datetime.combine(v[1], datetime.time(23, 59), TZ).timestamp() * 1000)
+            return f"{n} {fmt(v)}" + (" NYTT" if nar and nar >= fran else "")
+        ut.append(f"- {titel} ({vad}): " + (", ".join(visa(n, v) for n, v in rad[:3]) if rad else "ingen än"))
 
     # ---------- Spelstatistiken (Forever): veckans titlar, guildens summor ----------
     # Statistiken räknas från karaktärens start. Började mätningen inom perioden är totalen veckans siffra,
