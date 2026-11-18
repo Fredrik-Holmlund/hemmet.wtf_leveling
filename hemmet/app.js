@@ -1103,58 +1103,47 @@ function drawStats() {
 
   const add = (key, lbl, hit, val, sub) => cards.push({ key, lbl, m: hit && hit[0], val: hit ? val(hit[1]) : null, sub: hit ? sub(hit[0], hit[1]) : "" });
 
-  // Nykomlingen: flest levels sedan de flyttade in, bland dem som kom med efter releasedagen.
-  // (Raketen, levels sedan start, blev samma sak som Förstafemman, och Veckans raket visar redan vem som har fart.)
-  const sedanInflytt = (m) => (joinOf(m) > 0 ? J.dates.reduce((s, _, d) => s + gainOn(m, d), 0) : null);
-  add("newcomer", "Nykomlingen", top1(people, sedanInflytt), (v) => `+${v}`, (m) => `levels sedan de flyttade in ${dLbl(joinOf(m))}, nu ${L_(m)[LAST]}`);
-
+  // Korten ska leva: de mäter de senaste 7 dagarna eller det som pågår, så att de byter ägare hela tiden.
+  // (Rekord sedan start fryser: Maratondagen satt kvar på releasedagen och Raketen gav alla på 60 samma värde.)
+  const W0 = Math.max(0, LAST - 6), veckaFran = cutAt(LAST) - 7 * 864e5;
+  const iVeckan = (t) => t >= veckaFran;
+  // Nykomlingen: flest levels sedan de flyttade in, bland dem som flyttat in den senaste veckan
+  const nyss = (m) => (joinOf(m) > 0 && joinOf(m) >= W0 ? J.dates.reduce((s, _, d) => s + gainOn(m, d), 0) : null);
+  add("newcomer", "Nykomlingen", top1(people, nyss), (v) => `+${v}`, (m) => `levels sedan de flyttade in ${dLbl(joinOf(m))}, nu ${L_(m)[LAST]}`);
   add("week", "Veckans raket", top1(people, gainedWeek), (v) => `+${v}`, () => "levels senaste 7 dagarna");
-
   // (dagen någon gick med räknas inte: de kan ha levlat innan de kom hem)
-
   const dayGain = (m, d) => (d === joinOf(m) && d > 0 ? 0 : gainOn(m, d));
-
-  const mara = top1(people, (m) => Math.max(0, ...J.dates.map((_, d) => dayGain(m, d))));
-
-  add("marathon", "Maratondagen", mara, (v) => `+${v}`, (m, v) => `levels på en dag, ${dLbl(J.dates.findIndex((_, d) => dayGain(m, d) === v))}`);
-
-  add("hot", "Het streak", top1(people, (m) => streak(m, true).best), (v) => `${v} d`, (m) => `i rad med minst en ding${streak(m, true).cur === streak(m, true).best ? ", pågår" : ""}`);
-
+  const veckodagar = J.dates.map((_, d) => d).filter((d) => d >= W0);
+  const mara = top1(people, (m) => Math.max(0, ...veckodagar.map((d) => dayGain(m, d))));
+  add("marathon", "Maratondagen", mara, (v) => `+${v}`, (m, v) => `levels på en dag, ${dLbl(veckodagar.find((d) => dayGain(m, d) === v))}`);
+  add("hot", "Het streak", top1(people, (m) => streak(m, true).cur), (v) => `${v} d`, () => "i rad med minst en ding, pågår");
   // kall streak och comebacken: bara level 40 och uppåt, annars vinner alla alts som står och väntar
   const mains = people.filter((m) => L_(m)[LAST] >= 40);
   add("cold", "Kall streak", top1(mains.filter((m) => !streak(m, false).maxed && gainOn(m, joinOf(m)) >= 0 && L_(m)[LAST] > 1), (m) => streak(m, false).cur), (v) => `${v} d`, () => "utan ding, och räknar");
-
-  // Fartkorten bygger på Blizzards klass-achievements, som har exakt tid för level 25, 45 och 60 (se exact_ding i
-  // fetch_hemmet.py). Passen och speltiden är borttagna: in- och utloggningar går inte att läsa säkert ur profilen.
-  // dingen ur händelserna, annars klass-achievementens tid (dings innan karaktären hade en profil loggades aldrig)
+  // Fartkorten: Blizzards klass-achievements har exakt tid för level 25, 45 och 60 (se exact_ding i fetch_hemmet.py).
+  // Dingen ur händelserna, annars achievementens tid (dings innan karaktären hade en profil loggades aldrig).
+  // Passen och speltiden är borttagna: in- och utloggningar går inte att läsa säkert ur profilen.
   const ACH_LVL = { 25: "Novice", 45: "Experienced", 60: "Master" };
   const achIdx = (n) => (DATA.forever ? DATA.forever.a.findIndex((a) => a[0] === n) : -1);
   const dingAt = (m, L) => (byM.get(m) || []).find((e) => e.v === L)?.t
     ?? (ACH_LVL[L] && m.fa ? m.fa[achIdx(`${ACH_LVL[L]} ${CLS_NAME[m.cls]}`)] : undefined);
   const lang = (ms) => { const d = Math.floor(ms / 864e5); return d ? `${d} d ${Math.floor((ms % 864e5) / 36e5)} h` : dur(ms); };
-  const snabbast = (from, to) => people.map((m) => { const a = from(m), b = dingAt(m, to); return a && b && b > a ? [m, b - a] : null; }).filter(Boolean).sort((x, y) => x[1] - y[1])[0];
-  const fromRelease = (m) => (FROM_START && joinOf(m) === 0 ? cutAt(-1) : null);
-  const b1 = snabbast(fromRelease, 25);
-  cards.push({ key: "flash", lbl: "Blixten", m: b1 && b1[0], val: b1 ? lang(b1[1]) : null, sub: b1 ? "från releasen till level 25" : "" });
-
-  add("owl", "Nattugglan", top1(people, (m) => (byM.get(m) || []).filter((e) => new Date(e.t).getHours() < 5).length), (v) => `${v}`, () => "dings mellan 00 och 05");
-
-  add("early", "Morgonpigg", top1(people, (m) => (byM.get(m) || []).filter((e) => { const h = new Date(e.t).getHours(); return h >= 5 && h < 9; }).length), (v) => `${v}`, () => "dings före kl 09");
-
-  const r1 = snabbast((m) => dingAt(m, 25), 45);
-  cards.push({ key: "rocket", lbl: "Raketen", m: r1 && r1[0], val: r1 ? lang(r1[1]) : null, sub: r1 ? "från level 25 till 45" : "" });
-
-  add("comeback", "Comebacken", top1(mains, (m) => { let run = 0, best = 0; for (let d = joinOf(m) + 1; d <= LAST; d++) { if (gainOn(m, d) > 0) { best = Math.max(best, run); run = 0; } else run++; } return best; }), (v) => `${v} d`, () => "borta, och sedan tillbaka med en ding");
-
-  const nSess = new Map(); J.events.filter((e) => e.k === "login" && J.lv.has(e.m)).forEach((e) => nSess.set(e.m, (nSess.get(e.m) || 0) + 1));
-
-  add("sessions", "Stammisen", top1(people, (m) => nSess.get(m)), (v) => `${v}`, () => "inloggningar");
-
-  const s1 = snabbast((m) => dingAt(m, 45), J.max);
-  cards.push({ key: "sprint", lbl: "Slutspurten", m: s1 && s1[0], val: s1 ? lang(s1[1]) : null, sub: s1 ? `från level 45 till ${J.max}` : "" });
-
-
-
+  // snabbast mellan två levels, bland dem som nådde den senare den här veckan
+  const snabbast = (from, to) => people.map((m) => { const a = dingAt(m, from), b = dingAt(m, to); return a && b && b > a && iVeckan(b) ? [m, b - a, b] : null; }).filter(Boolean).sort((x, y) => x[1] - y[1])[0];
+  const b1 = snabbast(25, 45);
+  cards.push({ key: "flash", lbl: "Blixten", m: b1 && b1[0], val: b1 ? lang(b1[1]) : null, sub: b1 ? `från level 25 till 45, framme ${fmtDate(new Date(b1[2]))}` : "" });
+  const nattVecka = (m, fran, till) => (byM.get(m) || []).filter((e) => iVeckan(e.t) && new Date(e.t).getHours() >= fran && new Date(e.t).getHours() < till).length;
+  add("owl", "Nattugglan", top1(people, (m) => nattVecka(m, 0, 5)), (v) => `${v}`, () => "dings mellan 00 och 05 i veckan");
+  add("early", "Morgonpigg", top1(people, (m) => nattVecka(m, 5, 9)), (v) => `${v}`, () => "dings före kl 09 i veckan");
+  const s1 = snabbast(45, J.max);
+  cards.push({ key: "sprint", lbl: "Slutspurten", m: s1 && s1[0], val: s1 ? lang(s1[1]) : null, sub: s1 ? `från level 45 till ${J.max}, framme ${fmtDate(new Date(s1[2]))}` : "" });
+  // Comebacken: längst borta innan en ding den här veckan
+  add("comeback", "Comebacken", top1(mains, (m) => { let run = 0, best = 0; for (let d = joinOf(m) + 1; d <= LAST; d++) { if (gainOn(m, d) > 0) { if (d >= W0) best = Math.max(best, run); run = 0; } else run++; } return best; }), (v) => `${v} d`, () => "borta, och sedan tillbaka med en ding i veckan");
+  const nSess = new Map(); J.events.filter((e) => e.k === "login" && J.lv.has(e.m) && iVeckan(e.t)).forEach((e) => nSess.set(e.m, (nSess.get(e.m) || 0) + 1));
+  add("sessions", "Stammisen", top1(people, (m) => nSess.get(m)), (v) => `${v}`, () => "inloggningar i veckan");
+  // hela guilden: hur många som nått max den här veckan
+  const nyaMax = people.filter((m) => { const t = dingAt(m, J.max); return t && iVeckan(t); }).length;
+  cards.push({ key: "total", lbl: `Veckans ${J.max}:or`, m: null, val: nyaMax || null, sub: `nådde level ${J.max} senaste 7 dagarna` });
   $("quirks").innerHTML = cards.map((c) => `<div class="qk${c.m ? "" : " qk--guild"}${c.val != null ? " done" : ""}"${c.m ? ` data-n="${esc(c.m.name)}"` : ""}>
 
       <span class="qk__lbl">${c.lbl}</span>
