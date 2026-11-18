@@ -1088,14 +1088,6 @@ function drawStats() {
 
   const byM = new Map(); dings.forEach((e) => (byM.get(e.m) || byM.set(e.m, []).get(e.m)).push(e));
 
-  // passen: från inloggningen till utloggningen. En paus på högst 20 minuter (en relogg) räknas som samma pass.
-  const sessions = [], lastS = new Map();
-  J.events.filter((e) => e.k === "logout" && e.v && J.lv.has(e.m)).sort((a, b) => a.v - b.v).forEach((e) => {
-    const last = lastS.get(e.m);
-    if (last && e.v - last.end <= 20 * 6e4) last.end = Math.max(last.end, e.t);
-    else { const s = { m: e.m, start: e.v, end: e.t }; sessions.push(s); lastS.set(e.m, s); }
-  });
-  sessions.forEach((s) => (s.len = s.end - s.start));
 
   const streak = (m, hot) => {
 
@@ -1132,19 +1124,25 @@ function drawStats() {
   const mains = people.filter((m) => L_(m)[LAST] >= 40);
   add("cold", "Kall streak", top1(mains.filter((m) => !streak(m, false).maxed && gainOn(m, joinOf(m)) >= 0 && L_(m)[LAST] > 1), (m) => streak(m, false).cur), (v) => `${v} d`, () => "utan ding, och räknar");
 
-  const longS = sessions.reduce((a, s) => (!a || s.len > a.len ? s : a), null);
-
-  cards.push({ key: "session", lbl: "Längsta passet", m: longS && longS.m, val: longS ? dur(longS.len) : null, sub: longS ? `${dLbl(J.dates.findIndex((d) => d.toDateString() === new Date(longS.start).toDateString()))}, från kl ${hhmm(longS.start)} · uppskattat` : "" });
+  // Fartkorten bygger på Blizzards klass-achievements, som har exakt tid för level 25, 45 och 60 (se exact_ding i
+  // fetch_hemmet.py). Passen och speltiden är borttagna: in- och utloggningar går inte att läsa säkert ur profilen.
+  // dingen ur händelserna, annars klass-achievementens tid (dings innan karaktären hade en profil loggades aldrig)
+  const ACH_LVL = { 25: "Novice", 45: "Experienced", 60: "Master" };
+  const achIdx = (n) => (DATA.forever ? DATA.forever.a.findIndex((a) => a[0] === n) : -1);
+  const dingAt = (m, L) => (byM.get(m) || []).find((e) => e.v === L)?.t
+    ?? (ACH_LVL[L] && m.fa ? m.fa[achIdx(`${ACH_LVL[L]} ${CLS_NAME[m.cls]}`)] : undefined);
+  const lang = (ms) => { const d = Math.floor(ms / 864e5); return d ? `${d} d ${Math.floor((ms % 864e5) / 36e5)} h` : dur(ms); };
+  const snabbast = (from, to) => people.map((m) => { const a = from(m), b = dingAt(m, to); return a && b && b > a ? [m, b - a] : null; }).filter(Boolean).sort((x, y) => x[1] - y[1])[0];
+  const fromRelease = (m) => (FROM_START && joinOf(m) === 0 ? cutAt(-1) : null);
+  const b1 = snabbast(fromRelease, 25);
+  cards.push({ key: "flash", lbl: "Blixten", m: b1 && b1[0], val: b1 ? lang(b1[1]) : null, sub: b1 ? "från releasen till level 25" : "" });
 
   add("owl", "Nattugglan", top1(people, (m) => (byM.get(m) || []).filter((e) => new Date(e.t).getHours() < 5).length), (v) => `${v}`, () => "dings mellan 00 och 05");
 
   add("early", "Morgonpigg", top1(people, (m) => (byM.get(m) || []).filter((e) => { const h = new Date(e.t).getHours(); return h >= 5 && h < 9; }).length), (v) => `${v}`, () => "dings före kl 09");
 
-  const fast = []; byM.forEach((list, m) => { for (let k = 1; k < list.length; k++) { const g = list[k].t - list[k - 1].t; if (g > 5 * 60e3 && list[k].v === list[k - 1].v + 1) fast.push({ m, g, v: list[k].v }); } });
-
-  const f1 = fast.sort((a, b) => a.g - b.g)[0];
-
-  cards.push({ key: "flash", lbl: "Blixten", m: f1 && f1.m, val: f1 ? dur(f1.g) : null, sub: f1 ? `från ${f1.v - 1} till ${f1.v}` : "" });
+  const r1 = snabbast((m) => dingAt(m, 25), 45);
+  cards.push({ key: "rocket", lbl: "Raketen", m: r1 && r1[0], val: r1 ? lang(r1[1]) : null, sub: r1 ? "från level 25 till 45" : "" });
 
   add("comeback", "Comebacken", top1(mains, (m) => { let run = 0, best = 0; for (let d = joinOf(m) + 1; d <= LAST; d++) { if (gainOn(m, d) > 0) { best = Math.max(best, run); run = 0; } else run++; } return best; }), (v) => `${v} d`, () => "borta, och sedan tillbaka med en ding");
 
@@ -1152,9 +1150,8 @@ function drawStats() {
 
   add("sessions", "Stammisen", top1(people, (m) => nSess.get(m)), (v) => `${v}`, () => "inloggningar");
 
-  const total = sessions.reduce((a, s) => a + s.len, 0);
-
-  cards.push({ key: "total", lbl: "Guildens speltid", m: null, val: total ? `${nf(Math.round(total / 36e5))} h` : null, sub: total ? `på ${nf(sessions.length)} pass · uppskattat` : "" });
+  const s1 = snabbast((m) => dingAt(m, 45), J.max);
+  cards.push({ key: "sprint", lbl: "Slutspurten", m: s1 && s1[0], val: s1 ? lang(s1[1]) : null, sub: s1 ? `från level 45 till ${J.max}` : "" });
 
 
 
