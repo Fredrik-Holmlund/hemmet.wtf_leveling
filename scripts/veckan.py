@@ -254,9 +254,9 @@ def main():
             topp = [(n, v) for n, v in topp if v][:3]
             ut.append(f"- {titel} ({vad}): " + (", ".join(f"{n} {v}" for n, v in topp) if topp else "ingen än"))
         kills = "Total kills that grant experience or honor"
-        lugna = sorted(((m["name"], vecka(m, [kills])) for m in har_stat if m["level"] >= 10 and (m.get("lastLogin") or 0) >= fran),
+        lugna = sorted(((m["name"], vecka(m, [kills])) for m in har_stat if 10 <= m["level"] < MAX_LEVEL and denna.get(m["name"])),
                        key=lambda x: x[1] if x[1] is not None else 10 ** 9)
-        ut.append("- Pacifisten (färst kills som ger XP, bland dem på level 10+ som spelat i veckan): "
+        ut.append("- Pacifisten (färst kills som ger XP, bland dem på level 10–59 som dingat i veckan; på 60 ger inga kills XP): "
                   + (", ".join(f"{n} {v}" for n, v in lugna[:3] if v is not None) or "ingen än"))
         ut += ["", "### Guilden tillsammans"]
         summa = {t: sum(vecka(m, r) or 0 for m in har_stat) for t, _, r in TITLAR}
