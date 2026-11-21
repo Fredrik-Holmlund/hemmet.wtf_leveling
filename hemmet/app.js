@@ -2042,8 +2042,8 @@ if (FV && document.documentElement.dataset.page === "bedrifter") {
   const TITLES = [
     ["Massmördaren", "kills som ger XP", (m) => (m.level >= 10 ? kills(m) : null)],
     ["Pacifisten", "kills som ger XP, bland alla på level 10+", (m) => (m.level >= 10 ? kills(m) : null), true],
-    ["Needy", "need-rolls", st("Need rolls made on loot")],
-    ["Greedy", "greed-rolls", st("Greed rolls made on loot")],
+    ["Needy", "need-rolls fram till 17 nov", st("Need rolls made on loot")],
+    ["Greedy", "greed-rolls fram till 17 nov", st("Greed rolls made on loot")],
     ["Lägerelden", "camps", st("Times camped")],
     ["Fiskekungen", "fångade fiskar", st("Fish caught")],
     ["Stallet", "mounts", st("Mounts owned")],

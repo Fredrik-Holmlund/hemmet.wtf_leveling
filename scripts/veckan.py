@@ -25,8 +25,6 @@ FOREVER = ROOT / "data" / "forever"
 # Veckans titlar ur spelstatistiken: (titel, vad som räknas, statistikrader som summeras). Samma som på Bedrifter
 TITLAR = [
     ("Massmördaren", "kills som ger XP", ["Total kills that grant experience or honor"]),
-    ("Needy", "need-rolls", ["Need rolls made on loot"]),
-    ("Greedy", "greed-rolls", ["Greed rolls made on loot"]),
     ("Lägerelden", "camps", ["Times camped"]),
     ("Fiskekungen", "fångade fiskar", ["Fish caught"]),
     ("Apoteket", "pots, elixirs och flasks", ["Health potions consumed", "Mana potions consumed", "Elixirs consumed", "Flasks consumed"]),
@@ -249,6 +247,7 @@ def main():
 
         ut += ["", "## Veckans titlar (ur spelstatistiken, topp 3)"]
         ut.append("Räknat från karaktärernas start, alltså sedan releasen." if total else "Ökningen under perioden.")
+        ut.append("Needy och Greedy saknas: Blizzard slutade räkna need- och greed-rolls 17 november. På Bedrifter står de kvar som de var då.")
         for titel, vad, rader in TITLAR:
             topp = sorted(((m["name"], vecka(m, rader)) for m in har_stat), key=lambda x: -(x[1] or 0))
             topp = [(n, v) for n, v in topp if v][:3]
