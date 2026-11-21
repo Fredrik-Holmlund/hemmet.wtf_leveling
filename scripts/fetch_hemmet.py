@@ -149,7 +149,7 @@ def download(url, dest, max_age_h=None):
 
 # Fälten som bara kan ändras när karaktären är inloggad: återanvänds från förra körningen om inget hänt
 REUSE = ("active", "stat", "ach", "prof", "hp", "power", "powerType", "stats", "hk", "pvpRank", "gear", "sets", "heal", "spec", "role", "exalted", "avatar", "renderUrl")
-FRUSNA = ("Need rolls made on loot", "Greed rolls made on loot")   # borttagna ur Blizzards statistik 2026-11-17, se fetch()
+FRUSNA = ("Need rolls made on loot", "Greed rolls made on loot")   # försvann ur API:ets statistik 2026-11-17, se fetch()
 REFRESH_H = 24   # oförändrade hämtas ändå helt efter 24–48 h (förskjutet per karaktär så att det sprids ut)
 # Ett öppet pass hämtas helt varje körning, så att en utloggning som bara ändrar HKs märks. Pass där
 # utloggningen aldrig syntes (ingen XP, inga HKs) står öppna för alltid, därför bara så här länge.
@@ -227,7 +227,7 @@ def fetch_member(entry, prev=None, open_session=False):
             m["stat"][st["name"]] = int(st["quantity"]) if float(st.get("quantity") or 0).is_integer() else st["quantity"]
         for sc in c.get("sub_categories", []):
             walk(sc)
-    # Blizzard tog bort need- och greed-rolls ur statistiken 16–17 november (raden försvinner när man loggar in):
+    # Need- och greed-rolls försvann ur API:ets statistik 16–17 november, för alla som loggade in (oklart om spelet slutade räkna):
     # behåll det senast kända värdet, så att Needy och Greedy står kvar som de var
     for k in FRUSNA:
         if k in ((prev or {}).get("stat") or {}):

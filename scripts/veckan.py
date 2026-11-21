@@ -247,7 +247,7 @@ def main():
 
         ut += ["", "## Veckans titlar (ur spelstatistiken, topp 3)"]
         ut.append("Räknat från karaktärernas start, alltså sedan releasen." if total else "Ökningen under perioden.")
-        ut.append("Needy och Greedy saknas: Blizzard slutade räkna need- och greed-rolls 17 november. På Bedrifter står de kvar som de var då.")
+        ut.append("Needy och Greedy saknas: Blizzards API visar inte need- och greed-rolls sedan 17 november (oklart om spelet fortfarande räknar dem). På Bedrifter står de kvar som de var då.")
         for titel, vad, rader in TITLAR:
             topp = sorted(((m["name"], vecka(m, rader)) for m in har_stat), key=lambda x: -(x[1] or 0))
             topp = [(n, v) for n, v in topp if v][:3]
