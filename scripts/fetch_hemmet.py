@@ -254,10 +254,12 @@ def fetch_member(entry, prev=None, open_session=False):
     # Kompletta set: alla delar på sig. Minst fem delar, så att par som två matchande vapen inte räknas
     m["sets"] = sorted(s["item_set"]["name"] for s in equip.get("equipped_item_sets", [])
                        if len(s.get("items", [])) >= SET_MIN and all(i.get("is_equipped") for i in s["items"]))
-    # Healing power: API:t har inget eget fält, så vi summerar utrustningens "Equip: Increases healing done ... by up to N"
-    # (även "damage and healing"). Enchants och setbonusar räknas inte.
-    m["heal"] = sum(int(x) for i in equip.get("equipped_items", []) for s in (i.get("spells") or [])
-                    for x in HEAL_RE.findall(s.get("description") or ""))
+    # Healing power: API:t har inget eget fält. Forever anger healing som stat på föremålen, som i TBC (SPELL_HEALING_DONE,
+    # och SPELL_POWER som gäller både skada och healing), och äldre föremål som "Equip: Increases healing done ... by up to N".
+    # Enchants och setbonusar räknas inte.
+    m["heal"] = sum((st.get("value") or 0) for i in equip.get("equipped_items", []) for st in (i.get("stats") or [])
+                    if (st.get("type") or {}).get("type") in ("SPELL_HEALING_DONE", "SPELL_POWER")) +         sum(int(x) for i in equip.get("equipped_items", []) for s in (i.get("spells") or [])
+            for x in HEAL_RE.findall(s.get("description") or ""))
     # Spec och roll: trädet med flest talangpoäng i den aktiva uppsättningen
     specs = get(base + "/specializations") or {}
     active = next((g for g in specs.get("specialization_groups", []) if g.get("is_active")), None) or {}
@@ -280,7 +282,7 @@ def fetch_member(entry, prev=None, open_session=False):
 # Topplistorna i sidan (samma urval som BOARDS i app.js): de tre bästa per lista, totalt och per klass, får en helkroppsbild
 BOARDS = [lambda m: m.get("ilvl"), lambda m: m.get("hk"), lambda m: m.get("pvpRank"),
           lambda m: (m.get("stats") or {}).get("attack_power"), lambda m: (m.get("stats") or {}).get("spell_power"),
-          lambda m: m.get("heal") if m.get("role") == "healer" else None, lambda m: m.get("hp")]
+          lambda m: m.get("heal"), lambda m: m.get("hp")]
 
 
 def fetch_renders(members):

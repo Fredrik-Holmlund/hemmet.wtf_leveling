@@ -1248,7 +1248,7 @@ const BOARDS = [
 
   { n: "Spell power", ic: "inv_wand_07", v: (m) => m.sp, f: nf },
 
-  { n: "Healing power", ic: "inv_jewelry_talisman_07", v: (m) => (m.role === "healer" ? m.heal : null), f: nf },   // ur utrustningen, bara healers
+  { n: "Healing power", ic: "inv_jewelry_talisman_07", v: (m) => m.heal || null, f: nf },   // ur utrustningen: healing och spell power på föremålen
 
   { n: "Mest HP", ic: "inv_shield_05", v: (m) => m.hp, f: nf },
 
