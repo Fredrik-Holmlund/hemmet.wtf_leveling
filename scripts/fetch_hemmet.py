@@ -26,6 +26,7 @@ Kräver BNET_ID och BNET_SECRET i .env.
 import argparse
 import base64
 import datetime
+import email.utils
 import http.client
 import json
 import os
@@ -135,16 +136,23 @@ def char_path(c):
     return f"/profile/wow/character/{slug(full_name(c)).replace('%20', '-')}"
 
 
-def download(url, dest, max_age_h=None):
-    """Hämtar en bild om den saknas (eller är äldre än max_age_h timmar)."""
-    if dest.exists() and (max_age_h is None or time.time() - dest.stat().st_mtime < max_age_h * 3600):
-        return True
+def download(url, dest, max_age_h=None, changed=False):
+    """Hämtar en bild om den saknas (eller är äldre än max_age_h timmar).
+    changed=True: frågar Blizzard om bilden ändrats sedan vi hämtade den (304 om inte). Renderingarna har samma
+    adress när gearen byts, så det är enda sättet att få den nya bilden direkt."""
+    headers = {"User-Agent": "guildsite-dev"}
+    if dest.exists():
+        if changed:
+            headers["If-Modified-Since"] = email.utils.formatdate(dest.stat().st_mtime, usegmt=True)
+        elif max_age_h is None or time.time() - dest.stat().st_mtime < max_age_h * 3600:
+            return True
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "guildsite-dev"})
-        dest.write_bytes(urllib.request.urlopen(req, timeout=30).read())
+        dest.write_bytes(urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=30).read())
         return True
+    except urllib.error.HTTPError as e:
+        return e.code == 304 or dest.exists()
     except (OSError, http.client.HTTPException):
-        return False
+        return dest.exists()
 
 
 # Fälten som bara kan ändras när karaktären är inloggad: återanvänds från förra körningen om inget hänt
@@ -273,7 +281,7 @@ def fetch_member(entry, prev=None, open_session=False):
     # Porträttet: Blizzards egen rendering av karaktären (uppdateras när gearen byts)
     media = get(base + "/character-media") or {}
     avatar = next((a["value"] for a in media.get("assets", []) if a["key"] == "avatar"), None)
-    m["avatar"] = bool(avatar) and download(avatar, AVATARS / f"{m['id']}.jpg", max_age_h=20)
+    m["avatar"] = bool(avatar) and download(avatar, AVATARS / f"{m['id']}.jpg", changed=True)
     # helkroppsbilden (genomskinlig png, 1600×1200): laddas bara ner för dem som står på en pall, se fetch_renders()
     m["renderUrl"] = next((a["value"] for a in media.get("assets", []) if a["key"] == "main-raw"), None)
     return m
@@ -297,7 +305,7 @@ def fetch_renders(members):
                 if m.get("renderUrl"):
                     wanted[m["id"]] = m["renderUrl"]
     with ThreadPoolExecutor(WORKERS) as ex:
-        ok = sum(ex.map(lambda kv: download(kv[1], out / f"{kv[0]}.png", max_age_h=20), wanted.items()))
+        ok = sum(ex.map(lambda kv: download(kv[1], out / f"{kv[0]}.png", changed=True), wanted.items()))
     for f in out.glob("*.png"):
         if int(f.stem) not in wanted:
             f.unlink()
