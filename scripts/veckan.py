@@ -253,7 +253,10 @@ def main():
             topp = [(n, v) for n, v in topp if v][:3]
             ut.append(f"- {titel} ({vad}): " + (", ".join(f"{n} {v}" for n, v in topp) if topp else "ingen än"))
         kills = "Total kills that grant experience or honor"
-        lugna = sorted(((m["name"], vecka(m, [kills])) for m in har_stat if 10 <= m["level"] < MAX_LEVEL and denna.get(m["name"])),
+        lugna = sorted(((m["name"], vecka(m, [kills])) for m in har_stat if 10 <= m["level"] < MAX_LEVEL and denna.get(m["name"])
+                        and kills in (m["stat"] or {})   # saknas raden blir det 0 kills på låtsas
+                        # och dingen ska synas i profilen (där statistiken kommer ifrån) jämfört med snapshoten (dagens sista läge)
+                        and (total or (m.get("plevel") or 0) > ((start.get(m["name"]) or {}).get("level") or 0))),
                        key=lambda x: x[1] if x[1] is not None else 10 ** 9)
         ut.append("- Pacifisten (färst kills som ger XP, bland dem på level 10–59 som dingat i veckan; på 60 ger inga kills XP): "
                   + (", ".join(f"{n} {v}" for n, v in lugna[:3] if v is not None) or "ingen än"))

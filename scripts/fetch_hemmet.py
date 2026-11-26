@@ -197,7 +197,8 @@ def fetch_member(entry, prev=None, open_session=False):
         "level": max(m["level"], profile.get("level") or 0), "plevel": profile.get("level"),
         "gender": 1 if (profile.get("gender") or {}).get("type") == "MALE" else 0,
         "lastLogin": profile.get("last_login_timestamp"),
-        "ilvl": profile.get("equipped_item_level"),
+        # equipped_item_level försvann ur profilen natten mot 2026-11-25: senast kända står kvar (och unchanged() funkar)
+        "ilvl": profile.get("equipped_item_level") or (prev or {}).get("ilvl"),
         "xp": profile.get("experience"),   # ändras när profilen sparas, dvs. vid utloggning
         "title": (profile.get("active_title") or {}).get("display_string"),
     })
