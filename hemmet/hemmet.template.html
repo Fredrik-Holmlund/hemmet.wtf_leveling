@@ -84,9 +84,7 @@ section { padding-block: clamp(72px, 10vw, 140px); }
 .topbar nav { display: flex; gap: 22px; overflow-x: auto; scrollbar-width: none; }
 .topbar nav a { font: 600 14px/1 var(--font-body); text-decoration: none;   /* menyn är ram, inte spel: Open Sans som på Blizzards Forever-sida */ color: var(--text-muted); white-space: nowrap; }
 .topbar nav a:hover { color: var(--text-primary); }
-/* Hem: först i menyn på alla HEMMET-sidor, tillbaka till hemmet.wtf. Ett streck skiljer den från sidans egna flikar. */
-.topbar .nav-home { position: relative; flex: none; margin-right: 22px; }
-.topbar .nav-home::after { content: ""; position: absolute; right: -23px; top: 50%; width: 1px; height: 16px; margin-top: -8px; background: var(--line-strong); }
+/* menyn (länkarna och Meny-knappen på mobil) kommer från meny.js, samma på alla HEMMET-sidor */
 
 /* ========== HERO ========== */
 .hero { position: relative; min-height: min(78svh, 780px); display: grid; align-content: center; justify-items: center; text-align: center; overflow: hidden;
@@ -736,7 +734,6 @@ dialog.armory::backdrop { background: rgba(2, 4, 10, .72); backdrop-filter: blur
   .player { grid-template-columns: auto minmax(0, 1fr); }
   .player input { grid-column: 1 / -1; }
   .topbar nav { gap: 16px; }
-  .topbar .nav-home { margin-right: 16px; } .topbar .nav-home::after { right: -16.5px; }
 }
 /* ---------- Bedrifter (bedrifter/: samma sida med data-page="bedrifter") ---------- */
 #bedr { display: none; }
@@ -816,8 +813,9 @@ dialog.armory::backdrop { background: rgba(2, 4, 10, .72); backdrop-filter: blur
 
 <header class="topbar" id="topbar">
   <a class="topbar__brand" href="#top"><img class="logo" src="ach/logo.webp" alt="">HEMMET</a>
-  <nav aria-label="Sektioner"><a class="nav-home" href="https://hemmet.wtf/">Hem</a><a href="#resan">Resan</a><a href="#bedrifter">Achievements</a><a href="bedrifter/">Bedrifter</a><a href="#statistik">Statistik</a><a href="#topp">Topplistor</a><a href="#grupp">Grupp</a><a href="#jamfor">Jämför</a><a href="#faq">Om oss</a></nav>
+  <nav aria-label="HEMMET"><a href="https://hemmet.wtf/">Hem</a><a href="#resan">Resan</a><a href="https://raiding.hemmet.wtf/">Raiding</a><a href="https://yrken.hemmet.wtf/">Professions</a><a href="https://butik.hemmet.wtf/">Butiken</a><a href="https://hemmet.wtf/#faq">Om oss</a></nav>
 </header>
+<script src="meny.js"></script>
 
 <main id="top">
   <section class="hero" id="hero">
